@@ -4,6 +4,7 @@ Use this docker to run an mqtt broker that serves recorded dbus data. Thus far t
 
 ## Usage
 
-- Create container with `docker build . -t mqtt`
-- Run container with `docker run -it --rm -p 9001:9001 mqtt`. This opens an interactive shell and removes the container when disconnected. If you want to hack around and keep your work in the container for now, remove the `--rm` option.
+- Install Docker
+- Create container with `./build.sh`
+- Run container with `docker run -it --rm -p 9001:9001 -p 1883:1883 mqtt`. This opens an interactive shell and removes the container when disconnected. If you want to hack around and keep your work in the container for now, remove the `--rm` option.
 - Run `./run.sh` within the container to start the mqtt service and the dbus recorder playback.

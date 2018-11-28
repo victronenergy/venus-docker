@@ -1,68 +1,60 @@
 FROM ubuntu
-
-######################## system libs
 WORKDIR /root
 
-# Some of these are probably not actualyl required?
+# system libs
+
+### Some of these are probably not actually required?
 RUN apt-get update
-RUN apt-get install -y git 
 RUN apt-get install -y python2.7 
 RUN apt-get install -y python-pip 
 RUN apt-get install -y dbus-x11
 RUN apt-get install -y pkg-config
 RUN apt-get install -y mosquitto
 
-######################## service libs
-#  Why?
+# Service libs
+###  Why?
 RUN apt-get install -y libdbus-1-dev
 RUN apt-get install -y libperl-dev
 RUN apt-get install -y libgtk2.0-dev
-# /Why
+### /Why
 
 RUN pip install lxml requests dbus-python 
 
-# Probably all of the seds should be fixed in a smarter way.
-######################## localsettings service
-RUN git clone https://github.com/victronenergy/localsettings.git
+# Service code
+### Probably all of the seds should be fixed in a smarter way.
+
+COPY localsettings /root/localsettings
+COPY dbus-systemcalc-py /root/dbus-systemcalc-py
+COPY dbus-mqtt /root/dbus-mqtt
+COPY dbus-recorder /root/dbus-recorder
+
+### localsettings service
 WORKDIR /root/localsettings
-RUN git submodule init
-RUN git submodule update
 RUN sed -i 's/from gobject/from gi.repository.GObject/g' *.py
 COPY settings.xml /data/conf/settings.xml
 
-######################## dbus-systemcalc service
-WORKDIR /root
-RUN git clone https://github.com/victronenergy/dbus-systemcalc-py.git
+### dbus-systemcalc service
 WORKDIR /root/dbus-systemcalc-py
-RUN git submodule init
-RUN git submodule update
 RUN sed -i 's/import gobject/from gi.repository import GObject as gobject/g' *.py
 RUN sed -i 's/from gobject/from gi.repository.GObject/g' ext/velib_python/*.py
 RUN sed -i 's/import gobject/from gi.repository import GObject as gobject/g' delegates/*.py
 
-######################## dbus-mqtt service
-WORKDIR /root
-RUN git clone https://github.com/victronenergy/dbus-mqtt.git
+### dbus-mqtt service
 WORKDIR /root/dbus-mqtt
-RUN git submodule init
-RUN git submodule update
 RUN sed -i 's/import gobject/from gi.repository import GObject as gobject/g' *.py
 
-######################## dbus-recorder service
-WORKDIR /root
-RUN git clone https://github.com/victronenergy/dbus-recorder.git
+### dbus-recorder service
 WORKDIR /root/dbus-recorder
 RUN sed -i 's/from gobject/from gi.repository.GObject/g' *.py
 
-######################## system service config 
+# System service config 
 RUN echo 'listener 9001' >> /etc/mosquitto/mosquitto.conf
 RUN echo 'protocol websockets' >> /etc/mosquitto/mosquitto.conf
 RUN echo 'listener 1883' >> /etc/mosquitto/mosquitto.conf
 RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
-
 WORKDIR /root
-######################## run config
+# Run config
 COPY run.sh /root
 RUN chmod u+x run.sh
 
