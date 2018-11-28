@@ -1,0 +1,12 @@
+[submodule "localsettings"]
+	path = localsettings
+	url = https://github.com/victronenergy/localsettings.git
+[submodule "dbus-mqtt"]
+	path = dbus-mqtt
+	url = https://github.com/victronenergy/dbus-mqtt.git
+[submodule "dbus-recorder"]
+	path = dbus-recorder
+	url = https://github.com/victronenergy/dbus-recorder.git
+[submodule "dbus-systemcalc-py"]
+	path = dbus-systemcalc-py
+	url = https://github.com/victronenergy/dbus-systemcalc-py.git
