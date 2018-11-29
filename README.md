@@ -1,6 +1,8 @@
 # WIP dockerized dbus playback + mqtt service
 
-Use this docker to run an mqtt broker that serves recorded dbus data. Thus far the resulting container is large, has some funky dependencies which would be nice to clean up and maybe to even use alpine to reduce the container size abit. Also doesn't run as a daemon, still required run.sh to "main loop" to keep container alive.
+Use this docker to run an mqtt broker that serves recorded dbus data. Main use case would be to run this instead of having a real Venus GX device or VenusOs running in a raspberry pi, making local development work much easier, but also more realistic. The goal is to have the container able to run different configurations (different sets of devices connected to it) of the VenusGX by running different sets of recordings with a simple commandline api.
+
+Thus far the resulting container is large, has some funky dependencies which would be nice to clean up and maybe to even use alpine to reduce the container size abit. Also doesn't run as a daemon, still required run.sh to "main loop" to keep container alive.
 
 ## Usage
 
