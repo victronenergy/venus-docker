@@ -10,3 +10,9 @@ Thus far the resulting container is large, has some funky dependencies which wou
 - Create container with `./build.sh`
 - Run container with `docker run -it --rm -p 9001:9001 -p 1883:1883 mqtt`. This opens an interactive shell and removes the container when disconnected. If you want to hack around and keep your work in the container for now, remove the `--rm` option.
 - Run `./run.sh` within the container to start the mqtt service and the dbus recorder playback.
+
+## Working inside the container
+
+### Add / remove dbus channel messages from mqtt
+
+If you want to test removing certain dbus messages you can do it by killing some playback services. Do it by finding the playback desired with `ps aux` and using kill on the process. To restart the service or to start a new one use `~/bin/run_recording.sh <filename>` where filename is the recording file name in the dbus-recorder directory. Note it's just the file name, not a path! The script is for convenience since it gets the dbus unix address before running the python script. You can also find the unix address in /tmp/dbus_session_address if you want to do things manually. For reference check run_recording.sh.

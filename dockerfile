@@ -7,7 +7,6 @@ WORKDIR /root
 RUN apt-get update
 RUN apt-get install -y python2.7 
 RUN apt-get install -y python-pip 
-RUN apt-get install -y dbus-x11
 RUN apt-get install -y pkg-config
 RUN apt-get install -y mosquitto
 
@@ -57,6 +56,9 @@ WORKDIR /root
 # Run config
 COPY run.sh /root
 RUN chmod u+x run.sh
+
+COPY bin/ /root/bin
+RUN chmod u+x /root/bin/*
 
 # Enable when script & recordings settings are done, until then build, run and attach to hack around.
 # ENTRYPOINT [ "/root/run.sh" ]
