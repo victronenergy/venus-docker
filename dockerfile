@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y python2.7 
 RUN apt-get install -y python-pip 
 RUN apt-get install -y pkg-config
-RUN apt-get install -y mosquitto
+RUN apt-get install -y mosquitto mosquitto-clients
 
 # Service libs
 ###  Why?
