@@ -5,9 +5,8 @@ WORKDIR /root
 
 ### Some of these are probably not actually required?
 RUN apt-get update
-RUN apt-get install -y python2.7 python-pip python-gobject-2
+RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus
-RUN apt-get install -y pkg-config
 RUN apt-get install -y mosquitto mosquitto-clients
 
 # Service code
