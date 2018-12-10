@@ -53,3 +53,4 @@ RUN chmod u+x /root/bin/*
 
 EXPOSE 9001
 EXPOSE 1883
+EXPOSE 3000
