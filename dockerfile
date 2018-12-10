@@ -1,3 +1,14 @@
+# Dbus-spy build
+FROM ubuntu
+WORKDIR /root
+
+RUN apt-get update
+RUN apt-get install -y libqt4-dev libqt4-dev-bin libncurses5-dev make g++
+COPY dbus-spy /root/dbus-spy
+WORKDIR /root/dbus-spy/software
+RUN qmake && make && make install
+
+# venus-docker build
 FROM ubuntu
 WORKDIR /root
 
@@ -8,10 +19,14 @@ RUN apt-get update
 RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus
 RUN apt-get install -y mosquitto mosquitto-clients vim
+RUN apt-get install -y libqtcore4 libqtdbus4 libncurses5
 
 # dbus
 COPY dbus-tools/dbus /usr/bin/dbus
 COPY dbus-system.conf /etc/dbus-1/system.d/victron.conf
+
+# dbus-spy
+COPY --from=0 /usr/local/bin/dbus-spy /usr/local/bin/dbus-spy
 
 # Service code
 COPY localsettings /root/localsettings

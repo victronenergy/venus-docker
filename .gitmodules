@@ -13,3 +13,6 @@
 [submodule "dbus-tools"]
 	path = dbus-tools
 	url = https://github.com/jhofstee/dbus-tools
+[submodule "dbus-spy"]
+	path = dbus-spy
+	url = https://github.com/victronenergy/dbus-spy.git
