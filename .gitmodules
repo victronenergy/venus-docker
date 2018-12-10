@@ -10,3 +10,6 @@
 [submodule "dbus-systemcalc-py"]
 	path = dbus-systemcalc-py
 	url = https://github.com/victronenergy/dbus-systemcalc-py.git
+[submodule "dbus-tools"]
+	path = dbus-tools
+	url = https://github.com/jhofstee/dbus-tools
