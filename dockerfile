@@ -7,7 +7,11 @@ WORKDIR /root
 RUN apt-get update
 RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus
-RUN apt-get install -y mosquitto mosquitto-clients
+RUN apt-get install -y mosquitto mosquitto-clients vim
+
+# dbus
+COPY dbus-tools/dbus /usr/bin/dbus
+COPY dbus-system.conf /etc/dbus-1/system.d/victron.conf
 
 # Service code
 COPY localsettings /root/localsettings
