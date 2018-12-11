@@ -15,7 +15,7 @@ WORKDIR /root
 RUN apt-get update
 RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus
-RUN apt-get install -y mosquitto mosquitto-clients vim
+RUN apt-get install -y mosquitto mosquitto-clients vim daemontools
 RUN apt-get install -y libqtcore4 libqtdbus4 libncurses5
 
 # dbus
@@ -25,11 +25,15 @@ COPY dbus-system.conf /etc/dbus-1/system.d/victron.conf
 # dbus-spy
 COPY --from=dbus-spy-build /usr/local/bin/dbus-spy /usr/local/bin/dbus-spy
 
+# Daemontools
+RUN mkdir /log
+COPY service /service
+
 # Service code
-COPY localsettings /root/localsettings
-COPY dbus-systemcalc-py /root/dbus-systemcalc-py
-COPY dbus-mqtt /root/dbus-mqtt
-COPY dbus-recorder /root/dbus-recorder
+COPY localsettings /opt/victronenergy/localsettings
+COPY dbus-systemcalc-py /opt/victronenergy/dbus-systemcalc-py
+COPY dbus-mqtt /opt/victronenergy/dbus-mqtt
+COPY dbus-recorder /opt/victronenergy/dbus-recorder
 COPY settings.xml /data/conf/settings.xml
 
 # System service config 
