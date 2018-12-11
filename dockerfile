@@ -1,6 +1,5 @@
-# Dbus-spy build
-FROM ubuntu
-WORKDIR /root
+# dbus-spy build
+FROM ubuntu as dbus-spy-build
 
 RUN apt-get update
 RUN apt-get install -y libqt4-dev libqt4-dev-bin libncurses5-dev make g++
@@ -11,8 +10,6 @@ RUN qmake && make && make install
 # venus-docker build
 FROM ubuntu
 WORKDIR /root
-
-# system libs
 
 ### Some of these are probably not actually required?
 RUN apt-get update
@@ -26,7 +23,7 @@ COPY dbus-tools/dbus /usr/bin/dbus
 COPY dbus-system.conf /etc/dbus-1/system.d/victron.conf
 
 # dbus-spy
-COPY --from=0 /usr/local/bin/dbus-spy /usr/local/bin/dbus-spy
+COPY --from=dbus-spy-build /usr/local/bin/dbus-spy /usr/local/bin/dbus-spy
 
 # Service code
 COPY localsettings /root/localsettings
@@ -43,10 +40,9 @@ RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
 # Run config
 COPY run.sh /root
-RUN chmod u+x /root/run.sh
-
 COPY bin/ /root/bin
-RUN chmod u+x /root/bin/*
+
+RUN chmod u+x /root/bin/* /root/run.sh
 
 # Enable when script & recordings settings are done, until then build, run and attach to hack around.
 # ENTRYPOINT [ "/root/run.sh" ]
