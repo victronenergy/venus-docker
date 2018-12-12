@@ -8,5 +8,4 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-export DBUS_SESSION_BUS_ADDRESS=$(cat /tmp/dbus_session_address)
 python /root/dbus-recorder/dbusrecorder.py -p --file=/root/dbus-recorder/$1 &
