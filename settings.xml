@@ -228,7 +228,7 @@
     <AcInput1 default="1" type="i" silent="False">1</AcInput1>
     <AcInput2 default="2" type="i" silent="False">3</AcInput2>
     <HasAcOutSystem default="1" max="1" type="i" silent="False" min="0">1</HasAcOutSystem>
-    <HasDcSystem default="0" max="1" type="i" silent="False" min="0">0</HasDcSystem>
+    <HasDcSystem default="0" max="1" type="i" silent="False" min="0">1</HasDcSystem>
     <SharedTemperatureSense default="1" type="i" silent="False">1</SharedTemperatureSense>
     <MaxChargeCurrent default="-1" max="10000" type="i" silent="False" min="-1">-1</MaxChargeCurrent>
   </SystemSetup>
