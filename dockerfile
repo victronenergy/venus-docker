@@ -48,6 +48,10 @@ COPY bin/ /root/bin
 
 RUN chmod u+x /root/bin/* /root/run.sh
 
+# Simulations
+COPY simulate.sh /root
+COPY simulations /root/simulations
+
 # Enable when script & recordings settings are done, until then build, run and attach to hack around.
 # ENTRYPOINT [ "/root/run.sh" ]
 
