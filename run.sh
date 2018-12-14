@@ -4,7 +4,6 @@ cd
 service dbus start
 service mosquitto start
 svscan /service &
-/opt/victronenergy/dbus-recorder/play.sh &
 
 # wait that messaging is initialized
 sleep 2

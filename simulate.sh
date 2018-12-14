@@ -28,4 +28,8 @@ if test -f simulations/$sim/setup; then
 	done < simulations/$sim/setup
 fi
 
-$PLAY simulations/$sim/*.dat
+if test "$sim" = "z"; then
+  /opt/victronenergy/dbus-recorder/play.sh 3 &
+else
+  $PLAY simulations/$sim/*.dat
+fi
