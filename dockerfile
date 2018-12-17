@@ -44,16 +44,14 @@ RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
 # Run config
 COPY run.sh /root
+COPY run_with_simulation.sh /root
 COPY bin/ /root/bin
 
-RUN chmod u+x /root/bin/* /root/run.sh
+RUN chmod u+x /root/bin/* /root/run.sh /root/run_with_simulation.sh
 
 # Simulations
 COPY simulate.sh /root
 COPY simulations /root/simulations
-
-# Enable when script & recordings settings are done, until then build, run and attach to hack around.
-# ENTRYPOINT [ "/root/run.sh" ]
 
 EXPOSE 9001
 EXPOSE 1883
