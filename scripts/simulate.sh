@@ -2,14 +2,16 @@
 
 PLAY="/usr/bin/python /opt/victronenergy/dbus-recorder/play.py"
 DBUS="/usr/bin/dbus"
+RUN_DIR="/root"
+SIMULATIONS="$RUN_DIR/simulations"
 
 help() {
 	echo "Usage: $0 simulation_name"
 	echo
 	echo "Available simulations:"
-	for d in simulations/*; do
+	for d in $SIMULATIONS/*; do
 		echo -n `basename $d`": "
-		cat $d/description
+		cat $SIMULATIONS/`basename $d`/description
 	done
 }
 
@@ -21,15 +23,15 @@ fi
 sim=${1,,}
 
 # Perform any setup that might be required for this demo
-if test -f simulations/$sim/setup; then
+if test -f $SIMULATIONS/$sim/setup; then
 	while read -r line; do
 		read -r service path value <<< "$line"
 		$DBUS -y $service $path SetValue $value > /dev/null
-	done < simulations/$sim/setup
+	done < $SIMULATIONS/$sim/setup
 fi
 
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 else
-  $PLAY simulations/$sim/*.dat
+  $PLAY $SIMULATIONS/$sim/*.dat
 fi

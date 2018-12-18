@@ -1,12 +1,44 @@
 #!/bin/bash
 
-cd
-service dbus start
-service mosquitto start
-svscan /service &
+available() {
+    echo "Available simulations:"
+    for d in simulations/*; do
+        echo -n `basename $d`": "
+        cat $d/description
+    done
+}
 
-# wait that messaging is initialized
-sleep 2
+help() {
+    echo "Usage: $0 [-h|--help] [-s|--simulation <simulation_name>]"
+    available
+}
 
-# subscribe to the system/0/Serial to get the portal ID and then issue a read to that ID
-mosquitto_pub -t R/"$(mosquitto_sub -v -C 1 -t 'N/+/system/0/Serial' | cut -d'"' -f4)"/system/0/Serial -m "dummy"
+while [[ $# -gt 0 ]]; do
+    key="$1"
+    
+    case $key in
+        -h|--help)
+            help
+            exit 0
+        ;;
+        -s|--simulation)
+            SIMULATION="$2"
+            shift # past argument
+            shift # past value
+        ;;
+        *)  # unknown option
+            shift # past argument
+        ;;
+    esac
+done
+
+if test -z "$SIMULATION"; then
+    docker run -it --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt
+else
+    if test -f simulations/$SIMULATION/setup; then
+        docker run -d --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt /root/run_with_simulation.sh $SIMULATION
+    else
+        echo "Simulation ($SIMULATION) does not exist in simulations/"
+        available
+    fi
+fi

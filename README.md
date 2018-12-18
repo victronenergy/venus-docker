@@ -6,11 +6,9 @@ Use this docker to run an mqtt broker that serves recorded dbus data. Main use c
 
 - Install Docker
 - Create container with `./build.sh`
-- Run container with `docker run -it --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt`. This opens an interactive shell and removes the container when disconnected. If you want to hack around and keep your work in the container for now, remove the `--rm` option.
-- Run `./run.sh` within the container to start the mqtt and other services.
-- Run `./simulate.sh <simulation>` to start playback.
-  - `<simulation>` must be a folder in `simulations/<simulation>`
-  - Call it with no arguments to get a list of options.
+- Run the container as an interactive shell with `./run.sh`
+- Run the container in the background with a simulation with `./run.sh -s <simulation_name>`
+  - run `./run.sh -h` for more info
 
 ### Working inside the container
 
@@ -19,6 +17,14 @@ You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` o
 ## Advanced usage
 
 This section is noted as advanced since it may require more docker skills than running the container. All pretty basic stuff anyway.
+
+To run the container and simulations as an interactive shell:
+
+- Run container with `docker run -it --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt`. This opens an interactive shell and removes the container when disconnected. If you want to hack around and keep your work in the container for now, remove the `--rm` option.
+- Run `./run.sh` within the container to start the mqtt and other services.
+- Run `./simulate.sh <simulation>` to start playback.
+  - `<simulation>` must be a folder in `simulations/<simulation>`
+  - Call it with no arguments to get a list of options.
 
 To run the container in the background with a simulation do the following:
 

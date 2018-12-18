@@ -43,14 +43,14 @@ RUN echo 'listener 1883' >> /etc/mosquitto/mosquitto.conf
 RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
 # Run config
-COPY run.sh /root
-COPY run_with_simulation.sh /root
-COPY bin/ /root/bin
+COPY scripts/run.sh /root
+COPY scripts/run_with_simulation.sh /root
+COPY scripts/run_recording.sh /root/bin/
 
 RUN chmod u+x /root/bin/* /root/run.sh /root/run_with_simulation.sh
 
 # Simulations
-COPY simulate.sh /root
+COPY scripts/simulate.sh /root
 COPY simulations /root/simulations
 
 EXPOSE 9001
