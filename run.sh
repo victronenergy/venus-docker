@@ -12,7 +12,7 @@ help() {
     echo "Usage: $0 [-h|--help] [-s|--simulation <simulation_name>]"
     available
 }
-
+POSITIONAL=()
 while [[ $# -gt 0 ]]; do
     key="$1"
     
@@ -27,12 +27,17 @@ while [[ $# -gt 0 ]]; do
             shift # past value
         ;;
         *)  # unknown option
+            POSITIONAL+=("$1")
             shift # past argument
         ;;
     esac
 done
 
-if test -z "$SIMULATION"; then
+if test -n "$POSITIONAL"; then
+    echo "Positional argument(s) ($POSITIONAL) passed. Did you mean to run with -s?"
+    available
+    exit 1
+elif test -z "$SIMULATION"; then
     docker run -it --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt
 else
     if test -f simulations/$SIMULATION/setup; then
@@ -40,5 +45,6 @@ else
     else
         echo "Simulation ($SIMULATION) does not exist in simulations/"
         available
+        exit 1
     fi
 fi
