@@ -1,3 +1,3 @@
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
 
 docker build . -t mqtt
