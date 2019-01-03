@@ -39,3 +39,147 @@ Recordings can be modified (and created) using the dump and assemble tools in
 the [dbus-recorder][1] repo.
 
 [1]: https://github.com/victronenergy/dbus-recorder
+
+## Systems (simulations)
+
+Battery selection should always be on auto; unless specified differently.
+
+### A) Absolut Navetta 68 installation
+
+2 x Skylla-i chargers
+2 x VE.Bus Phoenix Inverter 24/3000 (230V and 120V for USA)
+1 x BMV-700
+
+And a few more devices, but they won't be connected to Venus:
+
+1 x Phoenix charger 24/25 (for engines)
+1 x BlueSmart 12/30 IP22 (for generators) Which electrical parameters can be monitored with these machines? (device by device) Is it possible to set alarms or change device functions via the interface with Garmin?"
+AC Input 1 & 2 settings are (probably) to be configured as not available; we'll find out once we start working on the gui-overview for this.
+
+### B) Single BMV-700
+
+Settings:
+
+- DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
+
+### C) Single BMV-702
+
+BMV configured to measure starter battery voltage.
+
+Settings:
+
+- DC-system enabled
+
+Show in html5app:
+
+- main battery box
+- simple battery box with only voltage (the starter battery)
+- dc loads
+
+### D) Multi + BMV - Off-grid with generator
+
+VE.Bus:
+
+- CurrentlimitIsAdjustable = false.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Generator
+- AC input type 2 = Not available
+- DC system disabled
+
+### E) Multi + BMV - Boat without generator
+
+VE.Bus:
+
+- CurrentlimitIsAdjustable = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Shore
+- AC input type 2 = Not available
+- DC system enabled
+
+### F) Quattro + BMV - boat with generator - single phase
+
+VE.Bus:
+
+- AcIn/0/CurrentlimitIsAdjustable-ac-input = false.
+- AcIn/1/CurrentlimitIsAdjustable-ac-input = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Generator
+- AC input type 2 = Shore
+- DC system enabled
+
+### G) Charger + BMV - simple boat
+
+Settings:
+
+- AC input type 1 = shore
+- AC input type 2 = not available
+- DC system enabled
+
+### H) VE.Direct Inverter + BMV - typical simple vehicle - only charged from alternator
+
+Settings:
+
+- AC input types both on not available
+- DC system enabled
+
+### I) Quattro without BMV - Hybrid generator - single phase
+
+VE.Bus:
+
+- AcIn/0/CurrentlimitIsAdjustable-ac-input = false.
+- AcIn/1/CurrentlimitIsAdjustable-ac-input = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC Input type 1 = generator
+- AC input type 2 = grid
+- DC system disabled
+
+### J) 4 x BMV-700
+
+Settings:
+
+- DC system enabled
+
+### K) Quattro without BMV - Hybrid generator - three phase
+
+VE.Bus:
+
+- AcIn/0/CurrentlimitIsAdjustable-ac-input = false.
+- AcIn/1/CurrentlimitIsAdjustable-ac-input = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC Input type 1 = generator
+- AC input type 2 = grid
+- DC system disabled
+
+### L) Quattro + BMV - boat with generator - three phase
+
+VE.Bus:
+
+- AcIn/0/CurrentlimitIsAdjustable-ac-input = false.
+- AcIn/1/CurrentlimitIsAdjustable-ac-input = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Generator
+- AC input type 2 = Shore
+- DC system enabled
