@@ -1,5 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
+?xml version='1.0' encoding='UTF-8'?>
 <Settings version="1.0">
+  <Fronius>
+    <InverterIds default="" type="s" silent="False"></InverterIds>
+    <IPAddresses default="" type="s" silent="False"></IPAddresses>
+    <KnownIPAddresses default="" type="s" silent="False"></KnownIPAddresses>
+    <PortNumber default="80" type="i" silent="False">80</PortNumber>
+  </Fronius>
   <CGwacs>
     <BatteryLife>
       <Schedule>
@@ -36,12 +42,21 @@
           </_3>
         </Charge>
       </Schedule>
-      <State default="1" type="i" silent="True">1</State>
+      <State default="1" type="i" silent="True">4</State>
       <DischargedTime default="0" type="i" silent="True">0</DischargedTime>
       <Flags default="0" type="i" silent="True">0</Flags>
       <MinimumSocLimit default="10.0" max="100.0" type="f" silent="False" min="0.0">10.0</MinimumSocLimit>
       <SocLimit default="10.0" max="100.0" type="f" silent="True" min="0.0">10.0</SocLimit>
     </BatteryLife>
+    <AcPowerSetPoint default="50.0" max="1000000.0" type="f" silent="False" min="-1000000.0">50.0</AcPowerSetPoint>
+    <MaxChargePower default="-1.0" max="1000000.0" type="f" silent="False" min="-1.0">-1.0</MaxChargePower>
+    <PreventFeedback default="0" type="i" silent="False">0</PreventFeedback>
+    <MaxDischargePercentage default="100.0" max="100.0" type="f" silent="False" min="0.0">100.0</MaxDischargePercentage>
+    <Hub4Mode default="0" type="i" silent="False">0</Hub4Mode>
+    <MaxDischargePower default="-1.0" max="1000000.0" type="f" silent="False" min="-1.0">-1.0</MaxDischargePower>
+    <MaxChargePercentage default="100.0" max="100.0" type="f" silent="False" min="0.0">100.0</MaxChargePercentage>
+    <OvervoltageFeedIn default="0" type="i" silent="False">0</OvervoltageFeedIn>
+    <RunWithoutGridMeter default="0" type="i" silent="False">0</RunWithoutGridMeter>
   </CGwacs>
   <Generator0>
     <TestRun>
@@ -49,14 +64,14 @@
       <StartDate default="1483228800" max="10000000000" type="i" silent="False" min="0">1483228800</StartDate>
       <RunTillBatteryFull default="0" max="1" type="i" silent="False" min="0">0</RunTillBatteryFull>
       <SkipRuntime default="0" max="100000" type="i" silent="False" min="0">0</SkipRuntime>
-      <Duration default="7200" max="86400" type="i" silent="False" min="1">7200</Duration>
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
+      <Duration default="7200" max="86400" type="i" silent="False" min="1">7200</Duration>
       <Interval default="28" max="365" type="i" silent="False" min="1">28</Interval>
     </TestRun>
     <BatteryCurrent>
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
-      <StopValue default="5.5" max="10000.0" type="f" silent="False" min="0.0">5.5</StopValue>
       <QuietHoursStartValue default="20.5" max="10000.0" type="f" silent="False" min="0.0">20.5</QuietHoursStartValue>
+      <StopValue default="5.5" max="10000.0" type="f" silent="False" min="0.0">5.5</StopValue>
       <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
       <StartValue default="10.5" max="10000.0" type="f" silent="False" min="0.5">10.5</StartValue>
       <QuietHoursStopValue default="15.5" max="10000.0" type="f" silent="False" min="0.0">15.5</QuietHoursStopValue>
@@ -106,34 +121,66 @@
     <Alarms>
       <NoGeneratorAtAcIn default="0" max="1" type="i" silent="False" min="0">0</NoGeneratorAtAcIn>
     </Alarms>
-    <AccumulatedDaily default="" type="s" silent="True">{"1542758400": 60, "1542844800": 1128, "1542931200": 0}</AccumulatedDaily>
+    <AccumulatedDaily default="" type="s" silent="True">{"1544486400": 0, "1544572800": 0, "1544659200": 0, "1544745600": 0, "1544832000": 0, "1544918400": 0, "1545004800": 0, "1545091200": 0, "1545177600": 0, "1545264000": 0, "1545350400": 0, "1545436800": 0, "1545523200": 0, "1545609600": 0, "1545696000": 0, "1545782400": 0, "1545868800": 0, "1545955200": 0, "1546041600": 0, "1546128000": 0, "1546214400": 0, "1546300800": 0, "1546387200": 0, "1546473600": 0, "1546560000": 0, "1546646400": 0, "1546732800": 0, "1546819200": 0, "1546905600": 0, "1546992000": 0}</AccumulatedDaily>
     <OnLossCommunication default="0" max="2" type="i" silent="False" min="0">0</OnLossCommunication>
     <BatteryService default="default" type="s" silent="False">default</BatteryService>
     <StopWhenAc1Available default="0" max="10" type="i" silent="False" min="0">0</StopWhenAc1Available>
-    <AccumulatedTotal default="0" type="i" silent="True">1188</AccumulatedTotal>
-    <AutoStartEnabled default="1" max="1" type="i" silent="False" min="0">0</AutoStartEnabled>
+    <AutoStartEnabled default="1" max="1" type="i" silent="False" min="0">1</AutoStartEnabled>
+    <AccumulatedTotal default="0" type="i" silent="True">0</AccumulatedTotal>
     <MinimumRuntime default="0" max="86400" type="i" silent="False" min="0">0</MinimumRuntime>
   </Generator0>
-  <Gui>
-    <Brightness default="100" max="100" type="i" silent="False" min="0">100</Brightness>
-    <MobileOverview default="0" max="1" type="i" silent="False" min="0">1</MobileOverview>
-    <TimeTest default="1" type="i">80940</TimeTest>
-    <DemoMode default="0" max="1" type="i" silent="False" min="0">1</DemoMode>
-    <Language default="en" type="s" silent="False">en</Language>
-    <StartWithMenuView default="0" max="1" type="i" silent="False" min="0">0</StartWithMenuView>
-    <FreeTextTest default="test" type="s"></FreeTextTest>
-    <RangeTestHigh default="1.0" type="f" max="5.3" min="0.0">3.8</RangeTestHigh>
-    <DisplayOff default="600" type="i" silent="False">600</DisplayOff>
-    <RangeTestLow default="0.5" type="f" max="5.0" min="0.0">2.7</RangeTestLow>
-    <OptionTest default="1" type="i" min="0" max="3">1</OptionTest>
-    <SpinBoxTest default="5" type="i" min="4" max="12">6</SpinBoxTest>
-    <DefaultOverview default="" type="s" silent="False">OverviewMobile</DefaultOverview>
-  </Gui>
+  <DigitalInput>
+    <_5>
+      <CustomName default="" type="s" silent="False"></CustomName>
+      <Type default="0" max="9" type="i" silent="False" min="0">0</Type>
+      <InvertAlarm default="0" max="1" type="i" silent="False" min="0">0</InvertAlarm>
+      <AlarmSetting default="0" max="1" type="i" silent="False" min="0">0</AlarmSetting>
+      <Count default="0" max="2147483647" type="i" silent="True" min="0">0</Count>
+      <InvertTranslation default="0" max="1" type="i" silent="False" min="0">0</InvertTranslation>
+      <Multiplier default="0.001" max="1.0" type="f" silent="False" min="0.0">0.001</Multiplier>
+    </_5>
+    <_4>
+      <Count default="0" max="2147483647" type="i" silent="True" min="0">0</Count>
+      <CustomName default="" type="s" silent="False"></CustomName>
+      <Type default="0" max="9" type="i" silent="False" min="0">0</Type>
+      <InvertTranslation default="0" max="1" type="i" silent="False" min="0">0</InvertTranslation>
+      <AlarmSetting default="0" max="1" type="i" silent="False" min="0">0</AlarmSetting>
+      <Multiplier default="0.001" max="1.0" type="f" silent="False" min="0.0">0.001</Multiplier>
+      <InvertAlarm default="0" max="1" type="i" silent="False" min="0">0</InvertAlarm>
+    </_4>
+    <_1>
+      <AlarmSetting default="0" max="1" type="i" silent="False" min="0">0</AlarmSetting>
+      <InvertAlarm default="0" max="1" type="i" silent="False" min="0">0</InvertAlarm>
+      <Count default="0" max="2147483647" type="i" silent="True" min="0">0</Count>
+      <Multiplier default="0.001" max="1.0" type="f" silent="False" min="0.0">0.001</Multiplier>
+      <InvertTranslation default="0" max="1" type="i" silent="False" min="0">0</InvertTranslation>
+      <Type default="0" max="9" type="i" silent="False" min="0">0</Type>
+      <CustomName default="" type="s" silent="False"></CustomName>
+    </_1>
+    <_3>
+      <Count default="0" max="2147483647" type="i" silent="True" min="0">0</Count>
+      <Type default="0" max="9" type="i" silent="False" min="0">0</Type>
+      <AlarmSetting default="0" max="1" type="i" silent="False" min="0">0</AlarmSetting>
+      <Multiplier default="0.001" max="1.0" type="f" silent="False" min="0.0">0.001</Multiplier>
+      <CustomName default="" type="s" silent="False"></CustomName>
+      <InvertTranslation default="0" max="1" type="i" silent="False" min="0">0</InvertTranslation>
+      <InvertAlarm default="0" max="1" type="i" silent="False" min="0">0</InvertAlarm>
+    </_3>
+    <_2>
+      <InvertTranslation default="0" max="1" type="i" silent="False" min="0">0</InvertTranslation>
+      <CustomName default="" type="s" silent="False"></CustomName>
+      <Count default="0" max="2147483647" type="i" silent="True" min="0">0</Count>
+      <Type default="0" max="9" type="i" silent="False" min="0">0</Type>
+      <InvertAlarm default="0" max="1" type="i" silent="False" min="0">0</InvertAlarm>
+      <Multiplier default="0.001" max="1.0" type="f" silent="False" min="0.0">0.001</Multiplier>
+      <AlarmSetting default="0" max="1" type="i" silent="False" min="0">0</AlarmSetting>
+    </_2>
+  </DigitalInput>
   <Services>
     <AccessPoint default="1" max="1" type="i" silent="False" min="0">1</AccessPoint>
     <Console default="0" type="i" silent="False">0</Console>
     <FischerPandaAutoStartStop default="0" max="1" type="i" silent="False" min="0">0</FischerPandaAutoStartStop>
-    <Mqtt default="0" max="1" type="i" silent="False" min="0">0</Mqtt>
+    <Mqtt default="0" max="1" type="i" silent="False" min="0">1</Mqtt>
     <MqttN2k default="0" max="1" type="i" silent="False" min="0">0</MqttN2k>
     <Vrmpubnub default="0" max="1" type="i" silent="False" min="0">0</Vrmpubnub>
     <Modbus default="0" max="1" type="i" silent="False" min="0">0</Modbus>
@@ -144,8 +191,8 @@
       <StopValue default="800" max="100000" type="i" silent="False" min="0">800</StopValue>
       <StartValue default="1600" max="100000" type="i" silent="False" min="5">1600</StartValue>
       <QuietHoursStartValue default="1900" max="100000" type="i" silent="False" min="0">1900</QuietHoursStartValue>
-      <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
       <Measurement default="0" max="100" type="i" silent="False" min="0">0</Measurement>
+      <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
       <QuietHoursStopValue default="1200" max="100000" type="i" silent="False" min="0">1200</QuietHoursStopValue>
       <StartTimer default="20" max="10000" type="i" silent="False" min="0">20</StartTimer>
       <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
@@ -160,35 +207,34 @@
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
       <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
     </InverterHighTemp>
-    <BatteryCurrent>
-      <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
-      <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
-      <StartTimer default="20" max="10000" type="i" silent="False" min="0">20</StartTimer>
-      <QuietHoursStartValue default="20.5" max="10000.0" type="f" silent="False" min="0.0">20.5</QuietHoursStartValue>
-      <QuietHoursStopValue default="15.5" max="10000.0" type="f" silent="False" min="0.0">15.5</QuietHoursStopValue>
-      <StopValue default="5.5" max="10000.0" type="f" silent="False" min="0.0">5.5</StopValue>
-      <StartValue default="10.5" max="10000.0" type="f" silent="False" min="0.5">10.5</StartValue>
-    </BatteryCurrent>
-    <BatteryService default="default" type="s" silent="False">default</BatteryService>
     <BatteryVoltage>
+      <QuietHoursStopValue default="12.4" max="100.0" type="f" silent="False" min="0.0">12.4</QuietHoursStopValue>
       <StopValue default="12.4" max="150.0" type="f" silent="False" min="0.0">12.4</StopValue>
       <StartValue default="11.5" max="150.0" type="f" silent="False" min="0.0">11.5</StartValue>
       <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
       <StartTimer default="20" max="10000" type="i" silent="False" min="0">20</StartTimer>
       <QuietHoursStartValue default="11.9" max="100.0" type="f" silent="False" min="0.0">11.9</QuietHoursStartValue>
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
-      <QuietHoursStopValue default="12.4" max="100.0" type="f" silent="False" min="0.0">12.4</QuietHoursStopValue>
     </BatteryVoltage>
-    <AccumulatedDaily default="" type="s" silent="True"></AccumulatedDaily>
+    <BatteryCurrent>
+      <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
+      <StartTimer default="20" max="10000" type="i" silent="False" min="0">20</StartTimer>
+      <StopTimer default="20" max="10000" type="i" silent="False" min="0">20</StopTimer>
+      <QuietHoursStopValue default="15.5" max="10000.0" type="f" silent="False" min="0.0">15.5</QuietHoursStopValue>
+      <QuietHoursStartValue default="20.5" max="10000.0" type="f" silent="False" min="0.0">20.5</QuietHoursStartValue>
+      <StopValue default="5.5" max="10000.0" type="f" silent="False" min="0.0">5.5</StopValue>
+      <StartValue default="10.5" max="10000.0" type="f" silent="False" min="0.5">10.5</StartValue>
+    </BatteryCurrent>
     <TestRun>
+      <SkipRuntime default="0" max="100000" type="i" silent="False" min="0">0</SkipRuntime>
       <StartDate default="1483228800" max="10000000000" type="i" silent="False" min="0">1483228800</StartDate>
       <RunTillBatteryFull default="0" max="1" type="i" silent="False" min="0">0</RunTillBatteryFull>
-      <StartTime default="54000" max="86400" type="i" silent="False" min="0">54000</StartTime>
       <Duration default="7200" max="86400" type="i" silent="False" min="1">7200</Duration>
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
-      <SkipRuntime default="0" max="100000" type="i" silent="False" min="0">0</SkipRuntime>
+      <StartTime default="54000" max="86400" type="i" silent="False" min="0">54000</StartTime>
       <Interval default="28" max="365" type="i" silent="False" min="1">28</Interval>
     </TestRun>
+    <AccumulatedDaily default="" type="s" silent="True"></AccumulatedDaily>
     <QuietHours>
       <Enabled default="0" max="1" type="i" silent="False" min="0">0</Enabled>
       <EndTime default="21600" max="86400" type="i" silent="False" min="0">21600</EndTime>
@@ -202,6 +248,7 @@
       <QuietHoursStopValue default="90" max="100" type="i" silent="False" min="0">90</QuietHoursStopValue>
     </Soc>
     <StopWhenAc1Available default="0" max="10" type="i" silent="False" min="0">0</StopWhenAc1Available>
+    <BatteryService default="default" type="s" silent="False">default</BatteryService>
     <OnLossCommunication default="0" max="2" type="i" silent="False" min="0">0</OnLossCommunication>
     <MinimumRuntime default="0" max="86400" type="i" silent="False" min="0">0</MinimumRuntime>
     <AccumulatedTotal default="0" type="i" silent="True">0</AccumulatedTotal>
@@ -210,6 +257,15 @@
     </Alarms>
     <AutoStartEnabled default="1" max="1" type="i" silent="False" min="0">1</AutoStartEnabled>
   </FischerPanda0>
+  <Gui>
+    <DemoMode default="0" max="1" type="i" silent="False" min="0">1</DemoMode>
+    <MobileOverview default="0" max="1" type="i" silent="False" min="0">1</MobileOverview>
+    <Brightness default="100" max="100" type="i" silent="False" min="0">100</Brightness>
+    <Language default="en" type="s" silent="False">en</Language>
+    <StartWithMenuView default="0" max="1" type="i" silent="False" min="0">1</StartWithMenuView>
+    <DisplayOff default="600" type="i" silent="False">600</DisplayOff>
+    <DefaultOverview default="" type="s" silent="False">OverviewGeneratorRelay</DefaultOverview>
+  </Gui>
   <Alarm>
     <Vebus>
       <HighDcRipple default="1" max="2" type="i" silent="False" min="0">1</HighDcRipple>
@@ -220,40 +276,118 @@
       <TemperatureSenseError default="1" max="2" type="i" silent="False" min="0">1</TemperatureSenseError>
       <HighTemperature default="1" max="2" type="i" silent="False" min="0">1</HighTemperature>
     </Vebus>
-    <Audible default="1" type="i" silent="False">1</Audible>
+    <Audible default="1" type="i" silent="False">0</Audible>
   </Alarm>
   <SystemSetup>
+    <SharedVoltageSense default="1" type="i" silent="False">1</SharedVoltageSense>
     <BatteryService default="default" type="s" silent="False">default</BatteryService>
-    <SystemName default="" type="s" silent="False">Hub-4</SystemName>
-    <AcInput1 default="1" type="i" silent="False">1</AcInput1>
+    <SharedTemperatureSense default="1" type="i" silent="False">1</SharedTemperatureSense>
+    <AcInput1 default="1" type="i" silent="False">2</AcInput1>
     <AcInput2 default="2" type="i" silent="False">3</AcInput2>
     <HasAcOutSystem default="1" max="1" type="i" silent="False" min="0">1</HasAcOutSystem>
     <HasDcSystem default="0" max="1" type="i" silent="False" min="0">1</HasDcSystem>
-    <SharedTemperatureSense default="1" type="i" silent="False">1</SharedTemperatureSense>
+    <SystemName default="" type="s" silent="False"></SystemName>
     <MaxChargeCurrent default="-1" max="10000" type="i" silent="False" min="-1">-1</MaxChargeCurrent>
   </SystemSetup>
+  <System>
+    <TimeZone default="/UTC" type="s" silent="False">/UTC</TimeZone>
+    <ReleaseType default="0" max="3" type="i" silent="False" min="0">2</ReleaseType>
+    <AccessLevel default="1" max="3" type="i" silent="False" min="0">3</AccessLevel>
+    <ActiveNetworkConnection default="-1" max="3" type="i" silent="True" min="-1">2</ActiveNetworkConnection>
+    <RemoteSupport default="0" max="1" type="i" silent="False" min="0">1</RemoteSupport>
+    <VncLocal default="1" max="1" type="i" silent="False" min="0">1</VncLocal>
+    <RemoteVncPort default="0" type="i" silent="False">60215</RemoteVncPort>
+    <VolumeUnit default="0" type="i" silent="False">0</VolumeUnit>
+    <LogLevel default="2" type="i" silent="False">2</LogLevel>
+    <AutoUpdate default="1" max="3" type="i" silent="False" min="0">2</AutoUpdate>
+    <RemoteSupportPort default="0" type="i" silent="False">33556</RemoteSupportPort>
+    <VncInternet default="1" max="1" type="i" silent="False" min="0">1</VncInternet>
+  </System>
+  <Temperature>
+    <_2>
+      <Offset default="0.0" max="100.0" type="f" silent="False" min="-100.0">0.0</Offset>
+      <Scale default="1.0" max="10.0" type="f" silent="False" min="0.10000000149">1.0</Scale>
+      <TemperatureType default="0.0" max="2.0" type="f" silent="False" min="0.0">0.0</TemperatureType>
+    </_2>
+    <_1>
+      <TemperatureType default="0.0" max="2.0" type="f" silent="False" min="0.0">0.0</TemperatureType>
+      <Scale default="1.0" max="10.0" type="f" silent="False" min="0.10000000149">1.0</Scale>
+      <Offset default="0.0" max="100.0" type="f" silent="False" min="-100.0">0.0</Offset>
+    </_1>
+  </Temperature>
+  <AnalogInput>
+    <Resistive>
+      <_2>
+        <Function default="1.0" max="1.0" type="f" silent="False" min="0.0">1.0</Function>
+      </_2>
+      <_3>
+        <Function default="1.0" max="1.0" type="f" silent="False" min="0.0">1.0</Function>
+      </_3>
+      <_1>
+        <Function default="1.0" max="1.0" type="f" silent="False" min="0.0">1.0</Function>
+      </_1>
+    </Resistive>
+    <Temperature>
+      <_1>
+        <Function default="1.0" max="1.0" type="f" silent="False" min="0.0">1.0</Function>
+      </_1>
+      <_2>
+        <Function default="1.0" max="1.0" type="f" silent="False" min="0.0">1.0</Function>
+      </_2>
+    </Temperature>
+  </AnalogInput>
   <Sensors>
     <OnPosition>
       <ACIn2_L3 default="" type="s" silent="False"></ACIn2_L3>
-      <ACIn2_L2 default="" type="s" silent="False"></ACIn2_L2>
-      <ACIn1_L2 default="" type="s" silent="False"></ACIn1_L2>
       <ACIn1_L1 default="" type="s" silent="False"></ACIn1_L1>
+      <ACIn1_L2 default="" type="s" silent="False"></ACIn1_L2>
       <ACIn1_L3 default="" type="s" silent="False"></ACIn1_L3>
       <ACIn2_L1 default="" type="s" silent="False"></ACIn2_L1>
       <ACOut_L2 default="" type="s" silent="False"></ACOut_L2>
       <ACOut_L3 default="" type="s" silent="False"></ACOut_L3>
       <ACOut_L1 default="" type="s" silent="False"></ACOut_L1>
+      <ACIn2_L2 default="" type="s" silent="False"></ACIn2_L2>
     </OnPosition>
   </Sensors>
-  <System>
-    <ReleaseType default="0" max="3" type="i" silent="False" min="0">0</ReleaseType>
-    <AutoUpdate default="1" max="3" type="i" silent="False" min="0">1</AutoUpdate>
-    <RemoteSupport default="0" max="1" type="i" silent="False" min="0">0</RemoteSupport>
-    <AccessLevel default="1" max="3" type="i" silent="False" min="0">1</AccessLevel>
-    <VolumeUnit default="0" type="i" silent="False">0</VolumeUnit>
-    <TimeZone default="/UTC" type="s" silent="False">/UTC</TimeZone>
-    <LogLevel default="2" type="i" silent="False">2</LogLevel>
-  </System>
+  <Vrmlogger>
+    <HttpsEnabled default="1" max="1" type="i" silent="False" min="0">1</HttpsEnabled>
+    <Http>
+      <Proxy default="" type="s" silent="False"></Proxy>
+      <ProxyPort default="" type="s" silent="False"></ProxyPort>
+    </Http>
+    <ExternalStorageDir default="" type="s" silent="False"></ExternalStorageDir>
+    <Url default="" type="s" silent="False"></Url>
+    <LogInterval default="900" type="i" silent="False">900</LogInterval>
+    <Logmode default="1" max="2" type="i" silent="False" min="0">1</Logmode>
+  </Vrmlogger>
+  <Tank>
+    <_1>
+      <Standard default="0.0" max="1.0" type="f" silent="False" min="0.0">0.0</Standard>
+      <FluidType default="0.0" max="5.0" type="f" silent="False" min="0.0">0.0</FluidType>
+      <Capacity default="0.20000000298" max="1000.0" type="f" silent="False" min="0.0">0.20000000298</Capacity>
+    </_1>
+    <_2>
+      <Standard default="0.0" max="1.0" type="f" silent="False" min="0.0">0.0</Standard>
+      <Capacity default="0.20000000298" max="1000.0" type="f" silent="False" min="0.0">0.20000000298</Capacity>
+      <FluidType default="0.0" max="5.0" type="f" silent="False" min="0.0">0.0</FluidType>
+    </_2>
+    <_3>
+      <Capacity default="0.20000000298" max="1000.0" type="f" silent="False" min="0.0">0.20000000298</Capacity>
+      <Standard default="0.0" max="1.0" type="f" silent="False" min="0.0">0.0</Standard>
+      <FluidType default="0.0" max="5.0" type="f" silent="False" min="0.0">0.0</FluidType>
+    </_3>
+  </Tank>
+  <Canbus>
+    <can0>
+      <Profile default="0" max="4" type="i" silent="False" min="0">0</Profile>
+    </can0>
+    <can1>
+      <Profile default="1" max="4" type="i" silent="False" min="0">1</Profile>
+    </can1>
+  </Canbus>
+  <Watchdog>
+    <VrmTimeout default="0" max="86400" type="i" silent="False" min="0">0</VrmTimeout>
+  </Watchdog>
   <Gps>
     <SpeedUnit default="km/h" type="s" silent="False">km/h</SpeedUnit>
     <Format default="0" type="i" silent="False">0</Format>
@@ -262,4 +396,11 @@
     <Polarity default="0" type="i" silent="False">0</Polarity>
     <Function default="0" type="i" silent="False">1</Function>
   </Relay>
+  <Vecan>
+    <can1>
+      <MainInterface>
+        <Nad default="224" max="251" type="i" silent="False" min="0">0</Nad>
+      </MainInterface>
+    </can1>
+  </Vecan>
 </Settings>
