@@ -15,12 +15,28 @@ help() {
 	done
 }
 
+settings_available() {
+        python -c 'import sys, dbus; sys.exit("com.victronenergy.settings" not in dbus.SystemBus().list_names())'
+}
+
 if test -z "$1"; then
 	help
 	exit 0
 fi
 
 sim=${1,,}
+
+# First restore the default config
+svc -d /service/localsettings
+cp /data/conf/settings.xml.orig /data/conf/settings.xml
+svc -u /service/localsettings
+
+# Wait for localsettings
+echo -n "Waiting for localsettings "
+while ! settings_available; do
+        echo -n '.'
+        sleep 1
+done; echo
 
 # Perform any setup that might be required for this demo
 if test -f $SIMULATIONS/$sim/setup; then
