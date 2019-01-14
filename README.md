@@ -1,12 +1,12 @@
-# WIP dockerized dbus playback + mqtt service
+# Dockerized dbus playback + mqtt service
 
 The purpose of this docker container & simulations is to speed up the development of UIs and other data-consuming software.
 
 - Switch quickly between the many available simulated systems
-- Communicate direct to D-Bus and MQTT
-- Validate your UI, or other data-consuming feature, without rigging up full Victron systems
+- Communicate directly with D-Bus and MQTT
+- Validate your UI or other data-consuming feature without rigging up full Victron systems
 
-The data is available on D-Bus as well as MQTT: the  dbus-mqtt service is included in the docker.
+The data is available on D-Bus as well as MQTT. The dbus-mqtt service is also included in the docker.
 
 ## Usage
 
@@ -16,7 +16,7 @@ The data is available on D-Bus as well as MQTT: the  dbus-mqtt service is includ
 - Run the container in the background with a simulation with `./run.sh -s <simulation_name>`
   - run `./run.sh -h` for more info
 
-Quick-start: run `dbus-spy` in your commandline to browser the availabel data.
+Quick-start: run `dbus-spy` in your commandline to browse the available data.
 
 ## Simulations
 
@@ -24,17 +24,19 @@ See below for a detailed list of all available simulations.
 
 ## Differences with a real system
 
-The data is provided by `dbus-recorder`; which has one fundamental difference with a real system: it does not support GetValue() and GetText() method calls on the root item (`/`).
+The data is provided by `dbus-recorder` which has one fundamental difference with a real system: it does not support GetValue() and GetText() method calls on the root item (`/`).
 
 ## mqtt
-You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` or use an mqtt spy application. To change values manually use `mosquitto_pub`, but these values are likely to be overridden by an active recording quite quickly.
+You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` or use an mqtt spy application. You can change values manually use `mosquitto_pub`, but these values are likely to be overridden by an active recording quite quickly.
 
 ## Modifying recordings
 
-Recordings can be modified (and created) using the dump and assemble tools in
-the [dbus-recorder][1] repo.
+To modify recordings in this repo:
 
-[1]: https://github.com/victronenergy/dbus-recorder
+- Unpickle a desired recording with `./get_recording_tsv.sh simulations/<sim>/<file>.dat`
+- Make desired edits on the .tsv file
+- Repickle the recording with `./recompile_and_replace_simulation.sh <edited_file>.tsv simulations/<sim>/<original_file>.dat`
+- Rebuild container `./build.sh` and rerun simulation
 
 ## Working inside the container
 To run the container and simulations as an interactive shell:
@@ -55,7 +57,7 @@ To run the container in the background with a simulation do the following:
 
 ## Available simulations
 
-Battery selection should always be on auto; unless specified differently.
+Battery selection should always be on auto unless specified differently.
 
 ### A) Absolut Navetta 68 installation
 
