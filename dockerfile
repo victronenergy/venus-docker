@@ -54,6 +54,6 @@ RUN chmod u+x /root/bin/* /root/run.sh /root/run_with_simulation.sh
 COPY scripts/simulate.sh /root
 COPY simulations /root/simulations
 
-EXPOSE 9001
-EXPOSE 1883
-EXPOSE 3000
+EXPOSE 9001-9010
+EXPOSE 1883-1890
+EXPOSE 3000-3010

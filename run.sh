@@ -33,15 +33,20 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+RUNNING_CONTAINERS=`docker ps | grep mqtt | wc -l`
+WSPORT=$((9001+$RUNNING_CONTAINERS))
+MQTTPORT=$((1883+$RUNNING_CONTAINERS))
+DBUSTCPPORT=$((3000+$RUNNING_CONTAINERS))
+
 if test -n "$POSITIONAL"; then
     echo "Positional argument(s) ($POSITIONAL) passed. Did you mean to run with -s?"
     available
     exit 1
 elif test -z "$SIMULATION"; then
-    docker run -it --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt
+    docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 mqtt
 else
     if test -f simulations/$SIMULATION/setup; then
-        docker run -d --rm -p 9001:9001 -p 1883:1883 -p 3000:3000 mqtt /root/run_with_simulation.sh $SIMULATION
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 mqtt /root/run_with_simulation.sh $SIMULATION
     else
         echo "Simulation ($SIMULATION) does not exist in simulations/"
         available
