@@ -38,6 +38,8 @@ WSPORT=$((9001+$RUNNING_CONTAINERS))
 MQTTPORT=$((1883+$RUNNING_CONTAINERS))
 DBUSTCPPORT=$((3000+$RUNNING_CONTAINERS))
 
+echo "Websocket port: ${WSPORT}, mqtt port: ${MQTTPORT}, dbus port: ${DBUSTCPPORT}"
+
 if test -n "$POSITIONAL"; then
     echo "Positional argument(s) ($POSITIONAL) passed. Did you mean to run with -s?"
     available
