@@ -183,3 +183,20 @@ Settings:
 - AC input type 1 = Generator
 - AC input type 2 = Shore
 - DC system enabled
+
+### M) Multi with a VE.Bus BMS
+
+Note https://github.com/victronenergy/venus-private/issues/86. The demo mode is now
+not how reality is. And how reality will be is unknown as of yet.
+
+VE.Bus:
+
+- AcIn/0/CurrentlimitIsAdjustable-ac-input = false.
+- AcIn/1/CurrentlimitIsAdjustable-ac-input = false.
+- Mode is adjustable = false.
+
+Settings:
+
+- AC input type 1 = Generator
+- AC input type 2 = Shore
+- DC system disabled
