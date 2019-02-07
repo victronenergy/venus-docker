@@ -49,6 +49,8 @@ elif test -z "$SIMULATION"; then
 else
     if test -f simulations/$SIMULATION/setup; then
         docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 mqtt /root/run_with_simulation.sh $SIMULATION
+    elif test "$SIMULATION" = "z"; then
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 mqtt /root/run_with_simulation.sh z
     else
         echo "Simulation ($SIMULATION) does not exist in simulations/"
         available

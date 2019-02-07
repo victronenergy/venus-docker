@@ -44,11 +44,11 @@ RUN echo 'listener 1883' >> /etc/mosquitto/mosquitto.conf
 RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
 # Run config
-COPY scripts/run.sh /root
+COPY scripts/start_services.sh /root
 COPY scripts/run_with_simulation.sh /root
 COPY scripts/run_recording.sh /root/bin/
 
-RUN chmod u+x /root/bin/* /root/run.sh /root/run_with_simulation.sh
+RUN chmod u+x /root/bin/* /root/start_services.sh /root/run_with_simulation.sh
 
 # Simulations
 COPY scripts/simulate.sh /root
