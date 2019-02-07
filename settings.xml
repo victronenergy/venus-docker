@@ -279,6 +279,65 @@
     <Audible default="1" type="i" silent="False">0</Audible>
   </Alarm>
   <SystemSetup>
+    <Batteries>
+      <Configuration>
+        <_0>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/256</Service>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Name default="" type="s" silent="False"></Name>
+        </_0>
+        <_1>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.charger/10/0</Service>
+        </_1>
+        <_2>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.charger/10/1</Service>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+        </_2>
+        <_3>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.charger/10/2</Service>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+        </_3>
+        <_4>
+          <Name default="" type="s" silent="False"></Name>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Service default="" type="s" silent="False">com.victronenergy.vebus/288</Service>
+        </_4>
+        <_5>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/256/1</Service>
+          <Name default="" type="s" silent="False"></Name>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+        </_5>
+        <_6>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.vebus/257</Service>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+        </_6>
+        <_7>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/0</Service>
+        </_7>
+        <_8>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/257</Service>
+        </_8>
+        <_9>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/258</Service>
+          <Name default="" type="s" silent="False"></Name>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+        </_9>
+        <_10>
+          <Enabled default="0" max="1" type="i" silent="False" min="0">1</Enabled>
+          <Name default="" type="s" silent="False"></Name>
+          <Service default="" type="s" silent="False">com.victronenergy.battery/259</Service>
+        </_10>
+      </Configuration>
+    </Batteries>
     <SharedVoltageSense default="1" type="i" silent="False">1</SharedVoltageSense>
     <BatteryService default="default" type="s" silent="False">default</BatteryService>
     <SharedTemperatureSense default="1" type="i" silent="False">1</SharedTemperatureSense>
