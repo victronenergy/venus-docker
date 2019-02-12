@@ -39,6 +39,7 @@ while ! settings_available; do
 done; echo
 
 # Perform any setup that might be required for this demo
+echo "Applying settings for this simulation..."
 if test -f $SIMULATIONS/$sim/setup; then
 	while read -r line; do
 		read -r service path value <<< "$line"
@@ -46,6 +47,7 @@ if test -f $SIMULATIONS/$sim/setup; then
 	done < $SIMULATIONS/$sim/setup
 fi
 
+echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 else
