@@ -2,3 +2,7 @@ com.victronenergy.settings /Settings/SystemSetup/BatteryService default
 com.victronenergy.settings /Settings/SystemSetup/HasDcSystem 1
 com.victronenergy.settings /Settings/SystemSetup/AcInput1 0
 com.victronenergy.settings /Settings/SystemSetup/AcInput2 0
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/0/Name Service batteries
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/1/Name Bow thruster batteries
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/2/Name Stern thruster batteries
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/3/Enabled 0
