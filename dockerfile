@@ -17,6 +17,7 @@ RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus
 RUN apt-get install -y mosquitto mosquitto-clients vim daemontools
 RUN apt-get install -y libqtcore4 libqtdbus4 libncurses5
+RUN apt-get install -y nginx
 
 # dbus
 COPY dbus-tools/dbus /usr/bin/dbus
@@ -54,6 +55,13 @@ RUN chmod u+x /root/bin/* /root/start_services.sh /root/run_with_simulation.sh
 COPY scripts/simulate.sh /root
 COPY simulations /root/simulations
 
-EXPOSE 9001-9010
-EXPOSE 1883-1890
-EXPOSE 3000-3010
+# Html5 app
+COPY venus_app.conf /etc/nginx/sites-available
+COPY venus-html5-app/dist/ /var/www/venus_app/
+RUN ln -s /etc/nginx/sites-available/venus_app.conf /etc/nginx/sites-enabled
+RUN rm /etc/nginx/sites-enabled/default
+
+EXPOSE 80
+EXPOSE 9001
+EXPOSE 1883
+EXPOSE 3000

@@ -16,3 +16,6 @@
 [submodule "dbus-spy"]
 	path = dbus-spy
 	url = https://github.com/victronenergy/dbus-spy.git
+[submodule "venus-html5-app"]
+	path = venus-html5-app
+	url = https://github.com/victronenergy/venus-html5-app.git
