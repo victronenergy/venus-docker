@@ -1,12 +1,3 @@
-# dbus-spy build
-FROM ubuntu as dbus-spy-build
-
-RUN apt-get update
-RUN apt-get install -y libqt4-dev libqt4-dev-bin libncurses5-dev make g++
-COPY dbus-spy /root/dbus-spy
-WORKDIR /root/dbus-spy/software
-RUN qmake && make && make install
-
 # venus-docker build
 FROM ubuntu
 WORKDIR /root
@@ -24,7 +15,7 @@ COPY dbus-tools/dbus /usr/bin/dbus
 COPY dbus-system.conf /etc/dbus-1/system.d/victron.conf
 
 # dbus-spy
-COPY --from=dbus-spy-build /usr/local/bin/dbus-spy /usr/local/bin/dbus-spy
+COPY bin/dbus-spy /usr/local/bin/dbus-spy
 
 # Daemontools
 RUN mkdir /log

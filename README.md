@@ -186,3 +186,22 @@ Settings:
 - AC input type 1 = Generator
 - AC input type 2 = Shore
 - DC system disabled
+
+## Building dbus-spy
+
+A binary copy of dbus-spy is already included in this repo, but should you need
+to rebuild it, these are the steps:
+
+    git clone git@github.com:victronenergy/dbus-spy.git
+	cd dbus-spy
+	git submodule update --init
+	cd ..
+	docker build -f dockerfile.dbus-spy . -t dbus-spy
+
+Then copy dbus-spy out of a throwaway container by first starting a container:
+
+    docker run -it --rm dbus-spy
+
+Then copy dbus-spy to bin:
+
+	docker cp <container>:/usr/local/bin/dbus-spy bin/dbus-spy

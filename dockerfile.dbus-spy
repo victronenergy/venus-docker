@@ -1,0 +1,11 @@
+# Dockerfile for dbus-spy build. A copy of dbus-spy is already included in the
+# venus-docker repo. This is here in case you ever need to rebuild it. You will
+# need access to the velib repository.
+
+FROM ubuntu
+
+RUN apt-get update
+RUN apt-get install -y libqt4-dev libqt4-dev-bin libncurses5-dev make g++
+COPY dbus-spy /root/dbus-spy
+WORKDIR /root/dbus-spy/software
+RUN qmake && make && make install
