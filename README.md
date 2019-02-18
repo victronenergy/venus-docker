@@ -187,6 +187,30 @@ Settings:
 - AC input type 2 = Shore
 - DC system disabled
 
+## Using venus-docker with a real Venus device
+
+* On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
+  connections to forwarded ports:
+
+      GatewayPorts clientspecified
+
+* Restart openssh to make the above take effect:
+
+      svc -t /service/openssh
+
+* On the venus device, stop mosquitto:
+
+      svc -d /service/mosquitto
+
+* On the machine that hosts the venus-docker setup, start a venus-docker
+  simulation as you normally would.
+
+* Forward the port to the venus device using ssh. Note the leading `:`:
+
+      ssh -R :9001:localhost:9001 root@192.168.22.75
+
+* Browse to the web application: http://192.168.22.75/app
+
 ## Building dbus-spy
 
 A binary copy of dbus-spy is already included in this repo, but should you need
