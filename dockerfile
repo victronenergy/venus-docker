@@ -1,3 +1,9 @@
+FROM node:lts-alpine as html5-app
+COPY venus-html5-app .
+RUN npm install
+RUN npm run compile
+
+
 # venus-docker build
 FROM ubuntu
 WORKDIR /root
@@ -48,7 +54,7 @@ COPY simulations /root/simulations
 
 # Html5 app
 COPY venus_app.conf /etc/nginx/sites-available
-COPY venus-html5-app/dist/ /var/www/venus_app/
+COPY --from=html5-app ./dist/ /var/www/venus_app/
 RUN ln -s /etc/nginx/sites-available/venus_app.conf /etc/nginx/sites-enabled
 RUN rm /etc/nginx/sites-enabled/default
 
