@@ -1,6 +1,6 @@
 FROM node:lts-alpine as html5-app
 COPY venus-html5-app/package.json .
-RUN npm install
+RUN npm install --production
 COPY venus-html5-app .
 RUN npm run compile
 
