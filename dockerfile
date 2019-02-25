@@ -1,15 +1,14 @@
+# Compile html5 app
 FROM node:lts-alpine as html5-app
 COPY venus-html5-app/package.json .
 RUN npm install --production
 COPY venus-html5-app .
 RUN npm run compile
 
-
-# venus-docker build
+# Venus-docker build
 FROM ubuntu
 WORKDIR /root
 
-### Some of these are probably not actually required?
 RUN apt-get update
 RUN apt-get install -y python2.7 python-gobject-2
 RUN apt-get install -y python-lxml python-requests python-dbus

@@ -12,6 +12,7 @@ Use this docker to run an mqtt broker that serves recorded dbus data. Main use c
 - Run the container in the background with a simulation with `./run.sh -s <simulation_name>`
   - to kill the container (and to remove it because of the `--rm` option) use `docker kill <container id>`
   - get the container id from the output of the run script or with `docker ps`
+  - multiple can be run in parallel in which case the ports are incremented and printed by the script
 - For more info run `./run.sh -h`
 
 ### Working inside the container
@@ -22,9 +23,9 @@ You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` o
 
 Recordings can be modified with the following steps:
 
-1. Get the recording desired as a tsv file: `./get_recording_tsv.sh <simulation>`. Simulation must be a simulation in ./simulations/X/Y.dat
+1. Get the recording desired as a tsv file: `./get_recording_tsv.sh <simulation>`. Simulation must be a simulation in ./simulations/X/\<simulation>.dat
 2. Edit acquired tsv
-3. Recompile the simulation and replace local simulation file with `./recompile_and_replace_simulation.sh <edited_simulation.tsv> <simulation`. Simulation must be the same simulation file as in step 1
+3. Recompile the simulation and replace local simulation file with `./recompile_and_replace_simulation.sh <edited_simulation>.tsv <simulation>` where \<simulation> must be the same simulation file as in step 1
 
 ## Systems (simulations)
 
@@ -189,27 +190,27 @@ Settings:
 
 ## Using venus-docker with a real Venus device
 
-* On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
+- On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
   connections to forwarded ports:
 
       GatewayPorts clientspecified
 
-* Restart openssh to make the above take effect:
+- Restart openssh to make the above take effect:
 
       svc -t /service/openssh
 
-* On the venus device, stop mosquitto:
+- On the venus device, stop mosquitto:
 
       svc -d /service/mosquitto
 
-* On the machine that hosts the venus-docker setup, start a venus-docker
+- On the machine that hosts the venus-docker setup, start a venus-docker
   simulation as you normally would.
 
-* Forward the port to the venus device using ssh. Note the leading `:`:
+- Forward the port to the venus device using ssh. Note the leading `:`:
 
       ssh -R :9001:localhost:9001 root@192.168.22.75
 
-* Browse to the web application: http://192.168.22.75/app
+- Browse to the web application: http://192.168.22.75/app
 
 ## Building dbus-spy
 
@@ -217,10 +218,10 @@ A binary copy of dbus-spy is already included in this repo, but should you need
 to rebuild it, these are the steps:
 
     git clone git@github.com:victronenergy/dbus-spy.git
-	cd dbus-spy
-	git submodule update --init
-	cd ..
-	docker build -f dockerfile.dbus-spy . -t dbus-spy
+    cd dbus-spy
+    git submodule update --init
+    cd ..
+    docker build -f dockerfile.dbus-spy . -t dbus-spy
 
 Then copy dbus-spy out of a throwaway container by first starting a container:
 
@@ -228,4 +229,4 @@ Then copy dbus-spy out of a throwaway container by first starting a container:
 
 Then copy dbus-spy to bin:
 
-	docker cp <container>:/usr/local/bin/dbus-spy bin/dbus-spy
+    docker cp <container>:/usr/local/bin/dbus-spy bin/dbus-spy
