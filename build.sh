@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Update submodules to HEAD one level deep
 git submodule update --init --remote
 
