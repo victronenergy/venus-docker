@@ -43,6 +43,13 @@ And a few more devices, but they won't be connected to Venus:
 1 x BlueSmart 12/30 IP22 (for generators) Which electrical parameters can be monitored with these machines? (device by device) Is it possible to set alarms or change device functions via the interface with Garmin?"
 AC Input 1 & 2 settings are (probably) to be configured as not available; we'll find out once we start working on the gui-overview for this.
 
+Show in html5app:
+
+- battery box
+- dc loads
+- inverter/charger; adjustable mode
+- charger; adjustable mode + current limit
+
 ### B) Single BMV-700
 
 Settings:
@@ -64,8 +71,7 @@ Settings:
 
 Show in html5app:
 
-- main battery box
-- simple battery box with only voltage (the starter battery)
+- battery box
 - dc loads
 
 ### D) Multi + BMV - Off-grid with generator
@@ -81,6 +87,14 @@ Settings:
 - AC input type 2 = Not available
 - DC system disabled
 
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode
+- generator
+
 ### E) Multi + BMV - Boat without generator
 
 VE.Bus:
@@ -93,6 +107,14 @@ Settings:
 - AC input type 1 = Shore
 - AC input type 2 = Not available
 - DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode + input current
+- shore power
 
 ### F) Quattro + BMV - boat with generator - single phase
 
@@ -108,6 +130,15 @@ Settings:
 - AC input type 2 = Shore
 - DC system enabled
 
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode + input current
+- shore power
+- generator
+
 ### G) Charger + BMV - simple boat
 
 Settings:
@@ -116,12 +147,24 @@ Settings:
 - AC input type 2 = not available
 - DC system enabled
 
+Show in html5app:
+
+- battery box
+- dc loads
+- charger; adjustable mode + input current
+
 ### H) VE.Direct Inverter + BMV - typical simple vehicle - only charged from alternator
 
 Settings:
 
 - AC input types both on not available
 - DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
+- inverter; adjustable mode (on/off/eco)
 
 ### I) Quattro without BMV - Hybrid generator - single phase
 
@@ -137,11 +180,25 @@ Settings:
 - AC input type 2 = grid
 - DC system disabled
 
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode + input current
+- grid
+- generator
+
 ### J) 4 x BMV-700
 
 Settings:
 
 - DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
 
 ### K) Quattro without BMV - Hybrid generator - three phase
 
@@ -157,6 +214,14 @@ Settings:
 - AC input type 2 = grid
 - DC system disabled
 
+Show in html5app:
+
+- battery box
+- ac loads
+- inverter/charger; adjustable mode + input current
+- generator; 3-phase
+- grid; 3-phase
+
 ### L) Quattro + BMV - boat with generator - three phase
 
 VE.Bus:
@@ -170,6 +235,15 @@ Settings:
 - AC input type 1 = Generator
 - AC input type 2 = Shore
 - DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode + input current
+- generator; 3-phase
+- shore; 3-phase
 
 ### M) Multi with a VE.Bus BMS
 
@@ -187,6 +261,13 @@ Settings:
 - AC input type 1 = Generator
 - AC input type 2 = Shore
 - DC system disabled
+
+Show in html5app:
+
+- battery box
+- ac loads
+- inverter/charger; read-only mode + input current
+- shore
 
 ## Using venus-docker with a real Venus device
 
