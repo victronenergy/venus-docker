@@ -258,8 +258,8 @@ VE.Bus:
 
 Settings:
 
-- AC input type 1 = Generator
-- AC input type 2 = Shore
+- AC input type 1 = Grid
+- AC input type 2 = Not available
 - DC system disabled
 
 Show in html5app:
