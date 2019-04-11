@@ -30,6 +30,7 @@ sim=${1,,}
 svc -d /service/localsettings
 cp /data/conf/settings.xml.orig /data/conf/settings.xml
 svc -u /service/localsettings
+svc -t /service/dbus-systemcalc-py
 
 # Wait for localsettings
 echo -n "Waiting for localsettings "
