@@ -19,6 +19,33 @@ settings_available() {
         python -c 'import sys, dbus; sys.exit("com.victronenergy.settings" not in dbus.SystemBus().list_names())'
 }
 
+# Handle options
+extra=""
+while :; do
+	case "$1" in
+		"--with-solarcharger")
+			shift
+			extra="$extra /opt/victronenergy/dbus-recorder/solarcharger.dat"
+			;;
+		"--with-pvinverter")
+			shift
+			extra="$extra /opt/victronenergy/dbus-recorder/pvinverter.dat"
+			;;
+		"--with-tanks")
+			shift
+			tanks=(/opt/victronenergy/dbus-recorder/tank_{fwater,fuel,oil,bwater}.dat)
+			extra="$extra ${tanks[@]}"
+			;;
+		-*)
+			help
+			exit 1
+			;;
+		*)
+			break
+			;;
+	esac
+done
+
 if test -z "$1"; then
 	help
 	exit 0
@@ -30,7 +57,6 @@ sim=${1,,}
 svc -d /service/localsettings
 cp /data/conf/settings.xml.orig /data/conf/settings.xml
 svc -u /service/localsettings
-svc -t /service/dbus-systemcalc-py
 
 # Wait for localsettings
 echo -n "Waiting for localsettings "
@@ -52,5 +78,5 @@ echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 else
-  $PLAY $SIMULATIONS/$sim/*.dat
+  $PLAY $SIMULATIONS/$sim/*.dat $extra
 fi

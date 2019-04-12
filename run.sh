@@ -19,6 +19,7 @@ help() {
     available
 }
 POSITIONAL=()
+ARGS=()
 while [[ $# -gt 0 ]]; do
     key="$1"
     
@@ -35,7 +36,11 @@ while [[ $# -gt 0 ]]; do
         --kill)
             KILL=true
             shift # past argument
-        ;;  
+        ;;
+		--with-*)
+			ARGS+=("$1")
+			shift
+		;;
         *)  # unknown option
             POSITIONAL+=("$1")
             shift # past argument
@@ -59,7 +64,7 @@ elif test -z "$SIMULATION"; then
 else
     if test -f simulations/$SIMULATION/setup; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh $SIMULATION
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION
     elif test "$SIMULATION" = "z"; then
         if test "$KILL" = "true"; then kill_others; fi
         docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh z

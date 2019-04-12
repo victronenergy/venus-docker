@@ -15,6 +15,14 @@ Use this docker to run an mqtt broker that serves recorded dbus data. Main use c
   - multiple can be run in parallel in which case the ports are incremented and printed by the script
 - For more info run `./run.sh -h`
 
+### Additional arguments
+
+Additional arguments you can pass to `simulate.sh` or `run.sh` include:
+
+  * `--with-solarcharger`: Add a solarcharger to the simulation
+  * `--with-pvinverter`: Add a pvinverter to the simulation
+  * `--with-tanks`: Add tank sensors to the simulation
+
 ### Working inside the container
 
 You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` or use an mqtt spy application. To change values manually use `mosquitto_pub`, but these values are likely to be overridden by an active recording quite quickly.
