@@ -1,2 +1,8 @@
 com.victronenergy.settings /Settings/SystemSetup/BatteryService default
 com.victronenergy.settings /Settings/SystemSetup/HasDcSystem 1
+com.victronenergy.settings /Settings/SystemSetup/AcInput1 0
+com.victronenergy.settings /Settings/SystemSetup/AcInput2 0
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/Enabled 1
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/Name Main
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/1/Enabled 1
+com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/1/Name Starter
