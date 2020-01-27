@@ -1,0 +1,14 @@
+name: Docker Image
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Docker image
+      run: sh ./build.sh
+    - name: Push to Docker Hub
+      run: |
+        docker tag mqtt victronenergy/venus-docker:latest
+        echo '${{ secrets.DOCKERHUB_TOKEN }}' | docker login --username aleximb --password-stdin
+        docker push victronenergy/venus-docker:latest
