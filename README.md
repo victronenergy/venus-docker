@@ -277,6 +277,16 @@ Show in html5app:
 - inverter/charger; read-only mode + input current
 - shore
 
+### N) Fischer Panda Generator - Genset - three phase
+
+Settings:
+
+- AC input type 1 = Generator
+
+Show in html5app:
+
+- generator control panel
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote

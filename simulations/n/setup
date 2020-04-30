@@ -1,0 +1,3 @@
+com.victronenergy.settings /Settings/SystemSetup/BatteryService default
+com.victronenergy.settings /Settings/SystemSetup/AcInput1 2
+com.victronenergy.settings /Settings/SystemSetup/AcInput2 0
