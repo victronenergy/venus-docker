@@ -7,7 +7,7 @@ COPY venus-html5-app .
 RUN npm run compile 
 
 # Venus-docker build
-FROM ubuntu
+FROM ubuntu:20.04
 WORKDIR /root
 
 RUN apt-get update
