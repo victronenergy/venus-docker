@@ -287,6 +287,8 @@ Show in html5app:
 
 - generator control panel
 
+### O) Quattro + BMV - boat with generator  (single phase) + Fischer Panda Generator (three phase) (Simulations F + N)
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
