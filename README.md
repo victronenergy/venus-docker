@@ -1,10 +1,19 @@
 # Dockerized dbus playback + mqtt service
 
-The purpose of this docker is to facilitate UI development, by being able to simulate
+The purpose of this docker is to facilitate UI development, by being simulating
 real Victron system(s).
 
-It contains recordings of several system types, see below. Once installed you can select
-one of them. That data is then played back on D-Bus and also available on mqtt.
+The type of UI development meant here are UIs that relate to Venus OS: the OS on
+the Victron GX range of monitoring products.
+
+For example the VRM Portal or the HTML5 App.
+
+Within Venus OS, all data readings gathered by the various drivers (canbus, serial,
+and so forth) are made available in its internal databus, D-Bus.
+
+This docker contains D-Bus recordings of several system types, see below. Once installed you can select
+one of them. That data is then played back on D-Bus. Its also available on mqtt, since this
+Docker includes the same D-Bus to MQTT translation service that is also within Venus OS.
 
 The container can simulate different configurations (different sets of devices connected to it)
 of the VenusGX by running different sets of recordings with a simple commandline api.
