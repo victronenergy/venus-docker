@@ -1,6 +1,13 @@
 # Dockerized dbus playback + mqtt service
 
-Use this docker to run an mqtt broker that serves recorded dbus data. Main use case would be to run this instead of having a real Venus GX device or VenusOs running in a raspberry pi, making local development work much easier but also more realistic. The container can run different configurations (different sets of devices connected to it) of the VenusGX by running different sets of recordings with a simple commandline api.
+The purpose of this docker is to facilitate UI development, by being able to simulate
+real Victron system(s).
+
+It contains recordings of several system types, see below. Once installed you can select
+one of them. That data is then played back on D-Bus and also available on mqtt.
+
+The container can simulate different configurations (different sets of devices connected to it)
+of the VenusGX by running different sets of recordings with a simple commandline api.
 
 ## Usage
 
