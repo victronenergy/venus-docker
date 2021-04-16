@@ -305,6 +305,28 @@ Show in html5app:
 
 ### O) Quattro + BMV - boat with generator  (single phase) + Fischer Panda Generator (three phase) (Simulations F + N)
 
+### P) Multi + BMV + tanks - RV with 4 tanks and without generator
+
+VE.Bus:
+
+- CurrentlimitIsAdjustable = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Shore
+- AC input type 2 = Not available
+- DC system enabled
+
+Show in html5app:
+
+- battery box
+- dc loads
+- ac loads
+- inverter/charger; adjustable mode + input current
+- shore power
+- 4 tanks
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
