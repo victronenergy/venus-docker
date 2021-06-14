@@ -327,6 +327,20 @@ Show in html5app:
 - shore power
 - 4 tanks
 
+### Q) Multi + 3 x SmartShunt + Solar - Yacht without generator
+
+VE.Bus:
+
+- CurrentlimitIsAdjustable = true.
+- Mode is adjustable = true.
+
+Settings:
+
+- AC input type 1 = Shore
+- AC input type 2 = Not available
+- DC system enabled
+
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
