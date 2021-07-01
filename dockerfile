@@ -2,9 +2,10 @@
 FROM node:lts-alpine as html5-app
 COPY venus-html5-app/package.json .
 COPY venus-html5-app/package-lock.json .
-RUN npm install --production
+RUN npm install
 COPY venus-html5-app .
-RUN npm run compile 
+ENV PUBLIC_URL=/
+RUN npm run build 
 
 # Venus-docker build
 FROM ubuntu:18.04
