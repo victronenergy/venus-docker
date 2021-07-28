@@ -12,8 +12,8 @@ FROM ubuntu:18.04
 WORKDIR /root
 
 RUN apt-get update
-RUN apt-get install -y python2.7 python-gobject-2
-RUN apt-get install -y python-lxml python-requests python-dbus
+RUN apt-get install -y python3 python3-gi
+RUN apt-get install -y python3-lxml python3-requests python3-dbus python3-paho-mqtt
 RUN apt-get install -y mosquitto mosquitto-clients vim daemontools
 RUN apt-get install -y libqtcore4 libqtdbus4 libncurses5
 RUN apt-get install -y nginx
