@@ -10,7 +10,7 @@ available() {
 
 kill_others() {
     echo "Killing previous dockers:"
-    docker kill $(docker ps -q --filter "ancestor=mqtt")
+    docker ps -q --filter "ancestor=mqtt" | xargs -r docker kill
     echo ""
 }
 
