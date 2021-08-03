@@ -8,4 +8,4 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
-python /opt/victronenergy/dbus-recorder/dbusrecorder.py -p --file=/opt/victronenergy/dbus-recorder/$1 &
+python3 /opt/victronenergy/dbus-recorder/dbusrecorder.py -p --file=/opt/victronenergy/dbus-recorder/$1 &

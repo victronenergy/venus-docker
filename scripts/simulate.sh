@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PLAY="/usr/bin/python /opt/victronenergy/dbus-recorder/play.py"
+PLAY="/usr/bin/python3 /opt/victronenergy/dbus-recorder/play.py"
 DBUS="/usr/bin/dbus"
 RUN_DIR="/root"
 SIMULATIONS="$RUN_DIR/simulations"
@@ -16,7 +16,7 @@ help() {
 }
 
 settings_available() {
-        python -c 'import sys, dbus; sys.exit("com.victronenergy.settings" not in dbus.SystemBus().list_names())'
+        python3 -c 'import sys, dbus; sys.exit("com.victronenergy.settings" not in dbus.SystemBus().list_names())'
 }
 
 # Handle options
