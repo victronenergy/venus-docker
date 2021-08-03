@@ -2,10 +2,10 @@
 # venus-docker repo. This is here in case you ever need to rebuild it. You will
 # need access to the velib repository.
 
-FROM ubuntu
+FROM ubuntu:20.04
 
 RUN apt-get update
-RUN apt-get install -y libqt4-dev libqt4-dev-bin libncurses5-dev make g++
+RUN DEBIAN_FRONTEND="noninteractive" apt-get install -y qtbase5-dev qtchooser qtbase5-dev-tools libncurses-dev make g++
 COPY dbus-spy /root/dbus-spy
 WORKDIR /root/dbus-spy/software
 RUN qmake && make && make install
