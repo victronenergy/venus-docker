@@ -12,7 +12,7 @@
 	url = https://github.com/victronenergy/dbus-systemcalc-py.git
 [submodule "dbus-tools"]
 	path = dbus-tools
-	url = https://github.com/jhofstee/dbus-tools
+	url = https://github.com/victronenergy/dbus-tools
 [submodule "venus-html5-app"]
 	path = venus-html5-app
 	url = https://github.com/victronenergy/venus-html5-app.git
