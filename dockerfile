@@ -36,6 +36,7 @@ COPY dbus-mqtt /opt/victronenergy/dbus-mqtt
 COPY dbus-recorder /opt/victronenergy/dbus-recorder
 COPY settings.xml /data/conf/settings.xml
 COPY settings.xml /data/conf/settings.xml.orig
+COPY version /opt/victronenergy/version
 
 # System service config 
 RUN echo 'listener 9001' >> /etc/mosquitto/mosquitto.conf
