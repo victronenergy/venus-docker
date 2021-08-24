@@ -1,9 +1,10 @@
 #!/bin/bash
 
-# Update submodules to HEAD one level deep
-git submodule update --init --remote
+# Update submodules
+git submodule update --init --recursive
 
-# For each submodule, update nested submodules (not to HEAD).
-git submodule foreach 'git submodule update --init'
+# Update all the submodules and its dependencies
+git submodule foreach git pull --ff origin master --recurse-submodules
 
-docker build . -t mqtt
+# Build a new mqtt Docker image
+docker build . -t mqtt --no-cache
