@@ -5,6 +5,7 @@ COPY venus-html5-app/package-lock.json .
 RUN npm install
 COPY venus-html5-app .
 ENV PUBLIC_URL=/
+ENV REACT_APP_ENABLE_LANG_OVERRIDE=true
 RUN npm run build 
 
 # Venus-docker build
