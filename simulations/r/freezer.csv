@@ -1,0 +1,20 @@
+com.victronenergy.temperature.adc_builtin0_8
+/TemperatureType	INT32	1	1
+/Offset	DOUBLE	0.0	0
+/Scale	DOUBLE	1.0	1
+/Temperature	INT32	-18	-18C
+/RawUnit	STRING	V	V
+/RawValue	DOUBLE	2.930032968521118	3
+/FilterLength	INT32	10	10s
+/CustomName	STRING	Freezer	Freezer
+/Status	UINT32	0	Ok
+/DeviceInstance	UINT32	24	24
+/Connected	UINT32	1	1
+/ProductName	STRING	Generic Temperature Input	Generic Temperature Input
+/ProductId	UINT32	41314	A162
+/Mgmt/Connection	STRING	Temperature input 1	Temperature input 1
+/Mgmt/ProcessVersion	STRING	1.32	1.32
+/Mgmt/ProcessName	STRING	dbus-adc	dbus-adc
+
+0	/RawValue	DOUBLE	2.51	3
+30	/RawValue	DOUBLE	2.52	3
