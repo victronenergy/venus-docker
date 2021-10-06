@@ -78,5 +78,5 @@ echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 else
-  $PLAY $SIMULATIONS/$sim/*.dat $extra
+  $PLAY $SIMULATIONS/$sim/*.dat $SIMULATIONS/$sim/*.csv $extra
 fi
