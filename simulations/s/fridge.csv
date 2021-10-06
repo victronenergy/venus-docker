@@ -1,0 +1,31 @@
+com.victronenergy.temperature.ruuvi_f00f00d00001
+/TemperatureType	INT32	1	1
+/CustomName	STRING	Refrigerator	Refrigerator
+/ProductId	UINT32	49193	C029
+/ProductName	STRING	RuuviTag	RuuviTag
+/DeviceInstance	UINT32	28	28
+/Connected	UINT32	1	1
+/Mgmt/Connection	STRING	Bluetooth LE	Bluetooth LE
+/Mgmt/ProcessVersion	STRING	0.3	0.3
+/Mgmt/ProcessName	STRING	dbus-ble-sensors	dbus-ble-sensors
+/DeviceName	STRING	Ruuvi 41EA	Ruuvi F001
+/SeqNo	UINT32	445	445
+/TxPower	DOUBLE	4.0	4dBm
+/BatteryVoltage	DOUBLE	3.1750001907348633	3.18V
+/AccelZ	DOUBLE	1.0119999647140503	1.01g
+/AccelY	DOUBLE	-0.08399999886751175	-0.08g
+/AccelX	DOUBLE	0.04800000041723251	0.05g
+/Pressure	DOUBLE	100.19400024414062	100.2kPa
+/Humidity	DOUBLE	32.61000061035156	33%
+/Temperature	DOUBLE	4.4	4.4C
+
+0	/Temperature	DOUBLE	4.4	4.4C
+0	/Humidity	DOUBLE	32.60749816894531	33%
+0	/Pressure	DOUBLE	100.19499969482422	100.2kPa
+0	/AccelX	DOUBLE	0.0560000017285347	0.06g
+0	/AccelZ	DOUBLE	1.0240000486373901	1.02g
+30	/Temperature	DOUBLE	4.8	4.8C
+30	/Humidity	DOUBLE	32.60749816894531	32%
+30	/Pressure	DOUBLE	100.19499969482422	100.1kPa
+30	/AccelX	DOUBLE	0.0560000017285347	0.05g
+30	/AccelZ	DOUBLE	1.0240000486373901	1.01g
