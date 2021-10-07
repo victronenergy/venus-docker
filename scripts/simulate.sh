@@ -1,5 +1,7 @@
 #!/bin/bash
 
+shopt -s nullglob
+
 PLAY="/usr/bin/python3 /opt/victronenergy/dbus-recorder/play.py"
 DBUS="/usr/bin/dbus"
 RUN_DIR="/root"
@@ -78,5 +80,5 @@ echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 else
-  $PLAY $SIMULATIONS/$sim/*.dat $SIMULATIONS/$sim/*.csv $extra
+  $PLAY $SIMULATIONS/$sim/*.{dat,csv} $extra
 fi
