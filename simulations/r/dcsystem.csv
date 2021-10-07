@@ -1,0 +1,50 @@
+com.victronenergy.dcsystem.ttyS5
+/Alarms/Alarm	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Connected	UINT32	1	1
+/CustomName	STRING	DC system	DC system
+/Dc/0/Current	DOUBLE	1.0	1.0A
+/Dc/0/Power	DOUBLE	14.0	14W
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Voltage	DOUBLE	13.380000114440918	13.38V
+/Dc/1/Voltage	DOUBLE	0.029999999329447746	0.03V
+/DeviceInstance	UINT32	40	40
+/Devices/0/CustomName	STRING	DC system	DC system
+/Devices/0/DeviceInstance	UINT32	44	44
+/Devices/0/FirmwareVersion	UINT32	1032	v4.08
+/Devices/0/ProductId	UINT32	41857	0xA381
+/Devices/0/ProductName	STRING	BMV-712 Smart	BMV-712 Smart
+/Devices/0/ServiceName	STRING	com.victronenergy.dcsystem.ttyS5	com.victronenergy.dcsystem.ttyS5
+/Devices/0/VregLink	ARRAY	[]	
+/FirmwareVersion	UINT32	1032	v4.08
+/GroupId	ARRAY	[]	
+/HardwareVersion	ARRAY	[]	
+/History/EnergyIn	DOUBLE	0.07000000029802322	0.07kWh
+/History/EnergyOut	DOUBLE	0.0	0.00kWh
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumStarterVoltage	DOUBLE	21.229999542236328	21.23V
+/History/MaximumVoltage	DOUBLE	29.709999084472656	29.71V
+/History/MinimumStarterVoltage	DOUBLE	0.019999999552965164	0.02V
+/History/MinimumVoltage	DOUBLE	13.369999885559082	13.37V
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Mgmt/ProcessVersion	STRING	3.65	3.65
+/ProductId	UINT32	41857	0xA381
+/ProductName	STRING	BMV-712 Smart	BMV-712 Smart
+/Relay/0/State	UINT32	0	0
+/Serial	STRING	HQ1730ZAV8Y	HQ1730ZAV8Y
+/Settings/HasStarterVoltage	UINT32	1	1
+/Settings/HasTemperature	UINT32	0	0
+/Settings/RelayMode	UINT32	2	2
+
+0	/Dc/0/Power	DOUBLE	14.0	14W
+0	/Dc/0/Voltage	DOUBLE	13.369999885559082	13.37V
+0	Dc/0/Current	DOUBLE	1.0	1.0A

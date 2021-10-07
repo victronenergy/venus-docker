@@ -50,8 +50,8 @@ com.victronenergy.battery.ttyUSB0
 /Mgmt/Connection	STRING	USB	USB
 /Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
 /Mgmt/ProcessVersion	STRING	3.65	3.65
-/ProductId	UINT32	515	0x203
-/ProductName	STRING	BMV-700	BMV-700
+/ProductId	UINT32	41865	0xa389
+/ProductName	STRING	SmartShunt 500A/50mV	SmartShunt 500A/50mV
 /Relay/0/State	UINT32	0	0
 /Serial	STRING	HQ1641JEWM5	HQ1641JEWM5
 /Settings/HasMidVoltage	UINT32	0	0
