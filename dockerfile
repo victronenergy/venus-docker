@@ -1,7 +1,10 @@
 # Compile html5 app
-FROM node:lts-alpine as html5-app
+FROM alpine:3.14 as html5-app
 COPY venus-html5-app/package.json .
 COPY venus-html5-app/package-lock.json .
+RUN apk add --no-cache npm
+RUN apk add --no-cache python3
+RUN apk add --no-cache build-base
 RUN npm install
 COPY venus-html5-app .
 ENV PUBLIC_URL=/
