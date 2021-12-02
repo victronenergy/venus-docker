@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Create dummy relays before systemcalc is started
+mkdir -p /dev/gpio/relay_1 && touch /dev/gpio/relay_1/value
+
 service dbus start
 service mosquitto start
 svscan /service &

@@ -35,6 +35,7 @@ COPY localsettings /opt/victronenergy/localsettings
 COPY dbus-systemcalc-py /opt/victronenergy/dbus-systemcalc-py
 COPY dbus-mqtt /opt/victronenergy/dbus-mqtt
 COPY dbus-recorder /opt/victronenergy/dbus-recorder
+COPY dbus_generator /opt/victronenergy/dbus-generator-starter
 COPY settings.xml /data/conf/settings.xml
 COPY settings.xml /data/conf/settings.xml.orig
 COPY version /opt/victronenergy/version

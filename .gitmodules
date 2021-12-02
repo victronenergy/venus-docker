@@ -16,3 +16,6 @@
 [submodule "venus-html5-app"]
 	path = venus-html5-app
 	url = https://github.com/victronenergy/venus-html5-app.git
+[submodule "dbus_generator"]
+	path = dbus_generator
+	url = https://github.com/victronenergy/dbus_generator.git
