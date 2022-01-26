@@ -17,4 +17,4 @@ com.victronenergy.temperature.adc_builtin0_7
 /Mgmt/ProcessName	STRING	dbus-adc	dbus-adc
 
 0	/RawValue	DOUBLE	2.8	3
-30	/RawValue	DOUBLE	2.9	3
+90	/RawValue	DOUBLE	2.9	3
