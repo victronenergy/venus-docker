@@ -31,4 +31,4 @@ com.victronenergy.tank.adc_builtin1_4
 /Status	UINT32	0	Ok
 
 0	/RawValue	DOUBLE	36.673744201660156	37
-30	/RawValue	DOUBLE	36.74984359741211	37
+60	/RawValue	DOUBLE	36.74984359741211	37
