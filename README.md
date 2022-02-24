@@ -340,6 +340,9 @@ Settings:
 - AC input type 2 = Not available
 - DC system enabled
 
+### R) 35ft yacht - 12V MultiPlus 12/1600
+
+### S) 50ft yacht – 24V Quattro 24/5000
 
 ## Using venus-docker with a real Venus device
 
