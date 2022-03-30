@@ -27,15 +27,15 @@ while :; do
 	case "$1" in
 		"--with-solarcharger")
 			shift
-			extra="$extra /opt/victronenergy/dbus-recorder/solarcharger.dat"
+			extra="$extra /opt/victronenergy/dbus-recorder/solarcharger.csv"
 			;;
 		"--with-pvinverter")
 			shift
-			extra="$extra /opt/victronenergy/dbus-recorder/pvinverter.dat"
+			extra="$extra /opt/victronenergy/dbus-recorder/pvinverter.csv"
 			;;
 		"--with-tanks")
 			shift
-			tanks=(/opt/victronenergy/dbus-recorder/tank_{fwater,fuel,oil,bwater}.dat)
+			tanks=(/opt/victronenergy/dbus-recorder/tank_{fwater,fuel,oil,bwater}.csv)
 			extra="$extra ${tanks[@]}"
 			;;
 		-*)
