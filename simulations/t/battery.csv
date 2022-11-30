@@ -1,0 +1,129 @@
+com.victronenergy.battery.ttyO0
+/Alarms/HighTemperature	UINT32	0	0
+/History/MaximumVoltage	DOUBLE	32.3699989319	32.37V
+/History/AutomaticSyncs	UINT32	212	212
+/History/AverageDischarge	DOUBLE	-132.100006104	-132.1Ah
+/History/HighVoltageAlarms	UINT32	0	0
+/HardwareVersion	ARRAY	[]	
+/History/TotalAhDrawn	DOUBLE	-48760.3007812	-48760.3Ah
+/History/DeepestDischarge	DOUBLE	-210.100006104	-210.1Ah
+/Mgmt/ProcessVersion	STRING	3.25	3.25
+/Alarms/Alarm	ARRAY	[]	
+/Alarms/MidVoltage	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/History/ChargeCycles	UINT32	166	166
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/DeviceInstance	UINT32	256	256
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/Alarms/LowStarterVoltage	UINT32	0	0
+/History/MinimumStarterVoltage	DOUBLE	0.0	0.00V
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/TimeToGo	DOUBLE	38039.9960938	38040s
+/Connected	UINT32	1	1
+/Settings/HasTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Relay/0/State	UINT32	0	0
+/Soc	DOUBLE	98.4000015259	98.4%
+/Dc/0/Temperature	ARRAY	[]	
+/History/MaximumStarterVoltage	DOUBLE	16.1000003815	16.10V
+/Dc/0/Voltage	DOUBLE	26.5400009155	26.54V
+/Settings/HasMidVoltage	UINT32	0	0
+/Dc/0/MidVoltageDeviation	ARRAY	[]	
+/Devices/0/VregLink	ARRAY	[]	
+/CustomName	STRING	House battery	House battery
+/FirmwareVersion	UINT32	776	v3.08
+/Dc/1/Voltage	DOUBLE	12.5099999998	12.51V
+/History/TimeSinceLastFullCharge	UINT32	3476	3476s
+/Dc/0/Current	DOUBLE	-15.1000003815	-15.1A
+/History/LastDischarge	DOUBLE	-4.90000009537	-4.9Ah
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MinimumVoltage	DOUBLE	23.7800006866	23.78V
+/ConsumedAmphours	DOUBLE	-5.0	-5.0Ah
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/DischargedEnergy	DOUBLE	1253.89001465	1253.89kWh
+/Dc/0/Power	DOUBLE	-387.484008789	-387W
+/Settings/HasStarterVoltage	UINT32	1	1
+/History/ChargedEnergy	DOUBLE	1216.06994629	1216.07kWh
+/History/FullDischarges	INT32	0	0
+/Serial	STRING	HQ1631Z2PQ3	HQ1631Z2PQ3
+/Alarms/LowSoc	UINT32	0	0
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Dc/0/MidVoltage	ARRAY	[]	
+/ProductId	UINT32	516	0x204
+/ProductName	STRING	BMV-702	BMV-702
+
+6	/History/TimeSinceLastFullCharge	UINT32	3476	3476s
+6	/Dc/0/Power	DOUBLE	-400.753997803	-401W
+6	/Dc/0/Current	DOUBLE	-15.1000003815	-15.1A
+6	/TimeToGo	DOUBLE	37919.9960938	37920s
+6	/History/LastDischarge	DOUBLE	-5.0	-5.0Ah
+6	/History/TimeSinceLastFullCharge	UINT32	3478	3478s
+8	/Dc/0/Power	DOUBLE	-408.716003418	-409W
+8	/Dc/0/Current	DOUBLE	-15.3999996185	-15.4A
+8	/TimeToGo	DOUBLE	37739.9960938	37740s
+10	/History/TimeSinceLastFullCharge	UINT32	3480	3480s
+12	/Dc/0/Power	DOUBLE	-406.062011719	-406W
+12	/Dc/0/Current	DOUBLE	-15.3000001907	-15.3A
+12	/TimeToGo	DOUBLE	37559.9960938	37560s
+14	/History/TimeSinceLastFullCharge	UINT32	3482	3482s
+16	/Dc/0/Power	DOUBLE	-408.716003418	-409W
+16	/Dc/0/Current	DOUBLE	-15.3999996185	-15.4A
+16	/TimeToGo	DOUBLE	37440.0	37440s
+18	/History/TimeSinceLastFullCharge	UINT32	3484	3484s
+20	/Dc/0/Power	DOUBLE	-421.985992432	-422W
+20	/Dc/0/Current	DOUBLE	-15.8999996185	-15.9A
+20	/TimeToGo	DOUBLE	37320.0	37320s
+22	/History/TimeSinceLastFullCharge	UINT32	3486	3486s
+24	/Dc/0/Power	DOUBLE	-440.563995361	-441W
+24	/Dc/0/Current	DOUBLE	-16.6000003815	-16.6A
+24	/TimeToGo	DOUBLE	37080.0	37080s
+24	/Dc/0/Power	DOUBLE	-440.398010254	-440W
+24	/Dc/0/Voltage	DOUBLE	26.5300006866	26.53V
+24	/Dc/1/Voltage	DOUBLE	12.5300006866	12.53V
+26	/History/TimeSinceLastFullCharge	UINT32	3488	3488s
+28	/ConsumedAmphours	DOUBLE	-5.09999990463	-5.1Ah
+28	/Dc/0/Power	DOUBLE	-419.17401123	-419W
+28	/Dc/0/Current	DOUBLE	-15.8000001907	-15.8A
+28	/TimeToGo	DOUBLE	36900.0	36900s
+28	/Dc/0/Power	DOUBLE	-419.332000732	-419W
+28	/Dc/0/Voltage	DOUBLE	26.5400009155	26.54V
+28	/Dc/1/Voltage	DOUBLE	12.5400009155	12.54V
+30	/History/TimeSinceLastFullCharge	UINT32	3490	3490s
+32	/Dc/0/Power	DOUBLE	-411.369995117	-411W
+32	/Dc/0/Current	DOUBLE	-15.5	-15.5A
+32	/TimeToGo	DOUBLE	36780.0	36780s
+34	/History/TotalAhDrawn	DOUBLE	-48760.3984375	-48760.4Ah
+34	/History/TimeSinceLastFullCharge	UINT32	3492	3492s
+36	/Dc/0/Power	DOUBLE	-445.872009277	-446W
+36	/Dc/0/Current	DOUBLE	-16.7999992371	-16.8A
+36	/TimeToGo	DOUBLE	36600.0	36600s
+36	/Dc/0/Power	DOUBLE	-445.70401001	-446W
+36	/Dc/0/Voltage	DOUBLE	26.5300006866	26.53V
+36	/Dc/1/Voltage	DOUBLE	12.5300006866	12.53V
+38	/History/TimeSinceLastFullCharge	UINT32	3494	3494s
+40	/Dc/0/Power	DOUBLE	-421.82699585	-422W
+40	/Dc/0/Current	DOUBLE	-15.8999996185	-15.9A
+40	/Soc	DOUBLE	98.3000030518	98.3%
+40	/TimeToGo	DOUBLE	36420.0	36420s
+42	/History/TimeSinceLastFullCharge	UINT32	3496	3496s
+44	/Dc/0/Power	DOUBLE	-429.786010742	-430W
+44	/Dc/0/Current	DOUBLE	-16.2000007629	-16.2A
+46	/TimeToGo	DOUBLE	36300.0	36300s
+46	/History/TimeSinceLastFullCharge	UINT32	3498	3498s
+48	/Dc/0/Power	DOUBLE	-437.744995117	-438W
+48	/Dc/0/Current	DOUBLE	-16.5	-16.5A
+48	/TimeToGo	DOUBLE	36120.0	36120s
+50	/History/TimeSinceLastFullCharge	UINT32	3500	3500s
+52	/Dc/0/Power	DOUBLE	-413.868011475	-414W
+52	/Dc/0/Current	DOUBLE	-15.6000003815	-15.6A
+52	/TimeToGo	DOUBLE	36000.0	36000s
+54	/History/LastDischarge	DOUBLE	-5.09999990463	-5.1Ah
+54	/History/TimeSinceLastFullCharge	UINT32	3502	3502s
+58	/Dc/0/Power	DOUBLE	-429.786010742	-430W
+58	/Dc/0/Current	DOUBLE	-16.2000007629	-16.2A
+58	/TimeToGo	DOUBLE	35880.0	35880s
+58	/History/TimeSinceLastFullCharge	UINT32	3504	3504s
+60	/Dc/0/Power	DOUBLE	-435.092010498	-435W
+60	/Dc/0/Current	DOUBLE	-16.3999996185	-16.4A
+60	/TimeToGo	DOUBLE	35700.0	35700s
