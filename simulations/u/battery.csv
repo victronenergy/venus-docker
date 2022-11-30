@@ -1,0 +1,125 @@
+com.victronenergy.battery.socketcan_can1_vi0_uc167120
+/Alarms/LowCellVoltage	BYTE	0	0
+/Balancing	BYTE	0	0
+/Capacity	UINT16	200	200Ah
+/Connected	UINT32	1	1
+/ConsumedAmphours	DOUBLE	10.0	10.0Ah
+/CustomName	STRING	Lynx Smart BMS HQ21302VUDQ	
+/Dc/0/Current	DOUBLE	9.2	9.2
+/Dc/0/Power	INT32	238	238W
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Voltage	DOUBLE	26.4	26.4V
+/DeviceInstance	UINT32	0	0
+/Diagnostics/LastErrors/1/Error	BYTE	32	32
+/Diagnostics/LastErrors/1/Time	ARRAY	[]	
+/Diagnostics/LastErrors/2/Error	BYTE	32	32
+/Diagnostics/LastErrors/2/Time	ARRAY	[]	
+/Diagnostics/LastErrors/3/Error	BYTE	0	0
+/Diagnostics/LastErrors/3/Time	ARRAY	[]	
+/Diagnostics/LastErrors/4/Error	BYTE	0	0
+/Diagnostics/LastErrors/4/Time	ARRAY	[]	
+/Diagnostics/ShutDownsDueError	ARRAY	[]	
+/ErrorCode	BYTE	0	0
+/FirmwareVersion	UINT32	66303	v1.02
+/HardwareVersion	ARRAY	[]	
+/History/AutomaticSyncs	INT32	10	10
+/History/AverageDischarge	ARRAY	[]	
+/History/CanBeCleared	UINT32	1	1
+/History/ChargeCycles	INT32	2	2
+/History/ChargedEnergy	DOUBLE	11.4399995803833	11.44kWh
+/History/Clear	ARRAY	[]	
+/History/DeepestDischarge	DOUBLE	-25.0	-25.0Ah
+/History/DischargedEnergy	DOUBLE	8.5	8.50kWh
+/History/FullDischarges	INT32	0	0
+/History/LastDischarge	ARRAY	[]	
+/History/MaximumCellVoltage	ARRAY	[]	
+/History/MaximumTemperature	ARRAY	[]	
+/History/MaximumVoltage	DOUBLE	57.15999984741211	57.16V
+/History/MinimumCellVoltage	ARRAY	[]	
+/History/MinimumTemperature	ARRAY	[]	
+/History/MinimumVoltage	DOUBLE	26.069999694824219	26.07V
+/History/TimeSinceLastFullCharge	ARRAY	[]	
+/History/TotalAhDrawn	DOUBLE	160.8000030517578	160.8Ah
+/Info/BatteryLowVoltage	DOUBLE	41.599998474121094	41.60V
+/Info/MaxChargeCurrent	DOUBLE	50.0	50.0A
+/Info/MaxChargeVoltage	DOUBLE	54.0	54.00V
+/Info/MaxDischargeCurrent	DOUBLE	600.0	600.0A
+/Io/AllowToCharge	BYTE	1	1
+/Io/AllowToDischarge	BYTE	1	1
+/Io/ExternalRelay	ARRAY	[]	
+/Io/ProgrammableContact	ARRAY	[]	
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/Mgmt/ProcessVersion	STRING	2.69	2.69
+/Mode	BYTE	3	3
+/N2kDeviceInstance	UINT32	0	0
+/N2kUniqueNumber	UINT32	167120	167120
+/ProductId	UINT16	41957	0xA3E5
+/ProductName	STRING	Lynx Smart BMS 500	Lynx Smart BMS 500
+/Serial	STRING	0167120 HQ21302VUDQ	0167120 HQ21302VUDQ
+/Settings/Battery/Capacity	UINT16	50	50Ah
+/Settings/Battery/NominalVoltage	BYTE	48	48V
+/Settings/BluetoothMode	BYTE	1	1
+/Settings/HasSettings	UINT32	1	1
+/Settings/HasTemperature	UINT32	1	1
+/Settings/RestoreDefaults	UINT32	0	0
+/Soc	DOUBLE	95.0	95.0%
+/State	ARRAY	[]	
+/System/BatteriesParallel	ARRAY	[]	
+/System/BatteriesSeries	ARRAY	[]	
+/System/MaxCellTemperature	ARRAY	[]	
+/System/MaxCellVoltage	ARRAY	[]	
+/System/MinCellTemperature	ARRAY	[]	
+/System/MinCellVoltage	ARRAY	[]	
+/System/NrOfBatteries	ARRAY	[]	
+/System/NrOfCellsPerBattery	ARRAY	[]	
+/SystemSwitch	BYTE	1	1
+/TimeToGo	ARRAY	[]	
+
+4	/Dc/0/Current	DOUBLE	-9.399999618530273	-9.4A
+24	/Dc/0/Current	DOUBLE	-9.5	-9.5A
+24	/Dc/0/Voltage	DOUBLE	26.390000343322754	26.39V
+30	/Dc/0/Current	DOUBLE	-9.399999618530273	-9.4A
+30	/Dc/0/Voltage	DOUBLE	26.399999618530273	26.40V
+44	/Dc/0/Current	DOUBLE	-9.199999809265137	-9.2A
+44	/Dc/0/Power	INT32	-231	-231W
+49	/Dc/0/Power	INT32	-227	-227W
+57	/Dc/0/Voltage	DOUBLE	26.380000114440918	26.38V
+64	/Dc/0/Current	DOUBLE	55.70000076293945	55.7A
+64	/Dc/0/Voltage	DOUBLE	26.069999694824219	26.07V
+68	/Dc/0/Current	DOUBLE	69.30000305175781	69.3A
+68	/Dc/0/Power	INT32	1901	1901W
+68	/Dc/0/Voltage	DOUBLE	26.180000305175781	26.18V
+73	/Dc/0/Current	DOUBLE	68.0	68.0A
+73	/Dc/0/Power	INT32	2231	2231W
+73	/Dc/0/Voltage	DOUBLE	26.229999542236328	26.23V
+76	/Dc/0/Current	DOUBLE	66.0	66.0A
+76	/Dc/0/Power	INT32	2181	2181W
+76	/Dc/0/Voltage	DOUBLE	26.239999771118164	26.24V
+81	/Dc/0/Current	DOUBLE	60.5	60.5A
+81	/Dc/0/Voltage	DOUBLE	26.25	26.25V
+83	/Dc/0/Power	INT32	2111	2111W
+86	/Dc/0/Current	DOUBLE	56.900001525878906	56.9A
+86	/Dc/0/Power	INT32	1957	1957W
+92	/Dc/0/Current	DOUBLE	-9.0	-9.0A
+92	/Dc/0/Power	INT32	3675	3675W
+92	/Dc/0/Voltage	DOUBLE	26.609999656677246	26.61V
+96	/Dc/0/Current	DOUBLE	55.70000076293945	55.7A
+96	/Dc/0/Voltage	DOUBLE	26.069999694824219	26.07V
+100	/Dc/0/Current	DOUBLE	69.30000305175781	69.3A
+100	/Dc/0/Power	INT32	1901	1901W
+100	/Dc/0/Voltage	DOUBLE	26.180000305175781	26.18V
+105	/Dc/0/Current	DOUBLE	68.0	68.0A
+105	/Dc/0/Power	INT32	2231	2231W
+105	/Dc/0/Voltage	DOUBLE	26.229999542236328	26.23V
+108	/Dc/0/Current	DOUBLE	66.0	66.0A
+108	/Dc/0/Power	INT32	2181	2181W
+108	/Dc/0/Voltage	DOUBLE	26.239999771118164	26.24V
+113	/Dc/0/Current	DOUBLE	60.5	60.5A
+113	/Dc/0/Voltage	DOUBLE	26.25	26.25V
+115	/Dc/0/Power	INT32	2111	2111W
+118	/Dc/0/Current	DOUBLE	56.900001525878906	56.9A
+118	/Dc/0/Power	INT32	1957	1957W
+124	/Dc/0/Current	DOUBLE	-9.0	-9.0A
+124	/Dc/0/Power	INT32	3675	3675W
+124	/Dc/0/Voltage	DOUBLE	26.609999656677246	26.61V

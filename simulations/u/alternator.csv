@@ -1,0 +1,96 @@
+com.victronenergy.alternator.ttyUSB0
+/Alarms/Alarm	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowSoc	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Connected	UINT32	1	1
+/CustomName	STRING		
+/Dc/0/Current	DOUBLE	5.7000000476837158	5.7A
+/Dc/0/Power	DOUBLE	220.76300048828125	230W
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Voltage	DOUBLE	26.390000343322754	26.39V
+/Dc/1/Voltage	ARRAY	[]	
+/DeviceInstance	UINT32	288	288
+/Devices/0/CustomName	STRING		
+/Devices/0/DeviceInstance	UINT32	288	288
+/Devices/0/FirmwareVersion	UINT32	1032	v4.08
+/Devices/0/ProductId	UINT32	45184	0xb080
+/Devices/0/ProductName	STRING	Wakespeed WS500 Alternator Regulator	Wakespeed WS500 Alternator Regulator
+/Devices/0/ServiceName	STRING	com.victronenergy.alternator.ttyUSB0	com.victronenergy.alternator.ttyUSB0
+/Devices/0/VregLink	ARRAY	[]	
+/FirmwareVersion	UINT32	785	v3.11
+/GroupId	ARRAY	[]	
+/HardwareVersion	ARRAY	[]	
+/History/AutomaticSyncs	UINT32	100	100
+/History/AverageDischarge	DOUBLE	-32.79999923706055	-32.8Ah
+/History/ChargeCycles	UINT32	33	33
+/History/ChargedEnergy	DOUBLE	258.3999938964844	258.40kWh
+/History/DeepestDischarge	DOUBLE	-200.8000030517578	-200.8Ah
+/History/DischargedEnergy	DOUBLE	137.61000061035156	137.61kWh
+/History/FullDischarges	UINT32	1	1
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LastDischarge	DOUBLE	-0.800000011920929	-0.8Ah
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumStarterVoltage	ARRAY	[]	
+/History/MaximumVoltage	DOUBLE	17.239999771118164	17.24V
+/History/MinimumStarterVoltage	ARRAY	[]	
+/History/MinimumVoltage	DOUBLE	0.0	0.00V
+/History/TotalAhDrawn	DOUBLE	-10524.599609375	-10524.6Ah
+/Mgmt/Connection	STRING	USB	USB
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Mgmt/ProcessVersion	STRING	3.65	3.65
+/ProductId	UINT32	45184	0xb080
+/ProductName	STRING	Wakespeed WS500 Alternator Regulator	Wakespeed WS500 Alternator Regulator
+/Relay/0/State	UINT32	0	0
+/Serial	STRING	HQ1641JEWM5	HQ1641JEWM5
+/Settings/HasMidVoltage	UINT32	0	0
+/Settings/HasStarterVoltage	UINT32	0	0
+/Settings/HasTemperature	UINT32	0	0
+/Settings/RelayMode	UINT32	2	2
+/Soc	DOUBLE	99.80000305175781	99.8%
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	1	1
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+
+6	/Dc/0/Power	DOUBLE	300.797000885009766	310W
+6	/Dc/0/Current	DOUBLE	20.299999952316284	20.3A
+6	/Dc/0/Power	DOUBLE	300.77400016784668	310W
+6	/Dc/0/Voltage	DOUBLE	26.380000114440918	26.38V
+9	/Dc/0/Power	DOUBLE	220.746000289916992	230W
+9	/Dc/0/Current	DOUBLE	5.7000000476837158	5.7A
+9	/Dc/0/Power	DOUBLE	220.76300048828125	230W
+9	/Dc/0/Voltage	DOUBLE	26.390000343322754	26.39V
+12	/Dc/0/Power	DOUBLE	210.423999786376953	210W
+12	/Dc/0/Current	DOUBLE	5.600000023841858	5.6A
+15	/Dc/0/Power	DOUBLE	200.084999084472656	200W
+15	/Dc/0/Current	DOUBLE	5.5	5.5A
+18	/Dc/0/Power	DOUBLE	210.423999786376953	210W
+18	/Dc/0/Current	DOUBLE	5.600000023841858	5.6A
+27	/Dc/0/Power	DOUBLE	220.76300048828125	230W
+27	/Dc/0/Current	DOUBLE	5.7000000476837158	5.7A
+27	/Dc/0/Power	DOUBLE	220.746000289916992	230W
+27	/Dc/0/Voltage	DOUBLE	26.380000114440918	26.38V
+36	/Dc/0/Power	DOUBLE	210.408000946044922	210W
+36	/Dc/0/Current	DOUBLE	5.600000023841858	5.6A
+39	/Dc/0/Power	DOUBLE	250.422000885009766	250W
+39	/Dc/0/Current	DOUBLE	5.899999976158142	5.9A
+42	/Dc/0/Power	DOUBLE	210.408000946044922	210W
+42	/Dc/0/Current	DOUBLE	5.600000023841858	5.6A
+48	/Dc/0/Power	DOUBLE	220.746000289916992	230W
+48	/Dc/0/Current	DOUBLE	5.7000000476837158	5.7A
+51	/Dc/0/Power	DOUBLE	210.408000946044922	210W
+51	/Dc/0/Current	DOUBLE	5.600000023841858	5.6A
+54	/Dc/0/Power	DOUBLE	220.746000289916992	230W
+54	/Dc/0/Current	DOUBLE	5.7000000476837158	5.7A
+60	/Dc/0/Power	DOUBLE	240.083999633789062	240W
+60	/Dc/0/Current	DOUBLE	5.7999999523162842	5.8A
+60	/Soc	DOUBLE	99.69999694824219	99.7%
