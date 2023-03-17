@@ -1,0 +1,220 @@
+com.victronenergy.battery.ttyO0
+/Alarms/HighTemperature	UINT32	0	0
+/History/MaximumVoltage	DOUBLE	32.3699989319	32.37V
+/History/AutomaticSyncs	UINT32	212	212
+/History/AverageDischarge	DOUBLE	-132.100006104	-132.1Ah
+/History/HighVoltageAlarms	UINT32	0	0
+/HardwareVersion	ARRAY	[]	
+/History/TotalAhDrawn	DOUBLE	-48760.3007812	-48760.3Ah
+/History/DeepestDischarge	DOUBLE	-210.100006104	-210.1Ah
+/Mgmt/ProcessVersion	STRING	3.25	3.25
+/Alarms/Alarm	ARRAY	[]	
+/Alarms/MidVoltage	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/History/ChargeCycles	UINT32	166	166
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/DeviceInstance	UINT32	256	256
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/Alarms/LowStarterVoltage	UINT32	0	0
+/History/MinimumStarterVoltage	DOUBLE	0.0	0.00V
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/TimeToGo	DOUBLE	38039.9960938	38040s
+/Connected	UINT32	1	1
+/Settings/HasTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Relay/0/State	UINT32	0	0
+/Soc	DOUBLE	98.4000015259	98.4%
+/Dc/0/Temperature	ARRAY	[]	
+/History/MaximumStarterVoltage	DOUBLE	16.1000003815	16.10V
+/Dc/0/Voltage	DOUBLE	24.3	24.30V
+/Settings/HasMidVoltage	UINT32	0	0
+/Dc/0/MidVoltageDeviation	ARRAY	[]	
+/Devices/0/VregLink	ARRAY	[]	
+/CustomName	STRING	House battery	House battery
+/FirmwareVersion	UINT32	776	v3.08
+/Dc/1/Voltage	DOUBLE	25.1	25.1V
+/History/TimeSinceLastFullCharge	UINT32	3476	3476s
+/Dc/0/Current	DOUBLE	-3.6	-3.6A
+/History/LastDischarge	DOUBLE	-4.90000009537	-4.9Ah
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MinimumVoltage	DOUBLE	23.7800006866	23.78V
+/ConsumedAmphours	DOUBLE	-5.0	-5.0Ah
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/DischargedEnergy	DOUBLE	1253.89001465	1253.89kWh
+/Dc/0/Power	DOUBLE	-87.48	-87W
+/Settings/HasStarterVoltage	UINT32	1	1
+/History/ChargedEnergy	DOUBLE	1216.06994629	1216.07kWh
+/History/FullDischarges	INT32	0	0
+/Serial	STRING	HQ1631Z2PQ3	HQ1631Z2PQ3
+/Alarms/LowSoc	UINT32	0	0
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Dc/0/MidVoltage	ARRAY	[]	
+/ProductId	UINT32	516	0x204
+/ProductName	STRING	BMV-702	BMV-702
+
+1	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+1	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+1	/Dc/0/Power	DOUBLE	-85.4	-85W
+2	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+2	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+2	/Dc/0/Power	DOUBLE	-83.3	-83W
+3	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+3	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+3	/Dc/0/Power	DOUBLE	-85.4	-85W
+4	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+4	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+4	/Dc/0/Power	DOUBLE	-87.48	-87W
+5	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+5	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+5	/Dc/0/Power	DOUBLE	-89.54	-90W
+6	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+6	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+6	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+7	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+7	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+7	/Dc/0/Power	DOUBLE	-89.54	-90W
+8	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+8	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+8	/Dc/0/Power	DOUBLE	-87.48	-87W
+9	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+9	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+9	/Dc/0/Power	DOUBLE	-85.4	-85W
+10	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+10	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+10	/Dc/0/Power	DOUBLE	-83.3	-83W
+11	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+11	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+11	/Dc/0/Power	DOUBLE	-85.4	-85W
+12	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+12	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+12	/Dc/0/Power	DOUBLE	-87.48	-87W
+13	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+13	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+13	/Dc/0/Power	DOUBLE	-89.54	-90W
+14	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+14	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+14	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+15	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+15	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+15	/Dc/0/Power	DOUBLE	-89.54	-90W
+16	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+16	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+16	/Dc/0/Power	DOUBLE	-87.48	-87W
+17	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+17	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+17	/Dc/0/Power	DOUBLE	-85.4	-85W
+18	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+18	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+18	/Dc/0/Power	DOUBLE	-83.3	-83W
+19	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+19	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+19	/Dc/0/Power	DOUBLE	-85.4	-85W
+20	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+20	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+20	/Dc/0/Power	DOUBLE	-87.48	-87W
+21	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+21	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+21	/Dc/0/Power	DOUBLE	-89.54	-90W
+22	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+22	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+22	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+23	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+23	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+23	/Dc/0/Power	DOUBLE	-89.54	-90W
+24	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+24	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+24	/Dc/0/Power	DOUBLE	-87.48	-87W
+25	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+25	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+25	/Dc/0/Power	DOUBLE	-85.4	-85W
+26	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+26	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+26	/Dc/0/Power	DOUBLE	-83.3	-83W
+27	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+27	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+27	/Dc/0/Power	DOUBLE	-85.4	-85W
+28	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+28	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+28	/Dc/0/Power	DOUBLE	-87.48	-87W
+29	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+29	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+29	/Dc/0/Power	DOUBLE	-89.54	-90W
+30	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+30	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+30	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+31	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+31	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+31	/Dc/0/Power	DOUBLE	-89.54	-90W
+32	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+32	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+32	/Dc/0/Power	DOUBLE	-87.48	-87W
+33	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+33	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+33	/Dc/0/Power	DOUBLE	-85.4	-85W
+34	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+34	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+34	/Dc/0/Power	DOUBLE	-83.3	-83W
+35	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+35	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+35	/Dc/0/Power	DOUBLE	-85.4	-85W
+36	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+36	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+36	/Dc/0/Power	DOUBLE	-87.48	-87W
+37	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+37	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+37	/Dc/0/Power	DOUBLE	-89.54	-90W
+38	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+38	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+38	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+39	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+39	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+39	/Dc/0/Power	DOUBLE	-89.54	-90W
+40	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+40	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+40	/Dc/0/Power	DOUBLE	-87.48	-87W
+41	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+41	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+41	/Dc/0/Power	DOUBLE	-85.4	-85W
+42	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+42	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+42	/Dc/0/Power	DOUBLE	-83.3	-83W
+43	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+43	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+43	/Dc/0/Power	DOUBLE	-85.4	-85W
+44	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+44	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+44	/Dc/0/Power	DOUBLE	-87.48	-87W
+45	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+45	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+45	/Dc/0/Power	DOUBLE	-89.54	-90W
+46	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+46	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+46	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+47	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+47	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+47	/Dc/0/Power	DOUBLE	-89.54	-90W
+48	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+48	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+48	/Dc/0/Power	DOUBLE	-87.48	-87W
+49	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+49	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+49	/Dc/0/Power	DOUBLE	-85.4	-85W
+50	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+50	/Dc/0/Current	DOUBLE	-3.4	-3.4A
+50	/Dc/0/Power	DOUBLE	-83.3	-83W
+51	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+51	/Dc/0/Current	DOUBLE	-3.5	-3.5A
+51	/Dc/0/Power	DOUBLE	-85.4	-85W
+52	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+52	/Dc/0/Current	DOUBLE	-3.6	-3.6A
+52	/Dc/0/Power	DOUBLE	-87.48	-87W
+53	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+53	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+53	/Dc/0/Power	DOUBLE	-89.54	-90W
+54	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+54	/Dc/0/Current	DOUBLE	-3.8000000000000003	-3.8A
+54	/Dc/0/Power	DOUBLE	-91.58000000000001	-92W
+55	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+55	/Dc/0/Current	DOUBLE	-3.7	-3.7A
+55	/Dc/0/Power	DOUBLE	-89.54	-90W

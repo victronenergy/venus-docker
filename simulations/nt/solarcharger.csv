@@ -1,0 +1,745 @@
+com.victronenergy.solarcharger.ttyO0
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/Mgmt/ProcessVersion	STRING	3.65	3.65
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Load/State	UINT32	1	1
+/Link/BatteryCurrent	ARRAY	[]	
+/Link/ChargeCurrent	ARRAY	[]	
+/Link/ChargeVoltage	DOUBLE	14.199999809265137	14.20V
+/Link/TemperatureSense	ARRAY	[]	
+/Link/VoltageSense	DOUBLE	26.399999618530273	26.40V
+/Link/TemperatureSenseActive	BYTE	0	0
+/Link/VoltageSenseActive	BYTE	1	1
+/Link/NetworkStatus	UINT32	0	0
+/Link/NetworkMode	UINT32	5	5
+/Pv/V	DOUBLE	49.7	49.70V
+/Mode	UINT32	1	1
+/MppOperationMode	UINT32	2	2
+/DeviceOffReason	UINT32	0	0
+/Capabilities/Capabilities1	UINT32	134868854	134868854
+/Settings/BmsPresent	UINT32	0	0
+/Settings/ChargeCurrentLimit	DOUBLE	35.0	35.0A
+/History/Overall/DaysAvailable	INT32	31	31
+/History/Overall/LastError4	INT32	0	0
+/History/Overall/LastError3	INT32	0	0
+/History/Overall/LastError2	INT32	0	0
+/History/Overall/LastError1	INT32	67	67
+/History/Overall/MinBatteryVoltage	DOUBLE	8.520000457763672	8.52V
+/History/Overall/MaxBatteryVoltage	DOUBLE	16.700000762939453	16.70V
+/History/Overall/MaxPvVoltage	DOUBLE	51.61000061035156	51.61V
+/History/Daily/30/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/30/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/30/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/30/LastError4	INT32	0	0
+/History/Daily/30/LastError3	INT32	0	0
+/History/Daily/30/LastError2	INT32	0	0
+/History/Daily/30/LastError1	INT32	0	0
+/History/Daily/30/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/30/MaxPower	DOUBLE	34.0	34W
+/History/Daily/30/MaxBatteryCurrent	DOUBLE	2.5	2.5A
+/History/Daily/30/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/30/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/30/Consumption	ARRAY	[]	
+/History/Daily/30/Yield	DOUBLE	0.03999999910593033	0.04kWh
+/History/Daily/30/Nr	INT32	148	148
+/History/Daily/29/TimeInFloat	DOUBLE	1.0	1s
+/History/Daily/29/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/29/TimeInBulk	DOUBLE	1436.0	1436s
+/History/Daily/29/LastError4	INT32	0	0
+/History/Daily/29/LastError3	INT32	0	0
+/History/Daily/29/LastError2	INT32	0	0
+/History/Daily/29/LastError1	INT32	0	0
+/History/Daily/29/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/29/MaxPower	DOUBLE	31.0	31W
+/History/Daily/29/MaxBatteryCurrent	DOUBLE	2.200000047683716	2.2A
+/History/Daily/29/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/29/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/29/Consumption	ARRAY	[]	
+/History/Daily/29/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/29/Nr	INT32	149	149
+/History/Daily/28/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/28/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/28/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/28/LastError4	INT32	0	0
+/History/Daily/28/LastError3	INT32	0	0
+/History/Daily/28/LastError2	INT32	0	0
+/History/Daily/28/LastError1	INT32	0	0
+/History/Daily/28/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/28/MaxPower	DOUBLE	38.0	38W
+/History/Daily/28/MaxBatteryCurrent	DOUBLE	2.700000047683716	2.7A
+/History/Daily/28/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/28/MaxBatteryVoltage	DOUBLE	26.539999961853027	26.54V
+/History/Daily/28/Consumption	ARRAY	[]	
+/History/Daily/28/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/28/Nr	INT32	150	150
+/History/Daily/27/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/27/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/27/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/27/LastError4	INT32	0	0
+/History/Daily/27/LastError3	INT32	0	0
+/History/Daily/27/LastError2	INT32	0	0
+/History/Daily/27/LastError1	INT32	0	0
+/History/Daily/27/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/27/MaxPower	DOUBLE	33.0	33W
+/History/Daily/27/MaxBatteryCurrent	DOUBLE	2.299999952316284	2.3A
+/History/Daily/27/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/27/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/27/Consumption	ARRAY	[]	
+/History/Daily/27/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/27/Nr	INT32	151	151
+/History/Daily/26/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/26/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/26/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/26/LastError4	INT32	0	0
+/History/Daily/26/LastError3	INT32	0	0
+/History/Daily/26/LastError2	INT32	0	0
+/History/Daily/26/LastError1	INT32	0	0
+/History/Daily/26/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/26/MaxPower	DOUBLE	239.0	239W
+/History/Daily/26/MaxBatteryCurrent	DOUBLE	16.5	16.5A
+/History/Daily/26/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/26/MaxBatteryVoltage	DOUBLE	14.220000267028809	14.22V
+/History/Daily/26/Consumption	ARRAY	[]	
+/History/Daily/26/Yield	DOUBLE	0.07000000029802322	0.07kWh
+/History/Daily/26/Nr	INT32	152	152
+/History/Daily/25/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/25/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/25/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/25/LastError4	INT32	0	0
+/History/Daily/25/LastError3	INT32	0	0
+/History/Daily/25/LastError2	INT32	0	0
+/History/Daily/25/LastError1	INT32	0	0
+/History/Daily/25/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/25/MaxPower	DOUBLE	34.0	34W
+/History/Daily/25/MaxBatteryCurrent	DOUBLE	2.4000000953674316	2.4A
+/History/Daily/25/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/25/MaxBatteryVoltage	DOUBLE	26.520000457763672	26.52V
+/History/Daily/25/Consumption	ARRAY	[]	
+/History/Daily/25/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/25/Nr	INT32	153	153
+/History/Daily/24/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/24/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/24/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/24/LastError4	INT32	0	0
+/History/Daily/24/LastError3	INT32	0	0
+/History/Daily/24/LastError2	INT32	0	0
+/History/Daily/24/LastError1	INT32	0	0
+/History/Daily/24/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/24/MaxPower	DOUBLE	47.0	47W
+/History/Daily/24/MaxBatteryCurrent	DOUBLE	3.299999952316284	3.3A
+/History/Daily/24/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/24/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/24/Consumption	ARRAY	[]	
+/History/Daily/24/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/24/Nr	INT32	154	154
+/History/Daily/23/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/23/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/23/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/23/LastError4	INT32	0	0
+/History/Daily/23/LastError3	INT32	0	0
+/History/Daily/23/LastError2	INT32	0	0
+/History/Daily/23/LastError1	INT32	0	0
+/History/Daily/23/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/23/MaxPower	DOUBLE	34.0	34W
+/History/Daily/23/MaxBatteryCurrent	DOUBLE	2.5	2.5A
+/History/Daily/23/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/23/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/23/Consumption	ARRAY	[]	
+/History/Daily/23/Yield	DOUBLE	0.029999999329447746	0.03kWh
+/History/Daily/23/Nr	INT32	155	155
+/History/Daily/22/TimeInFloat	DOUBLE	2.0	2s
+/History/Daily/22/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/22/TimeInBulk	DOUBLE	1436.0	1436s
+/History/Daily/22/LastError4	INT32	0	0
+/History/Daily/22/LastError3	INT32	0	0
+/History/Daily/22/LastError2	INT32	0	0
+/History/Daily/22/LastError1	INT32	0	0
+/History/Daily/22/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/22/MaxPower	DOUBLE	35.0	35W
+/History/Daily/22/MaxBatteryCurrent	DOUBLE	2.5	2.5A
+/History/Daily/22/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/22/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/22/Consumption	ARRAY	[]	
+/History/Daily/22/Yield	DOUBLE	0.07000000029802322	0.07kWh
+/History/Daily/22/Nr	INT32	156	156
+/History/Daily/21/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/21/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/21/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/21/LastError4	INT32	0	0
+/History/Daily/21/LastError3	INT32	0	0
+/History/Daily/21/LastError2	INT32	0	0
+/History/Daily/21/LastError1	INT32	0	0
+/History/Daily/21/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/21/MaxPower	DOUBLE	34.0	34W
+/History/Daily/21/MaxBatteryCurrent	DOUBLE	2.4000000953674316	2.4A
+/History/Daily/21/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/21/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/21/Consumption	ARRAY	[]	
+/History/Daily/21/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/21/Nr	INT32	157	157
+/History/Daily/20/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/20/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/20/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/20/LastError4	INT32	0	0
+/History/Daily/20/LastError3	INT32	0	0
+/History/Daily/20/LastError2	INT32	0	0
+/History/Daily/20/LastError1	INT32	0	0
+/History/Daily/20/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/20/MaxPower	DOUBLE	36.0	36W
+/History/Daily/20/MaxBatteryCurrent	DOUBLE	2.5999999046325684	2.6A
+/History/Daily/20/MinBatteryVoltage	DOUBLE	26.449999809265137	26.45V
+/History/Daily/20/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/20/Consumption	ARRAY	[]	
+/History/Daily/20/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/20/Nr	INT32	158	158
+/History/Daily/19/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/19/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/19/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/19/LastError4	INT32	0	0
+/History/Daily/19/LastError3	INT32	0	0
+/History/Daily/19/LastError2	INT32	0	0
+/History/Daily/19/LastError1	INT32	0	0
+/History/Daily/19/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/19/MaxPower	DOUBLE	214.0	214W
+/History/Daily/19/MaxBatteryCurrent	DOUBLE	14.5	14.5A
+/History/Daily/19/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/19/MaxBatteryVoltage	DOUBLE	14.220000267028809	14.22V
+/History/Daily/19/Consumption	ARRAY	[]	
+/History/Daily/19/Yield	DOUBLE	0.09000000357627869	0.09kWh
+/History/Daily/19/Nr	INT32	159	159
+/History/Daily/18/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/18/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/18/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/18/LastError4	INT32	0	0
+/History/Daily/18/LastError3	INT32	0	0
+/History/Daily/18/LastError2	INT32	0	0
+/History/Daily/18/LastError1	INT32	0	0
+/History/Daily/18/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/18/MaxPower	DOUBLE	34.0	34W
+/History/Daily/18/MaxBatteryCurrent	DOUBLE	2.4000000953674316	2.4A
+/History/Daily/18/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/18/MaxBatteryVoltage	DOUBLE	26.520000457763672	26.52V
+/History/Daily/18/Consumption	ARRAY	[]	
+/History/Daily/18/Yield	DOUBLE	0.03999999910593033	0.04kWh
+/History/Daily/18/Nr	INT32	160	160
+/History/Daily/17/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/17/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/17/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/17/LastError4	INT32	0	0
+/History/Daily/17/LastError3	INT32	0	0
+/History/Daily/17/LastError2	INT32	0	0
+/History/Daily/17/LastError1	INT32	0	0
+/History/Daily/17/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/17/MaxPower	DOUBLE	36.0	36W
+/History/Daily/17/MaxBatteryCurrent	DOUBLE	2.5999999046325684	2.6A
+/History/Daily/17/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/17/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/17/Consumption	ARRAY	[]	
+/History/Daily/17/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/17/Nr	INT32	161	161
+/History/Daily/16/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/16/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/16/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/16/LastError4	INT32	0	0
+/History/Daily/16/LastError3	INT32	0	0
+/History/Daily/16/LastError2	INT32	0	0
+/History/Daily/16/LastError1	INT32	0	0
+/History/Daily/16/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/16/MaxPower	DOUBLE	36.0	36W
+/History/Daily/16/MaxBatteryCurrent	DOUBLE	2.5999999046325684	2.6A
+/History/Daily/16/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/16/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/16/Consumption	ARRAY	[]	
+/History/Daily/16/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/16/Nr	INT32	162	162
+/History/Daily/15/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/15/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/15/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/15/LastError4	INT32	0	0
+/History/Daily/15/LastError3	INT32	0	0
+/History/Daily/15/LastError2	INT32	0	0
+/History/Daily/15/LastError1	INT32	0	0
+/History/Daily/15/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/15/MaxPower	DOUBLE	43.0	43W
+/History/Daily/15/MaxBatteryCurrent	DOUBLE	3.0	3.0A
+/History/Daily/15/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/15/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/15/Consumption	ARRAY	[]	
+/History/Daily/15/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/15/Nr	INT32	163	163
+/History/Daily/14/TimeInFloat	DOUBLE	1.0	1s
+/History/Daily/14/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/14/TimeInBulk	DOUBLE	1437.0	1437s
+/History/Daily/14/LastError4	INT32	0	0
+/History/Daily/14/LastError3	INT32	0	0
+/History/Daily/14/LastError2	INT32	0	0
+/History/Daily/14/LastError1	INT32	0	0
+/History/Daily/14/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/14/MaxPower	DOUBLE	36.0	36W
+/History/Daily/14/MaxBatteryCurrent	DOUBLE	2.5999999046325684	2.6A
+/History/Daily/14/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/14/MaxBatteryVoltage	DOUBLE	26.539999961853027	26.54V
+/History/Daily/14/Consumption	ARRAY	[]	
+/History/Daily/14/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/14/Nr	INT32	164	164
+/History/Daily/13/TimeInFloat	DOUBLE	1.0	1s
+/History/Daily/13/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/13/TimeInBulk	DOUBLE	1437.0	1437s
+/History/Daily/13/LastError4	INT32	0	0
+/History/Daily/13/LastError3	INT32	0	0
+/History/Daily/13/LastError2	INT32	0	0
+/History/Daily/13/LastError1	INT32	0	0
+/History/Daily/13/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/13/MaxPower	DOUBLE	58.0	58W
+/History/Daily/13/MaxBatteryCurrent	DOUBLE	4.099999904632568	4.1A
+/History/Daily/13/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/13/MaxBatteryVoltage	DOUBLE	26.609999656677246	26.61V
+/History/Daily/13/Consumption	ARRAY	[]	
+/History/Daily/13/Yield	DOUBLE	0.9800000190734863	0.98kWh
+/History/Daily/13/Nr	INT32	165	165
+/History/Daily/12/TimeInFloat	DOUBLE	959.0	959s
+/History/Daily/12/TimeInAbsorption	DOUBLE	49.0	49s
+/History/Daily/12/TimeInBulk	DOUBLE	110.0	110s
+/History/Daily/12/LastError4	INT32	0	0
+/History/Daily/12/LastError3	INT32	0	0
+/History/Daily/12/LastError2	INT32	0	0
+/History/Daily/12/LastError1	INT32	0	0
+/History/Daily/12/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/12/MaxPower	DOUBLE	421.0	421W
+/History/Daily/12/MaxBatteryCurrent	DOUBLE	28.799999237060547	28.8A
+/History/Daily/12/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/12/MaxBatteryVoltage	DOUBLE	14.40999984741211	14.41V
+/History/Daily/12/Consumption	ARRAY	[]	
+/History/Daily/12/Yield	DOUBLE	0.14000000059604645	0.14kWh
+/History/Daily/12/Nr	INT32	166	166
+/History/Daily/11/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/11/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/11/TimeInBulk	DOUBLE	0.0	0s
+/History/Daily/11/LastError4	INT32	0	0
+/History/Daily/11/LastError3	INT32	0	0
+/History/Daily/11/LastError2	INT32	0	0
+/History/Daily/11/LastError1	INT32	0	0
+/History/Daily/11/MaxPvVoltage	DOUBLE	0.019999999552965164	0.02V
+/History/Daily/11/MaxPower	DOUBLE	0.0	0W
+/History/Daily/11/MaxBatteryCurrent	DOUBLE	0.0	0.0A
+/History/Daily/11/MinBatteryVoltage	DOUBLE	26.460000038146973	26.46V
+/History/Daily/11/MaxBatteryVoltage	DOUBLE	14.210000038146973	14.21V
+/History/Daily/11/Consumption	ARRAY	[]	
+/History/Daily/11/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/11/Nr	INT32	167	167
+/History/Daily/10/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/10/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/10/TimeInBulk	DOUBLE	0.0	0s
+/History/Daily/10/LastError4	INT32	0	0
+/History/Daily/10/LastError3	INT32	0	0
+/History/Daily/10/LastError2	INT32	0	0
+/History/Daily/10/LastError1	INT32	0	0
+/History/Daily/10/MaxPvVoltage	DOUBLE	0.019999999552965164	0.02V
+/History/Daily/10/MaxPower	DOUBLE	0.0	0W
+/History/Daily/10/MaxBatteryCurrent	DOUBLE	0.0	0.0A
+/History/Daily/10/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/10/MaxBatteryVoltage	DOUBLE	26.510000228881836	26.51V
+/History/Daily/10/Consumption	ARRAY	[]	
+/History/Daily/10/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/10/Nr	INT32	168	168
+/History/Daily/9/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/9/TimeInAbsorption	DOUBLE	12.0	12s
+/History/Daily/9/TimeInBulk	DOUBLE	8.0	8s
+/History/Daily/9/LastError4	INT32	0	0
+/History/Daily/9/LastError3	INT32	0	0
+/History/Daily/9/LastError2	INT32	0	0
+/History/Daily/9/LastError1	INT32	0	0
+/History/Daily/9/MaxPvVoltage	DOUBLE	50.060001373291016	50.06V
+/History/Daily/9/MaxPower	DOUBLE	456.0	456W
+/History/Daily/9/MaxBatteryCurrent	DOUBLE	33.20000076293945	33.2A
+/History/Daily/9/MinBatteryVoltage	DOUBLE	26.460000038146973	26.46V
+/History/Daily/9/MaxBatteryVoltage	DOUBLE	14.4399995803833	14.44V
+/History/Daily/9/Consumption	ARRAY	[]	
+/History/Daily/9/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/9/Nr	INT32	169	169
+/History/Daily/8/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/8/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/8/TimeInBulk	DOUBLE	1436.0	1436s
+/History/Daily/8/LastError4	INT32	0	0
+/History/Daily/8/LastError3	INT32	0	0
+/History/Daily/8/LastError2	INT32	0	0
+/History/Daily/8/LastError1	INT32	0	0
+/History/Daily/8/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/8/MaxPower	DOUBLE	468.0	468W
+/History/Daily/8/MaxBatteryCurrent	DOUBLE	34.0	34.0A
+/History/Daily/8/MinBatteryVoltage	DOUBLE	26.420000076293945	26.42V
+/History/Daily/8/MaxBatteryVoltage	DOUBLE	14.25	14.25V
+/History/Daily/8/Consumption	ARRAY	[]	
+/History/Daily/8/Yield	DOUBLE	1.8899999856948853	1.89kWh
+/History/Daily/8/Nr	INT32	170	170
+/History/Daily/7/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/7/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/7/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/7/LastError4	INT32	0	0
+/History/Daily/7/LastError3	INT32	0	0
+/History/Daily/7/LastError2	INT32	0	0
+/History/Daily/7/LastError1	INT32	0	0
+/History/Daily/7/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/7/MaxPower	DOUBLE	466.0	466W
+/History/Daily/7/MaxBatteryCurrent	DOUBLE	34.599998474121094	34.6A
+/History/Daily/7/MinBatteryVoltage	DOUBLE	26.460000038146973	26.46V
+/History/Daily/7/MaxBatteryVoltage	DOUBLE	14.390000343322754	14.39V
+/History/Daily/7/Consumption	ARRAY	[]	
+/History/Daily/7/Yield	DOUBLE	1.340000033378601	1.34kWh
+/History/Daily/7/Nr	INT32	171	171
+/History/Daily/6/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/6/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/6/TimeInBulk	DOUBLE	1438.0	1438s
+/History/Daily/6/LastError4	INT32	0	0
+/History/Daily/6/LastError3	INT32	0	0
+/History/Daily/6/LastError2	INT32	0	0
+/History/Daily/6/LastError1	INT32	0	0
+/History/Daily/6/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/6/MaxPower	DOUBLE	394.0	394W
+/History/Daily/6/MaxBatteryCurrent	DOUBLE	27.0	27.0A
+/History/Daily/6/MinBatteryVoltage	DOUBLE	26.479999542236328	26.48V
+/History/Daily/6/MaxBatteryVoltage	DOUBLE	14.40999984741211	14.41V
+/History/Daily/6/Consumption	ARRAY	[]	
+/History/Daily/6/Yield	DOUBLE	0.07999999821186066	0.08kWh
+/History/Daily/6/Nr	INT32	172	172
+/History/Daily/5/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/5/TimeInAbsorption	DOUBLE	1.0	1s
+/History/Daily/5/TimeInBulk	DOUBLE	1435.0	1435s
+/History/Daily/5/LastError4	INT32	0	0
+/History/Daily/5/LastError3	INT32	0	0
+/History/Daily/5/LastError2	INT32	0	0
+/History/Daily/5/LastError1	INT32	0	0
+/History/Daily/5/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/5/MaxPower	DOUBLE	403.0	403W
+/History/Daily/5/MaxBatteryCurrent	DOUBLE	27.600000381469727	27.6A
+/History/Daily/5/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/5/MaxBatteryVoltage	DOUBLE	14.430000305175781	14.43V
+/History/Daily/5/Consumption	ARRAY	[]	
+/History/Daily/5/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/5/Nr	INT32	173	173
+/History/Daily/4/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/4/TimeInAbsorption	DOUBLE	1.0	1s
+/History/Daily/4/TimeInBulk	DOUBLE	1437.0	1437s
+/History/Daily/4/LastError4	INT32	0	0
+/History/Daily/4/LastError3	INT32	0	0
+/History/Daily/4/LastError2	INT32	0	0
+/History/Daily/4/LastError1	INT32	0	0
+/History/Daily/4/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/4/MaxPower	DOUBLE	371.0	371W
+/History/Daily/4/MaxBatteryCurrent	DOUBLE	25.5	25.5A
+/History/Daily/4/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/4/MaxBatteryVoltage	DOUBLE	14.40999984741211	14.41V
+/History/Daily/4/Consumption	ARRAY	[]	
+/History/Daily/4/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/4/Nr	INT32	174	174
+/History/Daily/3/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/3/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/3/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/3/LastError4	INT32	0	0
+/History/Daily/3/LastError3	INT32	0	0
+/History/Daily/3/LastError2	INT32	0	0
+/History/Daily/3/LastError1	INT32	0	0
+/History/Daily/3/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/3/MaxPower	DOUBLE	33.0	33W
+/History/Daily/3/MaxBatteryCurrent	DOUBLE	2.299999952316284	2.3A
+/History/Daily/3/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/3/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/3/Consumption	ARRAY	[]	
+/History/Daily/3/Yield	DOUBLE	0.03999999910593033	0.04kWh
+/History/Daily/3/Nr	INT32	175	175
+/History/Daily/2/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/2/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/2/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/2/LastError4	INT32	0	0
+/History/Daily/2/LastError3	INT32	0	0
+/History/Daily/2/LastError2	INT32	0	0
+/History/Daily/2/LastError1	INT32	0	0
+/History/Daily/2/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/2/MaxPower	DOUBLE	33.0	33W
+/History/Daily/2/MaxBatteryCurrent	DOUBLE	2.4000000953674316	2.4A
+/History/Daily/2/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/2/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/2/Consumption	ARRAY	[]	
+/History/Daily/2/Yield	DOUBLE	0.03999999910593033	0.04kWh
+/History/Daily/2/Nr	INT32	176	176
+/History/Daily/1/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/1/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/1/TimeInBulk	DOUBLE	1439.0	1439s
+/History/Daily/1/LastError4	INT32	0	0
+/History/Daily/1/LastError3	INT32	0	0
+/History/Daily/1/LastError2	INT32	0	0
+/History/Daily/1/LastError1	INT32	0	0
+/History/Daily/1/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/1/MaxBatteryCurrent	DOUBLE	2.5	2.5A
+/History/Daily/1/MinBatteryVoltage	DOUBLE	26.470000267028809	26.47V
+/History/Daily/1/MaxBatteryVoltage	DOUBLE	26.529999732971191	26.53V
+/History/Daily/1/Consumption	ARRAY	[]	
+/History/Daily/1/Nr	INT32	177	177
+/History/Daily/1/MaxPower	DOUBLE	35.0	35W
+/History/Daily/1/Yield	DOUBLE	0.05000000074505806	0.05kWh
+/History/Daily/0/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/0/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/0/TimeInBulk	DOUBLE	219.0	219s
+/History/Daily/0/LastError4	INT32	0	0
+/History/Daily/0/LastError3	INT32	0	0
+/History/Daily/0/LastError2	INT32	0	0
+/History/Daily/0/LastError1	INT32	0	0
+/History/Daily/0/MaxPvVoltage	DOUBLE	50.08000183105469	50.08V
+/History/Daily/0/MaxBatteryCurrent	DOUBLE	9.800000190734863	9.8A
+/History/Daily/0/MinBatteryVoltage	DOUBLE	26.199999809265137	26.20V
+/History/Daily/0/MaxBatteryVoltage	DOUBLE	14.149999618530273	14.15V
+/History/Daily/0/Consumption	ARRAY	[]	
+/History/Daily/0/Nr	INT32	178	178
+/History/Daily/0/MaxPower	DOUBLE	132.0	132W
+/History/Daily/0/Yield	DOUBLE	0.019999999552965164	0.02kWh
+/NrOfTrackers	UINT32	1	1
+/State	UINT32	252	252
+/ErrorCode	UINT32	0	0
+/Yield/System	DOUBLE	71.19999694824219	71.20kWh
+/Yield/User	DOUBLE	71.19999694824219	71.20kWh
+/Yield/Power	DOUBLE	41.31	41W
+/Dc/0/Current	DOUBLE	1.7	1.7A
+/Dc/0/Voltage	DOUBLE	24.3	24.30V
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/Devices/0/VregLink	ARRAY	[]	
+/Devices/0/ServiceName	STRING	com.victronenergy.solarcharger.ttyO0	com.victronenergy.solarcharger.ttyO0
+/Devices/0/ProductName	STRING	SmartSolar Charger MPPT 100/50	SmartSolar Charger MPPT 100/50
+/Devices/0/ProductId	UINT32	41047	0xA057
+/Devices/0/FirmwareVersion	UINT32	343	v1.57
+/Devices/0/DeviceInstance	UINT32	256	256
+/Devices/0/CustomName	STRING		
+/GroupId	UINT32	10	10
+/CustomName	STRING		
+/Serial	STRING	HQ1726ZC3L8	HQ1726ZC3L8
+/FirmwareVersion	UINT32	343	v1.57
+/ProductId	UINT32	41047	0xA057
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	256	256
+/HardwareVersion	ARRAY	[]	
+/ProductName	STRING	SmartSolar Charger MPPT 100/50	SmartSolar Charger MPPT 100/50
+
+1	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+1	/Dc/0/Current	DOUBLE	1.8	1.8A
+1	/Yield/Power	DOUBLE	43.92	44W
+1	/Pv/V	DOUBLE	49.800000000000004	49.80V
+2	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+2	/Dc/0/Current	DOUBLE	1.9	1.9A
+2	/Yield/Power	DOUBLE	46.55	47W
+2	/Pv/V	DOUBLE	49.900000000000006	49.90V
+3	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+3	/Dc/0/Current	DOUBLE	1.8	1.8A
+3	/Yield/Power	DOUBLE	43.92	44W
+3	/Pv/V	DOUBLE	49.800000000000004	49.80V
+4	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+4	/Dc/0/Current	DOUBLE	1.7	1.7A
+4	/Yield/Power	DOUBLE	41.31	41W
+4	/Pv/V	DOUBLE	49.7	49.70V
+5	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+5	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+5	/Yield/Power	DOUBLE	38.72	39W
+5	/Pv/V	DOUBLE	49.6	49.60V
+6	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+6	/Dc/0/Current	DOUBLE	1.5	1.5A
+6	/Yield/Power	DOUBLE	36.150000000000006	36W
+6	/Pv/V	DOUBLE	49.5	49.50V
+7	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+7	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+7	/Yield/Power	DOUBLE	38.72	39W
+7	/Pv/V	DOUBLE	49.6	49.60V
+8	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+8	/Dc/0/Current	DOUBLE	1.7	1.7A
+8	/Yield/Power	DOUBLE	41.31	41W
+8	/Pv/V	DOUBLE	49.7	49.70V
+9	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+9	/Dc/0/Current	DOUBLE	1.8	1.8A
+9	/Yield/Power	DOUBLE	43.92	44W
+9	/Pv/V	DOUBLE	49.800000000000004	49.80V
+10	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+10	/Dc/0/Current	DOUBLE	1.9	1.9A
+10	/Yield/Power	DOUBLE	46.55	47W
+10	/Pv/V	DOUBLE	49.900000000000006	49.90V
+11	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+11	/Dc/0/Current	DOUBLE	1.8	1.8A
+11	/Yield/Power	DOUBLE	43.92	44W
+11	/Pv/V	DOUBLE	49.800000000000004	49.80V
+12	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+12	/Dc/0/Current	DOUBLE	1.7	1.7A
+12	/Yield/Power	DOUBLE	41.31	41W
+12	/Pv/V	DOUBLE	49.7	49.70V
+13	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+13	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+13	/Yield/Power	DOUBLE	38.72	39W
+13	/Pv/V	DOUBLE	49.6	49.60V
+14	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+14	/Dc/0/Current	DOUBLE	1.5	1.5A
+14	/Yield/Power	DOUBLE	36.150000000000006	36W
+14	/Pv/V	DOUBLE	49.5	49.50V
+15	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+15	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+15	/Yield/Power	DOUBLE	38.72	39W
+15	/Pv/V	DOUBLE	49.6	49.60V
+16	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+16	/Dc/0/Current	DOUBLE	1.7	1.7A
+16	/Yield/Power	DOUBLE	41.31	41W
+16	/Pv/V	DOUBLE	49.7	49.70V
+17	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+17	/Dc/0/Current	DOUBLE	1.8	1.8A
+17	/Yield/Power	DOUBLE	43.92	44W
+17	/Pv/V	DOUBLE	49.800000000000004	49.80V
+18	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+18	/Dc/0/Current	DOUBLE	1.9	1.9A
+18	/Yield/Power	DOUBLE	46.55	47W
+18	/Pv/V	DOUBLE	49.900000000000006	49.90V
+19	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+19	/Dc/0/Current	DOUBLE	1.8	1.8A
+19	/Yield/Power	DOUBLE	43.92	44W
+19	/Pv/V	DOUBLE	49.800000000000004	49.80V
+20	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+20	/Dc/0/Current	DOUBLE	1.7	1.7A
+20	/Yield/Power	DOUBLE	41.31	41W
+20	/Pv/V	DOUBLE	49.7	49.70V
+21	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+21	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+21	/Yield/Power	DOUBLE	38.72	39W
+21	/Pv/V	DOUBLE	49.6	49.60V
+22	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+22	/Dc/0/Current	DOUBLE	1.5	1.5A
+22	/Yield/Power	DOUBLE	36.150000000000006	36W
+22	/Pv/V	DOUBLE	49.5	49.50V
+23	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+23	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+23	/Yield/Power	DOUBLE	38.72	39W
+23	/Pv/V	DOUBLE	49.6	49.60V
+24	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+24	/Dc/0/Current	DOUBLE	1.7	1.7A
+24	/Yield/Power	DOUBLE	41.31	41W
+24	/Pv/V	DOUBLE	49.7	49.70V
+25	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+25	/Dc/0/Current	DOUBLE	1.8	1.8A
+25	/Yield/Power	DOUBLE	43.92	44W
+25	/Pv/V	DOUBLE	49.800000000000004	49.80V
+26	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+26	/Dc/0/Current	DOUBLE	1.9	1.9A
+26	/Yield/Power	DOUBLE	46.55	47W
+26	/Pv/V	DOUBLE	49.900000000000006	49.90V
+27	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+27	/Dc/0/Current	DOUBLE	1.8	1.8A
+27	/Yield/Power	DOUBLE	43.92	44W
+27	/Pv/V	DOUBLE	49.800000000000004	49.80V
+28	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+28	/Dc/0/Current	DOUBLE	1.7	1.7A
+28	/Yield/Power	DOUBLE	41.31	41W
+28	/Pv/V	DOUBLE	49.7	49.70V
+29	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+29	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+29	/Yield/Power	DOUBLE	38.72	39W
+29	/Pv/V	DOUBLE	49.6	49.60V
+30	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+30	/Dc/0/Current	DOUBLE	1.5	1.5A
+30	/Yield/Power	DOUBLE	36.150000000000006	36W
+30	/Pv/V	DOUBLE	49.5	49.50V
+31	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+31	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+31	/Yield/Power	DOUBLE	38.72	39W
+31	/Pv/V	DOUBLE	49.6	49.60V
+32	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+32	/Dc/0/Current	DOUBLE	1.7	1.7A
+32	/Yield/Power	DOUBLE	41.31	41W
+32	/Pv/V	DOUBLE	49.7	49.70V
+33	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+33	/Dc/0/Current	DOUBLE	1.8	1.8A
+33	/Yield/Power	DOUBLE	43.92	44W
+33	/Pv/V	DOUBLE	49.800000000000004	49.80V
+34	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+34	/Dc/0/Current	DOUBLE	1.9	1.9A
+34	/Yield/Power	DOUBLE	46.55	47W
+34	/Pv/V	DOUBLE	49.900000000000006	49.90V
+35	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+35	/Dc/0/Current	DOUBLE	1.8	1.8A
+35	/Yield/Power	DOUBLE	43.92	44W
+35	/Pv/V	DOUBLE	49.800000000000004	49.80V
+36	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+36	/Dc/0/Current	DOUBLE	1.7	1.7A
+36	/Yield/Power	DOUBLE	41.31	41W
+36	/Pv/V	DOUBLE	49.7	49.70V
+37	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+37	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+37	/Yield/Power	DOUBLE	38.72	39W
+37	/Pv/V	DOUBLE	49.6	49.60V
+38	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+38	/Dc/0/Current	DOUBLE	1.5	1.5A
+38	/Yield/Power	DOUBLE	36.150000000000006	36W
+38	/Pv/V	DOUBLE	49.5	49.50V
+39	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+39	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+39	/Yield/Power	DOUBLE	38.72	39W
+39	/Pv/V	DOUBLE	49.6	49.60V
+40	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+40	/Dc/0/Current	DOUBLE	1.7	1.7A
+40	/Yield/Power	DOUBLE	41.31	41W
+40	/Pv/V	DOUBLE	49.7	49.70V
+41	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+41	/Dc/0/Current	DOUBLE	1.8	1.8A
+41	/Yield/Power	DOUBLE	43.92	44W
+41	/Pv/V	DOUBLE	49.800000000000004	49.80V
+42	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+42	/Dc/0/Current	DOUBLE	1.9	1.9A
+42	/Yield/Power	DOUBLE	46.55	47W
+42	/Pv/V	DOUBLE	49.900000000000006	49.90V
+43	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+43	/Dc/0/Current	DOUBLE	1.8	1.8A
+43	/Yield/Power	DOUBLE	43.92	44W
+43	/Pv/V	DOUBLE	49.800000000000004	49.80V
+44	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+44	/Dc/0/Current	DOUBLE	1.7	1.7A
+44	/Yield/Power	DOUBLE	41.31	41W
+44	/Pv/V	DOUBLE	49.7	49.70V
+45	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+45	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+45	/Yield/Power	DOUBLE	38.72	39W
+45	/Pv/V	DOUBLE	49.6	49.60V
+46	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+46	/Dc/0/Current	DOUBLE	1.5	1.5A
+46	/Yield/Power	DOUBLE	36.150000000000006	36W
+46	/Pv/V	DOUBLE	49.5	49.50V
+47	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+47	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+47	/Yield/Power	DOUBLE	38.72	39W
+47	/Pv/V	DOUBLE	49.6	49.60V
+48	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+48	/Dc/0/Current	DOUBLE	1.7	1.7A
+48	/Yield/Power	DOUBLE	41.31	41W
+48	/Pv/V	DOUBLE	49.7	49.70V
+49	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+49	/Dc/0/Current	DOUBLE	1.8	1.8A
+49	/Yield/Power	DOUBLE	43.92	44W
+49	/Pv/V	DOUBLE	49.800000000000004	49.80V
+50	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+50	/Dc/0/Current	DOUBLE	1.9	1.9A
+50	/Yield/Power	DOUBLE	46.55	47W
+50	/Pv/V	DOUBLE	49.900000000000006	49.90V
+51	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+51	/Dc/0/Current	DOUBLE	1.8	1.8A
+51	/Yield/Power	DOUBLE	43.92	44W
+51	/Pv/V	DOUBLE	49.800000000000004	49.80V
+52	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+52	/Dc/0/Current	DOUBLE	1.7	1.7A
+52	/Yield/Power	DOUBLE	41.31	41W
+52	/Pv/V	DOUBLE	49.7	49.70V
+53	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+53	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+53	/Yield/Power	DOUBLE	38.72	39W
+53	/Pv/V	DOUBLE	49.6	49.60V
+54	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+54	/Dc/0/Current	DOUBLE	1.5	1.5A
+54	/Yield/Power	DOUBLE	36.150000000000006	36W
+54	/Pv/V	DOUBLE	49.5	49.50V
+55	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+55	/Dc/0/Current	DOUBLE	1.5999999999999999	1.6A
+55	/Yield/Power	DOUBLE	38.72	39W
+55	/Pv/V	DOUBLE	49.6	49.60V

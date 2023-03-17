@@ -1,0 +1,2 @@
+com.victronenergy.settings /Settings/SystemSetup/BatteryService default
+com.victronenergy.settings /Settings/SystemSetup/HasDcSystem 1

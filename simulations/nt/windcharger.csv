@@ -1,0 +1,216 @@
+com.victronenergy.dcsource.ttyUSB0
+/Alarms/Alarm	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Connected	UINT32	1	1
+/CustomName	STRING	Wind charger	Wind charger
+/Dc/0/Current	DOUBLE	2.9	2.9A
+/Dc/0/Power	DOUBLE	70.47	70W
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Voltage	DOUBLE	26.390000343322754	26.39V
+/Dc/0/Voltage	DOUBLE	24.3	24.30V
+/Dc/1/Voltage	ARRAY	[]	
+/DeviceInstance	UINT32	288	288
+/Devices/0/CustomName	STRING	Wind charger	Wind charger
+/Devices/0/DeviceInstance	UINT32	288	288
+/Devices/0/FirmwareVersion	UINT32	1032	v4.08
+/Devices/0/ProductId	UINT32	41865	0xa389
+/Devices/0/ProductName	STRING	SmartShunt 500A/50mV	SmartShunt 500A/50mV
+/Devices/0/ServiceName	STRING	com.victronenergy.battery.ttyUSB0	com.victronenergy.battery.ttyUSB0
+/Devices/0/VregLink	ARRAY	[]	
+/FirmwareVersion	UINT32	785	v3.11
+/GroupId	ARRAY	[]	
+/HardwareVersion	ARRAY	[]	
+/History/EnergyIn	DOUBLE	0	0kWh
+/History/EnergyOut	DOUBLE	137.61000061035156	137.61kWh
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumVoltage	DOUBLE	27.239999771118164	27.24V
+/History/MinimumVoltage	DOUBLE	0.0	0.00V
+/Mgmt/Connection	STRING	USB	USB
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Mgmt/ProcessVersion	STRING	3.65	3.65
+/ProductId	UINT32	41865	0xa389
+/ProductName	STRING	SmartShunt 500A/50mV	SmartShunt 500A/50mV
+/Relay/0/State	UINT32	0	0
+/Serial	STRING	HQ1641JEWM5	HQ1641JEWM5
+/Settings/HasStarterVoltage	UINT32	0	0
+/Settings/HasTemperature	UINT32	0	0
+/Settings/MonitorMode	INT32	-8	Wind generator
+/Settings/RelayMode	UINT32	2	2
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	1	1
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+
+1	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+1	/Dc/0/Current	DOUBLE	3.0	3.0A
+1	/Dc/0/Power	DOUBLE	73.2	73W
+2	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+2	/Dc/0/Current	DOUBLE	3.1	3.1A
+2	/Dc/0/Power	DOUBLE	75.95	76W
+3	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+3	/Dc/0/Current	DOUBLE	3.0	3.0A
+3	/Dc/0/Power	DOUBLE	73.2	73W
+4	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+4	/Dc/0/Current	DOUBLE	2.9	2.9A
+4	/Dc/0/Power	DOUBLE	70.47	70W
+5	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+5	/Dc/0/Current	DOUBLE	2.8	2.8A
+5	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+6	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+6	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+6	/Dc/0/Power	DOUBLE	65.07	65W
+7	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+7	/Dc/0/Current	DOUBLE	2.8	2.8A
+7	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+8	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+8	/Dc/0/Current	DOUBLE	2.9	2.9A
+8	/Dc/0/Power	DOUBLE	70.47	70W
+9	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+9	/Dc/0/Current	DOUBLE	3.0	3.0A
+9	/Dc/0/Power	DOUBLE	73.2	73W
+10	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+10	/Dc/0/Current	DOUBLE	3.1	3.1A
+10	/Dc/0/Power	DOUBLE	75.95	76W
+11	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+11	/Dc/0/Current	DOUBLE	3.0	3.0A
+11	/Dc/0/Power	DOUBLE	73.2	73W
+12	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+12	/Dc/0/Current	DOUBLE	2.9	2.9A
+12	/Dc/0/Power	DOUBLE	70.47	70W
+13	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+13	/Dc/0/Current	DOUBLE	2.8	2.8A
+13	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+14	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+14	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+14	/Dc/0/Power	DOUBLE	65.07	65W
+15	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+15	/Dc/0/Current	DOUBLE	2.8	2.8A
+15	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+16	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+16	/Dc/0/Current	DOUBLE	2.9	2.9A
+16	/Dc/0/Power	DOUBLE	70.47	70W
+17	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+17	/Dc/0/Current	DOUBLE	3.0	3.0A
+17	/Dc/0/Power	DOUBLE	73.2	73W
+18	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+18	/Dc/0/Current	DOUBLE	3.1	3.1A
+18	/Dc/0/Power	DOUBLE	75.95	76W
+19	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+19	/Dc/0/Current	DOUBLE	3.0	3.0A
+19	/Dc/0/Power	DOUBLE	73.2	73W
+20	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+20	/Dc/0/Current	DOUBLE	2.9	2.9A
+20	/Dc/0/Power	DOUBLE	70.47	70W
+21	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+21	/Dc/0/Current	DOUBLE	2.8	2.8A
+21	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+22	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+22	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+22	/Dc/0/Power	DOUBLE	65.07	65W
+23	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+23	/Dc/0/Current	DOUBLE	2.8	2.8A
+23	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+24	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+24	/Dc/0/Current	DOUBLE	2.9	2.9A
+24	/Dc/0/Power	DOUBLE	70.47	70W
+25	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+25	/Dc/0/Current	DOUBLE	3.0	3.0A
+25	/Dc/0/Power	DOUBLE	73.2	73W
+26	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+26	/Dc/0/Current	DOUBLE	3.1	3.1A
+26	/Dc/0/Power	DOUBLE	75.95	76W
+27	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+27	/Dc/0/Current	DOUBLE	3.0	3.0A
+27	/Dc/0/Power	DOUBLE	73.2	73W
+28	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+28	/Dc/0/Current	DOUBLE	2.9	2.9A
+28	/Dc/0/Power	DOUBLE	70.47	70W
+29	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+29	/Dc/0/Current	DOUBLE	2.8	2.8A
+29	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+30	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+30	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+30	/Dc/0/Power	DOUBLE	65.07	65W
+31	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+31	/Dc/0/Current	DOUBLE	2.8	2.8A
+31	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+32	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+32	/Dc/0/Current	DOUBLE	2.9	2.9A
+32	/Dc/0/Power	DOUBLE	70.47	70W
+33	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+33	/Dc/0/Current	DOUBLE	3.0	3.0A
+33	/Dc/0/Power	DOUBLE	73.2	73W
+34	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+34	/Dc/0/Current	DOUBLE	3.1	3.1A
+34	/Dc/0/Power	DOUBLE	75.95	76W
+35	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+35	/Dc/0/Current	DOUBLE	3.0	3.0A
+35	/Dc/0/Power	DOUBLE	73.2	73W
+36	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+36	/Dc/0/Current	DOUBLE	2.9	2.9A
+36	/Dc/0/Power	DOUBLE	70.47	70W
+37	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+37	/Dc/0/Current	DOUBLE	2.8	2.8A
+37	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+38	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+38	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+38	/Dc/0/Power	DOUBLE	65.07	65W
+39	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+39	/Dc/0/Current	DOUBLE	2.8	2.8A
+39	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+40	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+40	/Dc/0/Current	DOUBLE	2.9	2.9A
+40	/Dc/0/Power	DOUBLE	70.47	70W
+41	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+41	/Dc/0/Current	DOUBLE	3.0	3.0A
+41	/Dc/0/Power	DOUBLE	73.2	73W
+42	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+42	/Dc/0/Current	DOUBLE	3.1	3.1A
+42	/Dc/0/Power	DOUBLE	75.95	76W
+43	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+43	/Dc/0/Current	DOUBLE	3.0	3.0A
+43	/Dc/0/Power	DOUBLE	73.2	73W
+44	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+44	/Dc/0/Current	DOUBLE	2.9	2.9A
+44	/Dc/0/Power	DOUBLE	70.47	70W
+45	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+45	/Dc/0/Current	DOUBLE	2.8	2.8A
+45	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+46	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+46	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+46	/Dc/0/Power	DOUBLE	65.07	65W
+47	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+47	/Dc/0/Current	DOUBLE	2.8	2.8A
+47	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+48	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+48	/Dc/0/Current	DOUBLE	2.9	2.9A
+48	/Dc/0/Power	DOUBLE	70.47	70W
+49	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+49	/Dc/0/Current	DOUBLE	3.0	3.0A
+49	/Dc/0/Power	DOUBLE	73.2	73W
+50	/Dc/0/Voltage	DOUBLE	24.5	24.50V
+50	/Dc/0/Current	DOUBLE	3.1	3.1A
+50	/Dc/0/Power	DOUBLE	75.95	76W
+51	/Dc/0/Voltage	DOUBLE	24.400000000000002	24.40V
+51	/Dc/0/Current	DOUBLE	3.0	3.0A
+51	/Dc/0/Power	DOUBLE	73.2	73W
+52	/Dc/0/Voltage	DOUBLE	24.3	24.30V
+52	/Dc/0/Current	DOUBLE	2.9	2.9A
+52	/Dc/0/Power	DOUBLE	70.47	70W
+53	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+53	/Dc/0/Current	DOUBLE	2.8	2.8A
+53	/Dc/0/Power	DOUBLE	67.75999999999999	68W
+54	/Dc/0/Voltage	DOUBLE	24.1	24.10V
+54	/Dc/0/Current	DOUBLE	2.6999999999999997	2.7A
+54	/Dc/0/Power	DOUBLE	65.07	65W
+55	/Dc/0/Voltage	DOUBLE	24.2	24.20V
+55	/Dc/0/Current	DOUBLE	2.8	2.8A
+55	/Dc/0/Power	DOUBLE	67.75999999999999	68W
