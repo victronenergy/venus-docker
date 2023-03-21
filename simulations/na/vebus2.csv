@@ -1,0 +1,108 @@
+com.victronenergy.vebus.ttyUSB0
+/Ac/ActiveIn/ActiveInput	UINT32	240	240
+/Ac/ActiveIn/Connected	UINT32	0	no
+/Ac/ActiveIn/CurrentLimitIsAdjustable	UINT32	0	0
+/Ac/ActiveIn/L1/F	DOUBLE	0.0	0.0Hz
+/Ac/ActiveIn/L1/I	DOUBLE	0.0	0.0A
+/Ac/ActiveIn/L1/P	INT32	0	0W
+/Ac/ActiveIn/L1/S	INT32	0	0VA
+/Ac/ActiveIn/L1/V	DOUBLE	0.0	0V
+/Ac/ActiveIn/P	INT32	0	0W
+/Ac/ActiveIn/S	INT32	0	0VA
+/Ac/NumberOfAcInputs	INT32	0	0
+/Ac/NumberOfPhases	UINT32	1	1
+/Ac/Out/L1/F	DOUBLE	50.0255126953	50.0Hz
+/Ac/Out/L1/I	DOUBLE	0.3	0.3A
+/Ac/Out/L1/P	INT32	36	36W
+/Ac/Out/L1/S	INT32	36	36VA
+/Ac/Out/L1/V	DOUBLE	120.4	120V
+/Ac/Out/P	INT32	-125	-125W
+/Ac/Out/S	INT32	127	127VA
+/Ac/PowerMeasurementType	UINT32	4	4
+/Alarms/HighTemperature	UINT32	0	ok
+/Alarms/L1/HighTemperature	UINT32	0	ok
+/Alarms/L1/LowBattery	UINT32	0	ok
+/Alarms/L1/Overload	UINT32	0	ok
+/Alarms/L1/Ripple	UINT32	0	ok
+/Alarms/L2/HighTemperature	UINT32	0	ok
+/Alarms/L2/LowBattery	UINT32	0	ok
+/Alarms/L2/Overload	UINT32	0	ok
+/Alarms/L2/Ripple	UINT32	0	ok
+/Alarms/L3/HighTemperature	UINT32	0	ok
+/Alarms/L3/LowBattery	UINT32	0	ok
+/Alarms/L3/Overload	UINT32	0	ok
+/Alarms/L3/Ripple	UINT32	0	ok
+/Alarms/LowBattery	UINT32	0	ok
+/Alarms/Overload	UINT32	0	ok
+/Alarms/Ripple	UINT32	0	ok
+/Alarms/TemperatureSensor	UINT32	0	0
+/Alarms/VoltageSensor	UINT32	0	0
+/Connected	BYTE	1	1
+/CustomName	STRING	120V appliances	120V appliances
+/Dc/0/Current	DOUBLE	-1.71	-1.71A
+/Dc/0/MaxChargeCurrent	DOUBLE	52.0	52.0A
+/Dc/0/Power	INT32	-46	-46W
+/Dc/0/Temperature	DOUBLE	-273.0	-273.00°C
+/Dc/0/Voltage	DOUBLE	27.01	27.01V
+/DeviceInstance	UINT16	289	289
+/Devices/0/Assistants	ARRAY[BYTE]	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]	None
+/Devices/0/Version	UINT32	2610431	2610431
+/Devices/NumberOfMultis	INT32	1	1
+/Energy/AcIn1ToAcOut	DOUBLE	0.0	0.00kWh
+/Energy/AcIn1ToInverter	DOUBLE	0.0	0.00kWh
+/Energy/AcIn2ToAcOut	DOUBLE	0.0	0.00kWh
+/Energy/AcIn2ToInverter	DOUBLE	0.0	0.00kWh
+/Energy/AcOutToAcIn1	DOUBLE	0.0	0.00kWh
+/Energy/AcOutToAcIn2	DOUBLE	0.0	0.00kWh
+/Energy/InverterToAcIn1	DOUBLE	0.0	0.00kWh
+/Energy/InverterToAcIn2	DOUBLE	0.0	0.00kWh
+/Energy/InverterToAcOut	DOUBLE	0.0	0.00kWh
+/Energy/OutToInverter	DOUBLE	0.309475541115	0.31kWh
+/ExtraBatteryCurrent	DOUBLE	0.0	0.0A
+/FirmwareFeatures/BolFrame	BYTE	1	1
+/FirmwareFeatures/BolUBatAndTBatSense	BYTE	1	1
+/FirmwareFeatures/CommandWriteViaId	BYTE	1	1
+/FirmwareFeatures/IBatSOCBroadcast	BYTE	1	1
+/FirmwareFeatures/NewPanelFrame	BYTE	1	1
+/FirmwareFeatures/SetChargeState	BYTE	1	1
+/FirmwareSubVersion	UINT32	0	
+/FirmwareVersion	UINT32	1073	431
+/Interfaces/Mk2/ProductId	UINT32	4464	4464
+/Interfaces/Mk2/ProductName	STRING	MK3	MK3
+/Interfaces/Mk2/Version	UINT32	1170204	1170204
+/Leds/Absorption	BYTE	0	off
+/Leds/Bulk	BYTE	0	off
+/Leds/Float	BYTE	0	off
+/Leds/Inverter	BYTE	1	on
+/Leds/LowBattery	BYTE	0	off
+/Leds/Mains	BYTE	0	off
+/Leds/Overload	BYTE	0	off
+/Leds/Temperature	BYTE	0	off
+/Mgmt/Connection	STRING	VE.Bus	VE.Bus
+/Mgmt/ProcessName	STRING	mk2-dbus	mk2-dbus
+/Mgmt/ProcessVersion	STRING	2.74	2.74
+/Mode	UINT32	3	on
+/ModeIsAdjustable	UINT32	1	1
+/ProductId	UINT32	10002	2712
+/ProductName	STRING	Inverter 24/3000/70-50	Inverter 24/3000/70-50
+/Quirks	UINT16	2	2
+/RedetectSystem	UINT32	0	
+/ShortIds	UINT32	1	1
+/State	UINT32	9	inverting
+/VebusChargeState	UINT32	0	init
+/VebusError	BYTE	0	0
+/VebusMainState	UINT32	4	invert
+/VebusSetChargeState	UINT32	0	0
+
+1	/Ac/Out/L1/F	DOUBLE	50.02	50.0Hz
+1	/Ac/Out/L1/I	DOUBLE	0.3	0.3A
+1	/Ac/Out/L1/P	INT32	37	37W
+1	/Ac/Out/L1/V	DOUBLE	120.0	120V
+1	/Dc/0/Current	DOUBLE	-1.71	-1.71A
+1	/Dc/0/Voltage	DOUBLE	27.01	27.01V
+2	/Ac/Out/L1/F	DOUBLE	50.01	50.0Hz
+2	/Ac/Out/L1/I	DOUBLE	0.3	0.3A
+2	/Ac/Out/L1/P	INT32	38	38W
+2	/Ac/Out/L1/V	DOUBLE	120.0	120V
+2	/Dc/0/Current	DOUBLE	-1.72	-1.72A
+2	/Dc/0/Voltage	DOUBLE	27.02	27.02V

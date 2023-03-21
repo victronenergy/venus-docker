@@ -1,0 +1,57 @@
+com.victronenergy.battery.ttyO0
+/Alarms/Alarm	ARRAY	[]	
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowSoc	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Alarms/MidVoltage	UINT32	0	0
+/Connected	UINT32	1	1
+/ConsumedAmphours	DOUBLE	0.0	0.0Ah
+/Dc/0/Current	DOUBLE	8.2	8.2A
+/Dc/0/MidVoltage	ARRAY	[]	
+/Dc/0/MidVoltageDeviation	ARRAY	[]	
+/Dc/0/Power	DOUBLE	221.0	221W
+/Dc/0/Temperature	DOUBLE	30.0	30C
+/Dc/0/Voltage	DOUBLE	27.01	27.01V
+/Dc/1/Voltage	ARRAY	[]	
+/DeviceInstance	UINT32	256	256
+/FirmwareVersion	UINT32	776	v3.08
+/HardwareVersion	ARRAY	[]	
+/History/AutomaticSyncs	UINT32	177	177
+/History/AverageDischarge	DOUBLE	-44.9000015259	-44.9Ah
+/History/ChargeCycles	UINT32	233	233
+/History/ChargedEnergy	DOUBLE	791.630004883	791.63kWh
+/History/DeepestDischarge	DOUBLE	-52.0	-52.0Ah
+/History/DischargedEnergy	DOUBLE	696.41998291	696.42kWh
+/History/FullDischarges	INT32	0	0
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LastDischarge	DOUBLE	0.0	0.0Ah
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumStarterVoltage	DOUBLE	0.0	0.00V
+/History/MaximumVoltage	DOUBLE	14.8	14.80V
+/History/MinimumStarterVoltage	DOUBLE	0.0	0.00V
+/History/MinimumVoltage	DOUBLE	46.6899986267	46.69V
+/History/TimeSinceLastFullCharge	UINT32	0	0s
+/History/TotalAhDrawn	DOUBLE	-13653.2998047	-13653.3Ah
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Mgmt/ProcessVersion	STRING	3.17	3.17
+/ProductId	UINT32	516	0x204
+/ProductName	STRING	BMV-700	BMV-700
+/Relay/0/State	UINT32	0	0
+/Serial	STRING	HQ1350QEFNR	HQ1350QEFNR
+/Settings/HasMidVoltage	UINT32	0	0
+/Settings/HasStarterVoltage	UINT32	0	0
+/Settings/HasTemperature	UINT32	1	1
+/Soc	DOUBLE	100.0	100.0%
+/TimeToGo	ARRAY	[]	
+
+1	/Dc/0/Voltage	DOUBLE	27.02	27.02V
+1	/Dc/0/Power	DOUBLE	222.0	222W
+2	/Dc/0/Voltage	DOUBLE	27.01	27.01V
+2	/Dc/0/Power	DOUBLE	221.0	221W

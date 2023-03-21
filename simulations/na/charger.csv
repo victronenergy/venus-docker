@@ -1,0 +1,34 @@
+com.victronenergy.charger.socketcan_can0_di10_uc15639
+/Ac/In/CurrentLimit	DOUBLE	10.0	10.0A
+/Ac/In/L1/I	DOUBLE	1.10000002384	1.1A
+/Ac/In/L1/P	ARRAY	[]	
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Connected	UINT32	1	1
+/Dc/0/Current	DOUBLE	11.7	11.7A
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Voltage	DOUBLE	27.0	27.00V
+/Dc/1/Current	DOUBLE	0.0	0.0A
+/Dc/1/Voltage	DOUBLE	26.4	26.40V
+/Dc/2/Current	DOUBLE	1.0	1.0A
+/Dc/2/Voltage	DOUBLE	26.4	26.40V
+/DeviceInstance	BYTE	10	10
+/ErrorCode	BYTE	0	0
+/FirmwareVersion	UINT32	518	v2.06
+/HardwareVersion	ARRAY	[]	
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/Mgmt/ProcessVersion	STRING	2.29	2.29
+/Mode	BYTE	1	1
+/N2kUniqueNumber	UINT32	15639	15639
+/NrOfOutputs	BYTE	3	3
+/ProductId	UINT16	262	0x106
+/ProductName	STRING	Skylla-i 24/100 (3)	Skylla-i 24/100 (3)
+/Relay/0/State	UINT32	1	1
+/Serial	STRING	HQ12424SLBZ	HQ12424SLBZ
+/State	BYTE	6	6
+
+1	/Dc/0/Voltage	DOUBLE	27.05	27.05V
+1	/Dc/2/Voltage	DOUBLE	26.41	26.41V
+2	/Dc/0/Voltage	DOUBLE	27.0	27.00V
+2	/Dc/2/Voltage	DOUBLE	26.4	26.40V
