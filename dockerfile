@@ -8,6 +8,22 @@ ENV PUBLIC_URL=/
 ENV REACT_APP_ENABLE_LANG_OVERRIDE=true
 RUN npm run build 
 
+# Build flashmq
+FROM ubuntu:20.04 as flashmq
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update
+RUN apt-get install -y g++ make cmake libssl-dev file docbook2x
+COPY flashmq .
+RUN cmake -DCMAKE_BUILD_TYPE=Release && make
+
+# Build dbus-flashmq
+FROM ubuntu:20.04 as dbus-flashmq
+ARG DEBIAN_FRONTEND=noninteractive
+RUN apt-get update
+RUN apt-get install -y g++ make cmake pkg-config libdbus-1-dev
+COPY dbus-flashmq .
+RUN cmake -DCMAKE_BUILD_TYPE=Release && make
+
 # Venus-docker build
 FROM ubuntu:20.04
 WORKDIR /root
@@ -15,9 +31,14 @@ WORKDIR /root
 RUN apt-get update
 RUN apt-get install -y python3 python3-gi
 RUN apt-get install -y python3-lxml python3-requests python3-dbus python3-paho-mqtt
-RUN apt-get install -y mosquitto mosquitto-clients vim daemontools
+RUN apt-get install -y vim daemontools
 RUN apt-get install -y libqt5core5a libqt5dbus5 libqt5xml5 libncurses6
 RUN apt-get install -y nginx
+
+# flashmq
+COPY --from=flashmq flashmq /usr/bin/flashmq
+COPY --from=dbus-flashmq libflashmq-dbus-plugin.so /usr/libexec/flashmq/libflashmq-dbus-plugin.so
+COPY flashmq.conf /etc/flashmq/flashmq.conf
 
 # dbus
 COPY dbus-tools/dbus /usr/bin/dbus
@@ -33,18 +54,11 @@ COPY service /service
 # Service code
 COPY localsettings /opt/victronenergy/localsettings
 COPY dbus-systemcalc-py /opt/victronenergy/dbus-systemcalc-py
-COPY dbus-mqtt /opt/victronenergy/dbus-mqtt
 COPY dbus-recorder /opt/victronenergy/dbus-recorder
 COPY dbus_generator /opt/victronenergy/dbus-generator-starter
 COPY settings.xml /data/conf/settings.xml
 COPY settings.xml /data/conf/settings.xml.orig
 COPY version /opt/victronenergy/version
-
-# System service config 
-RUN echo 'listener 9001' >> /etc/mosquitto/mosquitto.conf
-RUN echo 'protocol websockets' >> /etc/mosquitto/mosquitto.conf
-RUN echo 'listener 1883' >> /etc/mosquitto/mosquitto.conf
-RUN echo 'protocol mqtt' >> /etc/mosquitto/mosquitto.conf
 
 # Run config
 COPY scripts/start_services.sh /root

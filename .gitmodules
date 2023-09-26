@@ -1,9 +1,6 @@
 [submodule "localsettings"]
 	path = localsettings
 	url = https://github.com/victronenergy/localsettings.git
-[submodule "dbus-mqtt"]
-	path = dbus-mqtt
-	url = https://github.com/victronenergy/dbus-mqtt.git
 [submodule "dbus-recorder"]
 	path = dbus-recorder
 	url = https://github.com/victronenergy/dbus-recorder.git
@@ -19,3 +16,9 @@
 [submodule "dbus_generator"]
 	path = dbus_generator
 	url = https://github.com/victronenergy/dbus_generator.git
+[submodule "dbus-flashmq"]
+	path = dbus-flashmq
+	url = https://github.com/victronenergy/dbus-flashmq.git
+[submodule "flashmq"]
+	path = flashmq
+	url = https://github.com/halfgaar/FlashMQ.git

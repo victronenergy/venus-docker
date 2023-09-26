@@ -3,12 +3,10 @@
 # Create dummy relays before systemcalc is started
 mkdir -p /dev/gpio/relay_1 && touch /dev/gpio/relay_1/value
 
+cd /opt/victronenergy/dbus-systemcalc-py/ || exit
+vrmid=$(python3 -c 'from ext.velib_python.ve_utils import get_vrm_portal_id; print(get_vrm_portal_id())')
+mkdir -p /data/venus && echo "$vrmid" > /data/venus/unique-id
+
 service dbus start
 service mosquitto start
 svscan /service &
-
-# wait that messaging is initialized
-sleep 2
-
-# subscribe to the system/0/Serial to get the portal ID and then issue a read to that ID
-mosquitto_pub -t R/"$(mosquitto_sub -v -C 1 -t 'N/+/system/0/Serial' | cut -d'"' -f4)"/system/0/Serial -m "dummy"

@@ -1,3 +1,0 @@
-#!/bin/sh
-exec 2>&1
-exec /opt/victronenergy/dbus-mqtt/dbus_mqtt.py -k 60
