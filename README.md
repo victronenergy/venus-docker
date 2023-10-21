@@ -20,9 +20,34 @@ of the VenusGX by running different sets of recordings with a simple commandline
 
 ## Usage
 
+### Use readily available image on Docker Hub
+
+The image created with from this repository is published on https://hub.docker.com/r/victronenergy/venus-docker . 
+
 - Install Docker
-- Create container with `./build.sh`
-- Run the container as an interactive shell with `./run.sh`
+- Pull latest version
+  - docker pull victronenergy/venus-docker
+- optionally learn about how this venus-docker image extends Ubuntu focal
+  - docker scout quickview victronenergy/venus-docker
+- Run the container as an interactive shell
+  - docker run -i victronenergy/venus-docker bash -i
+
+### Alternatively, build the image yourself from this repository
+
+- Retrieve the source tree of this repository
+  - git clone https://github.com/victronenergy/venus-docker
+  - cd venus-docker
+- Install Docker
+- Create image with `./build.sh`
+- Instantiate the image as a container running an interactive shell with `./run.sh`
+
+### Start services
+
+To simulate a real environment, the services need to be running. For a first inspection of the image this not requried.
+The scripts mentioned below are provided by this GitHub repository and are not redistributed within the image.
+If using the image from Docker Hub, inspect these scripts to then start those services manually.
+
+- Start services
   - run `./start_services.sh` within the container to start the mqtt and other services.
   - run `./simulate.sh <simulation>` to start playback.
 - Run the container in the background with a simulation with `./run.sh -s <simulation_name>`
@@ -42,6 +67,11 @@ Additional arguments you can pass to `simulate.sh` or `run.sh` include:
 ### Working inside the container
 
 You can see what data is available in the mqtt by using `mosquitto_sub -t N/#` or use an mqtt spy application. To change values manually use `mosquitto_pub`, but these values are likely to be overridden by an active recording quite quickly.
+
+### Differences to Venus OS shipping with Cerbo GX or prepared for Raspberry Pi?
+
+* Package management - this Venus OS image is based on Ubuntu, use `apt` to install packages, not `opkg`.
+* Available software - `wget` and `curl` are typically available on an RPi
 
 ## Modifying recordings
 
