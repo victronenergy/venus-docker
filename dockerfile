@@ -14,7 +14,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y g++ make cmake libssl-dev file docbook2x
 COPY flashmq .
-RUN cmake -DCMAKE_BUILD_TYPE=Release && make
+RUN nproc=$(nproc) && cmake -DCMAKE_BUILD_TYPE=Release && make -j "$nproc"
 
 # Build dbus-flashmq
 FROM ubuntu:20.04 as dbus-flashmq
@@ -22,7 +22,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y g++ make cmake pkg-config libdbus-1-dev
 COPY dbus-flashmq .
-RUN cmake -DCMAKE_BUILD_TYPE=Release && make
+RUN nproc=$(nproc) && cmake -DCMAKE_BUILD_TYPE=Release && make -j "$nproc"
 
 # Venus-docker build
 FROM ubuntu:20.04
