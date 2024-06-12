@@ -1,0 +1,6 @@
+#!/bin/sh
+exec 2>&1
+exec /opt/victronenergy/dse-modbus-simulator/main.py \
+    --app-dir=/opt/victronenergy/dse-modbus-simulator/ \
+    --web-host=0.0.0.0 --web-port=8000 \
+    --modbus-host=127.0.0.1 --modbus-port=502

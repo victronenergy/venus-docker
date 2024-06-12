@@ -278,6 +278,12 @@
     </Vebus>
     <Audible default="1" type="i" silent="False">0</Audible>
   </Alarm>
+  <ModbusClient>
+    <tcp>
+      <AutoScan type="i" min="0" max="1" default="0" silent="False">0</AutoScan>
+      <Devices type="s" default="" silent="False">tcp:127.0.0.1:502:1</Devices>
+    </tcp>
+  </ModbusClient>
   <SystemSetup>
     <Batteries>
       <Configuration>
