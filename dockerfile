@@ -31,6 +31,7 @@ WORKDIR /root
 RUN apt-get update
 RUN apt-get install -y python3 python3-gi
 RUN apt-get install -y python3-lxml python3-requests python3-dbus python3-paho-mqtt
+RUN apt-get install -y python3-pymodbus python3-dnslib python3-pip
 RUN apt-get install -y vim daemontools
 RUN apt-get install -y libqt5core5a libqt5dbus5 libqt5xml5 libncurses6
 RUN apt-get install -y nginx
@@ -51,11 +52,18 @@ COPY bin/dbus-spy /usr/local/bin/dbus-spy
 RUN mkdir /log
 COPY service /service
 
+# DSE genset modbus simulator
+COPY dse-modbus-simulator /opt/victronenergy/dse-modbus-simulator
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir -r /opt/victronenergy/dse-modbus-simulator/requirements.txt
+RUN chmod u+x /opt/victronenergy/dse-modbus-simulator/main.py
+
 # Service code
 COPY localsettings /opt/victronenergy/localsettings
 COPY dbus-systemcalc-py /opt/victronenergy/dbus-systemcalc-py
 COPY dbus-recorder /opt/victronenergy/dbus-recorder
 COPY dbus_generator /opt/victronenergy/dbus-generator-starter
+COPY dbus-modbus-client /opt/victronenergy/dbus-modbus-client
 COPY settings.xml /data/conf/settings.xml
 COPY settings.xml /data/conf/settings.xml.orig
 COPY version /opt/victronenergy/version
@@ -81,3 +89,4 @@ EXPOSE 80
 EXPOSE 9001
 EXPOSE 1883
 EXPOSE 3000
+EXPOSE 8000

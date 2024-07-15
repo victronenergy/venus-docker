@@ -22,3 +22,9 @@
 [submodule "flashmq"]
 	path = flashmq
 	url = https://github.com/halfgaar/FlashMQ.git
+[submodule "dbus-modbus-client"]
+	path = dbus-modbus-client
+	url = https://github.com/victronenergy/dbus-modbus-client.git
+[submodule "dse-modbus-simulator"]
+	path = dse-modbus-simulator
+	url = https://github.com/victronenergy/dse-modbus-simulator.git
