@@ -269,6 +269,15 @@ Show in html5app:
 - generator; 3-phase
 - shore; 3-phase
 
+### LP) 2 X Lynx smart BMS 500A in parallel
+
+- 2 lynx smart BMS 500A
+- Lynx parallel service
+- vebus system
+
+### LPP) 2 X Lynx smart BMS 500A in parallel - 1 BMS in pending state
+Same as LP, but with one BMS in the pending state. 
+
 ### M) Multi with a VE.Bus BMS
 
 Note https://github.com/victronenergy/venus-private/issues/86. The demo mode is now
