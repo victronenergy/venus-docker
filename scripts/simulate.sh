@@ -55,6 +55,10 @@ fi
 
 sim=${1,,}
 
+# Dont run DSE simulator by default,
+# as it might interfere with recordings
+svc -d /service/dse-modbus-simulator
+
 # First restore the default config
 svc -d /service/localsettings
 cp /data/conf/settings.xml.orig /data/conf/settings.xml
@@ -79,6 +83,9 @@ fi
 echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
+elif test "$sim" = "dse"; then
+  svc -u /service/dse-modbus-simulator
+  sleep infinity
 else
   $PLAY $SIMULATIONS/$sim/*.{dat,csv} $extra
 fi

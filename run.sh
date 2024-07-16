@@ -53,7 +53,8 @@ APP_PORT=$((8080+$RUNNING_CONTAINERS))
 WSPORT=$((9001+$RUNNING_CONTAINERS))
 MQTTPORT=$((1883+$RUNNING_CONTAINERS))
 DBUSTCPPORT=$((3000+$RUNNING_CONTAINERS))
-DSESIMULATORPORT=$((8000+$RUNNING_CONTAINERS))
+DSE_SIMULATOR_WEBUI_PORT=$((8000+$RUNNING_CONTAINERS))
+DSE_SIMULATOR_MODBUS_PORT=$((502+$RUNNING_CONTAINERS))
 
 if test -n "$POSITIONAL"; then
     echo "Positional argument(s) ($POSITIONAL) passed. Did you mean to run with -s?"
@@ -61,14 +62,19 @@ if test -n "$POSITIONAL"; then
     exit 1
 elif test -z "$SIMULATION"; then
     if test "$KILL" = "true"; then kill_others; fi
-    docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSESIMULATORPORT:8000 mqtt
+    docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt
 else
     if test -f simulations/$SIMULATION/setup; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSESIMULATORPORT:8000 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION
     elif test "$SIMULATION" = "z"; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSESIMULATORPORT:8000 mqtt /root/run_with_simulation.sh z
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh z
+    elif test "$SIMULATION" = "dse"; then
+        if test "$KILL" = "true"; then kill_others; fi
+        docker run -d --rm -p $DSE_SIMULATOR_WEBUI_PORT:8000 -p 0.0.0.0:$DSE_SIMULATOR_MODBUS_PORT:502 mqtt /root/run_with_simulation.sh dse
+        echo "DSE simulator web ui available at localhost:${DSE_SIMULATOR_WEBUI_PORT} and its modbus server at 0.0.0.0:${DSE_SIMULATOR_MODBUS_PORT} (unit id 1)"
+        exit 0
     else
         echo "Simulation ($SIMULATION) does not exist in simulations/"
         available
@@ -76,4 +82,4 @@ else
     fi
 fi
 
-echo "Html5 app available at: localhost:${APP_PORT}, websocket port: ${WSPORT}, mqtt port: ${MQTTPORT}, dbus port: ${DBUSTCPPORT}, dse genset simulator port:${DSESIMULATORPORT}"
+echo "Html5 app available at: localhost:${APP_PORT}, websocket port: ${WSPORT}, mqtt port: ${MQTTPORT}, dbus port: ${DBUSTCPPORT}"
