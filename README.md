@@ -344,6 +344,14 @@ Settings:
 
 ### S) 50ft yacht – 24V Quattro 24/5000
 
+### DSE) Interactive DSE generator simulation
+
+This mode is a specialty: It runs [dse-modbus-simulator](https://github.com/victronenergy/dse-modbus-simulator/) within the Docker container, which consists of a Modbus TCP server simulating a DSE 4620 generator controller and a web ui, whichs allows to modify register values, enable and disable error codes and simulate an actual run (based on randomized numbers).
+
+When running `./run.sh -s dse`, the web ui will, if no other container is running, get available on [http://localhost:8000](http://localhost:8000) and the Modbus TCP server on `0.0.0.0:502`, so that the generator simulation can be found by GX devices on the same network as the Docker host.
+
+![DSE Modbus Simulator](https://github.com/victronenergy/dse-modbus-simulator/raw/main/.github/webinterface.png)
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
