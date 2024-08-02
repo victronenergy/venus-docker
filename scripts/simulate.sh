@@ -85,6 +85,7 @@ if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 elif test "$sim" = "dse"; then
   svc -u /service/dse-modbus-simulator
+  trap "svc -d /service/dse-modbus-simulator" SIGINT
   sleep infinity
 else
   $PLAY $SIMULATIONS/$sim/*.{dat,csv} $extra

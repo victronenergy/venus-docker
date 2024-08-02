@@ -66,7 +66,6 @@ elif test -z "$SIMULATION"; then
 After running ./start_services.sh, the following comes available:
   - Web interfaces
     - Html5 app at http://localhost:${APP_PORT}
-    - DSE genset simulator at http://localhost:${DSE_SIMULATOR_WEBUI_PORT}
   - Other services
     - websocket at port ${WSPORT}
     - mqtt at port      ${MQTTPORT}
