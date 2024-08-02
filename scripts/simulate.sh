@@ -55,10 +55,6 @@ fi
 
 sim=${1,,}
 
-# Dont run DSE simulator by default,
-# as it might interfere with recordings
-svc -d /service/dse-modbus-simulator
-
 # First restore the default config
 svc -d /service/localsettings
 cp /data/conf/settings.xml.orig /data/conf/settings.xml
