@@ -80,8 +80,16 @@ echo "Starting the simulation, press ctrl+C to terminate."
 if test "$sim" = "z"; then
   /opt/victronenergy/dbus-recorder/play.sh 3 &
 elif test "$sim" = "dse"; then
-  svc -u /service/dse-modbus-simulator
-  sleep infinity
+  /opt/victronenergy/dse-modbus-simulator/main.py \
+    --app-dir=/opt/victronenergy/dse-modbus-simulator/ \
+    --web-host=0.0.0.0 --web-port=8000 \
+    --modbus-host=0.0.0.0 --modbus-port=502
+elif test "$sim" = "dse-hr"; then
+  /opt/victronenergy/dse-modbus-simulator/main.py \
+    --app-dir=/opt/victronenergy/dse-modbus-simulator/ \
+    --web-host=0.0.0.0 --web-port=8000 \
+    --modbus-host=0.0.0.0 --modbus-port=502 \
+    --helper-relay
 else
   $PLAY $SIMULATIONS/$sim/*.{dat,csv} $extra
 fi

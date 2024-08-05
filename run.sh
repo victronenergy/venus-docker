@@ -66,7 +66,6 @@ elif test -z "$SIMULATION"; then
 After running ./start_services.sh, the following comes available:
   - Web interfaces
     - Html5 app at http://localhost:${APP_PORT}
-    - DSE genset simulator at http://localhost:${DSE_SIMULATOR_WEBUI_PORT}
   - Other services
     - websocket at port ${WSPORT}
     - mqtt at port      ${MQTTPORT}
@@ -76,17 +75,18 @@ EndOfMessage
     docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSE_SIMULATOR_WEBUI_PORT:8000 mqtt
     exit 0
 else
-    if test -f simulations/$SIMULATION/setup; then
+    if test "$SIMULATION" = "dse"; then
+        if test "$KILL" = "true"; then kill_others; fi
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSE_SIMULATOR_WEBUI_PORT:8000 -p 0.0.0.0:$DSE_SIMULATOR_MODBUS_PORT:502 mqtt /root/run_with_simulation.sh dse
+        echo "DSE simulator web ui available at localhost:${DSE_SIMULATOR_WEBUI_PORT} and its modbus server at 0.0.0.0:${DSE_SIMULATOR_MODBUS_PORT} (unit id 1)"
+        echo "    Also Html5 app available at: localhost:${APP_PORT}, websocket port: ${WSPORT}, mqtt port: ${MQTTPORT}, dbus port: ${DBUSTCPPORT}"
+        exit 0
+    elif test -f simulations/$SIMULATION/setup; then
         if test "$KILL" = "true"; then kill_others; fi
         docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION
     elif test "$SIMULATION" = "z"; then
         if test "$KILL" = "true"; then kill_others; fi
         docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh z
-    elif test "$SIMULATION" = "dse"; then
-        if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $DSE_SIMULATOR_WEBUI_PORT:8000 -p 0.0.0.0:$DSE_SIMULATOR_MODBUS_PORT:502 mqtt /root/run_with_simulation.sh dse
-        echo "DSE simulator web ui available at localhost:${DSE_SIMULATOR_WEBUI_PORT} and its modbus server at 0.0.0.0:${DSE_SIMULATOR_MODBUS_PORT} (unit id 1)"
-        exit 0
     else
         echo "Simulation ($SIMULATION) does not exist in simulations/"
         available

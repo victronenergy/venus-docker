@@ -361,6 +361,10 @@ When running `./run.sh -s dse`, the web ui will, if no other container is runnin
 
 ![DSE Modbus Simulator](https://github.com/victronenergy/dse-modbus-simulator/raw/main/.github/webinterface.png)
 
+### DSE-HR) Interactive DSE generator simulation – Helper Relay mode
+
+As above, but the controller is not advertising to be controllable via Modbus. Instead, it simulates to be wired up to Relay 1 of Venus OS by watching the `/Relay/0/State` DBus path of `com.victronenergy.system`.
+
 ## Using venus-docker with a real Venus device
 
 - On the Venus device, edit your `/etc/ssh/sshd_config` to allow remote
