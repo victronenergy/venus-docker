@@ -73,18 +73,18 @@ After running ./start_services.sh, the following comes available:
     - dbus at port      ${DBUSTCPPORT}
 
 EndOfMessage
-    docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSE_SIMULATOR_WEBUI_PORT:8000 mqtt
+    docker run -it --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 -p $DSE_SIMULATOR_WEBUI_PORT:8000 mqtt || exit 1
     exit 0
 else
     if test -f simulations/$SIMULATION/setup; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh ${ARGS[@]} $SIMULATION || exit 1
     elif test "$SIMULATION" = "z"; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh z
+        docker run -d --rm -p $WSPORT:9001 -p $MQTTPORT:1883 -p $DBUSTCPPORT:3000 -p $APP_PORT:80 mqtt /root/run_with_simulation.sh z || exit 1
     elif test "$SIMULATION" = "dse"; then
         if test "$KILL" = "true"; then kill_others; fi
-        docker run -d --rm -p $DSE_SIMULATOR_WEBUI_PORT:8000 -p 0.0.0.0:$DSE_SIMULATOR_MODBUS_PORT:502 mqtt /root/run_with_simulation.sh dse
+        docker run -d --rm -p $DSE_SIMULATOR_WEBUI_PORT:8000 -p 0.0.0.0:$DSE_SIMULATOR_MODBUS_PORT:502 mqtt /root/run_with_simulation.sh dse || exit 1
         echo "DSE simulator web ui available at localhost:${DSE_SIMULATOR_WEBUI_PORT} and its modbus server at 0.0.0.0:${DSE_SIMULATOR_MODBUS_PORT} (unit id 1)"
         exit 0
     else
