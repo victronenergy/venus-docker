@@ -177,6 +177,30 @@ Show in html5app:
 - dc loads
 - charger; adjustable mode + input current
 
+### GDF) Fisher Panda AGT DC genset
+
+Settings:
+- AC input type 1 = not available
+- AC input type 2 = not available
+- DC system enabled
+- Enable genset ouptut as battery configuration
+- Enable genset starter as battery configuration
+
+Show in html5app:
+- Fisher Panda AGT
+
+### GDH) Hatz DC genset
+
+Settings:
+- AC input type 1 = not available
+- AC input type 2 = not available
+- DC system enabled
+- Enable genset ouptut as battery configuration
+- Enable genset starter as battery configuration
+
+Show in html5app:
+- Hatz DC genset
+
 ### H) VE.Direct Inverter + BMV - typical simple vehicle - only charged from alternator
 
 Settings:
