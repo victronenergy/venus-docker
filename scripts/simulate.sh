@@ -68,11 +68,20 @@ while ! settings_available; do
 done; echo
 
 # Perform any setup that might be required for this demo
-echo "Applying settings for this simulation..."
 if test -f $SIMULATIONS/$sim/setup; then
+	echo "Applying settings for this simulation..."
 	while read -r line; do
 		read -r service path value <<< "$line"
-		$DBUS -y $service $path SetValue "$value" > /dev/null
+		if $DBUS -y $service $path GetValue > /dev/null 2>&1; then
+			echo "Setting $service $path to $value"
+			$DBUS -y $service $path SetValue "$value" > /dev/null
+		elif test "$service" = "com.victronenergy.settings"; then
+			echo "Add setting ${path} to $service with default value $value"
+			settings="%[{\"path\": \"${path#/Settings/}\", \"default\": ${value}}]"
+			$DBUS -y $service /Settings AddSettings "${settings}" > /dev/null
+		else
+			echo "Unable to set $service $path to $value"
+		fi
 	done < $SIMULATIONS/$sim/setup
 fi
 
