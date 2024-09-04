@@ -1,0 +1,2140 @@
+com.victronenergy.solarcharger.ttyS6
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/Mgmt/ProcessVersion	STRING	3.83	3.83
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/Load/I	DOUBLE	0.0	0.0A
+/Load/State	UINT32	1	1
+/Link/BatteryCurrent	ARRAY	[]	
+/Link/ChargeCurrent	DOUBLE	20.0	20.0A
+/Link/ChargeVoltage	DOUBLE	54.0	54.00V
+/Link/TemperatureSense	ARRAY	[]	
+/Link/VoltageSense	DOUBLE	52.41999816894531	52.42V
+/Link/TemperatureSenseActive	UINT32	0	0
+/Link/VoltageSenseActive	UINT32	1	1
+/Link/NetworkStatus	UINT32	0	0
+/Link/NetworkMode	UINT32	13	13
+/Pv/V	DOUBLE	63.47999954223633	63.48V
+/Mode	UINT32	1	1
+/MppOperationMode	UINT32	2	MPPT
+/DeviceOffReason	UINT32	0	0
+/Capabilities/Capabilities1	UINT32	168681077	168681077
+/Settings/BmsPresent	UINT32	1	1
+/Settings/BatteryVoltageSetting	UINT32	48	48
+/Settings/ChargeCurrentLimit	DOUBLE	20.0	20.0A
+/History/Overall/DaysAvailable	INT32	28	28
+/History/Overall/LastError4	INT32	0	0
+/History/Overall/LastError3	INT32	0	0
+/History/Overall/LastError2	INT32	0	0
+/History/Overall/LastError1	INT32	0	0
+/History/Overall/MinBatteryVoltage	DOUBLE	0.009999999776482582	0.01V
+/History/Overall/MaxBatteryVoltage	DOUBLE	57.220001220703125	57.22V
+/History/Overall/MaxPvVoltage	DOUBLE	75.87000274658203	75.87V
+/History/Daily/30/TimeInFloat	ARRAY	[]	
+/History/Daily/30/TimeInAbsorption	ARRAY	[]	
+/History/Daily/30/TimeInBulk	ARRAY	[]	
+/History/Daily/30/LastError4	ARRAY	[]	
+/History/Daily/30/LastError3	ARRAY	[]	
+/History/Daily/30/LastError2	ARRAY	[]	
+/History/Daily/30/LastError1	ARRAY	[]	
+/History/Daily/30/MaxPvVoltage	ARRAY	[]	
+/History/Daily/30/MaxPower	ARRAY	[]	
+/History/Daily/30/MaxBatteryCurrent	ARRAY	[]	
+/History/Daily/30/MinBatteryVoltage	ARRAY	[]	
+/History/Daily/30/MaxBatteryVoltage	ARRAY	[]	
+/History/Daily/30/Consumption	ARRAY	[]	
+/History/Daily/30/Yield	ARRAY	[]	
+/History/Daily/30/Nr	ARRAY	[]	
+/History/Daily/29/TimeInFloat	ARRAY	[]	
+/History/Daily/29/TimeInAbsorption	ARRAY	[]	
+/History/Daily/29/TimeInBulk	ARRAY	[]	
+/History/Daily/29/LastError4	ARRAY	[]	
+/History/Daily/29/LastError3	ARRAY	[]	
+/History/Daily/29/LastError2	ARRAY	[]	
+/History/Daily/29/LastError1	ARRAY	[]	
+/History/Daily/29/MaxPvVoltage	ARRAY	[]	
+/History/Daily/29/MaxPower	ARRAY	[]	
+/History/Daily/29/MaxBatteryCurrent	ARRAY	[]	
+/History/Daily/29/MinBatteryVoltage	ARRAY	[]	
+/History/Daily/29/MaxBatteryVoltage	ARRAY	[]	
+/History/Daily/29/Consumption	ARRAY	[]	
+/History/Daily/29/Yield	ARRAY	[]	
+/History/Daily/29/Nr	ARRAY	[]	
+/History/Daily/28/TimeInFloat	ARRAY	[]	
+/History/Daily/28/TimeInAbsorption	ARRAY	[]	
+/History/Daily/28/TimeInBulk	ARRAY	[]	
+/History/Daily/28/LastError4	ARRAY	[]	
+/History/Daily/28/LastError3	ARRAY	[]	
+/History/Daily/28/LastError2	ARRAY	[]	
+/History/Daily/28/LastError1	ARRAY	[]	
+/History/Daily/28/MaxPvVoltage	ARRAY	[]	
+/History/Daily/28/MaxPower	ARRAY	[]	
+/History/Daily/28/MaxBatteryCurrent	ARRAY	[]	
+/History/Daily/28/MinBatteryVoltage	ARRAY	[]	
+/History/Daily/28/MaxBatteryVoltage	ARRAY	[]	
+/History/Daily/28/Consumption	ARRAY	[]	
+/History/Daily/28/Yield	ARRAY	[]	
+/History/Daily/28/Nr	ARRAY	[]	
+/History/Daily/27/TimeInFloat	DOUBLE	9.0	9s
+/History/Daily/27/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/27/TimeInBulk	DOUBLE	610.0	610s
+/History/Daily/27/LastError4	INT32	0	0
+/History/Daily/27/LastError3	INT32	0	0
+/History/Daily/27/LastError2	INT32	0	0
+/History/Daily/27/LastError1	INT32	0	0
+/History/Daily/27/MaxPvVoltage	DOUBLE	74.1500015258789	74.15V
+/History/Daily/27/MaxPower	DOUBLE	393.0	393W
+/History/Daily/27/MaxBatteryCurrent	DOUBLE	6.800000190734863	6.8A
+/History/Daily/27/MinBatteryVoltage	DOUBLE	52.93000030517578	52.93V
+/History/Daily/27/MaxBatteryVoltage	DOUBLE	56.86000061035156	56.86V
+/History/Daily/27/Consumption	DOUBLE	0.23999999463558197	0.24kWh
+/History/Daily/27/Yield	DOUBLE	0.41999998688697815	0.42kWh
+/History/Daily/27/Nr	INT32	0	0
+/History/Daily/26/TimeInFloat	DOUBLE	51.0	51s
+/History/Daily/26/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/26/TimeInBulk	DOUBLE	468.0	468s
+/History/Daily/26/LastError4	INT32	0	0
+/History/Daily/26/LastError3	INT32	0	0
+/History/Daily/26/LastError2	INT32	0	0
+/History/Daily/26/LastError1	INT32	0	0
+/History/Daily/26/MaxPvVoltage	DOUBLE	74.45999908447266	74.46V
+/History/Daily/26/MaxPower	DOUBLE	200.0	200W
+/History/Daily/26/MaxBatteryCurrent	DOUBLE	3.5999999046325684	3.6A
+/History/Daily/26/MinBatteryVoltage	DOUBLE	9.569999694824219	9.57V
+/History/Daily/26/MaxBatteryVoltage	DOUBLE	57.220001220703125	57.22V
+/History/Daily/26/Consumption	DOUBLE	0.1899999976158142	0.19kWh
+/History/Daily/26/Yield	DOUBLE	0.18000000715255737	0.18kWh
+/History/Daily/26/Nr	INT32	1	1
+/History/Daily/25/TimeInFloat	DOUBLE	342.0	342s
+/History/Daily/25/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/25/TimeInBulk	DOUBLE	283.0	283s
+/History/Daily/25/LastError4	INT32	0	0
+/History/Daily/25/LastError3	INT32	0	0
+/History/Daily/25/LastError2	INT32	0	0
+/History/Daily/25/LastError1	INT32	0	0
+/History/Daily/25/MaxPvVoltage	DOUBLE	74.7699966430664	74.77V
+/History/Daily/25/MaxPower	DOUBLE	270.0	270W
+/History/Daily/25/MaxBatteryCurrent	DOUBLE	4.599999904632568	4.6A
+/History/Daily/25/MinBatteryVoltage	DOUBLE	0.009999999776482582	0.01V
+/History/Daily/25/MaxBatteryVoltage	DOUBLE	56.88999938964844	56.89V
+/History/Daily/25/Consumption	DOUBLE	0.07999999821186066	0.08kWh
+/History/Daily/25/Yield	DOUBLE	0.17000000178813934	0.17kWh
+/History/Daily/25/Nr	INT32	2	2
+/History/Daily/24/TimeInFloat	DOUBLE	609.0	609s
+/History/Daily/24/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/24/TimeInBulk	DOUBLE	0.0	0s
+/History/Daily/24/LastError4	INT32	0	0
+/History/Daily/24/LastError3	INT32	0	0
+/History/Daily/24/LastError2	INT32	0	0
+/History/Daily/24/LastError1	INT32	0	0
+/History/Daily/24/MaxPvVoltage	DOUBLE	75.55000305175781	75.55V
+/History/Daily/24/MaxPower	DOUBLE	14.0	14W
+/History/Daily/24/MaxBatteryCurrent	DOUBLE	0.699999988079071	0.7A
+/History/Daily/24/MinBatteryVoltage	DOUBLE	0.009999999776482582	0.01V
+/History/Daily/24/MaxBatteryVoltage	DOUBLE	54.0	54.00V
+/History/Daily/24/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/24/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/24/Nr	INT32	3	3
+/History/Daily/23/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/23/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/23/TimeInBulk	DOUBLE	613.0	613s
+/History/Daily/23/LastError4	INT32	0	0
+/History/Daily/23/LastError3	INT32	0	0
+/History/Daily/23/LastError2	INT32	0	0
+/History/Daily/23/LastError1	INT32	0	0
+/History/Daily/23/MaxPvVoltage	DOUBLE	75.05999755859375	75.06V
+/History/Daily/23/MaxPower	DOUBLE	225.0	225W
+/History/Daily/23/MaxBatteryCurrent	DOUBLE	3.799999952316284	3.8A
+/History/Daily/23/MinBatteryVoltage	DOUBLE	52.84000015258789	52.84V
+/History/Daily/23/MaxBatteryVoltage	DOUBLE	56.86000061035156	56.86V
+/History/Daily/23/Consumption	DOUBLE	0.18000000715255737	0.18kWh
+/History/Daily/23/Yield	DOUBLE	0.5	0.50kWh
+/History/Daily/23/Nr	INT32	4	4
+/History/Daily/22/TimeInFloat	DOUBLE	22.0	22s
+/History/Daily/22/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/22/TimeInBulk	DOUBLE	596.0	596s
+/History/Daily/22/LastError4	INT32	0	0
+/History/Daily/22/LastError3	INT32	0	0
+/History/Daily/22/LastError2	INT32	0	0
+/History/Daily/22/LastError1	INT32	0	0
+/History/Daily/22/MaxPvVoltage	DOUBLE	72.61000061035156	72.61V
+/History/Daily/22/MaxPower	DOUBLE	276.0	276W
+/History/Daily/22/MaxBatteryCurrent	DOUBLE	5.0	5.0A
+/History/Daily/22/MinBatteryVoltage	DOUBLE	0.009999999776482582	0.01V
+/History/Daily/22/MaxBatteryVoltage	DOUBLE	56.90999984741211	56.91V
+/History/Daily/22/Consumption	DOUBLE	0.019999999552965164	0.02kWh
+/History/Daily/22/Yield	DOUBLE	0.6399999856948853	0.64kWh
+/History/Daily/22/Nr	INT32	5	5
+/History/Daily/21/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/21/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/21/TimeInBulk	DOUBLE	617.0	617s
+/History/Daily/21/LastError4	INT32	0	0
+/History/Daily/21/LastError3	INT32	0	0
+/History/Daily/21/LastError2	INT32	0	0
+/History/Daily/21/LastError1	INT32	0	0
+/History/Daily/21/MaxPvVoltage	DOUBLE	73.95999908447266	73.96V
+/History/Daily/21/MaxPower	DOUBLE	206.0	206W
+/History/Daily/21/MaxBatteryCurrent	DOUBLE	3.700000047683716	3.7A
+/History/Daily/21/MinBatteryVoltage	DOUBLE	53.709999084472656	53.71V
+/History/Daily/21/MaxBatteryVoltage	DOUBLE	54.25	54.25V
+/History/Daily/21/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/21/Yield	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/21/Nr	INT32	6	6
+/History/Daily/20/TimeInFloat	DOUBLE	9.0	9s
+/History/Daily/20/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/20/TimeInBulk	DOUBLE	593.0	593s
+/History/Daily/20/LastError4	INT32	0	0
+/History/Daily/20/LastError3	INT32	0	0
+/History/Daily/20/LastError2	INT32	0	0
+/History/Daily/20/LastError1	INT32	0	0
+/History/Daily/20/MaxPvVoltage	DOUBLE	73.63999938964844	73.64V
+/History/Daily/20/MaxPower	DOUBLE	46.0	46W
+/History/Daily/20/MaxBatteryCurrent	DOUBLE	0.800000011920929	0.8A
+/History/Daily/20/MinBatteryVoltage	DOUBLE	53.939998626708984	53.94V
+/History/Daily/20/MaxBatteryVoltage	DOUBLE	54.209999084472656	54.21V
+/History/Daily/20/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/20/Yield	DOUBLE	0.05999999865889549	0.06kWh
+/History/Daily/20/Nr	INT32	7	7
+/History/Daily/19/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/19/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/19/TimeInBulk	DOUBLE	627.0	627s
+/History/Daily/19/LastError4	INT32	0	0
+/History/Daily/19/LastError3	INT32	0	0
+/History/Daily/19/LastError2	INT32	0	0
+/History/Daily/19/LastError1	INT32	0	0
+/History/Daily/19/MaxPvVoltage	DOUBLE	74.55999755859375	74.56V
+/History/Daily/19/MaxPower	DOUBLE	39.0	39W
+/History/Daily/19/MaxBatteryCurrent	DOUBLE	0.699999988079071	0.7A
+/History/Daily/19/MinBatteryVoltage	DOUBLE	53.959999084472656	53.96V
+/History/Daily/19/MaxBatteryVoltage	DOUBLE	54.18000030517578	54.18V
+/History/Daily/19/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/19/Yield	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/19/Nr	INT32	8	8
+/History/Daily/18/TimeInFloat	DOUBLE	9.0	9s
+/History/Daily/18/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/18/TimeInBulk	DOUBLE	566.0	566s
+/History/Daily/18/LastError4	INT32	0	0
+/History/Daily/18/LastError3	INT32	0	0
+/History/Daily/18/LastError2	INT32	0	0
+/History/Daily/18/LastError1	INT32	0	0
+/History/Daily/18/MaxPvVoltage	DOUBLE	71.66000366210938	71.66V
+/History/Daily/18/MaxPower	DOUBLE	35.0	35W
+/History/Daily/18/MaxBatteryCurrent	DOUBLE	0.6000000238418579	0.6A
+/History/Daily/18/MinBatteryVoltage	DOUBLE	53.95000076293945	53.95V
+/History/Daily/18/MaxBatteryVoltage	DOUBLE	54.220001220703125	54.22V
+/History/Daily/18/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/18/Yield	DOUBLE	0.019999999552965164	0.02kWh
+/History/Daily/18/Nr	INT32	9	9
+/History/Daily/17/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/17/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/17/TimeInBulk	DOUBLE	625.0	625s
+/History/Daily/17/LastError4	INT32	0	0
+/History/Daily/17/LastError3	INT32	0	0
+/History/Daily/17/LastError2	INT32	0	0
+/History/Daily/17/LastError1	INT32	0	0
+/History/Daily/17/MaxPvVoltage	DOUBLE	73.94999694824219	73.95V
+/History/Daily/17/MaxPower	DOUBLE	59.0	59W
+/History/Daily/17/MaxBatteryCurrent	DOUBLE	1.0	1.0A
+/History/Daily/17/MinBatteryVoltage	DOUBLE	53.95000076293945	53.95V
+/History/Daily/17/MaxBatteryVoltage	DOUBLE	54.18000030517578	54.18V
+/History/Daily/17/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/17/Yield	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/17/Nr	INT32	10	10
+/History/Daily/16/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/16/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/16/TimeInBulk	DOUBLE	623.0	623s
+/History/Daily/16/LastError4	INT32	0	0
+/History/Daily/16/LastError3	INT32	0	0
+/History/Daily/16/LastError2	INT32	0	0
+/History/Daily/16/LastError1	INT32	0	0
+/History/Daily/16/MaxPvVoltage	DOUBLE	74.83999633789062	74.84V
+/History/Daily/16/MaxPower	DOUBLE	120.0	120W
+/History/Daily/16/MaxBatteryCurrent	DOUBLE	2.200000047683716	2.2A
+/History/Daily/16/MinBatteryVoltage	DOUBLE	53.08000183105469	53.08V
+/History/Daily/16/MaxBatteryVoltage	DOUBLE	54.220001220703125	54.22V
+/History/Daily/16/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/16/Yield	DOUBLE	0.23999999463558197	0.24kWh
+/History/Daily/16/Nr	INT32	11	11
+/History/Daily/15/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/15/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/15/TimeInBulk	DOUBLE	613.0	613s
+/History/Daily/15/LastError4	INT32	0	0
+/History/Daily/15/LastError3	INT32	0	0
+/History/Daily/15/LastError2	INT32	0	0
+/History/Daily/15/LastError1	INT32	0	0
+/History/Daily/15/MaxPvVoltage	DOUBLE	74.9800033569336	74.98V
+/History/Daily/15/MaxPower	DOUBLE	255.0	255W
+/History/Daily/15/MaxBatteryCurrent	DOUBLE	4.599999904632568	4.6A
+/History/Daily/15/MinBatteryVoltage	DOUBLE	53.0099983215332	53.01V
+/History/Daily/15/MaxBatteryVoltage	DOUBLE	54.2599983215332	54.26V
+/History/Daily/15/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/15/Yield	DOUBLE	0.41999998688697815	0.42kWh
+/History/Daily/15/Nr	INT32	12	12
+/History/Daily/14/TimeInFloat	DOUBLE	10.0	10s
+/History/Daily/14/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/14/TimeInBulk	DOUBLE	628.0	628s
+/History/Daily/14/LastError4	INT32	0	0
+/History/Daily/14/LastError3	INT32	0	0
+/History/Daily/14/LastError2	INT32	0	0
+/History/Daily/14/LastError1	INT32	0	0
+/History/Daily/14/MaxPvVoltage	DOUBLE	74.01000213623047	74.01V
+/History/Daily/14/MaxPower	DOUBLE	405.0	405W
+/History/Daily/14/MaxBatteryCurrent	DOUBLE	7.300000190734863	7.3A
+/History/Daily/14/MinBatteryVoltage	DOUBLE	52.810001373291016	52.81V
+/History/Daily/14/MaxBatteryVoltage	DOUBLE	57.130001068115234	57.13V
+/History/Daily/14/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/14/Yield	DOUBLE	0.5	0.50kWh
+/History/Daily/14/Nr	INT32	13	13
+/History/Daily/13/TimeInFloat	DOUBLE	3.0	3s
+/History/Daily/13/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/13/TimeInBulk	DOUBLE	655.0	655s
+/History/Daily/13/LastError4	INT32	0	0
+/History/Daily/13/LastError3	INT32	0	0
+/History/Daily/13/LastError2	INT32	0	0
+/History/Daily/13/LastError1	INT32	0	0
+/History/Daily/13/MaxPvVoltage	DOUBLE	73.63999938964844	73.64V
+/History/Daily/13/MaxPower	DOUBLE	257.0	257W
+/History/Daily/13/MaxBatteryCurrent	DOUBLE	4.699999809265137	4.7A
+/History/Daily/13/MinBatteryVoltage	DOUBLE	53.54999923706055	53.55V
+/History/Daily/13/MaxBatteryVoltage	DOUBLE	54.279998779296875	54.28V
+/History/Daily/13/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/13/Yield	DOUBLE	0.36000001430511475	0.36kWh
+/History/Daily/13/Nr	INT32	14	14
+/History/Daily/12/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/12/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/12/TimeInBulk	DOUBLE	660.0	660s
+/History/Daily/12/LastError4	INT32	0	0
+/History/Daily/12/LastError3	INT32	0	0
+/History/Daily/12/LastError2	INT32	0	0
+/History/Daily/12/LastError1	INT32	0	0
+/History/Daily/12/MaxPvVoltage	DOUBLE	73.52999877929688	73.53V
+/History/Daily/12/MaxPower	DOUBLE	435.0	435W
+/History/Daily/12/MaxBatteryCurrent	DOUBLE	7.900000095367432	7.9A
+/History/Daily/12/MinBatteryVoltage	DOUBLE	53.08000183105469	53.08V
+/History/Daily/12/MaxBatteryVoltage	DOUBLE	54.119998931884766	54.12V
+/History/Daily/12/Consumption	DOUBLE	0.019999999552965164	0.02kWh
+/History/Daily/12/Yield	DOUBLE	0.3499999940395355	0.35kWh
+/History/Daily/12/Nr	INT32	15	15
+/History/Daily/11/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/11/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/11/TimeInBulk	DOUBLE	641.0	641s
+/History/Daily/11/LastError4	INT32	0	0
+/History/Daily/11/LastError3	INT32	0	0
+/History/Daily/11/LastError2	INT32	0	0
+/History/Daily/11/LastError1	INT32	0	0
+/History/Daily/11/MaxPvVoltage	DOUBLE	75.38999938964844	75.39V
+/History/Daily/11/MaxPower	DOUBLE	0.0	0W
+/History/Daily/11/MaxBatteryCurrent	DOUBLE	0.0	0.0A
+/History/Daily/11/MinBatteryVoltage	DOUBLE	53.970001220703125	53.97V
+/History/Daily/11/MaxBatteryVoltage	DOUBLE	54.04999923706055	54.05V
+/History/Daily/11/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/11/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/11/Nr	INT32	16	16
+/History/Daily/10/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/10/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/10/TimeInBulk	DOUBLE	660.0	660s
+/History/Daily/10/LastError4	INT32	0	0
+/History/Daily/10/LastError3	INT32	0	0
+/History/Daily/10/LastError2	INT32	0	0
+/History/Daily/10/LastError1	INT32	0	0
+/History/Daily/10/MaxPvVoltage	DOUBLE	74.12000274658203	74.12V
+/History/Daily/10/MaxPower	DOUBLE	0.0	0W
+/History/Daily/10/MaxBatteryCurrent	DOUBLE	0.0	0.0A
+/History/Daily/10/MinBatteryVoltage	DOUBLE	53.970001220703125	53.97V
+/History/Daily/10/MaxBatteryVoltage	DOUBLE	54.04999923706055	54.05V
+/History/Daily/10/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/10/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/10/Nr	INT32	17	17
+/History/Daily/9/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/9/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/9/TimeInBulk	DOUBLE	660.0	660s
+/History/Daily/9/LastError4	INT32	0	0
+/History/Daily/9/LastError3	INT32	0	0
+/History/Daily/9/LastError2	INT32	0	0
+/History/Daily/9/LastError1	INT32	0	0
+/History/Daily/9/MaxPvVoltage	DOUBLE	73.86000061035156	73.86V
+/History/Daily/9/MaxPower	DOUBLE	78.0	78W
+/History/Daily/9/MaxBatteryCurrent	DOUBLE	1.399999976158142	1.4A
+/History/Daily/9/MinBatteryVoltage	DOUBLE	53.95000076293945	53.95V
+/History/Daily/9/MaxBatteryVoltage	DOUBLE	54.04999923706055	54.05V
+/History/Daily/9/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/9/Yield	DOUBLE	0.0	0.00kWh
+/History/Daily/9/Nr	INT32	18	18
+/History/Daily/8/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/8/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/8/TimeInBulk	DOUBLE	658.0	658s
+/History/Daily/8/LastError4	INT32	0	0
+/History/Daily/8/LastError3	INT32	0	0
+/History/Daily/8/LastError2	INT32	0	0
+/History/Daily/8/LastError1	INT32	0	0
+/History/Daily/8/MaxPvVoltage	DOUBLE	74.13999938964844	74.14V
+/History/Daily/8/MaxPower	DOUBLE	88.0	88W
+/History/Daily/8/MaxBatteryCurrent	DOUBLE	1.600000023841858	1.6A
+/History/Daily/8/MinBatteryVoltage	DOUBLE	53.83000183105469	53.83V
+/History/Daily/8/MaxBatteryVoltage	DOUBLE	54.11000061035156	54.11V
+/History/Daily/8/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/8/Yield	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/8/Nr	INT32	19	19
+/History/Daily/7/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/7/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/7/TimeInBulk	DOUBLE	670.0	670s
+/History/Daily/7/LastError4	INT32	0	0
+/History/Daily/7/LastError3	INT32	0	0
+/History/Daily/7/LastError2	INT32	0	0
+/History/Daily/7/LastError1	INT32	0	0
+/History/Daily/7/MaxPvVoltage	DOUBLE	72.31999969482422	72.32V
+/History/Daily/7/MaxPower	DOUBLE	275.0	275W
+/History/Daily/7/MaxBatteryCurrent	DOUBLE	5.0	5.0A
+/History/Daily/7/MinBatteryVoltage	DOUBLE	52.959999084472656	52.96V
+/History/Daily/7/MaxBatteryVoltage	DOUBLE	54.04999923706055	54.05V
+/History/Daily/7/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/7/Yield	DOUBLE	0.7200000286102295	0.72kWh
+/History/Daily/7/Nr	INT32	20	20
+/History/Daily/6/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/6/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/6/TimeInBulk	DOUBLE	680.0	680s
+/History/Daily/6/LastError4	INT32	0	0
+/History/Daily/6/LastError3	INT32	0	0
+/History/Daily/6/LastError2	INT32	0	0
+/History/Daily/6/LastError1	INT32	0	0
+/History/Daily/6/MaxPvVoltage	DOUBLE	73.01000213623047	73.01V
+/History/Daily/6/MaxPower	DOUBLE	299.0	299W
+/History/Daily/6/MaxBatteryCurrent	DOUBLE	5.400000095367432	5.4A
+/History/Daily/6/MinBatteryVoltage	DOUBLE	52.9900016784668	52.99V
+/History/Daily/6/MaxBatteryVoltage	DOUBLE	54.0099983215332	54.01V
+/History/Daily/6/Consumption	DOUBLE	0.019999999552965164	0.02kWh
+/History/Daily/6/Yield	DOUBLE	1.1699999570846558	1.17kWh
+/History/Daily/6/Nr	INT32	21	21
+/History/Daily/5/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/5/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/5/TimeInBulk	DOUBLE	677.0	677s
+/History/Daily/5/LastError4	INT32	0	0
+/History/Daily/5/LastError3	INT32	0	0
+/History/Daily/5/LastError2	INT32	0	0
+/History/Daily/5/LastError1	INT32	0	0
+/History/Daily/5/MaxPvVoltage	DOUBLE	72.62999725341797	72.63V
+/History/Daily/5/MaxPower	DOUBLE	275.0	275W
+/History/Daily/5/MaxBatteryCurrent	DOUBLE	4.900000095367432	4.9A
+/History/Daily/5/MinBatteryVoltage	DOUBLE	53.0	53.00V
+/History/Daily/5/MaxBatteryVoltage	DOUBLE	54.0099983215332	54.01V
+/History/Daily/5/Consumption	DOUBLE	0.029999999329447746	0.03kWh
+/History/Daily/5/Yield	DOUBLE	1.0700000524520874	1.07kWh
+/History/Daily/5/Nr	INT32	22	22
+/History/Daily/4/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/4/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/4/TimeInBulk	DOUBLE	657.0	657s
+/History/Daily/4/LastError4	INT32	0	0
+/History/Daily/4/LastError3	INT32	0	0
+/History/Daily/4/LastError2	INT32	0	0
+/History/Daily/4/LastError1	INT32	0	0
+/History/Daily/4/MaxPvVoltage	DOUBLE	72.66999816894531	72.67V
+/History/Daily/4/MaxPower	DOUBLE	444.0	444W
+/History/Daily/4/MaxBatteryCurrent	DOUBLE	8.0	8.0A
+/History/Daily/4/MinBatteryVoltage	DOUBLE	53.04999923706055	53.05V
+/History/Daily/4/MaxBatteryVoltage	DOUBLE	54.0099983215332	54.01V
+/History/Daily/4/Consumption	DOUBLE	0.019999999552965164	0.02kWh
+/History/Daily/4/Yield	DOUBLE	0.9800000190734863	0.98kWh
+/History/Daily/4/Nr	INT32	23	23
+/History/Daily/3/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/3/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/3/TimeInBulk	DOUBLE	665.0	665s
+/History/Daily/3/LastError4	INT32	0	0
+/History/Daily/3/LastError3	INT32	0	0
+/History/Daily/3/LastError2	INT32	0	0
+/History/Daily/3/LastError1	INT32	0	0
+/History/Daily/3/MaxPvVoltage	DOUBLE	71.77999877929688	71.78V
+/History/Daily/3/MaxPower	DOUBLE	443.0	443W
+/History/Daily/3/MaxBatteryCurrent	DOUBLE	8.0	8.0A
+/History/Daily/3/MinBatteryVoltage	DOUBLE	53.060001373291016	53.06V
+/History/Daily/3/MaxBatteryVoltage	DOUBLE	54.0099983215332	54.01V
+/History/Daily/3/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/3/Yield	DOUBLE	0.8399999737739563	0.84kWh
+/History/Daily/3/Nr	INT32	24	24
+/History/Daily/2/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/2/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/2/TimeInBulk	DOUBLE	653.0	653s
+/History/Daily/2/LastError4	INT32	0	0
+/History/Daily/2/LastError3	INT32	0	0
+/History/Daily/2/LastError2	INT32	0	0
+/History/Daily/2/LastError1	INT32	0	0
+/History/Daily/2/MaxPvVoltage	DOUBLE	74.86000061035156	74.86V
+/History/Daily/2/MaxPower	DOUBLE	32.0	32W
+/History/Daily/2/MaxBatteryCurrent	DOUBLE	0.5	0.5A
+/History/Daily/2/MinBatteryVoltage	DOUBLE	53.04999923706055	53.05V
+/History/Daily/2/MaxBatteryVoltage	DOUBLE	54.08000183105469	54.08V
+/History/Daily/2/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/2/Yield	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/2/Nr	INT32	25	25
+/History/Daily/1/TimeInFloat	DOUBLE	0.0	0s
+/History/Daily/1/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/1/TimeInBulk	DOUBLE	671.0	671s
+/History/Daily/1/LastError4	INT32	0	0
+/History/Daily/1/LastError3	INT32	0	0
+/History/Daily/1/LastError2	INT32	0	0
+/History/Daily/1/LastError1	INT32	0	0
+/History/Daily/1/MaxPvVoltage	DOUBLE	75.87000274658203	75.87V
+/History/Daily/1/MaxBatteryCurrent	DOUBLE	7.199999809265137	7.2A
+/History/Daily/1/MinBatteryVoltage	DOUBLE	53.400001525878906	53.40V
+/History/Daily/1/MaxBatteryVoltage	DOUBLE	54.22999954223633	54.23V
+/History/Daily/1/Consumption	DOUBLE	0.009999999776482582	0.01kWh
+/History/Daily/1/Nr	INT32	26	26
+/History/Daily/1/MaxPower	DOUBLE	398.0	398W
+/History/Daily/1/Yield	DOUBLE	0.14000000059604645	0.14kWh
+/History/Daily/0/TimeInFloat	DOUBLE	1.0	1s
+/History/Daily/0/TimeInAbsorption	DOUBLE	0.0	0s
+/History/Daily/0/TimeInBulk	DOUBLE	542.0	542s
+/History/Daily/0/LastError4	INT32	0	0
+/History/Daily/0/LastError3	INT32	0	0
+/History/Daily/0/LastError2	INT32	0	0
+/History/Daily/0/LastError1	INT32	0	0
+/History/Daily/0/MaxPvVoltage	DOUBLE	75.69000244140625	75.69V
+/History/Daily/0/MaxBatteryCurrent	DOUBLE	6.800000190734863	6.8A
+/History/Daily/0/MinBatteryVoltage	DOUBLE	52.41999816894531	52.42V
+/History/Daily/0/MaxBatteryVoltage	DOUBLE	55.560001373291016	55.56V
+/History/Daily/0/Consumption	DOUBLE	0.0	0.00kWh
+/History/Daily/0/Nr	INT32	27	27
+/History/Daily/0/MaxPower	DOUBLE	374.0	374W
+/History/Daily/0/Yield	DOUBLE	0.1899999976158142	0.19kWh
+/NrOfTrackers	UINT32	1	1
+/State	UINT32	252	252
+/ErrorCode	UINT32	0	0
+/Yield/System	DOUBLE	9.020000457763672	9.02kWh
+/Yield/User	DOUBLE	9.020000457763672	9.02kWh
+/Yield/Power	DOUBLE	48.02000045776367	48W
+/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+/Dc/0/Voltage	DOUBLE	52.43000030517578	52.43V
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/Devices/0/VregLink	ARRAY	[]	
+/Devices/0/ServiceName	STRING	com.victronenergy.solarcharger.ttyS6	com.victronenergy.solarcharger.ttyS6
+/Devices/0/ProductName	STRING	SmartSolar Charger MPPT 100/20 48V	SmartSolar Charger MPPT 100/20 48V
+/Devices/0/ProductId	UINT32	41056	0xA060
+/Devices/0/FirmwareVersion	UINT32	356	v1.64
+/Devices/0/DeviceInstance	UINT32	278	278
+/Devices/0/CustomName	STRING	Solar 4	Solar 4
+/GroupId	UINT32	10	10
+/CustomName	STRING	Solar 4	Solar 4
+/Serial	STRING	HQ2309TZQ29	HQ2309TZQ29
+/FirmwareVersion	UINT32	356	v1.64
+/ProductId	UINT32	41056	0xA060
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	278	278
+/HardwareVersion	ARRAY	[]	
+/ProductName	STRING	SmartSolar Charger MPPT 100/20 48V	SmartSolar Charger MPPT 100/20 48V
+
+1	/Pv/V	DOUBLE	63.47999954223633	63.48V
+1	/Yield/Power	DOUBLE	48.02000045776367	48W
+1	/Dc/0/Voltage	DOUBLE	52.43000030517578	52.43V
+1	/History/Daily/0/MinBatteryVoltage	DOUBLE	52.41999816894531	52.42V
+2	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+2	/Pv/V	DOUBLE	64.19999694824219	64.20V
+2	/Yield/Power	DOUBLE	47.70000076293945	48W
+3	/Yield/Power	DOUBLE	48.36000061035156	48W
+3	/Dc/0/Voltage	DOUBLE	52.41999816894531	52.42V
+3	/Pv/V	DOUBLE	62.40999984741211	62.41V
+4	/Yield/Power	DOUBLE	48.06999969482422	48W
+4	/Pv/V	DOUBLE	63.5	63.50V
+4	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+4	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+5	/Pv/V	DOUBLE	61.529998779296875	61.53V
+5	/Yield/Power	DOUBLE	48.4900016784668	48W
+5	/Link/VoltageSense	DOUBLE	52.40999984741211	52.41V
+6	/Pv/V	DOUBLE	62.41999816894531	62.42V
+6	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+6	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+6	/Yield/Power	DOUBLE	48.040000915527344	48W
+7	/Pv/V	DOUBLE	61.2599983215332	61.26V
+7	/Dc/0/Voltage	DOUBLE	52.43000030517578	52.43V
+7	/Yield/Power	DOUBLE	47.439998626708984	47W
+8	/Yield/Power	DOUBLE	47.279998779296875	47W
+8	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+8	/Pv/V	DOUBLE	61.13999938964844	61.14V
+9	/Dc/0/Voltage	DOUBLE	52.41999816894531	52.42V
+9	/Pv/V	DOUBLE	61.16999816894531	61.17V
+9	/Yield/Power	DOUBLE	47.29999923706055	47W
+10	/Pv/V	DOUBLE	61.130001068115234	61.13V
+10	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+10	/Yield/Power	DOUBLE	47.310001373291016	47W
+10	/History/Daily/0/MinBatteryVoltage	DOUBLE	52.40999984741211	52.41V
+11	/Pv/V	DOUBLE	63.439998626708984	63.44V
+11	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+11	/Yield/Power	DOUBLE	47.40999984741211	47W
+11	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+12	/Yield/Power	DOUBLE	47.650001525878906	48W
+12	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+12	/Pv/V	DOUBLE	61.099998474121094	61.10V
+13	/Pv/V	DOUBLE	61.869998931884766	61.87V
+13	/Yield/Power	DOUBLE	47.849998474121094	48W
+14	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+14	/Pv/V	DOUBLE	61.2599983215332	61.26V
+14	/Yield/Power	DOUBLE	47.540000915527344	48W
+15	/Yield/Power	DOUBLE	47.650001525878906	48W
+15	/Pv/V	DOUBLE	63.7400016784668	63.74V
+15	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+16	/Yield/Power	DOUBLE	48.0	48W
+16	/Pv/V	DOUBLE	61.2599983215332	61.26V
+16	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+17	/Yield/Power	DOUBLE	45.959999084472656	46W
+17	/Pv/V	DOUBLE	65.20999908447266	65.21V
+17	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+18	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+18	/Yield/Power	DOUBLE	41.63999938964844	42W
+18	/Pv/V	DOUBLE	67.05000305175781	67.05V
+18	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+19	/Yield/Power	DOUBLE	33.40999984741211	33W
+19	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+19	/Pv/V	DOUBLE	68.33999633789062	68.34V
+19	/Dc/0/Current	DOUBLE	0.5	0.5A
+20	/Yield/Power	DOUBLE	25.18000030517578	25W
+20	/Pv/V	DOUBLE	68.88999938964844	68.89V
+20	/Dc/0/Current	DOUBLE	0.4000000059604645	0.4A
+21	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+21	/Yield/Power	DOUBLE	33.45000076293945	33W
+21	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+21	/Pv/V	DOUBLE	67.52999877929688	67.53V
+22	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+22	/Yield/Power	DOUBLE	42.380001068115234	42W
+22	/Pv/V	DOUBLE	65.30999755859375	65.31V
+22	/Dc/0/Voltage	DOUBLE	52.41999816894531	52.42V
+23	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+23	/Yield/Power	DOUBLE	45.56999969482422	46W
+23	/Pv/V	DOUBLE	64.75	64.75V
+23	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+23	/Link/VoltageSense	DOUBLE	52.400001525878906	52.40V
+24	/Yield/Power	DOUBLE	47.5099983215332	48W
+24	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+24	/Pv/V	DOUBLE	61.689998626708984	61.69V
+24	/History/Daily/0/TimeInBulk	DOUBLE	543.0	543s
+25	/History/Daily/0/MinBatteryVoltage	DOUBLE	52.400001525878906	52.40V
+25	/Pv/V	DOUBLE	60.97999954223633	60.98V
+25	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+25	/Yield/Power	DOUBLE	46.91999816894531	47W
+25	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+26	/Pv/V	DOUBLE	61.2599983215332	61.26V
+26	/Yield/Power	DOUBLE	46.58000183105469	47W
+26	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+27	/Pv/V	DOUBLE	61.290000915527344	61.29V
+27	/Yield/Power	DOUBLE	46.81999969482422	47W
+27	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+28	/Yield/Power	DOUBLE	45.790000915527344	46W
+28	/Pv/V	DOUBLE	57.47999954223633	57.48V
+28	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+29	/Yield/Power	DOUBLE	44.86000061035156	45W
+29	/Pv/V	DOUBLE	58.560001373291016	58.56V
+29	/Dc/0/Voltage	DOUBLE	52.40999984741211	52.41V
+30	/Yield/Power	DOUBLE	46.16999816894531	46W
+30	/Pv/V	DOUBLE	61.439998626708984	61.44V
+30	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+31	/Pv/V	DOUBLE	61.439998626708984	61.44V
+31	/Yield/Power	DOUBLE	46.18000030517578	46W
+32	/Yield/Power	DOUBLE	45.18000030517578	45W
+32	/Pv/V	DOUBLE	65.02999877929688	65.03V
+32	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+33	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+33	/Yield/Power	DOUBLE	41.86000061035156	42W
+33	/Pv/V	DOUBLE	66.87000274658203	66.87V
+34	/Yield/Power	DOUBLE	33.97999954223633	34W
+34	/Pv/V	DOUBLE	68.19000244140625	68.19V
+34	/Dc/0/Current	DOUBLE	0.5	0.5A
+34	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+35	/Dc/0/Current	DOUBLE	0.4000000059604645	0.4A
+35	/Yield/Power	DOUBLE	24.899999618530273	25W
+35	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+35	/Pv/V	DOUBLE	68.86000061035156	68.86V
+35	/History/Daily/0/MinBatteryVoltage	DOUBLE	52.38999938964844	52.39V
+36	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+36	/Yield/Power	DOUBLE	33.369998931884766	33W
+36	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+36	/Pv/V	DOUBLE	67.4800033569336	67.48V
+37	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+37	/Yield/Power	DOUBLE	41.58000183105469	42W
+37	/Pv/V	DOUBLE	65.29000091552734	65.29V
+37	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+38	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+38	/Yield/Power	DOUBLE	44.790000915527344	45W
+38	/Pv/V	DOUBLE	64.69000244140625	64.69V
+38	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+38	/Link/VoltageSense	DOUBLE	52.38999938964844	52.39V
+39	/Yield/Power	DOUBLE	46.79999923706055	47W
+39	/Pv/V	DOUBLE	61.93000030517578	61.93V
+40	/Yield/Power	DOUBLE	46.02000045776367	46W
+40	/Pv/V	DOUBLE	61.0099983215332	61.01V
+40	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+41	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+41	/Pv/V	DOUBLE	61.2599983215332	61.26V
+41	/Yield/Power	DOUBLE	45.88999938964844	46W
+41	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+42	/Dc/0/Voltage	DOUBLE	52.400001525878906	52.40V
+42	/Pv/V	DOUBLE	61.279998779296875	61.28V
+42	/Yield/Power	DOUBLE	46.029998779296875	46W
+43	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+43	/Pv/V	DOUBLE	57.41999816894531	57.42V
+43	/Yield/Power	DOUBLE	45.439998626708984	45W
+44	/Yield/Power	DOUBLE	44.470001220703125	44W
+44	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+44	/Pv/V	DOUBLE	58.209999084472656	58.21V
+45	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+45	/Yield/Power	DOUBLE	45.790000915527344	46W
+45	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+45	/Pv/V	DOUBLE	61.380001068115234	61.38V
+46	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+46	/Pv/V	DOUBLE	61.02000045776367	61.02V
+46	/Yield/Power	DOUBLE	45.93000030517578	46W
+46	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+47	/Yield/Power	DOUBLE	44.68000030517578	45W
+47	/Pv/V	DOUBLE	64.9000015258789	64.90V
+47	/Dc/0/Voltage	DOUBLE	52.38999938964844	52.39V
+48	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+48	/Yield/Power	DOUBLE	41.900001525878906	42W
+48	/Dc/0/Voltage	DOUBLE	52.380001068115234	52.38V
+48	/Pv/V	DOUBLE	66.69000244140625	66.69V
+49	/Yield/Power	DOUBLE	33.779998779296875	34W
+49	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+49	/Pv/V	DOUBLE	68.12000274658203	68.12V
+49	/Dc/0/Current	DOUBLE	0.5	0.5A
+50	/Yield/Power	DOUBLE	25.43000030517578	25W
+50	/Pv/V	DOUBLE	68.5999984741211	68.60V
+50	/Dc/0/Current	DOUBLE	0.4000000059604645	0.4A
+50	/Dc/0/Voltage	DOUBLE	52.47999954223633	52.48V
+50	/Link/VoltageSense	DOUBLE	52.47999954223633	52.48V
+51	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+51	/Yield/Power	DOUBLE	34.41999816894531	34W
+51	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+51	/Pv/V	DOUBLE	67.2699966430664	67.27V
+52	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+52	/Yield/Power	DOUBLE	42.599998474121094	43W
+52	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+52	/Pv/V	DOUBLE	65.08999633789062	65.09V
+53	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+53	/Yield/Power	DOUBLE	45.06999969482422	45W
+53	/Pv/V	DOUBLE	63.77000045776367	63.77V
+53	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+53	/Link/VoltageSense	DOUBLE	52.5	52.50V
+54	/Yield/Power	DOUBLE	45.689998626708984	46W
+54	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+54	/Pv/V	DOUBLE	63.81999969482422	63.82V
+55	/Pv/V	DOUBLE	62.65999984741211	62.66V
+55	/Yield/Power	DOUBLE	46.04999923706055	46W
+55	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+56	/Pv/V	DOUBLE	62.119998931884766	62.12V
+56	/Yield/Power	DOUBLE	45.7599983215332	46W
+56	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+56	/Link/VoltageSense	DOUBLE	52.4900016784668	52.49V
+56	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+57	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+57	/Pv/V	DOUBLE	61.349998474121094	61.35V
+57	/Yield/Power	DOUBLE	46.02000045776367	46W
+58	/Pv/V	DOUBLE	61.0099983215332	61.01V
+58	/Yield/Power	DOUBLE	45.599998474121094	46W
+59	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+59	/Yield/Power	DOUBLE	45.5099983215332	46W
+59	/Pv/V	DOUBLE	61.040000915527344	61.04V
+59	/Link/VoltageSense	DOUBLE	52.5	52.50V
+60	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+60	/Pv/V	DOUBLE	61.22999954223633	61.23V
+60	/Yield/Power	DOUBLE	45.470001220703125	45W
+61	/Yield/Power	DOUBLE	45.2400016784668	45W
+61	/Pv/V	DOUBLE	61.470001220703125	61.47V
+61	/Dc/0/Voltage	DOUBLE	52.4900016784668	52.49V
+62	/Pv/V	DOUBLE	61.15999984741211	61.16V
+62	/Yield/Power	DOUBLE	45.439998626708984	45W
+62	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+63	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+63	/Pv/V	DOUBLE	61.06999969482422	61.07V
+63	/Yield/Power	DOUBLE	45.380001068115234	45W
+64	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+64	/Pv/V	DOUBLE	61.290000915527344	61.29V
+64	/Yield/Power	DOUBLE	45.279998779296875	45W
+65	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+65	/Pv/V	DOUBLE	61.290000915527344	61.29V
+65	/Yield/Power	DOUBLE	45.20000076293945	45W
+66	/Pv/V	DOUBLE	61.15999984741211	61.16V
+66	/Yield/Power	DOUBLE	44.689998626708984	45W
+67	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+67	/Pv/V	DOUBLE	61.040000915527344	61.04V
+67	/Yield/Power	DOUBLE	44.880001068115234	45W
+67	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+68	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+68	/Pv/V	DOUBLE	60.97999954223633	60.98V
+68	/Yield/Power	DOUBLE	44.619998931884766	45W
+68	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+68	/Link/VoltageSense	DOUBLE	52.5099983215332	52.51V
+69	/Yield/Power	DOUBLE	44.470001220703125	44W
+69	/Pv/V	DOUBLE	61.2599983215332	61.26V
+70	/Pv/V	DOUBLE	61.40999984741211	61.41V
+70	/Yield/Power	DOUBLE	44.459999084472656	44W
+70	/Dc/0/Voltage	DOUBLE	52.5	52.50V
+71	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+71	/Yield/Power	DOUBLE	44.93000030517578	45W
+71	/Pv/V	DOUBLE	61.349998474121094	61.35V
+71	/Dc/0/Voltage	DOUBLE	52.52000045776367	52.52V
+72	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+72	/Pv/V	DOUBLE	61.59000015258789	61.59V
+72	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+72	/Yield/Power	DOUBLE	45.04999923706055	45W
+73	/Dc/0/Current	DOUBLE	0.8999999761581421	0.9A
+73	/Pv/V	DOUBLE	61.130001068115234	61.13V
+73	/Yield/Power	DOUBLE	45.09000015258789	45W
+74	/Dc/0/Voltage	DOUBLE	52.5099983215332	52.51V
+74	/Pv/V	DOUBLE	61.15999984741211	61.16V
+74	/Yield/Power	DOUBLE	44.97999954223633	45W
+75	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+75	/Pv/V	DOUBLE	61.40999984741211	61.41V
+75	/Yield/Power	DOUBLE	45.08000183105469	45W
+76	/Pv/V	DOUBLE	61.40999984741211	61.41V
+76	/Yield/Power	DOUBLE	44.91999816894531	45W
+77	/Dc/0/Voltage	DOUBLE	52.540000915527344	52.54V
+77	/Pv/V	DOUBLE	61.59000015258789	61.59V
+77	/Yield/Power	DOUBLE	44.849998474121094	45W
+78	/Dc/0/Voltage	DOUBLE	52.56999969482422	52.57V
+78	/Pv/V	DOUBLE	61.65999984741211	61.66V
+78	/Yield/Power	DOUBLE	44.7400016784668	45W
+79	/Dc/0/Voltage	DOUBLE	52.59000015258789	52.59V
+79	/Pv/V	DOUBLE	61.619998931884766	61.62V
+79	/Yield/Power	DOUBLE	44.59000015258789	45W
+80	/Yield/Power	DOUBLE	44.59000015258789	45W
+80	/Dc/0/Voltage	DOUBLE	52.599998474121094	52.60V
+80	/Pv/V	DOUBLE	61.439998626708984	61.44V
+80	/Link/VoltageSense	DOUBLE	52.56999969482422	52.57V
+81	/Dc/0/Voltage	DOUBLE	52.61000061035156	52.61V
+81	/Pv/V	DOUBLE	60.63999938964844	60.64V
+81	/Yield/Power	DOUBLE	44.439998626708984	44W
+82	/Dc/0/Voltage	DOUBLE	52.630001068115234	52.63V
+82	/Pv/V	DOUBLE	61.720001220703125	61.72V
+82	/Yield/Power	DOUBLE	44.38999938964844	44W
+83	/Dc/0/Voltage	DOUBLE	52.689998626708984	52.69V
+83	/Pv/V	DOUBLE	60.310001373291016	60.31V
+83	/Yield/Power	DOUBLE	44.34000015258789	44W
+83	/Link/VoltageSense	DOUBLE	52.630001068115234	52.63V
+84	/Dc/0/Voltage	DOUBLE	52.72999954223633	52.73V
+84	/Pv/V	DOUBLE	59.31999969482422	59.32V
+84	/Yield/Power	DOUBLE	44.279998779296875	44W
+84	/History/Daily/0/TimeInBulk	DOUBLE	544.0	544s
+85	/Dc/0/Voltage	DOUBLE	52.7599983215332	52.76V
+85	/Pv/V	DOUBLE	61.939998626708984	61.94V
+85	/Yield/Power	DOUBLE	44.38999938964844	44W
+86	/Yield/Power	DOUBLE	44.470001220703125	44W
+86	/Dc/0/Voltage	DOUBLE	52.79999923706055	52.80V
+86	/Pv/V	DOUBLE	60.849998474121094	60.85V
+86	/Link/VoltageSense	DOUBLE	52.7400016784668	52.74V
+87	/Dc/0/Voltage	DOUBLE	52.83000183105469	52.83V
+87	/Pv/V	DOUBLE	61.810001373291016	61.81V
+87	/Yield/Power	DOUBLE	44.54999923706055	45W
+88	/Dc/0/Voltage	DOUBLE	52.869998931884766	52.87V
+88	/Pv/V	DOUBLE	61.279998779296875	61.28V
+89	/Yield/Power	DOUBLE	44.349998474121094	44W
+89	/Dc/0/Voltage	DOUBLE	52.91999816894531	52.92V
+89	/Pv/V	DOUBLE	61.65999984741211	61.66V
+89	/Link/VoltageSense	DOUBLE	52.900001525878906	52.90V
+90	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+90	/Pv/V	DOUBLE	62.04999923706055	62.05V
+90	/Yield/Power	DOUBLE	44.18000030517578	44W
+91	/Dc/0/Voltage	DOUBLE	52.970001220703125	52.97V
+91	/Pv/V	DOUBLE	61.75	61.75V
+91	/Yield/Power	DOUBLE	44.2400016784668	44W
+92	/Dc/0/Voltage	DOUBLE	53.029998779296875	53.03V
+92	/Pv/V	DOUBLE	61.65999984741211	61.66V
+92	/Yield/Power	DOUBLE	44.279998779296875	44W
+92	/Link/VoltageSense	DOUBLE	52.97999954223633	52.98V
+92	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+93	/Dc/0/Voltage	DOUBLE	53.060001373291016	53.06V
+93	/Pv/V	DOUBLE	61.59000015258789	61.59V
+93	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+93	/Yield/Power	DOUBLE	44.310001373291016	44W
+94	/Dc/0/Voltage	DOUBLE	53.099998474121094	53.10V
+94	/Pv/V	DOUBLE	61.59000015258789	61.59V
+94	/Yield/Power	DOUBLE	44.45000076293945	44W
+95	/Dc/0/Voltage	DOUBLE	53.13999938964844	53.14V
+95	/Pv/V	DOUBLE	61.959999084472656	61.96V
+95	/Yield/Power	DOUBLE	44.220001220703125	44W
+95	/Link/VoltageSense	DOUBLE	53.09000015258789	53.09V
+95	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+96	/Yield/Power	DOUBLE	44.5	44W
+96	/Dc/0/Voltage	DOUBLE	53.15999984741211	53.16V
+96	/Pv/V	DOUBLE	61.720001220703125	61.72V
+96	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+97	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+97	/Yield/Power	DOUBLE	44.130001068115234	44W
+97	/Dc/0/Voltage	DOUBLE	53.20000076293945	53.20V
+97	/Pv/V	DOUBLE	63.689998626708984	63.69V
+98	/Dc/0/Voltage	DOUBLE	53.25	53.25V
+98	/Pv/V	DOUBLE	64.0199966430664	64.02V
+98	/Yield/Power	DOUBLE	44.11000061035156	44W
+98	/Link/VoltageSense	DOUBLE	53.20000076293945	53.20V
+99	/Dc/0/Voltage	DOUBLE	53.27000045776367	53.27V
+99	/Pv/V	DOUBLE	61.75	61.75V
+99	/Yield/Power	DOUBLE	44.40999984741211	44W
+100	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+100	/Yield/Power	DOUBLE	44.560001373291016	45W
+100	/Dc/0/Voltage	DOUBLE	53.310001373291016	53.31V
+100	/Pv/V	DOUBLE	61.84000015258789	61.84V
+101	/Dc/0/Voltage	DOUBLE	53.33000183105469	53.33V
+101	/Pv/V	DOUBLE	61.9900016784668	61.99V
+101	/Yield/Power	DOUBLE	44.56999969482422	45W
+101	/Link/VoltageSense	DOUBLE	53.310001373291016	53.31V
+102	/Yield/Power	DOUBLE	44.470001220703125	44W
+102	/Dc/0/Voltage	DOUBLE	53.380001068115234	53.38V
+102	/Pv/V	DOUBLE	61.959999084472656	61.96V
+103	/Dc/0/Voltage	DOUBLE	53.41999816894531	53.42V
+103	/Pv/V	DOUBLE	64.3499984741211	64.35V
+103	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+103	/Yield/Power	DOUBLE	43.880001068115234	44W
+104	/Dc/0/Voltage	DOUBLE	53.45000076293945	53.45V
+104	/Pv/V	DOUBLE	61.93000030517578	61.93V
+104	/Yield/Power	DOUBLE	44.220001220703125	44W
+104	/Link/VoltageSense	DOUBLE	53.41999816894531	53.42V
+105	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+105	/Dc/0/Voltage	DOUBLE	53.470001220703125	53.47V
+105	/Pv/V	DOUBLE	62.08000183105469	62.08V
+105	/Yield/Power	DOUBLE	44.33000183105469	44W
+106	/Dc/0/Voltage	DOUBLE	53.5099983215332	53.51V
+106	/Pv/V	DOUBLE	63.220001220703125	63.22V
+106	/Yield/Power	DOUBLE	44.08000183105469	44W
+107	/Dc/0/Voltage	DOUBLE	53.54999923706055	53.55V
+107	/Pv/V	DOUBLE	62.2400016784668	62.24V
+107	/Yield/Power	DOUBLE	44.119998931884766	44W
+107	/Link/VoltageSense	DOUBLE	53.52000045776367	53.52V
+108	/Dc/0/Voltage	DOUBLE	53.58000183105469	53.58V
+108	/Pv/V	DOUBLE	62.119998931884766	62.12V
+108	/Yield/Power	DOUBLE	44.0099983215332	44W
+108	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+109	/Dc/0/Voltage	DOUBLE	53.619998931884766	53.62V
+109	/Pv/V	DOUBLE	62.31999969482422	62.32V
+109	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+110	/Yield/Power	DOUBLE	43.5099983215332	44W
+110	/Dc/0/Voltage	DOUBLE	53.63999938964844	53.64V
+110	/Pv/V	DOUBLE	63.68000030517578	63.68V
+110	/Link/VoltageSense	DOUBLE	53.630001068115234	53.63V
+111	/Yield/Power	DOUBLE	44.0099983215332	44W
+111	/Dc/0/Voltage	DOUBLE	53.65999984741211	53.66V
+111	/Pv/V	DOUBLE	62.209999084472656	62.21V
+112	/Dc/0/Voltage	DOUBLE	53.65999984741211	53.66V
+112	/Pv/V	DOUBLE	62.2400016784668	62.24V
+112	/Yield/Power	DOUBLE	43.900001525878906	44W
+113	/Dc/0/Voltage	DOUBLE	53.68000030517578	53.68V
+113	/Pv/V	DOUBLE	62.650001525878906	62.65V
+113	/Yield/Power	DOUBLE	43.81999969482422	44W
+113	/Link/VoltageSense	DOUBLE	53.689998626708984	53.69V
+114	/Dc/0/Voltage	DOUBLE	53.709999084472656	53.71V
+114	/Pv/V	DOUBLE	63.38999938964844	63.39V
+114	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+114	/Yield/Power	DOUBLE	43.75	44W
+115	/Dc/0/Voltage	DOUBLE	53.720001220703125	53.72V
+115	/Pv/V	DOUBLE	62.29999923706055	62.30V
+115	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+115	/Yield/Power	DOUBLE	43.79999923706055	44W
+116	/Dc/0/Voltage	DOUBLE	53.72999954223633	53.73V
+116	/Pv/V	DOUBLE	62.27000045776367	62.27V
+116	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+116	/Yield/Power	DOUBLE	43.619998931884766	44W
+116	/Link/VoltageSense	DOUBLE	53.7400016784668	53.74V
+117	/Dc/0/Voltage	DOUBLE	53.77000045776367	53.77V
+117	/Pv/V	DOUBLE	62.2400016784668	62.24V
+117	/Yield/Power	DOUBLE	43.70000076293945	44W
+118	/Pv/V	DOUBLE	62.720001220703125	62.72V
+118	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+118	/Yield/Power	DOUBLE	43.779998779296875	44W
+119	/Dc/0/Voltage	DOUBLE	53.790000915527344	53.79V
+119	/Pv/V	DOUBLE	62.36000061035156	62.36V
+119	/Yield/Power	DOUBLE	43.59000015258789	44W
+119	/Link/VoltageSense	DOUBLE	53.779998779296875	53.78V
+120	/Pv/V	DOUBLE	63.540000915527344	63.54V
+120	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+120	/Yield/Power	DOUBLE	43.43000030517578	43W
+121	/Dc/0/Voltage	DOUBLE	53.810001373291016	53.81V
+121	/Pv/V	DOUBLE	62.52000045776367	62.52V
+121	/Yield/Power	DOUBLE	43.68000030517578	44W
+122	/Pv/V	DOUBLE	62.66999816894531	62.67V
+122	/Yield/Power	DOUBLE	43.529998779296875	44W
+122	/Dc/0/Voltage	DOUBLE	53.83000183105469	53.83V
+122	/Link/VoltageSense	DOUBLE	53.83000183105469	53.83V
+123	/Pv/V	DOUBLE	62.63999938964844	62.64V
+123	/Yield/Power	DOUBLE	43.56999969482422	44W
+124	/Dc/0/Voltage	DOUBLE	53.86000061035156	53.86V
+124	/Pv/V	DOUBLE	62.38999938964844	62.39V
+124	/Yield/Power	DOUBLE	43.68000030517578	44W
+125	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+125	/Yield/Power	DOUBLE	43.61000061035156	44W
+125	/Dc/0/Voltage	DOUBLE	53.869998931884766	53.87V
+125	/Pv/V	DOUBLE	62.41999816894531	62.42V
+125	/Link/VoltageSense	DOUBLE	53.869998931884766	53.87V
+126	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+126	/Yield/Power	DOUBLE	43.58000183105469	44W
+126	/Dc/0/Voltage	DOUBLE	53.88999938964844	53.89V
+126	/Pv/V	DOUBLE	62.380001068115234	62.38V
+127	/Pv/V	DOUBLE	62.36000061035156	62.36V
+127	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+127	/Yield/Power	DOUBLE	43.540000915527344	44W
+128	/MppOperationMode	UINT32	1	V/I limited
+128	/Yield/Power	DOUBLE	43.459999084472656	43W
+128	/Pv/V	DOUBLE	62.41999816894531	62.42V
+128	/Link/VoltageSense	DOUBLE	53.90999984741211	53.91V
+129	/Dc/0/Voltage	DOUBLE	53.90999984741211	53.91V
+129	/Pv/V	DOUBLE	62.45000076293945	62.45V
+129	/Yield/Power	DOUBLE	43.380001068115234	43W
+130	/Yield/Power	DOUBLE	43.540000915527344	44W
+130	/Dc/0/Voltage	DOUBLE	53.939998626708984	53.94V
+130	/Pv/V	DOUBLE	62.36000061035156	62.36V
+130	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+131	/Pv/V	DOUBLE	62.41999816894531	62.42V
+131	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+131	/Dc/0/Voltage	DOUBLE	53.95000076293945	53.95V
+131	/Link/VoltageSense	DOUBLE	53.95000076293945	53.95V
+132	/Pv/V	DOUBLE	62.38999938964844	62.39V
+132	/Yield/Power	DOUBLE	43.41999816894531	43W
+132	/Dc/0/Voltage	DOUBLE	53.959999084472656	53.96V
+133	/Pv/V	DOUBLE	62.47999954223633	62.48V
+133	/Yield/Power	DOUBLE	43.619998931884766	44W
+133	/Dc/0/Voltage	DOUBLE	53.970001220703125	53.97V
+134	/Yield/Power	DOUBLE	43.349998474121094	43W
+134	/Dc/0/Voltage	DOUBLE	53.97999954223633	53.98V
+134	/Link/VoltageSense	DOUBLE	53.97999954223633	53.98V
+135	/Yield/Power	DOUBLE	43.5	44W
+135	/Dc/0/Voltage	DOUBLE	54.0	54.00V
+135	/Pv/V	DOUBLE	62.5099983215332	62.51V
+136	/Yield/Power	DOUBLE	43.47999954223633	43W
+136	/Pv/V	DOUBLE	62.47999954223633	62.48V
+137	/Yield/Power	DOUBLE	43.349998474121094	43W
+137	/Dc/0/Voltage	DOUBLE	54.0	54.00V
+137	/Pv/V	DOUBLE	62.56999969482422	62.57V
+137	/Link/VoltageSense	DOUBLE	54.02000045776367	54.02V
+137	/Dc/0/Current	DOUBLE	0.800000011920929	0.8A
+138	/Pv/V	DOUBLE	62.650001525878906	62.65V
+138	/Dc/0/Voltage	DOUBLE	54.040000915527344	54.04V
+138	/Yield/Power	DOUBLE	43.43000030517578	43W
+139	/Pv/V	DOUBLE	62.790000915527344	62.79V
+139	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+139	/Yield/Power	DOUBLE	43.290000915527344	43W
+140	/Dc/0/Voltage	DOUBLE	54.040000915527344	54.04V
+140	/Pv/V	DOUBLE	63.15999984741211	63.16V
+140	/Yield/Power	DOUBLE	43.16999816894531	43W
+140	/Link/VoltageSense	DOUBLE	54.04999923706055	54.05V
+141	/Dc/0/Voltage	DOUBLE	54.04999923706055	54.05V
+141	/Pv/V	DOUBLE	63.88999938964844	63.89V
+141	/Yield/Power	DOUBLE	42.9900016784668	43W
+142	/Yield/Power	DOUBLE	41.779998779296875	42W
+142	/Pv/V	DOUBLE	65.0199966430664	65.02V
+142	/Dc/0/Voltage	DOUBLE	54.06999969482422	54.07V
+143	/Yield/Power	DOUBLE	39.70000076293945	40W
+143	/Dc/0/Voltage	DOUBLE	54.08000183105469	54.08V
+143	/Pv/V	DOUBLE	65.86000061035156	65.86V
+143	/Link/VoltageSense	DOUBLE	54.09000015258789	54.09V
+144	/Yield/Power	DOUBLE	38.70000076293945	39W
+144	/Pv/V	DOUBLE	66.04000091552734	66.04V
+144	/Dc/0/Voltage	DOUBLE	54.09000015258789	54.09V
+144	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+144	/History/Daily/0/TimeInBulk	DOUBLE	545.0	545s
+145	/Dc/0/Voltage	DOUBLE	54.099998474121094	54.10V
+145	/Pv/V	DOUBLE	66.08999633789062	66.09V
+145	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+145	/Yield/Power	DOUBLE	38.560001373291016	39W
+146	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+146	/Yield/Power	DOUBLE	36.040000915527344	36W
+146	/Pv/V	DOUBLE	66.98999786376953	66.99V
+146	/Dc/0/Voltage	DOUBLE	54.11000061035156	54.11V
+146	/Link/VoltageSense	DOUBLE	54.119998931884766	54.12V
+147	/Dc/0/Current	DOUBLE	0.5	0.5A
+147	/Yield/Power	DOUBLE	30.06999969482422	30W
+147	/Dc/0/Voltage	DOUBLE	54.11000061035156	54.11V
+147	/Pv/V	DOUBLE	68.05999755859375	68.06V
+148	/Dc/0/Current	DOUBLE	0.30000001192092896	0.3A
+148	/Yield/Power	DOUBLE	21.829999923706055	22W
+148	/Dc/0/Voltage	DOUBLE	54.130001068115234	54.13V
+148	/Pv/V	DOUBLE	68.95999908447266	68.96V
+149	/Yield/Power	DOUBLE	16.450000762939453	16W
+149	/Pv/V	DOUBLE	69.29000091552734	69.29V
+149	/Dc/0/Current	DOUBLE	0.20000000298023224	0.2A
+149	/Link/VoltageSense	DOUBLE	54.150001525878906	54.15V
+150	/Yield/Power	DOUBLE	15.100000381469727	15W
+150	/Dc/0/Voltage	DOUBLE	54.150001525878906	54.15V
+150	/Pv/V	DOUBLE	69.37999725341797	69.38V
+151	/Dc/0/Current	DOUBLE	0.0	0.0A
+151	/Yield/Power	DOUBLE	9.420000076293945	9W
+151	/Dc/0/Voltage	DOUBLE	54.16999816894531	54.17V
+151	/Pv/V	DOUBLE	69.98999786376953	69.99V
+152	/Yield/Power	DOUBLE	1.399999976158142	1W
+152	/Pv/V	DOUBLE	70.48999786376953	70.49V
+152	/Dc/0/Voltage	DOUBLE	54.18000030517578	54.18V
+152	/Link/VoltageSense	DOUBLE	54.20000076293945	54.20V
+153	/Yield/Power	DOUBLE	0.05999999865889549	0W
+153	/Dc/0/Voltage	DOUBLE	54.20000076293945	54.20V
+153	/Pv/V	DOUBLE	70.5199966430664	70.52V
+154	/Dc/0/Current	DOUBLE	-0.10000000149011612	-0.1A
+154	/Yield/Power	DOUBLE	0.0	0W
+154	/Pv/V	DOUBLE	70.51000213623047	70.51V
+155	/Dc/0/Voltage	DOUBLE	54.209999084472656	54.21V
+155	/Pv/V	DOUBLE	70.5199966430664	70.52V
+155	/Link/VoltageSense	DOUBLE	54.220001220703125	54.22V
+156	/Dc/0/Current	DOUBLE	0.0	0.0A
+156	/Pv/V	DOUBLE	70.48999786376953	70.49V
+156	/Dc/0/Voltage	DOUBLE	54.220001220703125	54.22V
+157	/Dc/0/Voltage	DOUBLE	54.2400016784668	54.24V
+157	/Pv/V	DOUBLE	70.5199966430664	70.52V
+158	/Pv/V	DOUBLE	70.45999908447266	70.46V
+158	/Link/VoltageSense	DOUBLE	54.25	54.25V
+159	/Dc/0/Voltage	DOUBLE	54.25	54.25V
+160	/Dc/0/Voltage	DOUBLE	54.2400016784668	54.24V
+160	/Pv/V	DOUBLE	70.44999694824219	70.45V
+161	/Dc/0/Voltage	DOUBLE	54.2599983215332	54.26V
+161	/Link/VoltageSense	DOUBLE	54.279998779296875	54.28V
+162	/Pv/V	DOUBLE	70.45999908447266	70.46V
+162	/Dc/0/Voltage	DOUBLE	54.290000915527344	54.29V
+163	/Dc/0/Voltage	DOUBLE	54.279998779296875	54.28V
+163	/Pv/V	DOUBLE	70.45999908447266	70.46V
+164	/Dc/0/Voltage	DOUBLE	54.290000915527344	54.29V
+164	/Link/VoltageSense	DOUBLE	54.310001373291016	54.31V
+165	/Dc/0/Voltage	DOUBLE	54.310001373291016	54.31V
+166	/Dc/0/Voltage	DOUBLE	54.31999969482422	54.32V
+167	/Dc/0/Voltage	DOUBLE	54.31999969482422	54.32V
+167	/Link/VoltageSense	DOUBLE	54.33000183105469	54.33V
+168	/Dc/0/Voltage	DOUBLE	54.33000183105469	54.33V
+170	/Dc/0/Voltage	DOUBLE	54.34000015258789	54.34V
+170	/Pv/V	DOUBLE	70.45999908447266	70.46V
+170	/Link/VoltageSense	DOUBLE	54.36000061035156	54.36V
+171	/Dc/0/Voltage	DOUBLE	54.36000061035156	54.36V
+172	/Dc/0/Voltage	DOUBLE	54.380001068115234	54.38V
+172	/Pv/V	DOUBLE	70.44999694824219	70.45V
+173	/Pv/V	DOUBLE	70.45999908447266	70.46V
+173	/Link/VoltageSense	DOUBLE	54.38999938964844	54.39V
+174	/Pv/V	DOUBLE	70.44999694824219	70.45V
+174	/Dc/0/Voltage	DOUBLE	54.400001525878906	54.40V
+176	/Pv/V	DOUBLE	70.45999908447266	70.46V
+176	/Link/VoltageSense	DOUBLE	54.40999984741211	54.41V
+177	/Dc/0/Voltage	DOUBLE	54.41999816894531	54.42V
+177	/Pv/V	DOUBLE	70.41999816894531	70.42V
+178	/Pv/V	DOUBLE	70.45999908447266	70.46V
+179	/Dc/0/Voltage	DOUBLE	54.41999816894531	54.42V
+179	/Pv/V	DOUBLE	70.44999694824219	70.45V
+179	/Link/VoltageSense	DOUBLE	54.43000030517578	54.43V
+180	/Dc/0/Voltage	DOUBLE	54.439998626708984	54.44V
+182	/Dc/0/Voltage	DOUBLE	54.45000076293945	54.45V
+182	/Pv/V	DOUBLE	70.44999694824219	70.45V
+182	/Link/VoltageSense	DOUBLE	54.45000076293945	54.45V
+183	/Dc/0/Voltage	DOUBLE	54.459999084472656	54.46V
+184	/Pv/V	DOUBLE	70.44999694824219	70.45V
+184	/Dc/0/Voltage	DOUBLE	54.470001220703125	54.47V
+185	/Dc/0/Voltage	DOUBLE	54.4900016784668	54.49V
+185	/Pv/V	DOUBLE	70.45999908447266	70.46V
+185	/Link/VoltageSense	DOUBLE	54.47999954223633	54.48V
+186	/Pv/V	DOUBLE	70.44999694824219	70.45V
+187	/Pv/V	DOUBLE	70.44000244140625	70.44V
+187	/Dc/0/Voltage	DOUBLE	54.5099983215332	54.51V
+188	/Pv/V	DOUBLE	70.44999694824219	70.45V
+188	/Dc/0/Voltage	DOUBLE	54.5	54.50V
+188	/Link/VoltageSense	DOUBLE	54.5	54.50V
+189	/Dc/0/Voltage	DOUBLE	54.5	54.50V
+189	/Pv/V	DOUBLE	70.44000244140625	70.44V
+190	/Dc/0/Voltage	DOUBLE	54.5099983215332	54.51V
+190	/Pv/V	DOUBLE	70.44999694824219	70.45V
+191	/Dc/0/Voltage	DOUBLE	54.529998779296875	54.53V
+191	/Link/VoltageSense	DOUBLE	54.52000045776367	54.52V
+192	/Pv/V	DOUBLE	70.44999694824219	70.45V
+193	/Dc/0/Voltage	DOUBLE	54.540000915527344	54.54V
+194	/Pv/V	DOUBLE	70.44999694824219	70.45V
+194	/Dc/0/Voltage	DOUBLE	54.529998779296875	54.53V
+194	/Link/VoltageSense	DOUBLE	54.540000915527344	54.54V
+195	/Pv/V	DOUBLE	70.44999694824219	70.45V
+195	/Dc/0/Voltage	DOUBLE	54.54999923706055	54.55V
+196	/Dc/0/Voltage	DOUBLE	54.56999969482422	54.57V
+196	/Pv/V	DOUBLE	70.44000244140625	70.44V
+197	/Dc/0/Voltage	DOUBLE	54.599998474121094	54.60V
+197	/Pv/V	DOUBLE	70.44999694824219	70.45V
+197	/Link/VoltageSense	DOUBLE	54.56999969482422	54.57V
+198	/Link/ChargeVoltage	DOUBLE	54.0099983215332	54.01V
+198	/Dc/0/Voltage	DOUBLE	54.63999938964844	54.64V
+198	/Pv/V	DOUBLE	70.43000030517578	70.43V
+199	/Dc/0/Voltage	DOUBLE	54.65999984741211	54.66V
+199	/Pv/V	DOUBLE	70.44999694824219	70.45V
+200	/Pv/V	DOUBLE	70.43000030517578	70.43V
+200	/Link/VoltageSense	DOUBLE	54.650001525878906	54.65V
+201	/Link/ChargeVoltage	DOUBLE	54.060001373291016	54.06V
+201	/Dc/0/Voltage	DOUBLE	54.65999984741211	54.66V
+202	/Dc/0/Voltage	DOUBLE	54.66999816894531	54.67V
+203	/Pv/V	DOUBLE	70.41999816894531	70.42V
+203	/Link/VoltageSense	DOUBLE	54.68000030517578	54.68V
+204	/Link/ChargeVoltage	DOUBLE	54.09000015258789	54.09V
+204	/Dc/0/Voltage	DOUBLE	54.689998626708984	54.69V
+204	/Pv/V	DOUBLE	70.43000030517578	70.43V
+204	/History/Daily/0/TimeInBulk	DOUBLE	546.0	546s
+205	/Pv/V	DOUBLE	70.41999816894531	70.42V
+206	/Dc/0/Voltage	DOUBLE	54.709999084472656	54.71V
+206	/Link/VoltageSense	DOUBLE	54.709999084472656	54.71V
+206	/Pv/V	DOUBLE	70.43000030517578	70.43V
+207	/Link/ChargeVoltage	DOUBLE	54.119998931884766	54.12V
+208	/Pv/V	DOUBLE	70.41999816894531	70.42V
+209	/Dc/0/Voltage	DOUBLE	54.72999954223633	54.73V
+209	/Pv/V	DOUBLE	70.44999694824219	70.45V
+209	/Link/VoltageSense	DOUBLE	54.72999954223633	54.73V
+210	/Link/ChargeVoltage	DOUBLE	54.13999938964844	54.14V
+210	/Dc/0/Voltage	DOUBLE	54.7400016784668	54.74V
+210	/Pv/V	DOUBLE	70.43000030517578	70.43V
+211	/Pv/V	DOUBLE	70.44999694824219	70.45V
+211	/Dc/0/Voltage	DOUBLE	54.75	54.75V
+212	/Link/VoltageSense	DOUBLE	54.75	54.75V
+212	/Pv/V	DOUBLE	70.43000030517578	70.43V
+213	/Link/ChargeVoltage	DOUBLE	54.15999984741211	54.16V
+213	/Dc/0/Voltage	DOUBLE	54.7599983215332	54.76V
+214	/Dc/0/Voltage	DOUBLE	54.77000045776367	54.77V
+215	/Pv/V	DOUBLE	70.43000030517578	70.43V
+215	/Dc/0/Voltage	DOUBLE	54.779998779296875	54.78V
+215	/Link/VoltageSense	DOUBLE	54.77000045776367	54.77V
+216	/Link/ChargeVoltage	DOUBLE	54.18000030517578	54.18V
+216	/Dc/0/Voltage	DOUBLE	54.77000045776367	54.77V
+216	/Pv/V	DOUBLE	70.43000030517578	70.43V
+218	/Dc/0/Voltage	DOUBLE	54.790000915527344	54.79V
+218	/Link/VoltageSense	DOUBLE	54.790000915527344	54.79V
+218	/Pv/V	DOUBLE	70.44000244140625	70.44V
+219	/Link/ChargeVoltage	DOUBLE	54.209999084472656	54.21V
+219	/Dc/0/Voltage	DOUBLE	54.790000915527344	54.79V
+219	/Pv/V	DOUBLE	70.43000030517578	70.43V
+220	/Dc/0/Voltage	DOUBLE	54.810001373291016	54.81V
+220	/Pv/V	DOUBLE	70.41999816894531	70.42V
+221	/Dc/0/Voltage	DOUBLE	54.84000015258789	54.84V
+221	/Pv/V	DOUBLE	70.41999816894531	70.42V
+221	/Link/VoltageSense	DOUBLE	54.83000183105469	54.83V
+222	/Link/ChargeVoltage	DOUBLE	54.22999954223633	54.23V
+222	/Pv/V	DOUBLE	70.43000030517578	70.43V
+223	/Pv/V	DOUBLE	70.43000030517578	70.43V
+224	/Dc/0/Voltage	DOUBLE	54.84000015258789	54.84V
+224	/Link/VoltageSense	DOUBLE	54.849998474121094	54.85V
+224	/Pv/V	DOUBLE	70.41999816894531	70.42V
+225	/Link/ChargeVoltage	DOUBLE	54.2599983215332	54.26V
+225	/Dc/0/Voltage	DOUBLE	54.86000061035156	54.86V
+225	/Pv/V	DOUBLE	70.43000030517578	70.43V
+227	/Dc/0/Voltage	DOUBLE	54.880001068115234	54.88V
+227	/Link/VoltageSense	DOUBLE	54.880001068115234	54.88V
+227	/Pv/V	DOUBLE	70.41999816894531	70.42V
+228	/Link/ChargeVoltage	DOUBLE	54.279998779296875	54.28V
+228	/Pv/V	DOUBLE	70.43000030517578	70.43V
+230	/Dc/0/Voltage	DOUBLE	54.88999938964844	54.89V
+230	/Link/VoltageSense	DOUBLE	54.900001525878906	54.90V
+230	/Pv/V	DOUBLE	70.41999816894531	70.42V
+231	/Link/ChargeVoltage	DOUBLE	54.310001373291016	54.31V
+231	/Dc/0/Voltage	DOUBLE	54.90999984741211	54.91V
+232	/Dc/0/Voltage	DOUBLE	54.91999816894531	54.92V
+232	/Pv/V	DOUBLE	70.41999816894531	70.42V
+233	/Dc/0/Voltage	DOUBLE	54.93000030517578	54.93V
+233	/Link/VoltageSense	DOUBLE	54.91999816894531	54.92V
+233	/Pv/V	DOUBLE	70.43000030517578	70.43V
+234	/Link/ChargeVoltage	DOUBLE	54.31999969482422	54.32V
+234	/Dc/0/Voltage	DOUBLE	54.91999816894531	54.92V
+234	/Pv/V	DOUBLE	70.41000366210938	70.41V
+235	/Pv/V	DOUBLE	70.41999816894531	70.42V
+236	/Link/VoltageSense	DOUBLE	54.93000030517578	54.93V
+236	/Pv/V	DOUBLE	70.4000015258789	70.40V
+237	/Link/ChargeVoltage	DOUBLE	54.34000015258789	54.34V
+237	/Dc/0/Voltage	DOUBLE	54.93000030517578	54.93V
+237	/Pv/V	DOUBLE	70.38999938964844	70.39V
+238	/Pv/V	DOUBLE	70.4000015258789	70.40V
+238	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+239	/Link/VoltageSense	DOUBLE	54.95000076293945	54.95V
+240	/Link/ChargeVoltage	DOUBLE	54.36000061035156	54.36V
+240	/Dc/0/Voltage	DOUBLE	54.959999084472656	54.96V
+240	/Pv/V	DOUBLE	70.38999938964844	70.39V
+241	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+241	/Pv/V	DOUBLE	70.4000015258789	70.40V
+242	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+242	/Link/VoltageSense	DOUBLE	54.970001220703125	54.97V
+243	/Dc/0/Voltage	DOUBLE	54.970001220703125	54.97V
+243	/Pv/V	DOUBLE	70.38999938964844	70.39V
+244	/Dc/0/Voltage	DOUBLE	54.970001220703125	54.97V
+244	/Pv/V	DOUBLE	70.41999816894531	70.42V
+245	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+245	/Pv/V	DOUBLE	70.4000015258789	70.40V
+245	/Link/VoltageSense	DOUBLE	54.97999954223633	54.98V
+246	/Link/ChargeVoltage	DOUBLE	54.38999938964844	54.39V
+246	/Pv/V	DOUBLE	70.38999938964844	70.39V
+247	/Dc/0/Voltage	DOUBLE	54.93000030517578	54.93V
+247	/Pv/V	DOUBLE	70.4000015258789	70.40V
+248	/Pv/V	DOUBLE	70.38999938964844	70.39V
+248	/Link/VoltageSense	DOUBLE	54.95000076293945	54.95V
+249	/Link/ChargeVoltage	DOUBLE	54.349998474121094	54.35V
+249	/Dc/0/Voltage	DOUBLE	54.90999984741211	54.91V
+250	/Dc/0/Voltage	DOUBLE	54.88999938964844	54.89V
+250	/Pv/V	DOUBLE	70.4000015258789	70.40V
+251	/Dc/0/Voltage	DOUBLE	54.90999984741211	54.91V
+251	/Link/VoltageSense	DOUBLE	54.90999984741211	54.91V
+252	/Link/ChargeVoltage	DOUBLE	54.310001373291016	54.31V
+252	/Dc/0/Voltage	DOUBLE	54.91999816894531	54.92V
+253	/Pv/V	DOUBLE	70.4000015258789	70.40V
+254	/Link/VoltageSense	DOUBLE	54.91999816894531	54.92V
+255	/Link/ChargeVoltage	DOUBLE	54.31999969482422	54.32V
+255	/Dc/0/Voltage	DOUBLE	54.91999816894531	54.92V
+255	/Pv/V	DOUBLE	70.38999938964844	70.39V
+256	/Pv/V	DOUBLE	70.4000015258789	70.40V
+256	/Dc/0/Voltage	DOUBLE	54.93000030517578	54.93V
+257	/Dc/0/Voltage	DOUBLE	54.91999816894531	54.92V
+257	/Pv/V	DOUBLE	70.36000061035156	70.36V
+257	/Link/VoltageSense	DOUBLE	54.93000030517578	54.93V
+258	/Link/ChargeVoltage	DOUBLE	54.33000183105469	54.33V
+258	/Pv/V	DOUBLE	70.38999938964844	70.39V
+258	/Dc/0/Voltage	DOUBLE	54.939998626708984	54.94V
+259	/Pv/V	DOUBLE	70.36000061035156	70.36V
+260	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+260	/Link/VoltageSense	DOUBLE	54.939998626708984	54.94V
+261	/Link/ChargeVoltage	DOUBLE	54.349998474121094	54.35V
+261	/Dc/0/Voltage	DOUBLE	54.939998626708984	54.94V
+261	/Pv/V	DOUBLE	70.36000061035156	70.36V
+262	/Pv/V	DOUBLE	70.36000061035156	70.36V
+262	/Dc/0/Voltage	DOUBLE	54.93000030517578	54.93V
+263	/Link/VoltageSense	DOUBLE	54.95000076293945	54.95V
+263	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+264	/Link/ChargeVoltage	DOUBLE	54.34000015258789	54.34V
+264	/Dc/0/Voltage	DOUBLE	54.959999084472656	54.96V
+264	/History/Daily/0/TimeInBulk	DOUBLE	547.0	547s
+266	/Dc/0/Voltage	DOUBLE	54.95000076293945	54.95V
+267	/Link/ChargeVoltage	DOUBLE	54.349998474121094	54.35V
+270	/Link/ChargeVoltage	DOUBLE	54.369998931884766	54.37V
+270	/Pv/V	DOUBLE	70.36000061035156	70.36V
+270	/Dc/0/Voltage	DOUBLE	54.970001220703125	54.97V
+272	/Pv/V	DOUBLE	70.33999633789062	70.34V
+272	/Link/VoltageSense	DOUBLE	54.970001220703125	54.97V
+272	/Dc/0/Voltage	DOUBLE	54.97999954223633	54.98V
+273	/Link/ChargeVoltage	DOUBLE	54.380001068115234	54.38V
+273	/Pv/V	DOUBLE	70.36000061035156	70.36V
+274	/Dc/0/Voltage	DOUBLE	54.970001220703125	54.97V
+274	/Pv/V	DOUBLE	70.33000183105469	70.33V
+275	/Pv/V	DOUBLE	70.33000183105469	70.33V
+275	/Link/VoltageSense	DOUBLE	54.9900016784668	54.99V
+275	/Dc/0/Voltage	DOUBLE	54.97999954223633	54.98V
+276	/Link/ChargeVoltage	DOUBLE	54.38999938964844	54.39V
+276	/Dc/0/Voltage	DOUBLE	55.0	55.00V
+276	/Pv/V	DOUBLE	70.33999633789062	70.34V
+277	/Dc/0/Voltage	DOUBLE	55.0	55.00V
+278	/Dc/0/Voltage	DOUBLE	54.9900016784668	54.99V
+278	/Pv/V	DOUBLE	70.33000183105469	70.33V
+279	/Link/ChargeVoltage	DOUBLE	54.400001525878906	54.40V
+279	/Dc/0/Voltage	DOUBLE	55.0	55.00V
+281	/Link/VoltageSense	DOUBLE	55.0099983215332	55.01V
+281	/Dc/0/Voltage	DOUBLE	55.0099983215332	55.01V
+282	/Link/ChargeVoltage	DOUBLE	54.40999984741211	54.41V
+283	/Dc/0/Voltage	DOUBLE	55.02000045776367	55.02V
+284	/Link/VoltageSense	DOUBLE	55.02000045776367	55.02V
+285	/Pv/V	DOUBLE	70.33000183105469	70.33V
+285	/Link/ChargeVoltage	DOUBLE	54.41999816894531	54.42V
+285	/Dc/0/Voltage	DOUBLE	55.02000045776367	55.02V
+286	/Dc/0/Voltage	DOUBLE	55.04999923706055	55.05V
+287	/Link/VoltageSense	DOUBLE	55.029998779296875	55.03V
+287	/Dc/0/Voltage	DOUBLE	55.029998779296875	55.03V
+288	/Link/ChargeVoltage	DOUBLE	54.43000030517578	54.43V
+288	/Dc/0/Voltage	DOUBLE	55.040000915527344	55.04V
+289	/Dc/0/Voltage	DOUBLE	55.040000915527344	55.04V
+289	/Pv/V	DOUBLE	70.30000305175781	70.30V
+290	/Dc/0/Voltage	DOUBLE	55.040000915527344	55.04V
+290	/Link/VoltageSense	DOUBLE	55.040000915527344	55.04V
+290	/Pv/V	DOUBLE	70.33000183105469	70.33V
+291	/Link/ChargeVoltage	DOUBLE	54.45000076293945	54.45V
+292	/Pv/V	DOUBLE	70.30000305175781	70.30V
+293	/Dc/0/Voltage	DOUBLE	55.060001373291016	55.06V
+293	/Link/VoltageSense	DOUBLE	55.04999923706055	55.05V
+296	/Pv/V	DOUBLE	70.30000305175781	70.30V
+296	/Dc/0/Voltage	DOUBLE	55.060001373291016	55.06V
+296	/Link/VoltageSense	DOUBLE	55.060001373291016	55.06V
+297	/Link/ChargeVoltage	DOUBLE	54.470001220703125	54.47V
+297	/Dc/0/Voltage	DOUBLE	55.08000183105469	55.08V
+299	/Pv/V	DOUBLE	70.30000305175781	70.30V
+299	/Link/VoltageSense	DOUBLE	55.08000183105469	55.08V
+300	/Link/ChargeVoltage	DOUBLE	54.47999954223633	54.48V
+301	/Pv/V	DOUBLE	70.2699966430664	70.27V
+302	/Dc/0/Voltage	DOUBLE	55.099998474121094	55.10V
+302	/Link/VoltageSense	DOUBLE	55.09000015258789	55.09V
+302	/Pv/V	DOUBLE	70.30000305175781	70.30V
+303	/Link/ChargeVoltage	DOUBLE	54.4900016784668	54.49V
+303	/Dc/0/Voltage	DOUBLE	55.08000183105469	55.08V
+303	/Pv/V	DOUBLE	70.29000091552734	70.29V
+304	/Pv/V	DOUBLE	70.27999877929688	70.28V
+304	/Dc/0/Voltage	DOUBLE	55.099998474121094	55.10V
+305	/Link/VoltageSense	DOUBLE	55.099998474121094	55.10V
+305	/Pv/V	DOUBLE	70.29000091552734	70.29V
+306	/Link/ChargeVoltage	DOUBLE	54.5	54.50V
+306	/Pv/V	DOUBLE	70.30000305175781	70.30V
+308	/Link/VoltageSense	DOUBLE	55.11000061035156	55.11V
+308	/Dc/0/Voltage	DOUBLE	55.11000061035156	55.11V
+309	/Link/ChargeVoltage	DOUBLE	54.5099983215332	54.51V
+309	/Pv/V	DOUBLE	70.29000091552734	70.29V
+309	/Dc/0/Voltage	DOUBLE	55.119998931884766	55.12V
+310	/Dc/0/Voltage	DOUBLE	55.130001068115234	55.13V
+310	/Pv/V	DOUBLE	70.2699966430664	70.27V
+311	/Dc/0/Voltage	DOUBLE	55.119998931884766	55.12V
+311	/Pv/V	DOUBLE	70.2699966430664	70.27V
+312	/Link/ChargeVoltage	DOUBLE	54.52000045776367	54.52V
+314	/Dc/0/Voltage	DOUBLE	55.130001068115234	55.13V
+314	/Link/VoltageSense	DOUBLE	55.130001068115234	55.13V
+315	/Pv/V	DOUBLE	70.2699966430664	70.27V
+315	/Link/ChargeVoltage	DOUBLE	54.529998779296875	54.53V
+315	/Dc/0/Voltage	DOUBLE	55.130001068115234	55.13V
+316	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+317	/Pv/V	DOUBLE	70.2699966430664	70.27V
+317	/Link/VoltageSense	DOUBLE	55.13999938964844	55.14V
+318	/Link/ChargeVoltage	DOUBLE	54.54999923706055	54.55V
+318	/Dc/0/Voltage	DOUBLE	55.13999938964844	55.14V
+318	/Pv/V	DOUBLE	70.25	70.25V
+319	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+319	/Pv/V	DOUBLE	70.26000213623047	70.26V
+320	/Dc/0/Voltage	DOUBLE	55.13999938964844	55.14V
+320	/Link/VoltageSense	DOUBLE	55.150001525878906	55.15V
+320	/Pv/V	DOUBLE	70.25	70.25V
+321	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+321	/Pv/V	DOUBLE	70.23999786376953	70.24V
+322	/Pv/V	DOUBLE	70.2699966430664	70.27V
+323	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+323	/Pv/V	DOUBLE	70.25	70.25V
+323	/Link/VoltageSense	DOUBLE	55.15999984741211	55.16V
+324	/Link/ChargeVoltage	DOUBLE	54.560001373291016	54.56V
+324	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+324	/Pv/V	DOUBLE	70.2699966430664	70.27V
+325	/History/Daily/0/TimeInBulk	DOUBLE	548.0	548s
+325	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+326	/Pv/V	DOUBLE	70.23999786376953	70.24V
+327	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+327	/Pv/V	DOUBLE	70.2699966430664	70.27V
+328	/Pv/V	DOUBLE	70.2699966430664	70.27V
+328	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+329	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+329	/Pv/V	DOUBLE	70.23999786376953	70.24V
+330	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+332	/Link/VoltageSense	DOUBLE	55.16999816894531	55.17V
+333	/Link/ChargeVoltage	DOUBLE	54.56999969482422	54.57V
+333	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+334	/Dc/0/Voltage	DOUBLE	55.150001525878906	55.15V
+335	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+335	/Pv/V	DOUBLE	70.22000122070312	70.22V
+336	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+336	/Pv/V	DOUBLE	70.23999786376953	70.24V
+337	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+337	/Pv/V	DOUBLE	70.22000122070312	70.22V
+338	/Pv/V	DOUBLE	70.2300033569336	70.23V
+338	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+339	/Pv/V	DOUBLE	70.23999786376953	70.24V
+339	/Link/ChargeVoltage	DOUBLE	54.58000183105469	54.58V
+340	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+340	/Pv/V	DOUBLE	70.22000122070312	70.22V
+341	/Pv/V	DOUBLE	70.2300033569336	70.23V
+341	/Link/VoltageSense	DOUBLE	55.18000030517578	55.18V
+341	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+342	/Dc/0/Voltage	DOUBLE	55.189998626708984	55.19V
+342	/Pv/V	DOUBLE	70.23999786376953	70.24V
+343	/Dc/0/Voltage	DOUBLE	55.15999984741211	55.16V
+344	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+344	/Pv/V	DOUBLE	70.25	70.25V
+345	/Dc/0/Voltage	DOUBLE	55.18000030517578	55.18V
+345	/Pv/V	DOUBLE	70.23999786376953	70.24V
+345	/Link/ChargeVoltage	DOUBLE	54.56999969482422	54.57V
+346	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+347	/Pv/V	DOUBLE	70.2300033569336	70.23V
+347	/Dc/0/Voltage	DOUBLE	55.189998626708984	55.19V
+347	/Link/VoltageSense	DOUBLE	55.189998626708984	55.19V
+348	/Pv/V	DOUBLE	70.25	70.25V
+348	/Link/ChargeVoltage	DOUBLE	54.59000015258789	54.59V
+349	/Dc/0/Voltage	DOUBLE	55.16999816894531	55.17V
+349	/Pv/V	DOUBLE	70.23999786376953	70.24V
+350	/Pv/V	DOUBLE	70.22000122070312	70.22V
+350	/Dc/0/Voltage	DOUBLE	55.20000076293945	55.20V
+351	/Pv/V	DOUBLE	70.2300033569336	70.23V
+352	/Pv/V	DOUBLE	70.23999786376953	70.24V
+353	/Pv/V	DOUBLE	70.2300033569336	70.23V
+353	/Link/VoltageSense	DOUBLE	55.20000076293945	55.20V
+353	/Dc/0/Voltage	DOUBLE	55.189998626708984	55.19V
+354	/Pv/V	DOUBLE	70.20999908447266	70.21V
+354	/Dc/0/Voltage	DOUBLE	55.20000076293945	55.20V
+355	/Pv/V	DOUBLE	70.23999786376953	70.24V
+356	/Pv/V	DOUBLE	70.22000122070312	70.22V
+357	/Dc/0/Voltage	DOUBLE	55.209999084472656	55.21V
+357	/Link/ChargeVoltage	DOUBLE	54.599998474121094	54.60V
+358	/Dc/0/Voltage	DOUBLE	55.209999084472656	55.21V
+358	/Pv/V	DOUBLE	70.20999908447266	70.21V
+359	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+360	/Pv/V	DOUBLE	70.22000122070312	70.22V
+360	/Link/ChargeVoltage	DOUBLE	54.61000061035156	54.61V
+361	/Dc/0/Voltage	DOUBLE	55.209999084472656	55.21V
+361	/Pv/V	DOUBLE	70.20999908447266	70.21V
+362	/Link/VoltageSense	DOUBLE	55.209999084472656	55.21V
+363	/Pv/V	DOUBLE	70.18000030517578	70.18V
+363	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+364	/Pv/V	DOUBLE	70.20999908447266	70.21V
+364	/Dc/0/Voltage	DOUBLE	55.20000076293945	55.20V
+365	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+365	/Pv/V	DOUBLE	70.19999694824219	70.20V
+366	/Dc/0/Voltage	DOUBLE	55.209999084472656	55.21V
+366	/Pv/V	DOUBLE	70.20999908447266	70.21V
+366	/Link/ChargeVoltage	DOUBLE	54.619998931884766	54.62V
+367	/Dc/0/Voltage	DOUBLE	55.22999954223633	55.23V
+368	/Pv/V	DOUBLE	70.19000244140625	70.19V
+368	/Dc/0/Voltage	DOUBLE	55.209999084472656	55.21V
+368	/Link/VoltageSense	DOUBLE	55.220001220703125	55.22V
+369	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+369	/Pv/V	DOUBLE	70.20999908447266	70.21V
+369	/Link/ChargeVoltage	DOUBLE	54.630001068115234	54.63V
+370	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+370	/Pv/V	DOUBLE	70.22000122070312	70.22V
+371	/Dc/0/Voltage	DOUBLE	55.2400016784668	55.24V
+371	/Pv/V	DOUBLE	70.20999908447266	70.21V
+371	/Link/VoltageSense	DOUBLE	55.22999954223633	55.23V
+372	/Dc/0/Voltage	DOUBLE	55.22999954223633	55.23V
+373	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+374	/Dc/0/Voltage	DOUBLE	55.22999954223633	55.23V
+374	/Link/VoltageSense	DOUBLE	55.2400016784668	55.24V
+375	/Dc/0/Voltage	DOUBLE	55.22999954223633	55.23V
+375	/Pv/V	DOUBLE	70.19999694824219	70.20V
+375	/Link/ChargeVoltage	DOUBLE	54.63999938964844	54.64V
+376	/Pv/V	DOUBLE	70.20999908447266	70.21V
+376	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+377	/Dc/0/Voltage	DOUBLE	55.2400016784668	55.24V
+378	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+378	/Link/ChargeVoltage	DOUBLE	54.650001525878906	54.65V
+379	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+380	/Link/VoltageSense	DOUBLE	55.25	55.25V
+381	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+382	/Pv/V	DOUBLE	70.18000030517578	70.18V
+383	/Pv/V	DOUBLE	70.18000030517578	70.18V
+383	/Link/VoltageSense	DOUBLE	55.2599983215332	55.26V
+383	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+384	/Pv/V	DOUBLE	70.20999908447266	70.21V
+384	/Dc/0/Voltage	DOUBLE	55.2400016784668	55.24V
+384	/Link/ChargeVoltage	DOUBLE	54.65999984741211	54.66V
+385	/Pv/V	DOUBLE	70.19000244140625	70.19V
+385	/History/Daily/0/TimeInBulk	DOUBLE	549.0	549s
+386	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+386	/Pv/V	DOUBLE	70.20999908447266	70.21V
+386	/Link/VoltageSense	DOUBLE	55.25	55.25V
+387	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+387	/Pv/V	DOUBLE	70.18000030517578	70.18V
+388	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+389	/Pv/V	DOUBLE	70.18000030517578	70.18V
+389	/Dc/0/Voltage	DOUBLE	55.2400016784668	55.24V
+389	/Link/VoltageSense	DOUBLE	55.2599983215332	55.26V
+390	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+391	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+391	/Pv/V	DOUBLE	70.19000244140625	70.19V
+392	/Pv/V	DOUBLE	70.18000030517578	70.18V
+392	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+393	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+393	/Link/ChargeVoltage	DOUBLE	54.66999816894531	54.67V
+395	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+395	/Link/VoltageSense	DOUBLE	55.27000045776367	55.27V
+396	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+399	/Pv/V	DOUBLE	70.18000030517578	70.18V
+399	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+399	/Link/ChargeVoltage	DOUBLE	54.65999984741211	54.66V
+400	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+401	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+401	/Pv/V	DOUBLE	70.19000244140625	70.19V
+401	/Link/VoltageSense	DOUBLE	55.2599983215332	55.26V
+402	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+402	/Pv/V	DOUBLE	70.18000030517578	70.18V
+402	/Link/ChargeVoltage	DOUBLE	54.66999816894531	54.67V
+403	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+404	/Pv/V	DOUBLE	70.19999694824219	70.20V
+404	/Yield/Power	DOUBLE	0.05999999865889549	0W
+404	/Link/VoltageSense	DOUBLE	55.27000045776367	55.27V
+405	/Pv/V	DOUBLE	70.18000030517578	70.18V
+405	/Yield/Power	DOUBLE	0.03999999910593033	0W
+406	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+406	/Yield/Power	DOUBLE	0.0	0W
+408	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+409	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+409	/Pv/V	DOUBLE	70.19000244140625	70.19V
+410	/Pv/V	DOUBLE	70.18000030517578	70.18V
+410	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+410	/Link/VoltageSense	DOUBLE	55.2599983215332	55.26V
+411	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+412	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+413	/Link/VoltageSense	DOUBLE	55.27000045776367	55.27V
+414	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+416	/Pv/V	DOUBLE	70.18000030517578	70.18V
+417	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+417	/Pv/V	DOUBLE	70.1500015258789	70.15V
+418	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+418	/Pv/V	DOUBLE	70.18000030517578	70.18V
+419	/Dc/0/Voltage	DOUBLE	55.25	55.25V
+419	/Pv/V	DOUBLE	70.16000366210938	70.16V
+420	/Pv/V	DOUBLE	70.18000030517578	70.18V
+420	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+421	/Dc/0/Voltage	DOUBLE	55.27000045776367	55.27V
+422	/Pv/V	DOUBLE	70.18000030517578	70.18V
+422	/Dc/0/Voltage	DOUBLE	55.2599983215332	55.26V
+423	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+425	/Dc/0/Voltage	DOUBLE	55.279998779296875	55.28V
+427	/Dc/0/Voltage	DOUBLE	55.220001220703125	55.22V
+427	/Pv/V	DOUBLE	70.16999816894531	70.17V
+428	/Dc/0/Voltage	DOUBLE	54.810001373291016	54.81V
+428	/Pv/V	DOUBLE	70.16000366210938	70.16V
+428	/Link/VoltageSense	DOUBLE	55.220001220703125	55.22V
+429	/Dc/0/Voltage	DOUBLE	54.63999938964844	54.64V
+429	/Pv/V	DOUBLE	70.20999908447266	70.21V
+429	/Link/ChargeVoltage	DOUBLE	54.380001068115234	54.38V
+430	/Dc/0/Voltage	DOUBLE	54.130001068115234	54.13V
+430	/Yield/Power	DOUBLE	0.05999999865889549	0W
+431	/Dc/0/Voltage	DOUBLE	54.04999923706055	54.05V
+431	/Yield/Power	DOUBLE	0.23999999463558197	0W
+431	/Pv/V	DOUBLE	70.22000122070312	70.22V
+431	/Link/VoltageSense	DOUBLE	54.15999984741211	54.16V
+431	/Dc/0/Current	DOUBLE	0.10000000149011612	0.1A
+432	/Yield/Power	DOUBLE	4.869999885559082	5W
+432	/Dc/0/Voltage	DOUBLE	54.02000045776367	54.02V
+432	/Pv/V	DOUBLE	69.44000244140625	69.44V
+432	/Dc/0/Current	DOUBLE	0.20000000298023224	0.2A
+432	/Link/ChargeVoltage	DOUBLE	54.0	54.00V
+433	/Dc/0/Current	DOUBLE	0.30000001192092896	0.3A
+433	/Yield/Power	DOUBLE	14.140000343322754	14W
+433	/Dc/0/Voltage	DOUBLE	53.97999954223633	53.98V
+433	/Pv/V	DOUBLE	68.86000061035156	68.86V
+434	/Yield/Power	DOUBLE	15.010000228881836	15W
+434	/Dc/0/Voltage	DOUBLE	53.939998626708984	53.94V
+434	/Pv/V	DOUBLE	68.80999755859375	68.81V
+434	/Link/VoltageSense	DOUBLE	53.939998626708984	53.94V
+435	/Dc/0/Voltage	DOUBLE	53.91999816894531	53.92V
+435	/Pv/V	DOUBLE	68.76000213623047	68.76V
+435	/Yield/Power	DOUBLE	15.359999656677246	15W
+436	/Yield/Power	DOUBLE	18.010000228881836	18W
+436	/Dc/0/Voltage	DOUBLE	53.88999938964844	53.89V
+436	/Pv/V	DOUBLE	68.37000274658203	68.37V
+436	/Dc/0/Current	DOUBLE	0.4000000059604645	0.4A
+437	/Yield/Power	DOUBLE	22.899999618530273	23W
+437	/Dc/0/Voltage	DOUBLE	53.880001068115234	53.88V
+437	/Pv/V	DOUBLE	67.62999725341797	67.63V
+437	/Dc/0/Current	DOUBLE	0.5	0.5A
+437	/Link/VoltageSense	DOUBLE	53.849998474121094	53.85V
+438	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+438	/Yield/Power	DOUBLE	30.219999313354492	30W
+438	/Dc/0/Voltage	DOUBLE	53.849998474121094	53.85V
+438	/Pv/V	DOUBLE	66.0	66.00V
+439	/Yield/Power	DOUBLE	34.66999816894531	35W
+439	/Dc/0/Voltage	DOUBLE	53.83000183105469	53.83V
+439	/Pv/V	DOUBLE	65.13999938964844	65.14V
+440	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+440	/Dc/0/Voltage	DOUBLE	53.810001373291016	53.81V
+440	/Pv/V	DOUBLE	64.73999786376953	64.74V
+440	/Yield/Power	DOUBLE	35.279998779296875	35W
+440	/MppOperationMode	UINT32	2	MPPT
+440	/Link/VoltageSense	DOUBLE	53.779998779296875	53.78V
+441	/Yield/Power	DOUBLE	37.18000030517578	37W
+441	/Dc/0/Voltage	DOUBLE	53.790000915527344	53.79V
+441	/Pv/V	DOUBLE	62.95000076293945	62.95V
+441	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+442	/Yield/Power	DOUBLE	37.709999084472656	38W
+442	/Dc/0/Voltage	DOUBLE	53.77000045776367	53.77V
+442	/Pv/V	DOUBLE	62.63999938964844	62.64V
+442	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+443	/Dc/0/Voltage	DOUBLE	53.75	53.75V
+443	/Pv/V	DOUBLE	61.79999923706055	61.80V
+443	/Yield/Power	DOUBLE	38.02000045776367	38W
+443	/Link/VoltageSense	DOUBLE	53.720001220703125	53.72V
+444	/Dc/0/Voltage	DOUBLE	53.72999954223633	53.73V
+444	/Pv/V	DOUBLE	61.9900016784668	61.99V
+444	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+444	/Yield/Power	DOUBLE	37.97999954223633	38W
+445	/Dc/0/Voltage	DOUBLE	53.709999084472656	53.71V
+445	/Pv/V	DOUBLE	62.04999923706055	62.05V
+445	/Yield/Power	DOUBLE	37.86000061035156	38W
+445	/History/Daily/0/TimeInBulk	DOUBLE	550.0	550s
+446	/Dc/0/Voltage	DOUBLE	53.689998626708984	53.69V
+446	/Pv/V	DOUBLE	62.290000915527344	62.29V
+446	/Yield/Power	DOUBLE	37.900001525878906	38W
+446	/Link/VoltageSense	DOUBLE	53.65999984741211	53.66V
+447	/Dc/0/Voltage	DOUBLE	53.66999816894531	53.67V
+447	/Pv/V	DOUBLE	61.68000030517578	61.68V
+447	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+448	/Yield/Power	DOUBLE	37.40999984741211	37W
+448	/Dc/0/Voltage	DOUBLE	53.650001525878906	53.65V
+448	/Pv/V	DOUBLE	61.630001068115234	61.63V
+449	/Dc/0/Voltage	DOUBLE	53.630001068115234	53.63V
+449	/Pv/V	DOUBLE	62.04999923706055	62.05V
+449	/Yield/Power	DOUBLE	37.20000076293945	37W
+449	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+449	/Link/VoltageSense	DOUBLE	53.61000061035156	53.61V
+450	/Yield/Power	DOUBLE	37.68000030517578	38W
+450	/Dc/0/Voltage	DOUBLE	53.61000061035156	53.61V
+450	/Pv/V	DOUBLE	61.290000915527344	61.29V
+450	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+451	/Yield/Power	DOUBLE	37.33000183105469	37W
+451	/Pv/V	DOUBLE	58.22999954223633	58.23V
+452	/Yield/Power	DOUBLE	37.689998626708984	38W
+452	/Pv/V	DOUBLE	60.779998779296875	60.78V
+452	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+452	/Link/VoltageSense	DOUBLE	53.58000183105469	53.58V
+453	/Yield/Power	DOUBLE	37.720001220703125	38W
+453	/Dc/0/Voltage	DOUBLE	53.59000015258789	53.59V
+453	/Pv/V	DOUBLE	61.11000061035156	61.11V
+454	/Yield/Power	DOUBLE	37.75	38W
+454	/Dc/0/Voltage	DOUBLE	53.56999969482422	53.57V
+454	/Pv/V	DOUBLE	59.970001220703125	59.97V
+454	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+455	/Pv/V	DOUBLE	60.029998779296875	60.03V
+455	/Dc/0/Voltage	DOUBLE	53.54999923706055	53.55V
+455	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+455	/Yield/Power	DOUBLE	37.689998626708984	38W
+455	/Link/VoltageSense	DOUBLE	53.540000915527344	53.54V
+456	/Pv/V	DOUBLE	60.68000030517578	60.68V
+456	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+456	/Yield/Power	DOUBLE	37.70000076293945	38W
+457	/Yield/Power	DOUBLE	37.16999816894531	37W
+457	/Dc/0/Voltage	DOUBLE	53.540000915527344	53.54V
+457	/Pv/V	DOUBLE	62.0	62.00V
+458	/Pv/V	DOUBLE	62.119998931884766	62.12V
+458	/Yield/Power	DOUBLE	37.20000076293945	37W
+458	/Dc/0/Voltage	DOUBLE	53.529998779296875	53.53V
+458	/Link/VoltageSense	DOUBLE	53.5	53.50V
+459	/Dc/0/Voltage	DOUBLE	53.529998779296875	53.53V
+459	/Pv/V	DOUBLE	61.31999969482422	61.32V
+459	/Yield/Power	DOUBLE	37.16999816894531	37W
+460	/Dc/0/Voltage	DOUBLE	53.5099983215332	53.51V
+460	/Pv/V	DOUBLE	60.95000076293945	60.95V
+460	/Yield/Power	DOUBLE	37.310001373291016	37W
+461	/Yield/Power	DOUBLE	37.470001220703125	37W
+461	/Pv/V	DOUBLE	59.09000015258789	59.09V
+461	/Dc/0/Voltage	DOUBLE	53.5	53.50V
+461	/Link/VoltageSense	DOUBLE	53.470001220703125	53.47V
+462	/Dc/0/Voltage	DOUBLE	53.470001220703125	53.47V
+462	/Pv/V	DOUBLE	60.54999923706055	60.55V
+463	/Pv/V	DOUBLE	60.13999938964844	60.14V
+463	/Yield/Power	DOUBLE	37.4900016784668	37W
+463	/Dc/0/Voltage	DOUBLE	53.45000076293945	53.45V
+464	/Pv/V	DOUBLE	59.779998779296875	59.78V
+464	/Yield/Power	DOUBLE	37.61000061035156	38W
+464	/Dc/0/Voltage	DOUBLE	53.439998626708984	53.44V
+464	/Link/VoltageSense	DOUBLE	53.43000030517578	53.43V
+465	/Yield/Power	DOUBLE	37.5	38W
+465	/Pv/V	DOUBLE	60.16999816894531	60.17V
+465	/Dc/0/Voltage	DOUBLE	53.45000076293945	53.45V
+466	/Pv/V	DOUBLE	58.40999984741211	58.41V
+466	/Dc/0/Voltage	DOUBLE	53.43000030517578	53.43V
+466	/Yield/Power	DOUBLE	36.88999938964844	37W
+466	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+467	/Pv/V	DOUBLE	57.279998779296875	57.28V
+467	/Yield/Power	DOUBLE	37.290000915527344	37W
+467	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+467	/Dc/0/Voltage	DOUBLE	53.41999816894531	53.42V
+467	/Link/VoltageSense	DOUBLE	53.40999984741211	53.41V
+468	/Pv/V	DOUBLE	61.31999969482422	61.32V
+468	/Yield/Power	DOUBLE	36.97999954223633	37W
+468	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+469	/Dc/0/Voltage	DOUBLE	53.40999984741211	53.41V
+469	/Pv/V	DOUBLE	61.31999969482422	61.32V
+469	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+469	/Yield/Power	DOUBLE	37.0099983215332	37W
+470	/Dc/0/Voltage	DOUBLE	53.38999938964844	53.39V
+470	/Pv/V	DOUBLE	57.2400016784668	57.24V
+470	/Yield/Power	DOUBLE	36.81999969482422	37W
+470	/Link/VoltageSense	DOUBLE	53.380001068115234	53.38V
+471	/Pv/V	DOUBLE	61.939998626708984	61.94V
+471	/Yield/Power	DOUBLE	36.75	37W
+471	/Dc/0/Voltage	DOUBLE	53.380001068115234	53.38V
+471	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+472	/Pv/V	DOUBLE	57.5	57.50V
+472	/Yield/Power	DOUBLE	37.220001220703125	37W
+472	/Dc/0/Voltage	DOUBLE	53.38999938964844	53.39V
+473	/Dc/0/Voltage	DOUBLE	53.369998931884766	53.37V
+473	/Pv/V	DOUBLE	59.779998779296875	59.78V
+473	/Yield/Power	DOUBLE	36.7599983215332	37W
+473	/Link/VoltageSense	DOUBLE	53.349998474121094	53.35V
+474	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+474	/Pv/V	DOUBLE	59.7599983215332	59.76V
+474	/Yield/Power	DOUBLE	37.189998626708984	37W
+475	/Pv/V	DOUBLE	58.34000015258789	58.34V
+475	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+475	/Yield/Power	DOUBLE	36.63999938964844	37W
+476	/Dc/0/Voltage	DOUBLE	53.349998474121094	53.35V
+476	/Pv/V	DOUBLE	59.779998779296875	59.78V
+476	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+476	/Yield/Power	DOUBLE	37.189998626708984	37W
+476	/Link/VoltageSense	DOUBLE	53.33000183105469	53.33V
+477	/Dc/0/Voltage	DOUBLE	53.349998474121094	53.35V
+477	/Pv/V	DOUBLE	60.45000076293945	60.45V
+477	/Yield/Power	DOUBLE	36.790000915527344	37W
+478	/Pv/V	DOUBLE	57.66999816894531	57.67V
+478	/Dc/0/Voltage	DOUBLE	53.33000183105469	53.33V
+478	/Yield/Power	DOUBLE	37.099998474121094	37W
+479	/Pv/V	DOUBLE	60.81999969482422	60.82V
+479	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+479	/Yield/Power	DOUBLE	36.97999954223633	37W
+479	/Link/VoltageSense	DOUBLE	53.310001373291016	53.31V
+480	/Dc/0/Voltage	DOUBLE	53.31999969482422	53.32V
+480	/Pv/V	DOUBLE	61.16999816894531	61.17V
+480	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+480	/Yield/Power	DOUBLE	36.849998474121094	37W
+481	/Pv/V	DOUBLE	61.189998626708984	61.19V
+481	/Dc/0/Voltage	DOUBLE	53.310001373291016	53.31V
+481	/Yield/Power	DOUBLE	36.83000183105469	37W
+482	/Dc/0/Voltage	DOUBLE	53.290000915527344	53.29V
+482	/Pv/V	DOUBLE	60.369998931884766	60.37V
+482	/Yield/Power	DOUBLE	36.77000045776367	37W
+482	/Link/VoltageSense	DOUBLE	53.290000915527344	53.29V
+483	/Pv/V	DOUBLE	58.900001525878906	58.90V
+483	/Yield/Power	DOUBLE	36.95000076293945	37W
+484	/Dc/0/Voltage	DOUBLE	53.27000045776367	53.27V
+484	/Pv/V	DOUBLE	59.88999938964844	59.89V
+484	/Yield/Power	DOUBLE	36.97999954223633	37W
+485	/Pv/V	DOUBLE	59.5099983215332	59.51V
+485	/Yield/Power	DOUBLE	36.95000076293945	37W
+485	/Dc/0/Voltage	DOUBLE	53.25	53.25V
+485	/Link/VoltageSense	DOUBLE	53.2599983215332	53.26V
+486	/Yield/Power	DOUBLE	36.650001525878906	37W
+486	/Pv/V	DOUBLE	61.369998931884766	61.37V
+486	/Dc/0/Voltage	DOUBLE	53.27000045776367	53.27V
+486	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+487	/Yield/Power	DOUBLE	36.54999923706055	37W
+487	/Pv/V	DOUBLE	60.209999084472656	60.21V
+487	/Dc/0/Voltage	DOUBLE	53.279998779296875	53.28V
+488	/Dc/0/Voltage	DOUBLE	53.2599983215332	53.26V
+488	/Pv/V	DOUBLE	60.220001220703125	60.22V
+488	/Yield/Power	DOUBLE	36.77000045776367	37W
+488	/Link/VoltageSense	DOUBLE	53.25	53.25V
+489	/Yield/Power	DOUBLE	36.349998474121094	36W
+489	/Pv/V	DOUBLE	61.40999984741211	61.41V
+489	/Dc/0/Voltage	DOUBLE	53.25	53.25V
+490	/Pv/V	DOUBLE	62.13999938964844	62.14V
+490	/Yield/Power	DOUBLE	36.34000015258789	36W
+490	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+491	/Yield/Power	DOUBLE	36.4900016784668	36W
+491	/Pv/V	DOUBLE	61.130001068115234	61.13V
+491	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+491	/Link/VoltageSense	DOUBLE	53.22999954223633	53.23V
+492	/Yield/Power	DOUBLE	36.45000076293945	36W
+492	/Pv/V	DOUBLE	61.119998931884766	61.12V
+493	/Pv/V	DOUBLE	61.5	61.50V
+493	/Yield/Power	DOUBLE	36.11000061035156	36W
+493	/Dc/0/Voltage	DOUBLE	53.22999954223633	53.23V
+494	/Pv/V	DOUBLE	61.16999816894531	61.17V
+494	/Dc/0/Voltage	DOUBLE	53.209999084472656	53.21V
+494	/Yield/Power	DOUBLE	36.36000061035156	36W
+494	/Link/VoltageSense	DOUBLE	53.220001220703125	53.22V
+495	/Pv/V	DOUBLE	61.16999816894531	61.17V
+496	/Pv/V	DOUBLE	61.290000915527344	61.29V
+496	/Yield/Power	DOUBLE	36.209999084472656	36W
+496	/Dc/0/Voltage	DOUBLE	53.22999954223633	53.23V
+497	/Pv/V	DOUBLE	63.79999923706055	63.80V
+497	/Yield/Power	DOUBLE	35.91999816894531	36W
+497	/Dc/0/Voltage	DOUBLE	53.209999084472656	53.21V
+497	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+497	/Link/VoltageSense	DOUBLE	53.20000076293945	53.20V
+498	/Pv/V	DOUBLE	61.2599983215332	61.26V
+498	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+498	/Yield/Power	DOUBLE	36.369998931884766	36W
+499	/Pv/V	DOUBLE	60.7400016784668	60.74V
+499	/Yield/Power	DOUBLE	36.380001068115234	36W
+499	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+500	/Dc/0/Voltage	DOUBLE	53.189998626708984	53.19V
+500	/Pv/V	DOUBLE	61.099998474121094	61.10V
+500	/Yield/Power	DOUBLE	36.56999969482422	37W
+500	/Link/VoltageSense	DOUBLE	53.189998626708984	53.19V
+501	/Dc/0/Voltage	DOUBLE	53.189998626708984	53.19V
+501	/Pv/V	DOUBLE	61.40999984741211	61.41V
+501	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+501	/Yield/Power	DOUBLE	36.439998626708984	36W
+502	/Dc/0/Voltage	DOUBLE	53.18000030517578	53.18V
+502	/Pv/V	DOUBLE	61.59000015258789	61.59V
+502	/Yield/Power	DOUBLE	36.220001220703125	36W
+503	/Pv/V	DOUBLE	60.68000030517578	60.68V
+503	/Yield/Power	DOUBLE	36.400001525878906	36W
+503	/Link/VoltageSense	DOUBLE	53.15999984741211	53.16V
+504	/Pv/V	DOUBLE	58.13999938964844	58.14V
+504	/Yield/Power	DOUBLE	36.220001220703125	36W
+504	/Dc/0/Voltage	DOUBLE	53.16999816894531	53.17V
+505	/Yield/Power	DOUBLE	36.47999954223633	36W
+505	/Pv/V	DOUBLE	60.68000030517578	60.68V
+505	/Dc/0/Voltage	DOUBLE	53.18000030517578	53.18V
+505	/History/Daily/0/TimeInBulk	DOUBLE	551.0	551s
+506	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+506	/Pv/V	DOUBLE	58.810001373291016	58.81V
+506	/Yield/Power	DOUBLE	36.709999084472656	37W
+506	/Dc/0/Voltage	DOUBLE	53.16999816894531	53.17V
+507	/Yield/Power	DOUBLE	36.09000015258789	36W
+507	/Pv/V	DOUBLE	59.5099983215332	59.51V
+507	/Dc/0/Voltage	DOUBLE	53.15999984741211	53.16V
+508	/Yield/Power	DOUBLE	36.470001220703125	36W
+508	/Pv/V	DOUBLE	60.310001373291016	60.31V
+508	/Dc/0/Voltage	DOUBLE	53.16999816894531	53.17V
+508	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+509	/Yield/Power	DOUBLE	36.150001525878906	36W
+509	/Dc/0/Voltage	DOUBLE	53.150001525878906	53.15V
+509	/Pv/V	DOUBLE	58.79999923706055	58.80V
+509	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+509	/Link/VoltageSense	DOUBLE	53.13999938964844	53.14V
+510	/Pv/V	DOUBLE	61.0099983215332	61.01V
+510	/Dc/0/Voltage	DOUBLE	53.13999938964844	53.14V
+510	/Yield/Power	DOUBLE	36.459999084472656	36W
+510	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+511	/Pv/V	DOUBLE	61.0099983215332	61.01V
+511	/Dc/0/Voltage	DOUBLE	53.11000061035156	53.11V
+511	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+511	/Yield/Power	DOUBLE	36.16999816894531	36W
+512	/Pv/V	DOUBLE	61.65999984741211	61.66V
+512	/Dc/0/Voltage	DOUBLE	53.13999938964844	53.14V
+512	/Yield/Power	DOUBLE	36.04999923706055	36W
+512	/Link/VoltageSense	DOUBLE	53.119998931884766	53.12V
+513	/Yield/Power	DOUBLE	36.560001373291016	37W
+513	/Dc/0/Voltage	DOUBLE	53.130001068115234	53.13V
+513	/Pv/V	DOUBLE	57.47999954223633	57.48V
+514	/Yield/Power	DOUBLE	35.97999954223633	36W
+514	/Dc/0/Voltage	DOUBLE	53.11000061035156	53.11V
+514	/Pv/V	DOUBLE	60.970001220703125	60.97V
+514	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+515	/Yield/Power	DOUBLE	36.41999816894531	36W
+515	/Pv/V	DOUBLE	57.459999084472656	57.46V
+515	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+515	/Dc/0/Voltage	DOUBLE	53.130001068115234	53.13V
+516	/Yield/Power	DOUBLE	36.34000015258789	36W
+516	/Pv/V	DOUBLE	57.470001220703125	57.47V
+516	/Dc/0/Voltage	DOUBLE	53.11000061035156	53.11V
+517	/Pv/V	DOUBLE	58.0099983215332	58.01V
+517	/Yield/Power	DOUBLE	35.75	36W
+518	/Dc/0/Voltage	DOUBLE	53.09000015258789	53.09V
+518	/Pv/V	DOUBLE	61.459999084472656	61.46V
+518	/Yield/Power	DOUBLE	35.93000030517578	36W
+518	/Link/VoltageSense	DOUBLE	53.11000061035156	53.11V
+519	/Pv/V	DOUBLE	61.59000015258789	61.59V
+519	/Yield/Power	DOUBLE	35.88999938964844	36W
+519	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+520	/Dc/0/Voltage	DOUBLE	53.11000061035156	53.11V
+520	/Pv/V	DOUBLE	61.5	61.50V
+520	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+520	/Yield/Power	DOUBLE	35.86000061035156	36W
+521	/Dc/0/Voltage	DOUBLE	53.099998474121094	53.10V
+521	/Pv/V	DOUBLE	57.90999984741211	57.91V
+521	/Yield/Power	DOUBLE	36.11000061035156	36W
+521	/Link/VoltageSense	DOUBLE	53.09000015258789	53.09V
+522	/Pv/V	DOUBLE	61.20000076293945	61.20V
+522	/Yield/Power	DOUBLE	35.86000061035156	36W
+522	/Dc/0/Voltage	DOUBLE	53.09000015258789	53.09V
+523	/Pv/V	DOUBLE	60.0099983215332	60.01V
+523	/Yield/Power	DOUBLE	35.90999984741211	36W
+523	/Dc/0/Voltage	DOUBLE	53.08000183105469	53.08V
+523	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+524	/Pv/V	DOUBLE	58.15999984741211	58.16V
+524	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+524	/Yield/Power	DOUBLE	35.779998779296875	36W
+524	/Dc/0/Voltage	DOUBLE	53.09000015258789	53.09V
+525	/Dc/0/Voltage	DOUBLE	53.06999969482422	53.07V
+525	/Pv/V	DOUBLE	60.709999084472656	60.71V
+525	/Yield/Power	DOUBLE	36.02000045776367	36W
+526	/Pv/V	DOUBLE	58.810001373291016	58.81V
+526	/Dc/0/Voltage	DOUBLE	53.09000015258789	53.09V
+526	/Yield/Power	DOUBLE	36.0	36W
+527	/Dc/0/Voltage	DOUBLE	53.06999969482422	53.07V
+527	/Pv/V	DOUBLE	58.459999084472656	58.46V
+527	/Yield/Power	DOUBLE	36.16999816894531	36W
+527	/Link/VoltageSense	DOUBLE	53.06999969482422	53.07V
+528	/Pv/V	DOUBLE	59.880001068115234	59.88V
+528	/Yield/Power	DOUBLE	35.97999954223633	36W
+529	/Pv/V	DOUBLE	58.79999923706055	58.80V
+529	/Yield/Power	DOUBLE	35.959999084472656	36W
+530	/Pv/V	DOUBLE	60.459999084472656	60.46V
+530	/Yield/Power	DOUBLE	35.86000061035156	36W
+530	/Link/VoltageSense	DOUBLE	53.060001373291016	53.06V
+531	/Dc/0/Voltage	DOUBLE	53.04999923706055	53.05V
+531	/Pv/V	DOUBLE	60.83000183105469	60.83V
+531	/Yield/Power	DOUBLE	35.84000015258789	36W
+532	/Dc/0/Voltage	DOUBLE	53.060001373291016	53.06V
+532	/Pv/V	DOUBLE	61.16999816894531	61.17V
+532	/Yield/Power	DOUBLE	35.900001525878906	36W
+533	/Dc/0/Voltage	DOUBLE	53.04999923706055	53.05V
+533	/Pv/V	DOUBLE	60.130001068115234	60.13V
+533	/Yield/Power	DOUBLE	36.189998626708984	36W
+533	/Link/VoltageSense	DOUBLE	53.04999923706055	53.05V
+534	/Pv/V	DOUBLE	60.56999969482422	60.57V
+534	/Yield/Power	DOUBLE	35.75	36W
+534	/Dc/0/Voltage	DOUBLE	53.06999969482422	53.07V
+535	/Pv/V	DOUBLE	60.4900016784668	60.49V
+535	/Yield/Power	DOUBLE	35.849998474121094	36W
+535	/Dc/0/Voltage	DOUBLE	53.04999923706055	53.05V
+536	/Pv/V	DOUBLE	58.310001373291016	58.31V
+536	/Yield/Power	DOUBLE	36.029998779296875	36W
+536	/Dc/0/Voltage	DOUBLE	53.040000915527344	53.04V
+537	/Pv/V	DOUBLE	58.310001373291016	58.31V
+537	/Yield/Power	DOUBLE	35.810001373291016	36W
+538	/Pv/V	DOUBLE	60.040000915527344	60.04V
+538	/Yield/Power	DOUBLE	36.09000015258789	36W
+538	/Dc/0/Voltage	DOUBLE	53.04999923706055	53.05V
+539	/Pv/V	DOUBLE	60.380001068115234	60.38V
+539	/Dc/0/Voltage	DOUBLE	53.029998779296875	53.03V
+539	/Yield/Power	DOUBLE	35.939998626708984	36W
+539	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+539	/Link/VoltageSense	DOUBLE	53.040000915527344	53.04V
+540	/Pv/V	DOUBLE	58.880001068115234	58.88V
+540	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+540	/Yield/Power	DOUBLE	35.9900016784668	36W
+541	/Pv/V	DOUBLE	59.56999969482422	59.57V
+541	/Yield/Power	DOUBLE	36.18000030517578	36W
+542	/Pv/V	DOUBLE	59.529998779296875	59.53V
+542	/Yield/Power	DOUBLE	36.06999969482422	36W
+542	/Link/VoltageSense	DOUBLE	53.029998779296875	53.03V
+543	/Pv/V	DOUBLE	60.2400016784668	60.24V
+543	/Dc/0/Voltage	DOUBLE	53.0099983215332	53.01V
+544	/Pv/V	DOUBLE	61.5	61.50V
+544	/Yield/Power	DOUBLE	35.68000030517578	36W
+545	/Dc/0/Voltage	DOUBLE	53.029998779296875	53.03V
+545	/Pv/V	DOUBLE	60.209999084472656	60.21V
+545	/Yield/Power	DOUBLE	35.93000030517578	36W
+545	/Link/VoltageSense	DOUBLE	53.02000045776367	53.02V
+546	/Dc/0/Voltage	DOUBLE	53.0099983215332	53.01V
+546	/Pv/V	DOUBLE	59.47999954223633	59.48V
+546	/Yield/Power	DOUBLE	36.119998931884766	36W
+547	/Dc/0/Voltage	DOUBLE	53.0099983215332	53.01V
+547	/Yield/Power	DOUBLE	36.13999938964844	36W
+548	/Pv/V	DOUBLE	61.279998779296875	61.28V
+548	/Yield/Power	DOUBLE	35.59000015258789	36W
+548	/Link/VoltageSense	DOUBLE	53.0099983215332	53.01V
+549	/Pv/V	DOUBLE	60.18000030517578	60.18V
+549	/Yield/Power	DOUBLE	35.90999984741211	36W
+550	/Pv/V	DOUBLE	60.560001373291016	60.56V
+550	/Yield/Power	DOUBLE	35.709999084472656	36W
+551	/Pv/V	DOUBLE	59.380001068115234	59.38V
+551	/Yield/Power	DOUBLE	35.970001220703125	36W
+551	/Link/VoltageSense	DOUBLE	53.0	53.00V
+552	/Yield/Power	DOUBLE	35.97999954223633	36W
+553	/Pv/V	DOUBLE	58.619998931884766	58.62V
+553	/Yield/Power	DOUBLE	35.529998779296875	36W
+554	/Dc/0/Voltage	DOUBLE	53.0099983215332	53.01V
+554	/Pv/V	DOUBLE	60.060001373291016	60.06V
+554	/Yield/Power	DOUBLE	35.83000183105469	36W
+555	/Dc/0/Voltage	DOUBLE	52.9900016784668	52.99V
+555	/Pv/V	DOUBLE	60.439998626708984	60.44V
+555	/Yield/Power	DOUBLE	35.529998779296875	36W
+556	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+556	/Pv/V	DOUBLE	59.31999969482422	59.32V
+556	/Yield/Power	DOUBLE	35.70000076293945	36W
+557	/Pv/V	DOUBLE	58.959999084472656	58.96V
+557	/Yield/Power	DOUBLE	35.97999954223633	36W
+557	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+558	/Link/VoltageSense	DOUBLE	52.9900016784668	52.99V
+558	/Dc/0/Voltage	DOUBLE	52.9900016784668	52.99V
+558	/Pv/V	DOUBLE	59.970001220703125	59.97V
+558	/Yield/Power	DOUBLE	35.7599983215332	36W
+559	/Pv/V	DOUBLE	59.970001220703125	59.97V
+559	/Yield/Power	DOUBLE	35.79999923706055	36W
+560	/Dc/0/Voltage	DOUBLE	52.970001220703125	52.97V
+560	/Pv/V	DOUBLE	59.290000915527344	59.29V
+560	/Yield/Power	DOUBLE	35.90999984741211	36W
+560	/Link/VoltageSense	DOUBLE	52.97999954223633	52.98V
+561	/Dc/0/Voltage	DOUBLE	52.9900016784668	52.99V
+561	/Pv/V	DOUBLE	59.290000915527344	59.29V
+561	/Yield/Power	DOUBLE	35.75	36W
+562	/Pv/V	DOUBLE	57.2400016784668	57.24V
+562	/Dc/0/Voltage	DOUBLE	52.970001220703125	52.97V
+562	/Yield/Power	DOUBLE	35.54999923706055	36W
+563	/Pv/V	DOUBLE	61.290000915527344	61.29V
+563	/Yield/Power	DOUBLE	35.4900016784668	35W
+564	/Yield/Power	DOUBLE	35.130001068115234	35W
+564	/Pv/V	DOUBLE	60.91999816894531	60.92V
+565	/Pv/V	DOUBLE	60.7400016784668	60.74V
+565	/Yield/Power	DOUBLE	35.45000076293945	35W
+565	/History/Daily/0/TimeInBulk	DOUBLE	552.0	552s
+566	/Pv/V	DOUBLE	60.83000183105469	60.83V
+566	/Yield/Power	DOUBLE	35.130001068115234	35W
+567	/Link/VoltageSense	DOUBLE	52.970001220703125	52.97V
+567	/Yield/Power	DOUBLE	35.5	36W
+567	/Pv/V	DOUBLE	61.279998779296875	61.28V
+568	/Pv/V	DOUBLE	61.290000915527344	61.29V
+568	/Yield/Power	DOUBLE	35.630001068115234	36W
+569	/Dc/0/Voltage	DOUBLE	52.970001220703125	52.97V
+569	/Pv/V	DOUBLE	60.97999954223633	60.98V
+569	/Yield/Power	DOUBLE	35.70000076293945	36W
+570	/Link/VoltageSense	DOUBLE	52.959999084472656	52.96V
+570	/Pv/V	DOUBLE	60.91999816894531	60.92V
+570	/Dc/0/Voltage	DOUBLE	52.959999084472656	52.96V
+570	/Yield/Power	DOUBLE	35.779998779296875	36W
+571	/Pv/V	DOUBLE	60.77000045776367	60.77V
+571	/Dc/0/Voltage	DOUBLE	52.970001220703125	52.97V
+571	/Yield/Power	DOUBLE	35.5	36W
+572	/Yield/Power	DOUBLE	35.04999923706055	35W
+572	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+572	/Pv/V	DOUBLE	63.79999923706055	63.80V
+573	/Yield/Power	DOUBLE	35.61000061035156	36W
+573	/Pv/V	DOUBLE	61.220001220703125	61.22V
+574	/Dc/0/Voltage	DOUBLE	52.959999084472656	52.96V
+574	/Pv/V	DOUBLE	60.95000076293945	60.95V
+574	/Yield/Power	DOUBLE	35.560001373291016	36W
+575	/Yield/Power	DOUBLE	35.459999084472656	35W
+575	/Pv/V	DOUBLE	60.86000061035156	60.86V
+576	/Link/VoltageSense	DOUBLE	52.95000076293945	52.95V
+576	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+576	/Pv/V	DOUBLE	61.02000045776367	61.02V
+576	/Yield/Power	DOUBLE	35.119998931884766	35W
+577	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+577	/Pv/V	DOUBLE	59.599998474121094	59.60V
+577	/Yield/Power	DOUBLE	35.619998931884766	36W
+578	/Pv/V	DOUBLE	60.97999954223633	60.98V
+578	/Yield/Power	DOUBLE	35.279998779296875	35W
+579	/Pv/V	DOUBLE	57.47999954223633	57.48V
+579	/Yield/Power	DOUBLE	35.189998626708984	35W
+579	/Dc/0/Voltage	DOUBLE	52.93000030517578	52.93V
+580	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+580	/Pv/V	DOUBLE	60.25	60.25V
+580	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+580	/Yield/Power	DOUBLE	35.31999969482422	35W
+581	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+581	/Pv/V	DOUBLE	60.95000076293945	60.95V
+581	/Yield/Power	DOUBLE	35.4900016784668	35W
+582	/Dc/0/Voltage	DOUBLE	52.93000030517578	52.93V
+582	/Pv/V	DOUBLE	61.08000183105469	61.08V
+582	/Yield/Power	DOUBLE	35.099998474121094	35W
+583	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+583	/Pv/V	DOUBLE	60.790000915527344	60.79V
+583	/Yield/Power	DOUBLE	35.09000015258789	35W
+584	/Pv/V	DOUBLE	60.7400016784668	60.74V
+584	/Yield/Power	DOUBLE	35.189998626708984	35W
+584	/Dc/0/Voltage	DOUBLE	52.95000076293945	52.95V
+585	/Link/VoltageSense	DOUBLE	52.939998626708984	52.94V
+585	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+585	/Dc/0/Voltage	DOUBLE	52.939998626708984	52.94V
+585	/Pv/V	DOUBLE	61.290000915527344	61.29V
+585	/Yield/Power	DOUBLE	34.81999969482422	35W
+586	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+586	/Pv/V	DOUBLE	61.06999969482422	61.07V
+586	/Yield/Power	DOUBLE	35.0	35W
+586	/Dc/0/Voltage	DOUBLE	52.91999816894531	52.92V
+587	/Pv/V	DOUBLE	61.20000076293945	61.20V
+587	/Yield/Power	DOUBLE	34.84000015258789	35W
+588	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+588	/Dc/0/Voltage	DOUBLE	52.93000030517578	52.93V
+588	/Pv/V	DOUBLE	61.06999969482422	61.07V
+588	/Yield/Power	DOUBLE	34.900001525878906	35W
+589	/Pv/V	DOUBLE	60.720001220703125	60.72V
+589	/Yield/Power	DOUBLE	35.040000915527344	35W
+590	/Pv/V	DOUBLE	62.189998626708984	62.19V
+590	/Yield/Power	DOUBLE	34.939998626708984	35W
+591	/Dc/0/Voltage	DOUBLE	52.90999984741211	52.91V
+591	/Pv/V	DOUBLE	60.95000076293945	60.95V
+591	/Yield/Power	DOUBLE	35.0	35W
+592	/Dc/0/Voltage	DOUBLE	52.93000030517578	52.93V
+592	/Pv/V	DOUBLE	60.7400016784668	60.74V
+592	/Yield/Power	DOUBLE	35.060001373291016	35W
+593	/Pv/V	DOUBLE	61.349998474121094	61.35V
+593	/Dc/0/Voltage	DOUBLE	52.90999984741211	52.91V
+593	/Yield/Power	DOUBLE	35.18000030517578	35W
+594	/Link/VoltageSense	DOUBLE	52.93000030517578	52.93V
+594	/Pv/V	DOUBLE	60.93000030517578	60.93V
+594	/Yield/Power	DOUBLE	34.86000061035156	35W
+595	/Dc/0/Voltage	DOUBLE	52.93000030517578	52.93V
+595	/Pv/V	DOUBLE	62.75	62.75V
+595	/Yield/Power	DOUBLE	34.939998626708984	35W
+596	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+596	/Dc/0/Voltage	DOUBLE	52.91999816894531	52.92V
+596	/Pv/V	DOUBLE	60.79999923706055	60.80V
+596	/Yield/Power	DOUBLE	35.08000183105469	35W
+597	/Link/VoltageSense	DOUBLE	52.939998626708984	52.94V
+597	/Pv/V	DOUBLE	60.77000045776367	60.77V
+597	/Dc/0/Voltage	DOUBLE	52.90999984741211	52.91V
+597	/Yield/Power	DOUBLE	34.939998626708984	35W
+598	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+598	/Pv/V	DOUBLE	61.0099983215332	61.01V
+598	/Yield/Power	DOUBLE	34.84000015258789	35W
+599	/Dc/0/Voltage	DOUBLE	52.90999984741211	52.91V
+599	/Pv/V	DOUBLE	60.95000076293945	60.95V
+599	/Yield/Power	DOUBLE	34.91999816894531	35W
+600	/Dc/0/Current	DOUBLE	0.699999988079071	0.7A
+600	/Dc/0/Voltage	DOUBLE	52.91999816894531	52.92V
+600	/Pv/V	DOUBLE	62.16999816894531	62.17V
+600	/Yield/Power	DOUBLE	34.939998626708984	35W
+601	/Pv/V	DOUBLE	60.83000183105469	60.83V
+601	/Yield/Power	DOUBLE	35.119998931884766	35W
+602	/Dc/0/Current	DOUBLE	0.6000000238418579	0.6A
+602	/Pv/V	DOUBLE	63.7599983215332	63.76V
+602	/Yield/Power	DOUBLE	34.4900016784668	34W
+603	/Link/VoltageSense	DOUBLE	52.93000030517578	52.93V
+603	/Pv/V	DOUBLE	60.93000030517578	60.93V
+603	/Yield/Power	DOUBLE	34.880001068115234	35W

@@ -85,6 +85,32 @@ Show in html5app:
 - battery box
 - dc loads
 
+### BCT) Balance CT installation
+
+- 2x Integrel E-Power
+- 1x MultiPlus 48/5000/70-100
+- 2x Lynx Smart BMS 500A
+- 1x SmartShunt IP65 500A/50mV
+- 4x SmartSolar Charger MPPT 100/20 48V
+- 4x Tank (fuel + fresh water)
+- Generator using GX relay 1
+
+Settings:
+- DC system enabled
+- AC input type 1 = Shore
+- AC input type 2 = Not available
+- Relay function = Generator start/stop
+- Enable Lynx-es and SmartShunt in battery configuration
+
+Show in html5app:
+- Shore power
+- Solar
+- AC loads
+- DC loads
+- Alternator
+- Tanks
+- Multi
+
 ### C) Single BMV-702
 
 BMV configured to measure starter battery voltage.
@@ -188,6 +214,8 @@ Settings:
 
 Show in html5app:
 - Fisher Panda AGT
+- Genset DC output
+- Genset starter battery
 
 ### GDH) Hatz DC genset
 
@@ -200,6 +228,8 @@ Settings:
 
 Show in html5app:
 - Hatz DC genset
+- Genset DC output
+- Genset starter battery
 
 ### H) VE.Direct Inverter + BMV - typical simple vehicle - only charged from alternator
 
