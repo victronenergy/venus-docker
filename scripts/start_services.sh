@@ -8,5 +8,4 @@ vrmid=$(python3 -c 'from ext.velib_python.ve_utils import get_vrm_portal_id; pri
 mkdir -p /data/venus && echo "$vrmid" > /data/venus/unique-id
 
 service dbus start
-service mosquitto start
 svscan /service &
