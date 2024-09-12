@@ -1,5 +1,5 @@
 # Compile html5 app
-FROM node:lts-alpine as html5-app
+FROM node:lts-alpine AS html5-app
 COPY venus-html5-app/package.json .
 COPY venus-html5-app/package-lock.json .
 RUN npm install
@@ -9,7 +9,7 @@ ENV REACT_APP_ENABLE_LANG_OVERRIDE=true
 RUN npm run build 
 
 # Build flashmq
-FROM ubuntu:20.04 as flashmq
+FROM ubuntu:20.04 AS flashmq
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y g++ make cmake libssl-dev file docbook2x
@@ -17,7 +17,7 @@ COPY flashmq .
 RUN nproc=$(nproc) && cmake -DCMAKE_BUILD_TYPE=Release && make -j "$nproc"
 
 # Build dbus-flashmq
-FROM ubuntu:20.04 as dbus-flashmq
+FROM ubuntu:20.04 AS dbus-flashmq
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
 RUN apt-get install -y g++ make cmake pkg-config libdbus-1-dev
