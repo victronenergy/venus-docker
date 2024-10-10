@@ -6,3 +6,4 @@ com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_vic
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_charger/10/1/Name Bow thruster batteries
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_charger/10/2/Enabled 0
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/Name Service batteries
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 0

@@ -6,3 +6,4 @@ com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_vic
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/Name Main
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/1/Enabled 1
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/256/1/Name Starter
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 0

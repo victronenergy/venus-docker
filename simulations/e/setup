@@ -5,3 +5,4 @@ com.victronenergy.settings /Settings/SystemSetup/AcInput2 0
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/0/Name Service battery
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/5/Name Starter battery
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/6/Enabled 0
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 0

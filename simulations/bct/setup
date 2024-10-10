@@ -7,3 +7,4 @@ com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_vic
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/1/Enabled 1
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/2/Enabled 1
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_battery/289/Enabled 1
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 1

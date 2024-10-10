@@ -6,3 +6,4 @@ com.victronenergy.settings /Settings/Relay/Function 0
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_dcgenset/1/0/Enabled 1
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_dcgenset/1/Enabled 1
 com.victronenergy.settings /Settings/SystemSetup/Batteries/Configuration/com_victronenergy_dcgenset/1/Name "Genset Starter"
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 0
