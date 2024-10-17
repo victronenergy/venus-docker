@@ -1,0 +1,7 @@
+com.victronenergy.settings /Settings/SystemSetup/BatteryService default
+com.victronenergy.settings /Settings/SystemSetup/HasDcSystem 1
+com.victronenergy.settings /Settings/SystemSetup/AcInput1 3
+com.victronenergy.settings /Settings/SystemSetup/AcInput2 0
+com.victronenergy.settings /Settings/Relay/Function 0
+com.victronenergy.settings /Settings/Gui/ElectricalPowerIndicator 0
+com.victronenergy.settings /Settings/Gui/ColorScheme 0

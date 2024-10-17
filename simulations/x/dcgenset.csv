@@ -1,0 +1,38 @@
+com.victronenergy.dcgenset.socketcan_can0_vi0_uc2001214
+/N2kDeviceInstance	UINT32	0	0
+/N2kUniqueNumber	UINT32	2001214	2001214
+/Serial	STRING	2001214	2001214
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	0	0
+/HardwareVersion	ARRAY	[]	
+/FirmwareVersion	UINT32	4640	v2.20~RC1
+/ProductName	STRING	Fischer Panda AGT	Fischer Panda AGT
+/ProductId	UINT16	45127	0xB047
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessVersion	STRING	3.32	3.32
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/HeatsinkTemperature	DOUBLE	20.0	20°C
+/Dc/0/Power	DOUBLE	256.0	256W
+/Dc/0/Current	DOUBLE	15.0	15.0A
+/Dc/0/Voltage	DOUBLE	20.0	20.0V
+/ModuleId	BYTE	9	9
+/StarterVoltage	DOUBLE	12.800000190734863	12.8V
+/Engine/ExaustTemperature	DOUBLE	67.0	67°C
+/Engine/WindingTemperature	DOUBLE	-34.0	-34°C
+/Engine/CoolantTemperature	DOUBLE	45.0	45°C
+/Engine/OperatingHours	UINT32	21960	21960s
+/Engine/Speed	DOUBLE	0.0	0rpm
+/Engine/Load	DOUBLE	7.796875	8%
+/Error/0/Id	STRING		
+/StatusCode	BYTE	8	8
+/RemoteStartModeEnabled	UINT32	1	1
+/Start	UINT32	1	1
+
+2	/Dc/0/Current	DOUBLE	15.0	15.0A
+2	/Dc/0/Power	DOUBLE	257.0	256W
+4	/Dc/0/Current	DOUBLE	16.0	16.0A
+4	/Dc/0/Power	DOUBLE	256.0	256W
+6	/Dc/0/Current	DOUBLE	16.2	16.2A
+6	/Dc/0/Power	DOUBLE	255.0	255W
+8	/Dc/0/Current	DOUBLE	16.1	16.1A
+8	/Dc/0/Power	DOUBLE	256.0	257W

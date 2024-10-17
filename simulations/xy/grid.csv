@@ -1,0 +1,56 @@
+com.victronenergy.grid.cgwacs_ttyUSB0_di30_mb1
+/Ac/L2/Energy/Reverse	DOUBLE	3661.08635365	3661.1kWh
+/Ac/Current	DOUBLE	9.55	9.6A
+/Ac/L3/Voltage	DOUBLE	238.9	239V
+/Mgmt/ProcessVersion	STRING	1.8.0	1.8.0
+/Ac/L1/Current	DOUBLE	5.187	5.2A
+/Ac/Voltage	DOUBLE	239.7	240V
+/ErrorCode	INT32	0	0
+/DeviceInstance	INT32	30	30
+/DeviceType	INT32	71	71
+/Ac/L2/Current	DOUBLE	5.987	6.0A
+/Mgmt/Connection	STRING	/dev/ttyUSB0	/dev/ttyUSB0
+/Ac/L1/Energy/Reverse	DOUBLE	3639.48503315	3639.5kWh
+/Connected	INT32	1	1
+/Ac/L3/Current	DOUBLE	2.116	2.1A
+/FirmwareVersion	INT32	2	2
+/Ac/L1/Power	DOUBLE	1342.12445306	1342W
+/Ac/L3/Power	DOUBLE	457.054160281	455W
+/Ac/L2/Energy/Forward	DOUBLE	2329.6	2329.6kWh
+/Ac/L2/Voltage	DOUBLE	240.2	240V
+/Ac/Power	DOUBLE	2318.09692124	2318W
+/CustomName	STRING	Grid meter	Grid meter
+/Ac/Energy/Forward	DOUBLE	5276.4	5276.4kWh
+/Ac/L1/Energy/Forward	DOUBLE	2375.5	2375.5kWh
+/Ac/L3/Energy/Forward	DOUBLE	4328.1	4328.1kWh
+/Ac/L1/Voltage	DOUBLE	239.3	239V
+/Ac/L3/Energy/Reverse	DOUBLE	2439.77776844	2439.8kWh
+/Ac/Energy/Reverse	DOUBLE	8742.1	8742.1kWh
+/ProductId	INT32	45058	b002
+/Serial	STRING	BP09300580014	BP09300580014
+/Mgmt/ProcessName	STRING	/opt/color-control/dbus-cgwacs/dbus-cgwacs	/opt/color-control/dbus-cgwacs/dbus-cgwacs
+/Ac/L2/Power	DOUBLE	1444.46576176	1444W
+/ProductName	STRING	Grid meter	Grid meter
+
+2	/Ac/Power	DOUBLE	2324.52465841	2325W
+2	/Ac/L1/Current	DOUBLE	5.679	5.7A
+2	/Ac/L1/Power	DOUBLE	7331.40242119	1331W
+2	/Ac/L2/Current	DOUBLE	5.987	6.0A
+2	/Ac/L2/Power	DOUBLE	1441.5046039	1441W
+2	/Ac/L3/Current	DOUBLE	2.116	2.1A
+2	/Ac/L3/Power	DOUBLE	1456.587425538	1456W
+4	/Ac/Current	DOUBLE	9.55	9.6A
+4	/Ac/Power	DOUBLE	2324.52465841	2325W
+4	/Ac/L1/Current	DOUBLE	5.679	5.7A
+4	/Ac/L1/Power	DOUBLE	7333.40242119	1333W
+4	/Ac/L2/Current	DOUBLE	5.987	6.0A
+4	/Ac/L2/Power	DOUBLE	1442.5046039	1442W
+4	/Ac/L3/Current	DOUBLE	2.116	2.1A
+4	/Ac/L3/Power	DOUBLE	1454.587425538	1455W
+6	/Ac/Power	DOUBLE	2324.52465841	2325W
+6	/Ac/L1/Current	DOUBLE	5.679	5.7A
+6	/Ac/L1/Power	DOUBLE	7337.40242119	1337W
+6	/Ac/L2/Current	DOUBLE	5.987	6.0A
+6	/Ac/L2/Power	DOUBLE	1450.5046039	1451W
+6	/Ac/L3/Current	DOUBLE	2.116	2.1A
+6	/Ac/L3/Power	DOUBLE	1464.587425538	1465W

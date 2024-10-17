@@ -1,0 +1,76 @@
+com.victronenergy.battery.ttyUSB1
+/Mgmt/Connection	STRING	USB	USB
+/Mgmt/ProcessVersion	STRING	3.83	3.83
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/ConsumedAmphours	DOUBLE	0.0	0.0Ah
+/TimeToGo	ARRAY	[]	
+/Soc	DOUBLE	86.0	86.2%
+/History/ChargedEnergy	DOUBLE	0.4699999988079071	0.47kWh
+/History/DischargedEnergy	DOUBLE	0.019999999552965164	0.02kWh
+/History/AutomaticSyncs	UINT32	0	0
+/History/TimeSinceLastFullCharge	UINT32	181	181s
+/History/TotalAhDrawn	DOUBLE	-1.7999999523162842	-1.8Ah
+/History/FullDischarges	UINT32	0	0
+/History/ChargeCycles	UINT32	0	0
+/History/AverageDischarge	DOUBLE	0.0	0.0Ah
+/History/LastDischarge	DOUBLE	0.0	0.0Ah
+/History/DeepestDischarge	DOUBLE	-0.4000000059604645	-0.4Ah
+/History/MaximumStarterVoltage	DOUBLE	0.0	0.00V
+/History/MinimumStarterVoltage	DOUBLE	0.0	0.00V
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumVoltage	DOUBLE	15.829999923706055	15.83V
+/History/MinimumVoltage	DOUBLE	13.109999656677246	13.11V
+/Relay/0/State	ARRAY	[]	
+/Dc/1/Voltage	ARRAY	[]	
+/Dc/0/MidVoltageDeviation	ARRAY	[]	
+/Dc/0/MidVoltage	ARRAY	[]	
+/Dc/0/Temperature	DOUBLE	21	21°	
+/Dc/0/Power	DOUBLE	1645	1645W
+/Dc/0/Current	DOUBLE	121	121.0A
+/Dc/0/Voltage	DOUBLE	13.479999542236328	13.48V
+/Settings/HasMidVoltage	UINT32	0	0
+/Settings/RelayMode	ARRAY	[]	
+/Settings/HasStarterVoltage	UINT32	0	0
+/Settings/HasTemperature	UINT32	0	0
+/Alarms/LowSoc	UINT32	0	0
+/Alarms/MidVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Alarms/Alarm	UINT32	0	0
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/Devices/0/VregLink	ARRAY	[]	
+/Devices/0/ServiceName	STRING	com.victronenergy.battery.ttyUSB1	com.victronenergy.battery.ttyUSB1
+/Devices/0/ProductName	STRING	SmartShunt IP65 500A/50mV	SmartShunt IP65 500A/50mV
+/Devices/0/ProductId	UINT32	49200	0xC030
+/Devices/0/FirmwareVersion	UINT32	1046	v4.16
+/Devices/0/DeviceInstance	UINT32	289	289
+/Devices/0/CustomName	STRING	House 	House
+/GroupId	ARRAY	[]	
+/CustomName	STRING	House 	House
+/Serial	STRING	HQ2229CZZHC	HQ2229CZZHC
+/FirmwareVersion	UINT32	1046	v4.16
+/ProductId	UINT32	49200	0xC030
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	289	289
+/HardwareVersion	ARRAY	[]	
+/ProductName	STRING	SmartShunt IP65 500A/50mV	SmartShunt IP65 500A/50mV
+
+1	/Dc/0/Power	DOUBLE	1646	1646W
+1	/Dc/0/Current	DOUBLE	122	122.0A
+5	/Dc/0/Power	DOUBLE	1659	1659W
+5	/Dc/0/Current	DOUBLE	124	124.0A
+10	/Dc/0/Voltage	DOUBLE	13.49	13.49V
+10	/Dc/0/Power	DOUBLE	1658	1658W
+10	/Dc/0/Current	DOUBLE	123	123.0A

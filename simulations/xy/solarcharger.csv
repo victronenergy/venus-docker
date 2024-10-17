@@ -1,0 +1,559 @@
+com.victronenergy.solarcharger.ttyO2
+/History/Daily/18/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/29/TimeInBulk	DOUBLE	0.0	0
+/Yield/Power	DOUBLE	247.0	247W
+/History/Daily/20/MaxBatteryCurrent	DOUBLE	6.30000019073	6
+/History/Daily/17/MaxBatteryCurrent	DOUBLE	6.40000009537	6
+/History/Daily/26/Consumption	ARRAY	[]	
+/History/Daily/27/MaxBatteryVoltage	DOUBLE	57.0800018311	57
+/History/Daily/23/MaxBatteryVoltage	DOUBLE	57.1300010681	57
+/History/Daily/14/LastError3	INT32	0	0
+/History/Daily/14/LastError1	INT32	0	0
+/History/Daily/14/LastError4	INT32	0	0
+/DeviceInstance	UINT32	258	258
+/History/Daily/30/LastError4	INT32	0	0
+/History/Daily/30/LastError1	INT32	0	0
+/History/Daily/30/LastError2	INT32	0	0
+/History/Daily/30/LastError3	INT32	0	0
+/History/Daily/9/MaxBatteryCurrent	DOUBLE	6.80000019073	7
+/History/Daily/3/LastError1	INT32	0	0
+/History/Daily/12/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/3/LastError3	INT32	0	0
+/History/Daily/3/LastError2	INT32	0	0
+/History/Daily/5/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 18, 1, 0, 0, 255, 255, 255, 255, 107, 22, 35, 19, 0, 0, 0, 0, 143, 3, 0, 0, 0, 0, 0, 0, 172, 1, 0, 0, 77, 0, 175, 37, 100, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/26/Nr	DOUBLE	335.0	335
+/History/Daily/22/Yield	DOUBLE	0.0	0
+/History/Daily/19/MaxBatteryCurrent	DOUBLE	3.5	4
+/History/Daily/11/LastError1	INT32	0	0
+/History/Daily/1/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/11/LastError2	INT32	0	0
+/History/Daily/28/MaxPower	DOUBLE	341.0	341
+/History/Daily/11/LastError4	INT32	0	0
+/History/Daily/10/Yield	DOUBLE	0.0299999993294	0
+/History/Daily/1/Yield	DOUBLE	2.82999992371	3
+/History/Daily/5/MaxBatteryCurrent	DOUBLE	7.69999980927	8
+/History/Daily/22/MaxPower	DOUBLE	0.0	0
+/History/Daily/18/LastError4	INT32	0	0
+/History/Daily/18/LastError2	INT32	0	0
+/History/Daily/18/LastError3	INT32	0	0
+/History/Daily/18/LastError1	INT32	0	0
+/History/Daily/21/Yield	DOUBLE	2.1099998951	2
+/History/Daily/17/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/4/MaxPower	DOUBLE	366.0	366
+/History/Daily/20/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/8/MinBatteryVoltage	DOUBLE	49.0299987793	49
+/History/Daily/28/LastError1	INT32	0	0
+/History/Daily/23/Yield	DOUBLE	1.69000005722	2
+/History/Daily/28/LastError2	INT32	0	0
+/History/Daily/28/LastError4	INT32	0	0
+/History/Daily/23/MinBatteryVoltage	DOUBLE	50.2299995422	50
+/History/Daily/29/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/11/TimeInBulk	DOUBLE	82.0	82
+/History/Daily/20/MaxBatteryVoltage	DOUBLE	57.2299995422	57
+/History/Daily/19/MaxPower	DOUBLE	200.0	200
+/History/Daily/28/MinBatteryVoltage	DOUBLE	50.6699981689	51
+/History/Daily/9/MaxPower	DOUBLE	376.0	376
+/History/Daily/18/Yield	DOUBLE	2.51999998093	3
+/History/Daily/30/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/18/MaxBatteryVoltage	DOUBLE	57.0699996948	57
+/History/Daily/13/Consumption	ARRAY	[]	
+/History/Daily/0/MaxBatteryVoltage	DOUBLE	57.0900001526	57
+/History/Daily/15/Consumption	ARRAY	[]	
+/History/Daily/14/LastError2	INT32	0	0
+/History/Daily/15/LastError4	INT32	0	0
+/History/Daily/15/LastError1	INT32	0	0
+/History/Daily/5/MaxBatteryVoltage	DOUBLE	57.3899993896	57
+/History/Daily/13/MaxPower	DOUBLE	420.0	420
+/History/Daily/15/LastError2	INT32	0	0
+/History/Daily/8/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/6/LastError2	INT32	0	0
+/History/Daily/6/LastError3	INT32	0	0
+/History/Daily/28/MaxBatteryCurrent	DOUBLE	6.09999990463	6
+/History/Daily/6/LastError1	INT32	0	0
+/History/Daily/6/LastError4	INT32	0	0
+/History/Daily/23/LastError4	INT32	0	0
+/ProductId	UINT32	41025	0xA041
+/History/Daily/23/LastError1	INT32	0	0
+/History/Daily/23/LastError2	INT32	0	0
+/History/Daily/23/LastError3	INT32	0	0
+/Link/NetworkMode	UINT32	5	5
+/History/Daily/6/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 186, 0, 0, 0, 255, 255, 255, 255, 87, 22, 183, 19, 0, 0, 0, 0, 127, 3, 0, 0, 0, 0, 0, 0, 28, 2, 0, 0, 97, 0, 231, 38, 99, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/2/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 223, 0, 0, 0, 255, 255, 255, 255, 100, 22, 133, 19, 0, 0, 0, 0, 163, 3, 0, 0, 0, 0, 0, 0, 195, 1, 0, 0, 81, 0, 1, 38, 103, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/4/MaxPvVoltage	DOUBLE	99.9499969482	100
+/History/Daily/14/MinBatteryVoltage	DOUBLE	49.4700012207	49
+/Link/VoltageSense	ARRAY	[]	
+/History/Daily/20/Consumption	ARRAY	[]	
+/History/Daily/25/LastError1	INT32	0	0
+/History/Daily/25/LastError4	INT32	0	0
+/History/Daily/28/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/28/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/11/Yield	DOUBLE	0.00999999977648	0
+/History/Daily/17/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 245, 0, 0, 0, 255, 255, 255, 255, 82, 22, 53, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 99, 1, 0, 0, 64, 0, 120, 38, 88, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/13/MaxBatteryVoltage	DOUBLE	57.2900009155	57
+/History/Daily/0/Consumption	ARRAY	[]	
+/History/Daily/27/Nr	DOUBLE	334.0	334
+/History/Daily/2/Consumption	ARRAY	[]	
+/History/Daily/15/Yield	DOUBLE	2.66000008583	3
+/History/Daily/8/MaxPvVoltage	DOUBLE	99.9100036621	100
+/History/Daily/15/MaxBatteryVoltage	DOUBLE	57.1199989319	57
+/History/Daily/20/LastError3	INT32	0	0
+/History/Daily/27/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/22/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/25/Yield	DOUBLE	1.58000004292	2
+/History/Daily/26/MaxPvVoltage	DOUBLE	79.0800018311	79
+/History/Daily/8/Nr	DOUBLE	353.0	353
+/History/Daily/17/Consumption	ARRAY	[]	
+/History/Daily/24/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/8/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 144, 0, 0, 0, 255, 255, 255, 255, 101, 22, 39, 19, 0, 0, 0, 0, 123, 2, 0, 0, 0, 0, 0, 0, 30, 2, 0, 0, 93, 0, 7, 39, 97, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/16/MaxPvVoltage	DOUBLE	100.129997253	100
+/History/Daily/0/LastError1	INT32	0	0
+/History/Daily/0/LastError2	INT32	0	0
+/History/Daily/0/LastError3	INT32	0	0
+/History/Daily/0/LastError4	INT32	0	0
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/History/Daily/3/LastError4	INT32	0	0
+/History/Daily/13/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 123, 0, 0, 0, 255, 255, 255, 255, 97, 22, 164, 19, 0, 0, 0, 0, 212, 1, 0, 0, 0, 0, 0, 0, 164, 1, 0, 0, 76, 0, 160, 38, 92, 1, 0, 0]	buffer (40 bytes)
+/Yield/System	DOUBLE	252.910003662	252.91kWh
+/History/Daily/10/MinBatteryVoltage	DOUBLE	49.9000015259	50
+/History/Daily/2/MaxPower	DOUBLE	451.0	451
+/History/Daily/6/MaxBatteryVoltage	DOUBLE	57.1899986267	57
+/History/Daily/14/Yield	DOUBLE	0.389999985695	0
+/History/Daily/30/MaxPower	DOUBLE	257.0	257
+/History/Daily/26/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/22/Consumption	ARRAY	[]	
+/History/Daily/2/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/6/MinBatteryVoltage	DOUBLE	50.4700012207	50
+/History/Daily/3/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 66, 0, 0, 0, 255, 255, 255, 255, 91, 22, 115, 18, 0, 0, 0, 0, 161, 3, 0, 0, 0, 0, 0, 0, 158, 0, 0, 0, 28, 0, 9, 38, 102, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/2/LastError2	INT32	0	0
+/History/Daily/2/LastError3	INT32	0	0
+/History/Daily/2/LastError1	INT32	0	0
+/History/Daily/22/MaxPvVoltage	DOUBLE	22.1399993896	22
+/History/Daily/16/LastError2	INT32	0	0
+/History/Daily/16/LastError3	INT32	0	0
+/Link/TemperatureSense	ARRAY	[]	
+/History/Daily/3/MaxPower	DOUBLE	158.0	158
+/History/Daily/27/MinBatteryVoltage	DOUBLE	50.6599998474	51
+/History/Daily/29/Nr	DOUBLE	332.0	332
+/Link/ChargeCurrent	ARRAY	[]	
+/History/Daily/19/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/26/LastError3	INT32	0	0
+/History/Daily/10/MaxPower	DOUBLE	15.0	15
+/History/Daily/14/Nr	DOUBLE	347.0	347
+/History/Daily/24/MaxBatteryVoltage	DOUBLE	57.3699989319	57
+/History/Daily/2/TimeInBulk	DOUBLE	931.0	931
+/History/Daily/12/MaxPower	DOUBLE	516.0	516
+/History/Daily/5/Yield	DOUBLE	2.74000000954	3
+/History/Daily/30/TimeInFloat	DOUBLE	0.0	0
+/Link/TemperatureSenseActive	UINT32	0	0
+/History/Daily/11/LastError3	INT32	0	0
+/History/Daily/26/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/23/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/17/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/15/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 10, 1, 0, 0, 255, 255, 255, 255, 80, 22, 145, 19, 0, 0, 0, 0, 63, 4, 0, 0, 0, 0, 0, 0, 110, 1, 0, 0, 66, 0, 14, 40, 90, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/2/LastError4	INT32	0	0
+/History/Daily/7/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/30/Nr	DOUBLE	331.0	331
+/History/Daily/21/MinBatteryVoltage	DOUBLE	49.7000007629	50
+/History/Daily/5/MinBatteryVoltage	DOUBLE	48.9900016785	49
+/History/Daily/27/Yield	DOUBLE	1.34000003338	1
+/History/Daily/26/MaxBatteryCurrent	DOUBLE	0.0	0
+/History/Daily/2/MaxBatteryVoltage	DOUBLE	57.3199996948	57
+/History/Daily/11/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 1, 0, 0, 0, 255, 255, 255, 255, 196, 19, 140, 19, 0, 0, 0, 0, 82, 0, 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 5, 0, 153, 37, 94, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/11/MaxBatteryCurrent	DOUBLE	0.5	0
+/History/Daily/19/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 69, 0, 0, 0, 255, 255, 255, 255, 231, 21, 129, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 200, 0, 0, 0, 35, 0, 242, 37, 86, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/16/LastError1	INT32	0	0
+/History/Daily/18/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/24/Yield	DOUBLE	1.67999994755	2
+/History/Daily/13/LastError4	INT32	0	0
+/History/Daily/13/LastError3	INT32	0	0
+/History/Daily/13/LastError2	INT32	0	0
+/History/Daily/13/LastError1	INT32	0	0
+/History/Daily/6/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/16/LastError4	INT32	0	0
+/History/Daily/9/MinBatteryVoltage	DOUBLE	49.25	49
+/History/Daily/24/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 168, 0, 0, 0, 255, 255, 255, 255, 105, 22, 183, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 78, 1, 0, 0, 57, 0, 84, 38, 81, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/30/Yield	DOUBLE	1.32000005245	1
+/History/Daily/5/TimeInBulk	DOUBLE	911.0	911
+/History/Daily/27/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/17/Nr	DOUBLE	344.0	344
+/History/Daily/28/Nr	DOUBLE	333.0	333
+/History/Daily/15/Nr	DOUBLE	346.0	346
+/History/Daily/7/Yield	DOUBLE	2.22000002861	2
+/History/Daily/16/Consumption	ARRAY	[]	
+/History/Daily/7/Consumption	ARRAY	[]	
+/History/Daily/22/MinBatteryVoltage	DOUBLE	50.8199996948	51
+/History/Daily/16/Nr	DOUBLE	345.0	345
+/History/Daily/20/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/4/LastError4	INT32	0	0
+/History/Daily/0/TimeInBulk	DOUBLE	283.0	283
+/History/Daily/4/LastError1	INT32	0	0
+/History/Daily/4/LastError2	INT32	0	0
+/History/Daily/16/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/24/MinBatteryVoltage	DOUBLE	50.4700012207	50
+/History/Daily/17/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/8/MaxPower	DOUBLE	542.0	542
+/History/Daily/20/MaxPvVoltage	DOUBLE	98.6100006104	99
+/History/Daily/15/MaxBatteryCurrent	DOUBLE	6.59999990463	7
+/History/Daily/5/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/26/TimeInBulk	DOUBLE	0.0	0
+/Dc/0/Voltage	DOUBLE	57.0699996948	57.07V
+/History/Daily/7/TimeInBulk	DOUBLE	741.0	741
+/History/Daily/8/MaxBatteryCurrent	DOUBLE	9.30000019073	9
+/History/Daily/20/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 243, 0, 0, 0, 255, 255, 255, 255, 91, 22, 121, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 94, 1, 0, 0, 63, 0, 133, 38, 85, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/13/Nr	DOUBLE	348.0	348
+/History/Daily/10/Consumption	ARRAY	[]	
+/History/Daily/16/MaxBatteryCurrent	DOUBLE	6.40000009537	6
+/History/Daily/18/MaxBatteryCurrent	DOUBLE	6.59999990463	7
+/History/Daily/12/TimeInBulk	DOUBLE	852.0	852
+/History/Daily/27/LastError1	INT32	0	0
+/History/Daily/27/LastError2	INT32	0	0
+/History/Daily/27/LastError3	INT32	0	0
+/History/Daily/27/LastError4	INT32	0	0
+/History/Daily/28/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 129, 0, 0, 0, 255, 255, 255, 255, 80, 22, 203, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 85, 1, 0, 0, 61, 0, 77, 39, 77, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/7/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 222, 0, 0, 0, 255, 255, 255, 255, 109, 22, 99, 19, 0, 0, 0, 0, 229, 2, 0, 0, 0, 0, 0, 0, 251, 1, 0, 0, 91, 0, 158, 38, 98, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/9/Nr	DOUBLE	352.0	352
+/History/Daily/21/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/28/Consumption	ARRAY	[]	
+/History/Daily/12/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 161, 0, 0, 0, 255, 255, 255, 255, 94, 22, 147, 19, 0, 0, 0, 0, 84, 3, 0, 0, 0, 0, 0, 0, 4, 2, 0, 0, 88, 0, 97, 38, 93, 1, 0, 0]	buffer (40 bytes)
+/State	UINT32	252	252
+/History/Daily/14/MaxBatteryVoltage	DOUBLE	57.1399993896	57
+/History/Daily/6/MaxBatteryCurrent	DOUBLE	9.69999980927	10
+/History/Daily/30/MaxBatteryCurrent	DOUBLE	4.69999980927	5
+/History/Daily/27/MaxPower	DOUBLE	274.0	274
+/History/Daily/13/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/3/Consumption	ARRAY	[]	
+/History/Daily/16/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 75, 0, 0, 0, 255, 255, 255, 255, 83, 22, 123, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 119, 1, 0, 0, 64, 0, 29, 39, 89, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/1/MaxPower	DOUBLE	388.0	388
+/History/Daily/9/MaxPvVoltage	DOUBLE	97.3799972534	97
+/History/Daily/26/MinBatteryVoltage	DOUBLE	50.5400009155	51
+/History/Daily/2/Yield	DOUBLE	2.23000001907	2
+/History/Daily/24/Consumption	ARRAY	[]	
+/History/Daily/28/MaxBatteryVoltage	DOUBLE	57.1199989319	57
+/History/Daily/9/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 21, 1, 0, 0, 255, 255, 255, 255, 79, 22, 61, 19, 0, 0, 0, 0, 128, 3, 0, 0, 0, 0, 0, 0, 120, 1, 0, 0, 68, 0, 10, 38, 96, 1, 0, 0]	buffer (40 bytes)
+/Serial	STRING	HQ14143EAYL	HQ14143EAYL
+/History/Daily/14/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/22/LastError3	INT32	0	0
+/History/Daily/22/LastError2	INT32	0	0
+/History/Daily/22/LastError1	INT32	0	0
+/Link/ChargeVoltage	DOUBLE	59.0999984741	59.10V
+/History/Daily/28/LastError3	INT32	0	0
+/History/Daily/16/MinBatteryVoltage	DOUBLE	49.8699989319	50
+/Capabilities/Capabilities1	UINT32	124230	124230
+/History/Daily/26/Yield	DOUBLE	0.0	0
+/History/Daily/15/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/17/MaxBatteryVoltage	DOUBLE	57.1399993896	57
+/History/Daily/17/Yield	DOUBLE	2.45000004768	2
+/History/Daily/4/MaxBatteryCurrent	DOUBLE	6.59999990463	7
+/History/Daily/4/Yield	DOUBLE	2.42000007629	2
+/History/Daily/12/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/29/Consumption	ARRAY	[]	
+/History/Daily/7/MaxBatteryVoltage	DOUBLE	57.4099998474	57
+/History/Daily/25/MaxPvVoltage	DOUBLE	99.7699966431	100
+/History/Daily/18/MinBatteryVoltage	DOUBLE	49.5099983215	50
+/History/Daily/20/Nr	DOUBLE	341.0	341
+/History/Daily/24/MaxPower	DOUBLE	334.0	334
+/History/Daily/2/MinBatteryVoltage	DOUBLE	49.9700012207	50
+/History/Daily/21/Nr	DOUBLE	340.0	340
+/History/Daily/3/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/22/MaxBatteryCurrent	DOUBLE	0.0	0
+/History/Daily/8/TimeInBulk	DOUBLE	635.0	635
+/History/Daily/4/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/11/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/9/Yield	DOUBLE	2.76999998093	3
+/History/Daily/27/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 134, 0, 0, 0, 255, 255, 255, 255, 76, 22, 202, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 1, 0, 0, 50, 0, 174, 38, 78, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/0/Yield	DOUBLE	0.460000008345	0
+/History/Overall/MaxBatteryVoltage	DOUBLE	58.5699996948	58.57V
+/History/Daily/23/MaxPower	DOUBLE	346.0	346
+/History/Daily/19/LastError1	INT32	0	0
+/History/Daily/19/LastError3	INT32	0	0
+/History/Daily/19/LastError2	INT32	0	0
+/History/Daily/19/LastError4	INT32	0	0
+/History/Daily/19/Nr	DOUBLE	342.0	342
+/History/Daily/18/Nr	DOUBLE	343.0	343
+/History/Daily/6/MaxPower	DOUBLE	540.0	540
+/History/Daily/19/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/19/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/22/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/14/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/13/MaxBatteryCurrent	DOUBLE	7.59999990463	8
+/History/Daily/17/MinBatteryVoltage	DOUBLE	49.1699981689	49
+/History/Daily/22/Nr	DOUBLE	339.0	339
+/History/Daily/16/Yield	DOUBLE	0.75	1
+/FirmwareVersion	UINT32	297	v1.29
+/History/Daily/12/MaxBatteryCurrent	DOUBLE	8.80000019073	9
+/History/Daily/23/Nr	DOUBLE	338.0	338
+/History/Daily/23/MaxBatteryCurrent	DOUBLE	6.19999980927	6
+/History/Daily/20/MinBatteryVoltage	DOUBLE	49.8499984741	50
+/History/Daily/22/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 255, 221, 19, 218, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 166, 8, 83, 1, 0, 0]	buffer (40 bytes)
+/History/Overall/DaysAvailable	INT32	31	31
+/History/Daily/9/TimeInBulk	DOUBLE	896.0	896
+/History/Daily/11/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/10/MaxBatteryCurrent	DOUBLE	0.300000011921	0
+/Link/VoltageSenseActive	UINT32	0	0
+/History/Daily/25/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 158, 0, 0, 0, 255, 255, 255, 255, 88, 22, 154, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 97, 1, 0, 0, 64, 0, 249, 38, 80, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/7/MinBatteryVoltage	DOUBLE	49.6300010681	50
+/History/Daily/4/Nr	DOUBLE	357.0	357
+/History/Daily/3/MaxBatteryCurrent	DOUBLE	2.79999995232	3
+/History/Daily/6/Yield	DOUBLE	1.86000001431	2
+/History/Daily/8/LastError1	INT32	0	0
+/History/Daily/8/LastError2	INT32	0	0
+/History/Daily/8/LastError3	INT32	0	0
+/History/Daily/8/LastError4	INT32	0	0
+/History/Daily/28/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/22/MaxBatteryVoltage	DOUBLE	50.8499984741	51
+/History/Daily/11/MaxPower	DOUBLE	26.0	26
+/History/Daily/21/MaxPvVoltage	DOUBLE	97.6500015259	98
+/ErrorCode	UINT32	0	0
+/History/Daily/0/MaxPvVoltage	DOUBLE	94.0299987793	94
+/History/Daily/7/MaxPower	DOUBLE	507.0	507
+/Connected	UINT32	1	1
+/History/Daily/25/MaxBatteryVoltage	DOUBLE	57.2000007629	57
+/History/Daily/26/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 255, 190, 19, 190, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 228, 30, 79, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/2/MaxBatteryCurrent	DOUBLE	8.10000038147	8
+/History/Daily/13/Yield	DOUBLE	1.23000001907	1
+/History/Daily/16/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/23/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/3/MaxBatteryVoltage	DOUBLE	57.2299995422	57
+/History/Daily/15/LastError3	INT32	0	0
+/History/Daily/10/TimeInAbsorption	DOUBLE	0.0	0
+/Dc/0/Current	DOUBLE	4.30000019073	4.3A
+/History/Daily/18/MaxPvVoltage	DOUBLE	100.519996643	101
+/History/Daily/4/MaxBatteryVoltage	DOUBLE	58.5699996948	59
+/History/Daily/4/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 242, 0, 0, 0, 255, 255, 255, 255, 225, 22, 16, 19, 0, 0, 0, 0, 137, 3, 0, 0, 0, 0, 0, 0, 110, 1, 0, 0, 66, 0, 11, 39, 101, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/21/MaxPower	DOUBLE	322.0	322
+/History/Daily/14/TimeInBulk	DOUBLE	395.0	395
+/History/Daily/30/Consumption	ARRAY	[]	
+/History/Daily/25/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/3/TimeInBulk	DOUBLE	929.0	929
+/History/Daily/24/MaxPvVoltage	DOUBLE	98.1200027466	98
+/History/Daily/14/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 39, 0, 0, 0, 255, 255, 255, 255, 82, 22, 83, 19, 0, 0, 0, 0, 139, 1, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 43, 0, 47, 39, 91, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/23/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/11/Consumption	ARRAY	[]	
+/History/Daily/10/MaxPvVoltage	DOUBLE	96.2900009155	96
+/History/Daily/27/MaxBatteryCurrent	DOUBLE	5.0	5
+/History/Daily/5/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/18/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 252, 0, 0, 0, 255, 255, 255, 255, 75, 22, 87, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 108, 1, 0, 0, 66, 0, 68, 39, 87, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/29/MinBatteryVoltage	DOUBLE	50.9900016785	51
+/History/Daily/13/MinBatteryVoltage	DOUBLE	50.2799987793	50
+/History/Daily/30/MaxBatteryVoltage	DOUBLE	57.0699996948	57
+/History/Daily/7/MaxPvVoltage	DOUBLE	98.8600006104	99
+/History/Daily/15/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/24/LastError4	INT32	0	0
+/History/Daily/24/LastError1	INT32	0	0
+/History/Daily/24/LastError3	INT32	0	0
+/History/Daily/24/LastError2	INT32	0	0
+/History/Daily/12/MaxPvVoltage	DOUBLE	98.25	98
+/History/Daily/1/Consumption	ARRAY	[]	
+/History/Daily/8/Consumption	ARRAY	[]	
+/History/Overall/MinBatteryVoltage	DOUBLE	47.2299995422	47.23V
+/History/Daily/25/MinBatteryVoltage	DOUBLE	50.1800003052	50
+/History/Daily/20/MaxPower	DOUBLE	350.0	350
+/History/Daily/15/TimeInBulk	DOUBLE	1087.0	1087
+/History/Daily/13/TimeInBulk	DOUBLE	468.0	468
+/History/Daily/1/LastError3	INT32	0	0
+/History/Daily/1/LastError2	INT32	0	0
+/History/Daily/1/LastError1	INT32	0	0
+/History/Daily/5/MaxPvVoltage	DOUBLE	96.4700012207	96
+/History/Daily/27/Consumption	ARRAY	[]	
+/History/Daily/1/LastError4	INT32	0	0
+/History/Daily/23/MaxPvVoltage	DOUBLE	95.9599990845	96
+/History/Daily/28/MaxPvVoltage	DOUBLE	100.61000061	101
+/History/Daily/6/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/4/Consumption	ARRAY	[]	
+/History/Daily/25/MaxBatteryCurrent	DOUBLE	6.40000009537	6
+/History/Daily/10/TimeInBulk	DOUBLE	241.0	241
+/History/Daily/6/TimeInBulk	DOUBLE	895.0	895
+/History/Daily/21/MaxBatteryCurrent	DOUBLE	5.80000019073	6
+/History/Daily/11/MaxBatteryVoltage	DOUBLE	50.5999984741	51
+/History/Daily/19/MinBatteryVoltage	DOUBLE	47.3699989319	47
+/History/Daily/25/Nr	DOUBLE	336.0	336
+/History/Daily/12/MaxBatteryVoltage	DOUBLE	57.2599983215	57
+/History/Daily/21/LastError4	INT32	0	0
+/History/Daily/21/LastError2	INT32	0	0
+/History/Daily/21/LastError3	INT32	0	0
+/History/Daily/21/LastError1	INT32	0	0
+/History/Daily/1/MaxPvVoltage	DOUBLE	97.4700012207	97
+/History/Daily/0/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/10/MaxBatteryVoltage	DOUBLE	50.9799995422	51
+/History/Daily/25/MaxPower	DOUBLE	353.0	353
+/History/Overall/Raw	ARRAY[BYTE]	[1, 30, 0, 0, 0, 0, 0, 0, 120, 19, 0, 0, 205, 98, 0, 0, 14, 40, 225, 22, 115, 18, 0, 0]	buffer (24 bytes)
+/History/Daily/29/LastError4	INT32	0	0
+/History/Daily/29/LastError2	INT32	0	0
+/History/Daily/29/LastError3	INT32	0	0
+/History/Daily/29/LastError1	INT32	0	0
+/History/Daily/15/MaxPower	DOUBLE	366.0	366
+/History/Daily/1/MaxBatteryVoltage	DOUBLE	57.3199996948	57
+/History/Daily/2/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/8/Yield	DOUBLE	1.44000005722	1
+/History/Daily/8/MaxBatteryVoltage	DOUBLE	57.3300018311	57
+/History/Daily/6/Consumption	ARRAY	[]	
+/History/Daily/0/MaxPower	DOUBLE	253.0	253
+/History/Daily/28/Yield	DOUBLE	1.28999996185	1
+/History/Daily/16/MaxPower	DOUBLE	375.0	375
+/History/Daily/0/MinBatteryVoltage	DOUBLE	49.5099983215	50
+/ProductName	STRING	BlueSolar Charger MPPT 150/35 rev1	BlueSolar Charger MPPT 150/35 rev1
+/History/Daily/10/Nr	DOUBLE	351.0	351
+/History/Daily/2/Nr	DOUBLE	359.0	359
+/History/Daily/0/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 47, 0, 0, 0, 255, 255, 255, 255, 78, 22, 87, 19, 0, 0, 0, 0, 30, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 44, 0, 187, 36, 105, 1, 0, 0]	buffer (40 bytes)
+/Yield/User	DOUBLE	49.8300018311	49.83kWh
+/History/Daily/20/LastError1	INT32	0	0
+/History/Daily/9/MaxBatteryVoltage	DOUBLE	57.1100006104	57
+/History/Daily/12/Consumption	ARRAY	[]	
+/History/Daily/20/LastError2	INT32	0	0
+/History/Daily/20/LastError4	INT32	0	0
+/History/Daily/22/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/9/LastError2	INT32	0	0
+/History/Daily/18/MaxPower	DOUBLE	364.0	364
+/Settings/BmsPresent	UINT32	0	0
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/History/Daily/14/MaxPvVoltage	DOUBLE	100.309997559	100
+/History/Daily/25/LastError2	INT32	0	0
+/History/Daily/10/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 3, 0, 0, 0, 255, 255, 255, 255, 234, 19, 126, 19, 0, 0, 0, 0, 241, 0, 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 3, 0, 157, 37, 95, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/25/LastError3	INT32	0	0
+/History/Daily/30/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/12/Yield	DOUBLE	1.61000001431	2
+/History/Daily/30/MaxPvVoltage	DOUBLE	100.290000916	100
+/History/Daily/24/Nr	DOUBLE	337.0	337
+/History/Daily/19/Consumption	ARRAY	[]	
+/History/Daily/3/MaxPvVoltage	DOUBLE	97.3700027466	97
+/History/Daily/23/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 169, 0, 0, 0, 255, 255, 255, 255, 81, 22, 159, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 90, 1, 0, 0, 62, 0, 124, 37, 82, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/0/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/3/Nr	DOUBLE	358.0	358
+/History/Daily/12/LastError4	INT32	0	0
+/History/Daily/21/Consumption	ARRAY	[]	
+/History/Daily/12/LastError1	INT32	0	0
+/History/Daily/12/LastError2	INT32	0	0
+/History/Daily/12/LastError3	INT32	0	0
+/History/Daily/0/MaxBatteryCurrent	DOUBLE	4.40000009537	4
+/History/Daily/15/MaxPvVoltage	DOUBLE	102.540000916	103
+/History/Daily/24/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/29/MaxBatteryVoltage	DOUBLE	57.1300010681	57
+/History/Daily/20/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/14/MaxBatteryCurrent	DOUBLE	4.30000019073	4
+/HardwareVersion	ARRAY	[]	
+/History/Daily/7/Nr	DOUBLE	354.0	354
+/History/Daily/13/MaxPvVoltage	DOUBLE	98.8799972534	99
+/History/Daily/17/MaxPower	DOUBLE	355.0	355
+/History/Daily/19/Yield	DOUBLE	0.689999997616	1
+/Mgmt/ProcessVersion	STRING	3.17	3.17
+/History/Daily/29/MaxPower	DOUBLE	320.0	320
+/History/Daily/7/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/11/Nr	DOUBLE	350.0	350
+/Pv/I	DOUBLE	2.90000009537	2.9A
+/Pv/V	DOUBLE	88.0400009155	88.04V
+/History/Daily/5/MaxPower	DOUBLE	428.0	428
+/History/Daily/11/MinBatteryVoltage	DOUBLE	50.0400009155	50
+/History/Daily/4/TimeInBulk	DOUBLE	905.0	905
+/History/Daily/21/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/11/MaxPvVoltage	DOUBLE	96.25	96
+/History/Daily/24/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/0/Nr	DOUBLE	361.0	361
+/History/Daily/25/Consumption	ARRAY	[]	
+/History/Daily/5/Nr	DOUBLE	356.0	356
+/History/Daily/27/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/15/MinBatteryVoltage	DOUBLE	50.0900001526	50
+/History/Daily/29/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 136, 0, 0, 0, 255, 255, 255, 255, 81, 22, 235, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 64, 1, 0, 0, 58, 0, 114, 39, 76, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/29/MaxPvVoltage	DOUBLE	100.980003357	101
+/History/Daily/1/Nr	DOUBLE	360.0	360
+/History/Daily/19/MaxBatteryVoltage	DOUBLE	56.0699996948	56
+/History/Daily/1/MaxBatteryCurrent	DOUBLE	7.0	7
+/History/Daily/26/LastError2	INT32	0	0
+/History/Daily/26/LastError1	INT32	0	0
+/History/Daily/3/TimeInAbsorption	DOUBLE	0.0	0
+/Link/NetworkStatus	UINT32	0	0
+/History/Daily/26/LastError4	INT32	0	0
+/History/Daily/26/MaxPower	DOUBLE	0.0	0
+/Settings/ChargeCurrentLimit	DOUBLE	35.0	35.0A
+/History/Daily/16/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/30/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 132, 0, 0, 0, 255, 255, 255, 255, 75, 22, 117, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 47, 0, 45, 39, 75, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/24/MaxBatteryCurrent	DOUBLE	5.69999980927	6
+/History/Daily/29/Yield	DOUBLE	1.36000001431	1
+/History/Daily/7/LastError4	INT32	0	0
+/History/Daily/7/LastError1	INT32	0	0
+/History/Daily/7/LastError3	INT32	0	0
+/History/Daily/7/LastError2	INT32	0	0
+/History/Daily/8/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/20/Yield	DOUBLE	2.43000006676	2
+/History/Daily/29/MaxBatteryCurrent	DOUBLE	5.80000019073	6
+/History/Daily/29/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/12/MinBatteryVoltage	DOUBLE	50.1100006104	50
+/History/Daily/23/Consumption	ARRAY	[]	
+/History/Daily/26/MaxBatteryVoltage	DOUBLE	50.5400009155	51
+/History/Daily/4/MinBatteryVoltage	DOUBLE	48.7999992371	49
+/History/Daily/6/MaxPvVoltage	DOUBLE	99.5899963379	100
+/History/Daily/17/MaxPvVoltage	DOUBLE	98.4800033569	98
+/History/Daily/3/MinBatteryVoltage	DOUBLE	47.2299995422	47
+/History/Daily/30/MinBatteryVoltage	DOUBLE	49.8100013733	50
+/History/Daily/4/LastError3	INT32	0	0
+/History/Daily/12/Nr	DOUBLE	349.0	349
+/History/Daily/16/MaxBatteryVoltage	DOUBLE	57.1500015259	57
+/History/Daily/1/MinBatteryVoltage	DOUBLE	49.9500007629	50
+/History/Daily/10/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/13/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/21/MaxBatteryVoltage	DOUBLE	57.0999984741	57
+/History/Daily/6/Nr	DOUBLE	355.0	355
+/History/Overall/LastError3	INT32	0	0
+/History/Daily/22/LastError4	INT32	0	0
+/History/Overall/LastError1	INT32	0	0
+/History/Daily/4/TimeInAbsorption	DOUBLE	0.0	0
+/History/Overall/LastError4	INT32	0	0
+/History/Daily/10/LastError4	INT32	0	0
+/History/Daily/19/MaxPvVoltage	DOUBLE	97.1399993896	97
+/History/Daily/10/LastError2	INT32	0	0
+/History/Daily/10/LastError3	INT32	0	0
+/History/Daily/10/LastError1	INT32	0	0
+/History/Daily/9/Consumption	ARRAY	[]	
+/History/Daily/27/MaxPvVoltage	DOUBLE	99.0199966431	99
+/History/Daily/1/TimeInBulk	DOUBLE	929.0	929
+/History/Daily/2/MaxPvVoltage	DOUBLE	97.2900009155	97
+/History/Daily/5/Consumption	ARRAY	[]	
+/History/Daily/18/Consumption	ARRAY	[]	
+/History/Daily/25/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/14/Consumption	ARRAY	[]	
+/History/Daily/21/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/9/LastError3	INT32	0	0
+/History/Overall/MaxPvVoltage	DOUBLE	102.540000916	102.54V
+/History/Daily/9/LastError1	INT32	0	0
+/History/Daily/25/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/9/LastError4	INT32	0	0
+/History/Daily/9/TimeInFloat	DOUBLE	0.0	0
+/History/Daily/1/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 27, 1, 0, 0, 255, 255, 255, 255, 100, 22, 131, 19, 0, 0, 0, 0, 161, 3, 0, 0, 0, 0, 0, 0, 132, 1, 0, 0, 70, 0, 19, 38, 104, 1, 0, 0]	buffer (40 bytes)
+/History/Daily/3/Yield	DOUBLE	0.660000026226	1
+/History/Daily/1/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/9/TimeInAbsorption	DOUBLE	0.0	0
+/History/Daily/17/LastError3	INT32	0	0
+/History/Daily/17/LastError2	INT32	0	0
+/History/Daily/17/LastError1	INT32	0	0
+/History/Daily/17/LastError4	INT32	0	0
+/History/Overall/LastError2	INT32	0	0
+/History/Daily/14/MaxPower	DOUBLE	250.0	250
+/History/Daily/18/TimeInBulk	DOUBLE	0.0	0
+/History/Daily/5/LastError4	INT32	0	0
+/History/Daily/5/LastError3	INT32	0	0
+/History/Daily/5/LastError2	INT32	0	0
+/History/Daily/5/LastError1	INT32	0	0
+/History/Daily/7/MaxBatteryCurrent	DOUBLE	9.10000038147	9
+/History/Daily/21/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 211, 0, 0, 0, 255, 255, 255, 255, 78, 22, 106, 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 66, 1, 0, 0, 58, 0, 37, 38, 84, 1, 0, 0]	buffer (40 bytes)
+
+1	/Pv/V	DOUBLE	88.1200027466	88.12V
+1	/Pv/I	DOUBLE	2.79999995232	2.8A
+2	/Dc/0/Voltage	DOUBLE	57.0499992371	57.05V
+2	/Yield/Power	DOUBLE	251.679992676	252W
+2	/Pv/V	DOUBLE	88.0800018311	88.08V
+2	/Pv/I	DOUBLE	2.85740232468	2.9A
+3	/Dc/0/Voltage	DOUBLE	57.0699996948	57.07V
+3	/History/Daily/0/TimeInBulk	DOUBLE	281.0	281
+3	/History/Daily/0/Raw	ARRAY[BYTE]	[0, 0, 0, 0, 44, 0, 0, 0, 255, 255, 255, 255, 77, 22, 87, 19, 0, 0, 0, 0, 25, 1, 0, 0, 0, 0, 0, 0, 251, 0, 0, 0, 43, 0, 187, 36, 105, 1, 0, 0]	buffer (40 bytes)
+3	/Yield/Power	DOUBLE	251.550003052	252W
+3	/Pv/V	DOUBLE	88.0	88.00V
+3	/Pv/I	DOUBLE	2.90000009537	2.9A
+3	/Dc/0/Voltage	DOUBLE	57.0499992371	57.05V
+3	/Yield/Power	DOUBLE	252.410003662	252W
+3	/Pv/V	DOUBLE	88.4700012207	88.47V
+3	/Pv/I	DOUBLE	2.79999995232	2.8A
+3	/Dc/0/Voltage	DOUBLE	57.0400009155	57.04V
+4	/Yield/Power	DOUBLE	252.429992676	252W
+4	/Pv/V	DOUBLE	88.5599975586	88.56V
+4	/Pv/I	DOUBLE	2.79999995232	2.8A
+4	/Dc/0/Voltage	DOUBLE	57.0900001526	57.09V
+4	/Yield/Power	DOUBLE	251.61000061	252W

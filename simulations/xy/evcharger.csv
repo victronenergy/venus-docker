@@ -1,0 +1,52 @@
+com.victronenergy.evcharger.evc_HQ2306Q4GED
+/Mgmt/ProcessName	STRING	dbus-modbus-client.py	dbus-modbus-client.py
+/Mgmt/ProcessVersion	STRING	1.37	1.37
+/Mgmt/Connection	STRING	Modbus TCP 192.168.20.80	Modbus TCP 192.168.20.80
+/DeviceInstance	INT32	75	75
+/ProductId	INT32	49189	0xC025
+/ProductName	STRING	EV Charging Station	EV Charging Station
+/Model	STRING	AC22E	AC22E
+/Connected	INT32	1	1
+/Role	STRING	evcharger	evcharger
+/Serial	STRING	HQ2306Q4GED	HQ2306Q4GED
+/FirmwareVersion	INT32	75775	v1.27
+/Mode	INT32	0	EVC_MODE.MANUAL
+/StartStop	INT32	1	EVC_CHARGE.ENABLED
+/Ac/L1/Power	DOUBLE	6927.0	7219 W
+/Ac/L2/Power	DOUBLE	0.0	0 W
+/Ac/L3/Power	DOUBLE	0.0	0 W
+/Ac/Power	DOUBLE	6927.0	7219 W
+/Status	INT32	2	EVC_STATUS.CHARGING
+/SetCurrent	DOUBLE	32.0	32 A
+/MaxCurrent	DOUBLE	32.0	32 A
+/Current	DOUBLE	32.0	32.0 A
+/ChargingTime	DOUBLE	8838.0	8838 s
+/Ac/Energy/Forward	DOUBLE	17.26	17.26 kWh
+/Position	INT32	0	EVC_POSITION.INPUT
+/CustomName	STRING	EVCS-Victron	EVCS-Victron
+/AutoStart	DOUBLE	1.0	1
+/EnableDisplay	DOUBLE	1.0	1
+
+3	/Ac/L1/Power	DOUBLE	6927.0	6927 W
+3	/Ac/Power	DOUBLE	6927.0	6927 W
+3	/Ac/L1/Power	DOUBLE	7219.0	7219 W
+3	/Ac/Power	DOUBLE	7219.0	7219 W
+4	/Ac/L1/Power	DOUBLE	6840.0	6840 W
+4	/Ac/Power	DOUBLE	6840.0	6840 W
+5	/ChargingTime	DOUBLE	8843.0	8843 s
+5	/Ac/L1/Power	DOUBLE	7092.0	7092 W
+5	/Ac/Power	DOUBLE	7092.0	7092 W
+9	/Ac/L1/Power	DOUBLE	6886.0	6886 W
+9	/Ac/Power	DOUBLE	6886.0	6886 W
+9	/ChargingTime	DOUBLE	8847.0	8847 s
+9	/Ac/Energy/Forward	DOUBLE	17.27	17.27 kWh
+10	/Ac/L1/Power	DOUBLE	6987.0	6987 W
+10	/Ac/Power	DOUBLE	6987.0	6987 W
+12	/Ac/L1/Power	DOUBLE	6967.0	6967 W
+12	/Ac/Power	DOUBLE	6967.0	6967 W
+13	/Ac/L1/Power	DOUBLE	6924.0	6924 W
+13	/Ac/Power	DOUBLE	6924.0	6924 W
+15	/Ac/L1/Power	DOUBLE	7360.0	7360 W
+15	/Ac/Power	DOUBLE	7360.0	7360 W
+15	/ChargingTime	DOUBLE	8853.0	8853 s
+15	/Ac/Energy/Forward	DOUBLE	17.28	17.28 kWh
