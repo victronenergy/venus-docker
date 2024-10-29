@@ -11,7 +11,7 @@ com.victronenergy.tank.adc_builtin0_2
 /Alarms/Low/State	ARRAY	[]	
 /Capacity	DOUBLE	0.060	0.060m3
 /Connected	UINT32	1	1
-/CustomName	STRING	Grey water	Grey water
+/CustomName	STRING	Grey Water	Grey Water
 /DeviceInstance	UINT32	22	22
 /FilterLength	INT32	10	10s
 /FluidType	INT32	2	Waste water

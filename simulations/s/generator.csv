@@ -1,0 +1,34 @@
+com.victronenergy.generator.startstop0
+/Mgmt/ProcessName	STRING	/opt/victronenergy/dbus-generator-starter/dbus_generator.py	/opt/victronenergy/dbus-generator-starter/dbus_generator.py
+/Mgmt/ProcessVersion	STRING	1.6.7	1.6.7
+/Mgmt/Connection	STRING	generator	generator
+/DeviceInstance	INT32	0	0
+/ProductId	ARRAY	[]	---
+/ProductName	STRING	Generator start/stop	Generator start/stop
+/FirmwareVersion	ARRAY	[]	---
+/HardwareVersion	ARRAY	[]	---
+/Connected	INT32	1	1
+/Type	INT32	0	0
+/State	INT32	0	Stopped
+/RunningByConditionCode	INT32	0	0
+/Error	INT32	0	No error
+/RunningByCondition	STRING		
+/Runtime	INT32	0	0h, 0m, 0s
+/TodayRuntime	INT32	0	0h, 0m, 0s
+/TestRunIntervalRuntime	INT32	0	0h, 0m, 0s
+/NextTestRun	ARRAY	[]	---
+/SkipTestRun	ARRAY	[]	---
+/ManualStart	INT32	0	0
+/ManualStartTimer	INT32	0	0
+/QuietHours	INT32	0	0
+/Alarms/NoGeneratorAtAcIn	INT32	0	0
+/Alarms/ServiceIntervalExceeded	INT32	0	0
+/Alarms/AutoStartDisabled	INT32	0	0
+/AutoStartEnabled	INT32	1	1
+/AccumulatedRuntime	INT32	124850	124850
+/Capabilities	INT32	0	0
+/ServiceCounter	ARRAY	[]	---
+/ServiceCounterReset	INT32	0	0
+/GensetService	STRING	com.victronenergy.system	com.victronenergy.system
+/GensetProductId	ARRAY	[]	---
+

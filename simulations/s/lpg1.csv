@@ -1,4 +1,4 @@
-com.victronenergy.tank.adc_builtin1_4
+com.victronenergy.tank.adc_builtin1_3
 /Alarms/High/Active	INT32	90	90
 /Alarms/High/Delay	INT32	5	5s
 /Alarms/High/Enable	INT32	0	Disabled
@@ -9,26 +9,26 @@ com.victronenergy.tank.adc_builtin1_4
 /Alarms/Low/Enable	INT32	0	Disabled
 /Alarms/Low/Restore	INT32	15	15
 /Alarms/Low/State	ARRAY	[]	
-/Capacity	DOUBLE	0.050	0.050m3
+/Capacity	DOUBLE	0.033	0.033m3
 /Connected	UINT32	1	1
-/CustomName	STRING	Day Tank	Day Tank
-/DeviceInstance	UINT32	25	25
+/CustomName	STRING	LPG Tank	LPG Tank
+/DeviceInstance	UINT32	28	28
 /FilterLength	INT32	10	10s
-/FluidType	INT32	0	Fuel
-/Level	UINT32	40	40%
+/FluidType	INT32	8	LPG
+/Level	UINT32	61	61%
 /Mgmt/Connection	STRING	Tank Level input 1	Tank Level input 1
 /Mgmt/ProcessName	STRING	dbus-adc	dbus-adc
 /Mgmt/ProcessVersion	STRING	1.32	1.32
 /ProductId	UINT32	41313	A161
 /ProductName	STRING	Generic Tank Input	Generic Tank Input
 /RawUnit	STRING	Ω	Ω
-/RawValue	DOUBLE	72	72
+/RawValue	DOUBLE	109.1	109.1
 /RawValueEmpty	DOUBLE	0.0	0ohm
-/RawValueFull	DOUBLE	180.0	180ohm
+/RawValueFull	DOUBLE	180.0	180.0ohm
 /Remaining	DOUBLE	0.020	0.020m3
 /Shape	STRING		
 /Standard	INT32	0	European
 /Status	UINT32	0	Ok
 
-0	/RawValue	DOUBLE	72	72
-60	/RawValue	DOUBLE	72	72
+0	/RawValue	DOUBLE	109.1	109.1
+60	/RawValue	DOUBLE	109.1	109.1

@@ -9,9 +9,9 @@ com.victronenergy.tank.adc_builtin0_1
 /Alarms/Low/Enable	INT32	0	Disabled
 /Alarms/Low/Restore	INT32	15	15
 /Alarms/Low/State	ARRAY	[]	
-/Capacity	DOUBLE	1.100	1.100m3
+/Capacity	DOUBLE	0.550	0.550m3
 /Connected	UINT32	1	1
-/CustomName	STRING	Diesel SB	Diesel SB
+/CustomName	STRING	Diesel STBD	Diesel STBD
 /DeviceInstance	UINT32	23	23
 /FilterLength	INT32	10	10s
 /FluidType	INT32	0	Fuel
@@ -22,13 +22,13 @@ com.victronenergy.tank.adc_builtin0_1
 /ProductId	UINT32	41313	A161
 /ProductName	STRING	Generic Tank Input	Generic Tank Input
 /RawUnit	STRING	Ω	Ω
-/RawValue	DOUBLE	36.74984359741211	37
+/RawValue	DOUBLE	81	81
 /RawValueEmpty	DOUBLE	0.0	0ohm
 /RawValueFull	DOUBLE	180.0	180ohm
-/Remaining	DOUBLE	0.500	0.500m3
+/Remaining	DOUBLE	0.248	0.248m3
 /Shape	STRING		
 /Standard	INT32	0	European
 /Status	UINT32	0	Ok
 
-0	/RawValue	DOUBLE	36.673744201660156	37
-60	/RawValue	DOUBLE	36.74984359741211	37
+0	/RawValue	DOUBLE	81		81
+60	/RawValue	DOUBLE	81		81
