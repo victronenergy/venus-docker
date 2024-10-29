@@ -15,20 +15,20 @@ com.victronenergy.tank.adc_builtin0_3
 /DeviceInstance	UINT32	21	21
 /FilterLength	INT32	10	10s
 /FluidType	INT32	1	Fresh water
-/Level	UINT32	43	43%
+/Level	UINT32	20	20%
 /Mgmt/Connection	STRING	Tank Level input 1	Tank Level input 1
 /Mgmt/ProcessName	STRING	dbus-adc	dbus-adc
 /Mgmt/ProcessVersion	STRING	1.32	1.32
 /ProductId	UINT32	41313	A161
 /ProductName	STRING	Generic Tank Input	Generic Tank Input
 /RawUnit	STRING	Ω	Ω
-/RawValue	DOUBLE	77.4	77.4
+/RawValue	DOUBLE	36	36
 /RawValueEmpty	DOUBLE	0.0	0ohm
 /RawValueFull	DOUBLE	180.0	180ohm
-/Remaining	DOUBLE	0.100	0.100m3
+/Remaining	DOUBLE	0.046	0.046m3
 /Shape	STRING		
 /Standard	INT32	0	European
 /Status	UINT32	0	Ok
 
-0	/RawValue	DOUBLE	77.4	77.4
-60	/RawValue	DOUBLE	77.4	77.4
+0	/RawValue	DOUBLE	36	36
+60	/RawValue	DOUBLE	36	36
