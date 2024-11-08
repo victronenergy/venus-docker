@@ -1,5 +1,5 @@
 com.victronenergy.temperature.adc_builtin0_8
-/TemperatureType	INT32	1	1
+/TemperatureType	INT32	6	6
 /Offset	DOUBLE	0.0	0
 /Scale	DOUBLE	1.0	1
 /Temperature	INT32	-18	-18C
