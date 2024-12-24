@@ -38,6 +38,10 @@ while :; do
 			tanks=(/opt/victronenergy/dbus-recorder/tank_{fwater,fuel,oil,bwater}.csv)
 			extra="$extra ${tanks[@]}"
 			;;
+		"--with-vebus-usb")
+			shift
+			extra="$extra /opt/victronenergy/dbus-recorder/vebus_mk3usb.csv"
+			;;
 		-*)
 			help
 			exit 1
