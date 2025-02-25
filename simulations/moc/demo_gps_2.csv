@@ -1,0 +1,18 @@
+com.victronenergy.gps.ve_ttyUSB2
+/DeviceInstance	INT32	0	0
+/ProductName	STRING	NMEA-0183 GPS (USB2)	NMEA-0183 GPS (USB2)
+/ProductId	UINT32	41315	A163
+/Mgmt/Connection	STRING	USB	USB
+/Mgmt/ProcessVersion	STRING	1.07	1.07
+/Mgmt/ProcessName	STRING	gps_dbus	gps_dbus
+/NrOfSatellites	ARRAY	[]	
+/Altitude	ARRAY	[]	
+/Course	ARRAY	[]	
+/Speed	ARRAY	[]	
+/Position/Longitude	ARRAY	[]	
+/Position/Latitude	ARRAY	[]	
+/Fix	BYTE	0	0
+/HardwareVersion	ARRAY	[]	
+/FirmwareVersion	ARRAY	[]	
+/Connected	UINT32	1	1
+

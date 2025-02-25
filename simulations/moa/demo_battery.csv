@@ -1,0 +1,190 @@
+com.victronenergy.battery.ttyS7
+/Mgmt/Connection	STRING	VE.Direct	VE.Direct
+/Mgmt/ProcessVersion	STRING	3.84	3.84
+/Mgmt/ProcessName	STRING	vedirect-dbus	vedirect-dbus
+/ConsumedAmphours	DOUBLE	-88.0	-88.0Ah
+/TimeToGo	DOUBLE	180719.984375	180720s
+/Soc	DOUBLE	56.0	56.0%
+/History/ChargedEnergy	DOUBLE	27.6200008392334	27.62kWh
+/History/DischargedEnergy	DOUBLE	38.72999954223633	38.73kWh
+/History/AutomaticSyncs	UINT32	0	0
+/History/TimeSinceLastFullCharge	UINT32	579102	579102s
+/History/TotalAhDrawn	DOUBLE	-1604.4000244140625	-1604.4Ah
+/History/FullDischarges	UINT32	1	1
+/History/ChargeCycles	UINT32	2	2
+/History/AverageDischarge	DOUBLE	0.0	0.0Ah
+/History/LastDischarge	DOUBLE	-88.0	-88.0Ah
+/History/DeepestDischarge	DOUBLE	-645.0999755859375	-645.1Ah
+/History/MaximumStarterVoltage	DOUBLE	0.0	0.00V
+/History/MinimumStarterVoltage	DOUBLE	0.0	0.00V
+/History/HighStarterVoltageAlarms	ARRAY	[]	
+/History/LowStarterVoltageAlarms	ARRAY	[]	
+/History/HighVoltageAlarms	UINT32	0	0
+/History/LowVoltageAlarms	UINT32	0	0
+/History/MaximumVoltage	DOUBLE	24.190000534057617	24.19V
+/History/MinimumVoltage	DOUBLE	12.0	12.00V
+/Relay/0/State	ARRAY	[]	
+/Dc/1/Voltage	ARRAY	[]	
+/Dc/0/MidVoltageDeviation	ARRAY	[]	
+/Dc/0/MidVoltage	ARRAY	[]	
+/Dc/0/Temperature	ARRAY	[]	
+/Dc/0/Power	DOUBLE	-12.074999809265137	-12W
+/Dc/0/Current	DOUBLE	-0.5	-0.5A
+/Dc/0/Voltage	DOUBLE	24.149999618530273	24.15V
+/Settings/HasMidVoltage	UINT32	0	0
+/Settings/RelayMode	ARRAY	[]	
+/Settings/HasStarterVoltage	UINT32	0	0
+/Settings/HasTemperature	UINT32	0	0
+/Alarms/LowSoc	UINT32	0	0
+/Alarms/MidVoltage	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/LowTemperature	UINT32	0	0
+/Alarms/HighStarterVoltage	UINT32	0	0
+/Alarms/LowStarterVoltage	UINT32	0	0
+/Alarms/HighVoltage	UINT32	0	0
+/Alarms/LowVoltage	UINT32	0	0
+/Alarms/Alarm	UINT32	0	0
+/VEDirect/TextParseError	UINT32	0	0
+/VEDirect/TextUnfinishedErrors	UINT32	0	0
+/VEDirect/TextChecksumErrors	UINT32	0	0
+/VEDirect/HexUnfinishedErrors	UINT32	0	0
+/VEDirect/HexInvalidCharacterErrors	UINT32	0	0
+/VEDirect/HexChecksumErrors	UINT32	0	0
+/Devices/0/VregLink	ARRAY	[]	
+/Devices/0/ServiceName	STRING	com.victronenergy.battery.ttyS7	com.victronenergy.battery.ttyS7
+/Devices/0/ProductName	STRING	SmartShunt 500A/50mV	SmartShunt 500A/50mV
+/Devices/0/ProductId	UINT32	41865	0xA389
+/Devices/0/FirmwareVersion	UINT32	1046	v4.16
+/Devices/0/DeviceInstance	UINT32	277	277
+/Devices/0/CustomName	STRING		
+/GroupId	ARRAY	[]	
+/CustomName	STRING		
+/Serial	STRING	HQ230233WKT	HQ230233WKT
+/FirmwareVersion	UINT32	1046	v4.16
+/ProductId	UINT32	41865	0xA389
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	277	277
+/HardwareVersion	ARRAY	[]	
+/ProductName	STRING	SmartShunt 500A/50mV	SmartShunt 500A/50mV
+
+1	/History/TimeSinceLastFullCharge	UINT32	579102	579102s
+1	/TimeToGo	DOUBLE	180659.984375	180660s
+1	/Dc/0/Power	DOUBLE	-12.069999694824219	-12W
+1	/Dc/0/Voltage	DOUBLE	24.139999389648438	24.14V
+2	/History/TimeSinceLastFullCharge	UINT32	579103	579103s
+2	/TimeToGo	DOUBLE	180539.984375	180540s
+2	/Dc/0/Power	DOUBLE	-12.074999809265137	-12W
+2	/Dc/0/Voltage	DOUBLE	24.149999618530273	24.15V
+3	/History/TimeSinceLastFullCharge	UINT32	579104	579104s
+3	/TimeToGo	DOUBLE	180479.984375	180480s
+4	/History/TimeSinceLastFullCharge	UINT32	579105	579105s
+5	/History/TimeSinceLastFullCharge	UINT32	579106	579106s
+5	/Dc/0/Power	DOUBLE	-12.069999694824219	-12W
+5	/Dc/0/Voltage	DOUBLE	24.139999389648438	24.14V
+6	/History/TimeSinceLastFullCharge	UINT32	579107	579107s
+6	/TimeToGo	DOUBLE	180419.984375	180420s
+6	/Dc/0/Power	DOUBLE	-12.074999809265137	-12W
+6	/Dc/0/Voltage	DOUBLE	24.149999618530273	24.15V
+7	/History/TimeSinceLastFullCharge	UINT32	579108	579108s
+7	/TimeToGo	DOUBLE	180359.984375	180360s
+7	/Dc/0/Power	DOUBLE	-12.069999694824219	-12W
+7	/Dc/0/Voltage	DOUBLE	24.139999389648438	24.14V
+8	/History/TimeSinceLastFullCharge	UINT32	579109	579109s
+8	/TimeToGo	DOUBLE	180239.984375	180240s
+9	/History/TimeSinceLastFullCharge	UINT32	579110	579110s
+9	/TimeToGo	DOUBLE	180299.984375	180300s
+9	/Dc/0/Power	DOUBLE	-12.074999809265137	-12W
+9	/Dc/0/Voltage	DOUBLE	24.149999618530273	24.15V
+10	/History/TimeSinceLastFullCharge	UINT32	579111	579111s
+11	/History/TimeSinceLastFullCharge	UINT32	579112	579112s
+11	/Dc/0/Power	DOUBLE	-12.069999694824219	-12W
+11	/Dc/0/Voltage	DOUBLE	24.139999389648438	24.14V
+12	/History/TimeSinceLastFullCharge	UINT32	579113	579113s
+12	/TimeToGo	DOUBLE	180239.984375	180240s
+13	/History/TimeSinceLastFullCharge	UINT32	579114	579114s
+13	/Dc/0/Power	DOUBLE	-12.074999809265137	-12W
+13	/Dc/0/Voltage	DOUBLE	24.149999618530273	24.15V
+14	/History/TimeSinceLastFullCharge	UINT32	579115	579115s
+14	/TimeToGo	DOUBLE	180299.984375	180300s
+15	/History/TimeSinceLastFullCharge	UINT32	579116	579116s
+15	/TimeToGo	DOUBLE	180359.984375	180360s
+16	/History/TimeSinceLastFullCharge	UINT32	579117	579117s
+16	/TimeToGo	DOUBLE	180299.984375	180300s
+17	/History/TimeSinceLastFullCharge	UINT32	579118	579118s
+17	/TimeToGo	DOUBLE	180239.984375	180240s
+18	/History/TimeSinceLastFullCharge	UINT32	579119	579119s
+18	/TimeToGo	DOUBLE	180299.984375	180300s
+19	/History/TimeSinceLastFullCharge	UINT32	579120	579120s
+19	/TimeToGo	DOUBLE	180359.984375	180360s
+20	/History/TimeSinceLastFullCharge	UINT32	579121	579121s
+21	/History/TimeSinceLastFullCharge	UINT32	579122	579122s
+21	/TimeToGo	DOUBLE	180299.984375	180300s
+22	/History/TimeSinceLastFullCharge	UINT32	579123	579123s
+22	/TimeToGo	DOUBLE	180119.984375	180120s
+23	/History/TimeSinceLastFullCharge	UINT32	579124	579124s
+23	/TimeToGo	DOUBLE	180179.984375	180180s
+24	/History/TimeSinceLastFullCharge	UINT32	579125	579125s
+24	/TimeToGo	DOUBLE	180299.984375	180300s
+25	/History/TimeSinceLastFullCharge	UINT32	579126	579126s
+25	/TimeToGo	DOUBLE	180359.984375	180360s
+26	/History/TimeSinceLastFullCharge	UINT32	579127	579127s
+26	/TimeToGo	DOUBLE	180299.984375	180300s
+27	/History/TimeSinceLastFullCharge	UINT32	579128	579128s
+27	/TimeToGo	DOUBLE	180179.984375	180180s
+28	/History/TimeSinceLastFullCharge	UINT32	579129	579129s
+28	/TimeToGo	DOUBLE	180119.984375	180120s
+29	/History/TimeSinceLastFullCharge	UINT32	579130	579130s
+30	/History/TimeSinceLastFullCharge	UINT32	579131	579131s
+30	/TimeToGo	DOUBLE	180179.984375	180180s
+31	/History/TimeSinceLastFullCharge	UINT32	579132	579132s
+31	/TimeToGo	DOUBLE	180119.984375	180120s
+32	/History/TimeSinceLastFullCharge	UINT32	579133	579133s
+32	/TimeToGo	DOUBLE	180059.984375	180060s
+33	/History/TimeSinceLastFullCharge	UINT32	579134	579134s
+34	/History/TimeSinceLastFullCharge	UINT32	579135	579135s
+35	/History/TimeSinceLastFullCharge	UINT32	579136	579136s
+36	/History/TimeSinceLastFullCharge	UINT32	579137	579137s
+37	/History/TimeSinceLastFullCharge	UINT32	579138	579138s
+37	/TimeToGo	DOUBLE	179999.984375	180000s
+38	/History/TimeSinceLastFullCharge	UINT32	579139	579139s
+38	/TimeToGo	DOUBLE	179939.984375	179940s
+39	/History/TimeSinceLastFullCharge	UINT32	579140	579140s
+40	/History/TimeSinceLastFullCharge	UINT32	579141	579141s
+40	/TimeToGo	DOUBLE	179879.984375	179880s
+41	/History/TimeSinceLastFullCharge	UINT32	579142	579142s
+42	/History/TimeSinceLastFullCharge	UINT32	579143	579143s
+42	/TimeToGo	DOUBLE	179819.984375	179820s
+43	/History/TimeSinceLastFullCharge	UINT32	579144	579144s
+43	/TimeToGo	DOUBLE	179939.984375	179940s
+44	/History/TimeSinceLastFullCharge	UINT32	579145	579145s
+44	/TimeToGo	DOUBLE	179999.984375	180000s
+45	/History/TimeSinceLastFullCharge	UINT32	579146	579146s
+45	/TimeToGo	DOUBLE	180059.984375	180060s
+46	/History/TimeSinceLastFullCharge	UINT32	579147	579147s
+46	/TimeToGo	DOUBLE	179999.984375	180000s
+47	/History/TimeSinceLastFullCharge	UINT32	579148	579148s
+48	/History/TimeSinceLastFullCharge	UINT32	579150	579150s
+48	/TimeToGo	DOUBLE	180059.984375	180060s
+49	/TimeToGo	DOUBLE	180239.984375	180240s
+49	/History/TimeSinceLastFullCharge	UINT32	579151	579151s
+50	/TimeToGo	DOUBLE	180299.984375	180300s
+50	/History/TimeSinceLastFullCharge	UINT32	579152	579152s
+51	/History/TimeSinceLastFullCharge	UINT32	579153	579153s
+52	/TimeToGo	DOUBLE	180239.984375	180240s
+52	/History/TimeSinceLastFullCharge	UINT32	579154	579154s
+53	/TimeToGo	DOUBLE	180359.984375	180360s
+53	/History/TimeSinceLastFullCharge	UINT32	579155	579155s
+54	/TimeToGo	DOUBLE	180479.984375	180480s
+54	/History/TimeSinceLastFullCharge	UINT32	579156	579156s
+55	/TimeToGo	DOUBLE	180599.984375	180600s
+55	/History/TimeSinceLastFullCharge	UINT32	579157	579157s
+56	/TimeToGo	DOUBLE	180539.984375	180540s
+56	/History/TimeSinceLastFullCharge	UINT32	579158	579158s
+57	/TimeToGo	DOUBLE	180419.984375	180420s
+57	/History/TimeSinceLastFullCharge	UINT32	579159	579159s
+58	/TimeToGo	DOUBLE	180479.984375	180480s
+58	/History/TimeSinceLastFullCharge	UINT32	579160	579160s
+59	/TimeToGo	DOUBLE	180539.984375	180540s
+59	/History/TimeSinceLastFullCharge	UINT32	579161	579161s
+60	/TimeToGo	DOUBLE	180659.984375	180660s
+60	/History/TimeSinceLastFullCharge	UINT32	579162	579162s
