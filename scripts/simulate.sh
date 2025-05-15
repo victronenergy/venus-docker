@@ -42,6 +42,11 @@ while :; do
 			shift
 			extra="$extra /opt/victronenergy/dbus-recorder/vebus_mk3usb.csv"
 			;;
+		"--with-switches")
+			shift
+			switches=(/opt/victronenergy/dbus-recorder/switch_*.csv)
+			extra="$extra ${switches[@]}"
+			;;
 		-*)
 			help
 			exit 1
