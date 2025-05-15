@@ -1,0 +1,183 @@
+com.victronenergy.battery.socketcan_vecan0_vi2_uc478888
+/CustomName	STRING	House battery 2	
+/N2kDeviceInstance	UINT32	0	0
+/N2kUniqueNumber	UINT32	478888	478888
+/Serial	STRING	0478888 HQ2437NJ463	0478888 HQ2437NJ463
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	2	2
+/HardwareVersion	ARRAY	[]	
+/FirmwareVersion	UINT32	70655	v1.13
+/ProductName	STRING	Lynx Smart BMS NG	Lynx Smart BMS NG
+/ProductId	UINT16	41959	0xA3E7
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessVersion	STRING	3.42	3.42
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/ParallelConnectThreshold	ARRAY	[]	
+/DeviceState	UINT32	249	249
+/Balancer/Status	UINT32	1	1
+/Mode	UINT32	3	3
+/NrOfDistributors	UINT32	0	0
+/Errors/SmartLithium/InvalidConfiguration	UINT32	0	0
+/Errors/SmartLithium/NrOfBatteries	UINT32	0	0
+/Errors/SmartLithium/Voltage	UINT32	0	0
+/Errors/SmartLithium/Communication	UINT32	0	0
+/Alarms/LowSoc	UINT32	0	0
+/Alarms/BmsCable	UINT32	0	0
+/Alarms/Contactor	UINT32	0	0
+/Alarms/HighInternalTemperature	UINT32	0	0
+/Alarms/HighCurrent	UINT32	0	0
+/Alarms/HighTemperature	UINT32	0	0
+/Alarms/LowCellVoltage	UINT32	0	0
+/Info/MaxDischargeCurrent	DOUBLE	1200.0	1200.0A
+/Info/BatteryLowVoltage	DOUBLE	20.799999237060547	20.80V
+/Info/MaxChargeCurrent	DOUBLE	800.0	800.0A
+/Info/MaxChargeVoltage	DOUBLE	27.399999618530273	27.40V
+/Io/ProgrammableContact	ARRAY	[]	
+/Io/ExternalRelay	ARRAY	[]	
+/Io/AllowToDischarge	UINT32	1	1
+/Io/AllowToCharge	UINT32	1	1
+/Diagnostics/LastErrors/4/Time	UINT32	1734620520	1734620520
+/Diagnostics/LastErrors/4/Error	UINT32	0	0
+/Diagnostics/LastErrors/3/Time	UINT32	1734620520	1734620520
+/Diagnostics/LastErrors/3/Error	UINT32	0	0
+/Diagnostics/LastErrors/2/Time	UINT32	1734620520	1734620520
+/Diagnostics/LastErrors/2/Error	UINT32	0	0
+/Diagnostics/LastErrors/1/Time	UINT32	1734620520	1734620520
+/Diagnostics/LastErrors/1/Error	UINT32	0	0
+/Diagnostics/ShutDownsDueError	ARRAY	[]	
+/System/MaxCellTemperature	DOUBLE	22.70001220703125	23 degrees
+/System/MinCellTemperature	DOUBLE	21.70001220703125	22 degrees
+/System/MaxCellVoltage	DOUBLE	3.380000114440918	3.38V
+/System/MinCellVoltage	DOUBLE	3.359999895095825	3.36V
+/System/NrOfCellsPerBattery	INT32	4	4
+/System/BatteriesSeries	INT32	1	1
+/System/BatteriesParallel	INT32	4	4
+/System/NrOfBatteries	INT32	4	4
+/SystemSwitch	UINT32	1	1
+/ErrorCode	UINT32	0	0
+/State	UINT32	9	9
+/Settings/BluetoothMode	UINT32	1	1
+/Settings/RestoreDefaults	UINT32	0	0
+/Settings/Battery/Capacity	UINT16	800	800Ah
+/Settings/Battery/NominalVoltage	UINT32	48	48V
+/Settings/HasSettings	UINT32	1	1
+/Settings/HasTemperature	UINT32	1	1
+/History/CanBeCleared	UINT32	1	1
+/History/Clear	ARRAY	[]	
+/History/MaximumTemperature	DOUBLE	36.399993896484375	36 degrees
+/History/MinimumTemperature	DOUBLE	-273.1499938964844	-273 degrees
+/History/MaximumCellVoltage	DOUBLE	3.559999942779541	3.56V
+/History/MinimumCellVoltage	DOUBLE	3.130000114440918	3.13V
+/History/ChargedEnergy	DOUBLE	120.81999969482422	120.82kWh
+/History/DischargedEnergy	DOUBLE	94.12999725341797	94.13kWh
+/History/AutomaticSyncs	INT32	148	148
+/History/TimeSinceLastFullCharge	INT32	96075	96075s
+/History/MaximumVoltage	DOUBLE	26.27	26.27V
+/History/MinimumVoltage	DOUBLE	0.70	0.70V
+/History/TotalAhDrawn	DOUBLE	1797.9000244140625	1797.9Ah
+/History/FullDischarges	INT32	0	0
+/History/ChargeCycles	INT32	4	4
+/History/AverageDischarge	ARRAY	[]	
+/History/LastDischarge	ARRAY	[]	
+/History/DeepestDischarge	DOUBLE	-602.2000122070312	-602.2Ah
+/TimeToGo	UINT32	864000	864000s
+/Soc	DOUBLE	99.20999908447266	99.2%
+/ConsumedAmphours	DOUBLE	-7.0	-7.0Ah
+/Dc/0/Temperature	DOUBLE	22.20001220703125	22 degrees
+/Dc/0/Power	INT32	-16	-16W
+/Dc/0/Current	DOUBLE	-0.30000001192092896	-0.3A
+/Dc/0/Voltage	DOUBLE	26.27	26.27V
+/Capacity	UINT16	800	800Ah
+
+8	/Dc/0/Current	DOUBLE	-4.699999809265135	-4.7A
+8	/System/MaxCellVoltage	DOUBLE	3.355	3.355V
+8	/System/MinCellVoltage	DOUBLE	3.299	3.299V
+48	/Dc/0/Current	DOUBLE	-4.75	-4.8A
+48	/Dc/0/Voltage	DOUBLE	26.3900003433228	26.39V
+48	/Dc/0/Power	INT32	-125	-125W
+48	/System/MaxCellVoltage	DOUBLE	3.356	3.356V
+48	/System/MinCellVoltage	DOUBLE	3.315	3.315V
+60	/Dc/0/Current	DOUBLE	-4.699999809265135	-4.7A
+60	/Dc/0/Voltage	DOUBLE	26.3999996185303	26.40V
+60	/Dc/0/Power	INT32	-124	-124W
+60	/System/MaxCellVoltage	DOUBLE	3.348	3.348V
+60	/System/MinCellVoltage	DOUBLE	3.298	3.298V
+88	/Dc/0/Current	DOUBLE	-4.59999990463257	-4.6A
+88	/System/MaxCellVoltage	DOUBLE	3.366	3.366V
+88	/System/MinCellVoltage	DOUBLE	3.308	3.308V
+98	/System/MaxCellVoltage	DOUBLE	3.345	3.345V
+98	/System/MinCellVoltage	DOUBLE	3.305	3.305V
+114	/Dc/0/Voltage	DOUBLE	26.3800001144409	26.38V
+114	/Dc/0/Power	INT32	-121	-121W
+114	/System/MaxCellVoltage	DOUBLE	3.345	3.345V
+114	/System/MinCellVoltage	DOUBLE	3.295	3.295V
+128	/Dc/0/Current	DOUBLE	27.85000038146975	27.9A
+128	/Dc/0/Voltage	DOUBLE	26.0699996948242	26.07V
+128	/Dc/0/Power	INT32	726	726W
+128	/System/MaxCellVoltage	DOUBLE	3.352	3.352V
+128	/System/MinCellVoltage	DOUBLE	3.281	3.281V
+136	/Dc/0/Current	DOUBLE	34.6500015258789	34.7A
+136	/Dc/0/Voltage	DOUBLE	26.1800003051758	26.18V
+136	/Dc/0/Power	INT32	907	907W
+136	/System/MaxCellVoltage	DOUBLE	3.333	3.333V
+136	/System/MinCellVoltage	DOUBLE	3.294	3.294V
+146	/Dc/0/Current	DOUBLE	34.0	34.0A
+146	/Dc/0/Voltage	DOUBLE	26.2299995422363	26.23V
+146	/Dc/0/Power	INT32	891	891W
+146	/System/MaxCellVoltage	DOUBLE	3.34	3.34V
+146	/System/MinCellVoltage	DOUBLE	3.303	3.303V
+152	/Dc/0/Current	DOUBLE	33.0	33.0A
+152	/Dc/0/Voltage	DOUBLE	26.2399997711182	26.24V
+152	/Dc/0/Power	INT32	865	865W
+152	/System/MaxCellVoltage	DOUBLE	3.341	3.341V
+152	/System/MinCellVoltage	DOUBLE	3.286	3.286V
+162	/Dc/0/Current	DOUBLE	30.25	30.2A
+162	/Dc/0/Voltage	DOUBLE	26.25	26.25V
+162	/Dc/0/Power	INT32	794	794W
+162	/System/MaxCellVoltage	DOUBLE	3.365	3.365V
+162	/System/MinCellVoltage	DOUBLE	3.298	3.298V
+166	/System/MaxCellVoltage	DOUBLE	3.351	3.351V
+166	/System/MinCellVoltage	DOUBLE	3.286	3.286V
+172	/Dc/0/Current	DOUBLE	28.45000076293945	28.5A
+172	/System/MaxCellVoltage	DOUBLE	3.345	3.345V
+172	/System/MinCellVoltage	DOUBLE	3.301	3.301V
+184	/Dc/0/Current	DOUBLE	-4.5	-4.5A
+184	/Dc/0/Voltage	DOUBLE	26.6099996566772	26.61V
+184	/Dc/0/Power	INT32	-119	-119W
+184	/System/MaxCellVoltage	DOUBLE	3.338	3.338V
+184	/System/MinCellVoltage	DOUBLE	3.304	3.304V
+192	/Dc/0/Current	DOUBLE	27.85000038146975	27.9A
+192	/Dc/0/Voltage	DOUBLE	26.0699996948242	26.07V
+192	/Dc/0/Power	INT32	726	726W
+192	/System/MaxCellVoltage	DOUBLE	3.344	3.344V
+192	/System/MinCellVoltage	DOUBLE	3.297	3.297V
+200	/Dc/0/Current	DOUBLE	34.6500015258789	34.7A
+200	/Dc/0/Voltage	DOUBLE	26.1800003051758	26.18V
+200	/Dc/0/Power	INT32	907	907W
+200	/System/MaxCellVoltage	DOUBLE	3.344	3.344V
+200	/System/MinCellVoltage	DOUBLE	3.319	3.319V
+210	/Dc/0/Current	DOUBLE	34.0	34.0A
+210	/Dc/0/Voltage	DOUBLE	26.2299995422363	26.23V
+210	/Dc/0/Power	INT32	891	891W
+210	/System/MaxCellVoltage	DOUBLE	3.35	3.35V
+210	/System/MinCellVoltage	DOUBLE	3.289	3.289V
+216	/Dc/0/Current	DOUBLE	33.0	33.0A
+216	/Dc/0/Voltage	DOUBLE	26.2399997711182	26.24V
+216	/Dc/0/Power	INT32	865	865W
+216	/System/MaxCellVoltage	DOUBLE	3.358	3.358V
+216	/System/MinCellVoltage	DOUBLE	3.288	3.288V
+226	/Dc/0/Current	DOUBLE	30.25	30.2A
+226	/Dc/0/Voltage	DOUBLE	26.25	26.25V
+226	/Dc/0/Power	INT32	794	794W
+226	/System/MaxCellVoltage	DOUBLE	3.352	3.352V
+226	/System/MinCellVoltage	DOUBLE	3.28	3.28V
+230	/System/MaxCellVoltage	DOUBLE	3.337	3.337V
+230	/System/MinCellVoltage	DOUBLE	3.302	3.302V
+236	/Dc/0/Current	DOUBLE	28.45000076293945	28.5A
+236	/System/MaxCellVoltage	DOUBLE	3.357	3.357V
+236	/System/MinCellVoltage	DOUBLE	3.302	3.302V
+248	/Dc/0/Current	DOUBLE	-4.5	-4.5A
+248	/Dc/0/Voltage	DOUBLE	26.6099996566772	26.61V
+248	/Dc/0/Power	INT32	-119	-119W
+248	/System/MaxCellVoltage	DOUBLE	3.349	3.349V
+248	/System/MinCellVoltage	DOUBLE	3.297	3.297V
