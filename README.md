@@ -437,6 +437,10 @@ Settings:
 
 ### S) 50ft yacht – 24V Quattro 24/5000
 
+### SS) Energy Solutions - SmartSwitch DC4
+
+Shows only the Energy Solutions - SmartSwitch DC4 on the switching pane.
+
 ### DSE) Interactive DSE generator simulation
 
 This mode is a specialty: It runs [dse-modbus-simulator](https://github.com/victronenergy/dse-modbus-simulator/) within the Docker container, which consists of a Modbus TCP server simulating a DSE 4620 generator controller and a web ui, whichs allows to modify register values, enable and disable error codes and simulate an actual run (based on randomized numbers).

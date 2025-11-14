@@ -1,0 +1,159 @@
+com.victronenergy.switch.socketcan_can0_vi0_uc68165
+/SwitchableOutput/3/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/3/Settings/FuseRating	INT32	5	5A
+/SwitchableOutput/3/Settings/ValidTypes	BYTE	7	7
+/SwitchableOutput/3/Settings/Type	BYTE	2	2
+/SwitchableOutput/3/Settings/Group	STRING		
+/SwitchableOutput/3/Settings/CustomName	STRING	Fan manual override	Fan manual override
+/SwitchableOutput/3/Name	STRING	Ch 4	Ch 4
+/SwitchableOutput/3/Temperature	DOUBLE	27.497024536132812	27.5°C
+/SwitchableOutput/3/Voltage	DOUBLE	10.100000381469727	10.1V
+/SwitchableOutput/3/Current	DOUBLE	0.0	0.0A
+/SwitchableOutput/3/Dimming	INT32	73	73%
+/SwitchableOutput/3/Status	BYTE	9	9
+/SwitchableOutput/3/State	UINT32	1	1
+/SwitchableOutput/2/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/2/Settings/FuseRating	INT32	5	5A
+/SwitchableOutput/2/Settings/ValidTypes	BYTE	7	7
+/SwitchableOutput/2/Settings/Type	BYTE	2	2
+/SwitchableOutput/2/Settings/Group	STRING	Group 1	Group 1
+/SwitchableOutput/2/Settings/CustomName	STRING	Channel 3	Channel 3
+/SwitchableOutput/2/Name	STRING	Ch 3	Ch 3
+/SwitchableOutput/2/Temperature	DOUBLE	27.405223846435547	27.4°C
+/SwitchableOutput/2/Voltage	DOUBLE	0.0	0.0V
+/SwitchableOutput/2/Current	DOUBLE	0.0	0.0A
+/SwitchableOutput/2/Dimming	INT32	34	34%
+/SwitchableOutput/2/Status	BYTE	0	0
+/SwitchableOutput/2/State	UINT32	0	0
+/SwitchableOutput/1/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/1/Settings/FuseRating	INT32	3	3A
+/SwitchableOutput/1/Settings/ValidTypes	BYTE	7	7
+/SwitchableOutput/1/Settings/Type	BYTE	0	0
+/SwitchableOutput/1/Settings/Group	STRING	Group 1	Group 1
+/SwitchableOutput/1/Settings/CustomName	STRING	Channel 2	Channel 2
+/SwitchableOutput/1/Name	STRING	Ch 2	Ch 2
+/SwitchableOutput/1/Temperature	DOUBLE	27.153610229492188	27.2°C
+/SwitchableOutput/1/Voltage	DOUBLE	0.0	0.0V
+/SwitchableOutput/1/Current	DOUBLE	0.0	0.0A
+/SwitchableOutput/1/Dimming	INT32	100	100%
+/SwitchableOutput/1/Status	BYTE	0	0
+/SwitchableOutput/1/State	UINT32	0	0
+/SwitchableOutput/0/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/0/Settings/FuseRating	INT32	4	4A
+/SwitchableOutput/0/Settings/ValidTypes	BYTE	7	7
+/SwitchableOutput/0/Settings/Type	BYTE	0	0
+/SwitchableOutput/0/Settings/Group	STRING		
+/SwitchableOutput/0/Settings/CustomName	STRING		
+/SwitchableOutput/0/Name	STRING	Ch 1	Ch 1
+/SwitchableOutput/0/Temperature	DOUBLE	27.34400177001953	27.3°C
+/SwitchableOutput/0/Voltage	DOUBLE	0.0	0.0V
+/SwitchableOutput/0/Current	DOUBLE	0.0	0.0A
+/SwitchableOutput/0/Dimming	INT32	100	100%
+/SwitchableOutput/0/Status	BYTE	0	0
+/SwitchableOutput/0/State	UINT32	0	0
+/CustomName	STRING	Garage switches	
+/N2kDeviceInstance	UINT32	0	0
+/N2kUniqueNumber	UINT32	68165	68165
+/Serial	STRING	2629	2629
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	0	0
+/HardwareVersion	ARRAY	[]	
+/FirmwareVersion	UINT32	272	v1.10
+/ProductName	STRING	SmartSwitchDC4	SmartSwitchDC4
+/ProductId	UINT16	45170	0xB072
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessVersion	STRING	3.52	3.52
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/ModuleVoltage	DOUBLE	12.0	12.0V
+/NrOfChannels	BYTE	4	4
+/State	INT32	256	256
+
+8	/SwitchableOutput/3/Temperature	DOUBLE	27.50768280029297	27.5°C
+18	/SwitchableOutput/0/Temperature	DOUBLE	27.3453426361084	27.3°C
+23	/SwitchableOutput/2/State	UINT32	1	1
+24	/SwitchableOutput/2/Status	BYTE	8	8
+24	/SwitchableOutput/1/State	UINT32	1	1
+24	/SwitchableOutput/1/Status	BYTE	0	0
+24	/SwitchableOutput/1/State	UINT32	0	0
+25	/SwitchableOutput/1/Voltage	DOUBLE	2.200000047683716	2.2V
+25	/SwitchableOutput/2/Voltage	DOUBLE	5.900000095367432	5.9V
+26	/SwitchableOutput/1/Voltage	DOUBLE	0.0	0.0V
+28	/SwitchableOutput/0/Temperature	DOUBLE	27.33867835998535	27.3°C
+38	/SwitchableOutput/0/Temperature	DOUBLE	27.353322982788086	27.4°C
+39	/SwitchableOutput/0/Temperature	DOUBLE	27.3453426361084	27.3°C
+49	/SwitchableOutput/0/Temperature	DOUBLE	27.353322982788086	27.4°C
+49	/SwitchableOutput/1/Temperature	DOUBLE	27.213537216186523	27.2°C
+51	/SwitchableOutput/0/State	UINT32	1	1
+52	/SwitchableOutput/0/State	UINT32	0	0
+52	/SwitchableOutput/3/State	UINT32	0	0
+53	/SwitchableOutput/0/Voltage	DOUBLE	0.20000000298023224	0.2V
+53	/SwitchableOutput/3/Status	BYTE	0	0
+53	/SwitchableOutput/3/Status	BYTE	9	9
+53	/SwitchableOutput/3/State	UINT32	1	1
+54	/SwitchableOutput/0/Voltage	DOUBLE	0.0	0.0V
+54	/SwitchableOutput/3/Voltage	DOUBLE	9.0	9.0V
+55	/SwitchableOutput/3/Voltage	DOUBLE	10.100000381469727	10.1V
+59	/SwitchableOutput/0/Temperature	DOUBLE	27.36663055419922	27.4°C
+59	/SwitchableOutput/2/Temperature	DOUBLE	27.46510124206543	27.5°C
+70	/SwitchableOutput/0/Temperature	DOUBLE	27.370628356933594	27.4°C
+70	/SwitchableOutput/3/Temperature	DOUBLE	27.554235458374023	27.6°C
+80	/SwitchableOutput/0/Temperature	DOUBLE	27.37327766418457	27.4°C
+88	/SwitchableOutput/0/State	UINT32	1	1
+88	/SwitchableOutput/0/Status	BYTE	0	0
+88	/SwitchableOutput/0/State	UINT32	0	0
+88	/SwitchableOutput/0/Voltage	DOUBLE	0.4000000059604645	0.4V
+88	/SwitchableOutput/3/State	UINT32	0	0
+89	/SwitchableOutput/3/Status	BYTE	0	0
+89	/SwitchableOutput/0/Voltage	DOUBLE	0.0	0.0V
+89	/SwitchableOutput/3/Voltage	DOUBLE	0.10000000149011612	0.1V
+90	/SwitchableOutput/0/Temperature	DOUBLE	27.38925552368164	27.4°C
+90	/SwitchableOutput/3/Voltage	DOUBLE	0.0	0.0V
+95	/SwitchableOutput/1/State	UINT32	1	1
+95	/SwitchableOutput/1/Status	BYTE	8	8
+95	/SwitchableOutput/2/Dimming	INT32	33	33%
+95	/SwitchableOutput/2/Dimming	INT32	34	34%
+96	/SwitchableOutput/2/Dimming	INT32	33	33%
+96	/SwitchableOutput/1/Status	BYTE	0	0
+96	/SwitchableOutput/1/State	UINT32	0	0
+96	/SwitchableOutput/2/Dimming	INT32	37	37%
+96	/SwitchableOutput/2/Dimming	INT32	43	43%
+96	/SwitchableOutput/2/Dimming	INT32	50	50%
+96	/SwitchableOutput/2/Dimming	INT32	57	57%
+96	/SwitchableOutput/2/Dimming	INT32	65	65%
+96	/SwitchableOutput/1/Voltage	DOUBLE	0.20000000298023224	0.2V
+96	/SwitchableOutput/2/Dimming	INT32	69	69%
+96	/SwitchableOutput/2/Dimming	INT32	72	72%
+96	/SwitchableOutput/2/Dimming	INT32	74	74%
+96	/SwitchableOutput/2/Dimming	INT32	75	75%
+97	/SwitchableOutput/2/Status	BYTE	9	9
+97	/SwitchableOutput/1/Voltage	DOUBLE	0.0	0.0V
+97	/SwitchableOutput/2/Voltage	DOUBLE	10.300000190734863	10.3V
+97	/SwitchableOutput/1/State	UINT32	1	1
+98	/SwitchableOutput/1/Status	BYTE	9	9
+98	/SwitchableOutput/1/Voltage	DOUBLE	11.800000190734863	11.8V
+99	/SwitchableOutput/1/Status	BYTE	0	0
+99	/SwitchableOutput/1/State	UINT32	0	0
+99	/SwitchableOutput/1/Voltage	DOUBLE	0.10000000149011612	0.1V
+99	/SwitchableOutput/2/Dimming	INT32	73	73%
+99	/SwitchableOutput/2/Dimming	INT32	72	72%
+99	/SwitchableOutput/2/Dimming	INT32	71	71%
+99	/SwitchableOutput/2/Dimming	INT32	69	69%
+99	/SwitchableOutput/2/Dimming	INT32	65	65%
+99	/SwitchableOutput/2/Dimming	INT32	60	60%
+99	/SwitchableOutput/2/Dimming	INT32	54	54%
+99	/SwitchableOutput/2/Dimming	INT32	48	48%
+99	/SwitchableOutput/2/Dimming	INT32	43	43%
+99	/SwitchableOutput/2/Dimming	INT32	40	40%
+99	/SwitchableOutput/2/Dimming	INT32	37	37%
+99	/SwitchableOutput/2/Dimming	INT32	35	35%
+99	/SwitchableOutput/2/Dimming	INT32	34	34%
+99	/SwitchableOutput/2/Dimming	INT32	33	33%
+99	/SwitchableOutput/2/Dimming	INT32	32	32%
+99	/SwitchableOutput/2/Dimming	INT32	31	31%
+100	/SwitchableOutput/2/Status	BYTE	8	8
+100	/SwitchableOutput/1/Voltage	DOUBLE	0.0	0.0V
+100	/SwitchableOutput/2/Voltage	DOUBLE	5.599999904632568	5.6V
+101	/SwitchableOutput/0/Temperature	DOUBLE	27.397245407104492	27.4°C
+101	/SwitchableOutput/2/Voltage	DOUBLE	5.5	5.5V
+111	/SwitchableOutput/0/Temperature	DOUBLE	27.395917892456055	27.4°C
+111	/SwitchableOutput/1/Temperature	DOUBLE	27.242834091186523	27.2°C
