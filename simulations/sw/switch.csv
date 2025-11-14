@@ -1,0 +1,161 @@
+com.victronenergy.switch.socketcan_can0_vi1_uc68165
+/SwitchableOutput/0/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/0/Settings/ValidTypes	UINT32	8	8
+/SwitchableOutput/0/Settings/Type	UINT32	3	3
+/SwitchableOutput/0/Settings/Group	STRING		
+/SwitchableOutput/0/Settings/CustomName	STRING	Temperature setpoint	Temperature setpoint
+/SwitchableOutput/0/Settings/DimmingMin	DOUBLE	-100.0	-100.0
+/SwitchableOutput/0/Settings/DimmingMax	DOUBLE	100.0	100.0
+/SwitchableOutput/0/Settings/StepSize	DOUBLE	0.5	0.5
+/SwitchableOutput/0/Settings/Decimals	UINT32	1	1
+/SwitchableOutput/0/Name	STRING	Ch 1	Ch 1
+/SwitchableOutput/0/Measurement	DOUBLE	25.0	25.0
+/SwitchableOutput/0/Dimming	DOUBLE	25.5	25.5
+/SwitchableOutput/0/Status	UINT32	0	0
+/SwitchableOutput/0/State	UINT32	0	0
+/SwitchableOutput/1/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/1/Settings/ValidTypes	UINT32	16	16
+/SwitchableOutput/1/Settings/Type	UINT32	4	4
+/SwitchableOutput/1/Settings/Group	STRING		
+/SwitchableOutput/1/Settings/CustomName	STRING	Multi-step	Multi-step
+/SwitchableOutput/1/Settings/DimmingMax	DOUBLE	5.0	5.0
+/SwitchableOutput/1/Name	STRING	Ch 2	Ch 2
+/SwitchableOutput/1/Dimming	DOUBLE	0.0	0.0
+/SwitchableOutput/1/Status	UINT32	0	0
+/SwitchableOutput/1/State	UINT32	0	0
+/SwitchableOutput/2/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/2/Settings/ValidTypes	UINT32	64	64
+/SwitchableOutput/2/Settings/Type	UINT32	6	6
+/SwitchableOutput/2/Settings/Group	STRING		
+/SwitchableOutput/2/Settings/CustomName	STRING	Dropdown	Dropdown
+/SwitchableOutput/2/Settings/Labels	ARRAY(STRING)	["Option 1", "Option 2", "Option 3", "Option 4", "Option 5", "Option 6"]	
+/SwitchableOutput/2/Name	STRING	Ch 3	Ch 3
+/SwitchableOutput/2/Dimming	DOUBLE	0.0	0.0
+/SwitchableOutput/2/Status	UINT32	0	0
+/SwitchableOutput/2/State	UINT32	0	0
+/SwitchableOutput/3/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/3/Settings/ValidTypes	UINT32	128	128
+/SwitchableOutput/3/Settings/Type	UINT32	7	7
+/SwitchableOutput/3/Settings/Group	STRING		
+/SwitchableOutput/3/Settings/CustomName	STRING	Slider	Slider
+/SwitchableOutput/3/Settings/DimmingMin	DOUBLE	0.0	0.0
+/SwitchableOutput/3/Settings/DimmingMax	DOUBLE	10.0	10.0
+/SwitchableOutput/3/Settings/StepSize	DOUBLE	0.1	0.1
+/SwitchableOutput/3/Settings/Decimals	UINT32	2	2
+/SwitchableOutput/3/Settings/Unit	STRING	dB	dB
+/SwitchableOutput/3/Name	STRING	Ch 4	Ch 4
+/SwitchableOutput/3/Dimming	DOUBLE	0.0	0.0
+/SwitchableOutput/3/Measurement	DOUBLE	25.0	25.0
+/SwitchableOutput/3/Status	UINT32	0	0
+/SwitchableOutput/3/State	UINT32	0	0
+/SwitchableOutput/4/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/4/Settings/ValidTypes	UINT32	256	256
+/SwitchableOutput/4/Settings/Type	UINT32	8	8
+/SwitchableOutput/4/Settings/Group	STRING		
+/SwitchableOutput/4/Settings/CustomName	STRING	Numeric input	Numeric input
+/SwitchableOutput/4/Settings/DimmingMin	DOUBLE	0.0	0.0
+/SwitchableOutput/4/Settings/DimmingMax	DOUBLE	1.0	1.0
+/SwitchableOutput/4/Settings/StepSize	DOUBLE	0.001	0.001
+/SwitchableOutput/4/Settings/Decimals	UINT32	3	3
+/SwitchableOutput/4/Settings/Unit	STRING	mm	mm
+/SwitchableOutput/4/Name	STRING	Ch 5	Ch 5
+/SwitchableOutput/4/Dimming	DOUBLE	0.0	0.0
+/SwitchableOutput/4/Status	UINT32	0	0
+/SwitchableOutput/4/State	UINT32	0	0
+/SwitchableOutput/50/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/5/Settings/ValidTypes	UINT32	512	512
+/SwitchableOutput/5/Settings/Type	UINT32	9	9
+/SwitchableOutput/5/Settings/Group	STRING		
+/SwitchableOutput/5/Settings/CustomName	STRING	Three-state switch	Three-state switch
+/SwitchableOutput/5/Name	STRING	Ch 6	Ch 6
+/SwitchableOutput/5/Status	UINT32	0	0
+/SwitchableOutput/5/State	UINT32	0	0
+/SwitchableOutput/5/Auto	UINT32	0	0
+/SwitchableOutput/6/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/6/Settings/ValidTypes	UINT32	1024	1024
+/SwitchableOutput/6/Settings/Type	UINT32	10	10
+/SwitchableOutput/6/Settings/Group	STRING		
+/SwitchableOutput/6/Settings/CustomName	STRING	Bilge pump	Bilge pump
+/SwitchableOutput/6/Name	STRING	Ch 7	Ch 7
+/SwitchableOutput/6/Status	UINT32	0	0
+/SwitchableOutput/6/State	UINT32	0	0
+/SwitchableOutput/7/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/7/Settings/ValidTypes	UINT32	2048	2048
+/SwitchableOutput/7/Settings/Type	UINT32	11	11
+/SwitchableOutput/7/Settings/Group	STRING		
+/SwitchableOutput/7/Settings/CustomName	STRING	RGB	RGB
+/SwitchableOutput/7/Name	STRING	Ch 8	Ch 8
+/SwitchableOutput/7/Status	UINT32	0	0
+/SwitchableOutput/7/State	UINT32	0	0
+/SwitchableOutput/7/LightControls	ARRAY(DOUBLE)	[0, 100, 100, 0, 0]	[0, 100, 100, 0, 0]
+/SwitchableOutput/8/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/8/Settings/ValidTypes	UINT32	8192	8192
+/SwitchableOutput/8/Settings/Type	UINT32	13	13
+/SwitchableOutput/8/Settings/Group	STRING		
+/SwitchableOutput/8/Settings/CustomName	STRING	RGBW	RGBW
+/SwitchableOutput/8/Name	STRING	Ch 9	Ch 9
+/SwitchableOutput/8/Status	UINT32	0	0
+/SwitchableOutput/8/State	UINT32	0	0
+/SwitchableOutput/8/LightControls	ARRAY(DOUBLE)	[0, 100, 100, 100, 0]	[0, 100, 100, 100, 0]
+/SwitchableOutput/9/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/9/Settings/ValidTypes	UINT32	4096	4096
+/SwitchableOutput/9/Settings/Type	UINT32	12	12
+/SwitchableOutput/9/Settings/Group	STRING		
+/SwitchableOutput/9/Settings/CustomName	STRING	CCT	CCT
+/SwitchableOutput/9/Name	STRING	Ch 10	Ch 10
+/SwitchableOutput/9/Status	UINT32	0	0
+/SwitchableOutput/9/State	UINT32	0	0
+/SwitchableOutput/9/LightControls	ARRAY(DOUBLE)	[0, 0, 100, 0, 2700]	[0, 0, 100, 0, 2700]
+/SwitchableOutput/10/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/10/Settings/ValidTypes	UINT32	0	0
+/SwitchableOutput/10/Settings/Type	UINT32	1	1
+/SwitchableOutput/10/Settings/Group	STRING		
+/SwitchableOutput/10/Settings/CustomName	STRING	Momentary	Momentary
+/SwitchableOutput/10/Name	STRING	Ch 11	Ch 11
+/SwitchableOutput/10/Status	UINT32	0	0
+/SwitchableOutput/10/State	UINT32	0	0
+/SwitchableOutput/11/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/11/Settings/ValidTypes	UINT32	2	2
+/SwitchableOutput/11/Settings/Type	UINT32	1	1
+/SwitchableOutput/11/Settings/Group	STRING		
+/SwitchableOutput/11/Settings/CustomName	STRING	Toggle	Toggle
+/SwitchableOutput/11/Name	STRING	Ch 12	Ch 12
+/SwitchableOutput/11/Status	UINT32	0	0
+/SwitchableOutput/11/State	UINT32	0	0
+/SwitchableOutput/12/Settings/ShowUIControl	UINT32	1	1
+/SwitchableOutput/12/Settings/ValidTypes	UINT32	4	4
+/SwitchableOutput/12/Settings/Type	UINT32	2	2
+/SwitchableOutput/12/Settings/Group	STRING		
+/SwitchableOutput/12/Settings/CustomName	STRING	Dimming	Dimming
+/SwitchableOutput/12/Name	STRING	Ch 13	Ch 13
+/SwitchableOutput/12/Status	UINT32	0	0
+/SwitchableOutput/12/State	UINT32	0	0
+/SwitchableOutput/12/Dimming	DOUBLE	50.0	50.0
+/CustomName	STRING	Switch demo	Switch demo
+/N2kDeviceInstance	UINT32	0	0
+/N2kUniqueNumber	UINT32	12345	12345
+/Serial	STRING	12345	12345
+/Connected	UINT32	1	1
+/DeviceInstance	UINT32	10	10
+/HardwareVersion	ARRAY	[]	
+/FirmwareVersion	UINT32	65791	v1.00
+/ProductName	STRING	Switch demo 	Switch demo
+/ProductId	UINT16	45170	0xB072
+/Mgmt/Connection	STRING	VE.Can	VE.Can
+/Mgmt/ProcessVersion	STRING	3.52	3.52
+/Mgmt/ProcessName	STRING	vecan-dbus	vecan-dbus
+/State	INT32	256	256
+
+0	/SwitchableOutput/0/State	UINT32	1	1
+0	/SwitchableOutput/1/State	UINT32	1	1
+0	/SwitchableOutput/2/State	UINT32	1	1
+0	/SwitchableOutput/3/State	UINT32	1	1
+0	/SwitchableOutput/4/State	UINT32	1	1
+0	/SwitchableOutput/5/State	UINT32	1	1
+0	/SwitchableOutput/6/State	UINT32	1	1
+0	/SwitchableOutput/7/State	UINT32	1	1
+0	/SwitchableOutput/8/State	UINT32	1	1
+0	/SwitchableOutput/9/State	UINT32	1	1
+0	/SwitchableOutput/10/State	UINT32	1	1
+0	/SwitchableOutput/6/Status	UINT32	0	0
+30	/SwitchableOutput/6/Status	UINT32	9	9
