@@ -476,22 +476,3 @@ When running `./run.sh -s dse`, the web ui will, if no other container is runnin
       ssh -R :9001:localhost:9001 root@192.168.22.75
 
 - Browse to the web application: http://192.168.22.75/app
-
-## Building dbus-spy
-
-A binary copy of dbus-spy is already included in this repo, but should you need
-to rebuild it, these are the steps:
-
-    git clone git@github.com:victronenergy/dbus-spy.git
-    cd dbus-spy
-    git submodule update --init
-    cd ..
-    docker build -f dockerfile.dbus-spy . -t dbus-spy
-
-Then copy dbus-spy out of a throwaway container by first starting a container:
-
-    docker run -it --rm dbus-spy
-
-Then copy dbus-spy to bin:
-
-    docker cp <container>:/usr/local/bin/dbus-spy bin/dbus-spy

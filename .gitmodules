@@ -28,3 +28,6 @@
 [submodule "dse-modbus-simulator"]
 	path = dse-modbus-simulator
 	url = https://github.com/victronenergy/dse-modbus-simulator.git
+[submodule "dbus-spy"]
+	path = dbus-spy
+	url = https://github.com/victronenergy/dbus-spy.git
